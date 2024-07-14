@@ -1,0 +1,1664 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/huanghz/cppLearning/CPPLearning/mySylarWeb/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+$(VERBOSE).SILENT	build/Makefile	/^$(VERBOSE).SILENT:$/;"	t
+$(VERBOSE)MAKESILENT	build/Makefile	/^$(VERBOSE)MAKESILENT = -s$/;"	m
+%	build/Makefile	/^% : %,v$/;"	t
+%	build/Makefile	/^% : RCS\/%$/;"	t
+%	build/Makefile	/^% : RCS\/%,v$/;"	t
+%	build/Makefile	/^% : SCCS\/s.%$/;"	t
+%	build/Makefile	/^% : s.%$/;"	t
+*.tcc	.vscode/settings.json	/^        "*.tcc": "cpp",$/;"	s	object:files.associations
+0	.vscode/c_cpp_properties.json	/^                "${workspaceFolder}\/**"$/;"	s	array:configurations.0.includePath
+0	.vscode/c_cpp_properties.json	/^        {$/;"	o	array:configurations
+0	.vscode/tasks.json	/^                "$gcc"$/;"	s	array:tasks.0.problemMatcher
+0	.vscode/tasks.json	/^                "-fdiagnostics-color=always",$/;"	s	array:tasks.0.args
+0	.vscode/tasks.json	/^        {$/;"	o	array:tasks
+1	.vscode/tasks.json	/^                "-g",$/;"	s	array:tasks.0.args
+2	.vscode/tasks.json	/^                "${file}",$/;"	s	array:tasks.0.args
+3	.vscode/tasks.json	/^                "-o",$/;"	s	array:tasks.0.args
+4	.vscode/tasks.json	/^                "${fileDirname}\/${fileBasenameNoExtension}"$/;"	s	array:tasks.0.args
+ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define ARCHITECTURE_ID$/;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID$/;"	d	file:
+Address	sylar/address.h	/^class Address {$/;"	c	namespace:sylar
+Alloc	sylar/fiber.cc	/^    static void* Alloc(size_t size){$/;"	f	class:sylar::MallocStackAllocator	typeref:typename:void *	file:
+Backtrace	sylar/util.cpp	/^void Backtrace(std::vector<std::string>& bt, int size, int skip){$/;"	f	namespace:sylar	typeref:typename:void
+BacktraceToString	sylar/util.cpp	/^std::string BacktraceToString(int size, int skip, const std::string& prefix){$/;"	f	namespace:sylar	typeref:typename:std::string
+ByteArray	sylar/bytearray.cc	/^ByteArray::ByteArray(size_t base_size)$/;"	f	class:sylar::ByteArray
+ByteArray	sylar/bytearray.h	/^class ByteArray {$/;"	c	namespace:sylar
+CASLock	sylar/thread.h	/^    CASLock(){$/;"	f	class:sylar::CASLock
+CASLock	sylar/thread.h	/^class CASLock : Noncopyable {$/;"	c	namespace:sylar
+CMAKE_AR	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_AR "\/usr\/bin\/ar")$/;"	v
+CMAKE_AR	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_AR "\/usr\/bin\/ar")$/;"	v
+CMAKE_BINARY_DIR	build/Makefile	/^CMAKE_BINARY_DIR = \/home\/huanghz\/cppLearning\/CPPLearning\/mySylarWeb\/build$/;"	m
+CMAKE_BUILD_TYPE	CMakeLists.txt	/^SET(CMAKE_BUILD_TYPE "Debug")###$/;"	v
+CMAKE_C11_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C11_COMPILE_FEATURES "c_std_11;c_static_assert")$/;"	v
+CMAKE_C17_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C17_COMPILE_FEATURES "c_std_17")$/;"	v
+CMAKE_C23_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C23_COMPILE_FEATURES "c_std_23")$/;"	v
+CMAKE_C90_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C90_COMPILE_FEATURES "c_std_90;c_function_prototypes")$/;"	v
+CMAKE_C99_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C99_COMPILE_FEATURES "c_std_99;c_restrict;c_variadic_macros")$/;"	v
+CMAKE_CL_SHOWINCLUDES_PREFIX	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^  set(CMAKE_CL_SHOWINCLUDES_PREFIX "${CMAKE_C_CL_SHOWINCLUDES_PREFIX}")$/;"	v
+CMAKE_CL_SHOWINCLUDES_PREFIX	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^  set(CMAKE_CL_SHOWINCLUDES_PREFIX "${CMAKE_CXX_CL_SHOWINCLUDES_PREFIX}")$/;"	v
+CMAKE_COMMAND	build/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_COMPILER_IS_GNUCC	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_COMPILER_IS_GNUCC 1)$/;"	v
+CMAKE_COMPILER_IS_GNUCXX	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_COMPILER_IS_GNUCXX 1)$/;"	v
+CMAKE_CROSSCOMPILING	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
+CMAKE_CROSSCOMPILING	build/cmake_install.cmake	/^  set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
+CMAKE_CXX11_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX11_COMPILE_FEATURES "cxx_std_11;cxx_alias_templates;cxx_alignas;cxx_alignof;cxx_att/;"	v
+CMAKE_CXX14_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX14_COMPILE_FEATURES "cxx_std_14;cxx_aggregate_default_initializers;cxx_attribute_de/;"	v
+CMAKE_CXX17_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX17_COMPILE_FEATURES "cxx_std_17")$/;"	v
+CMAKE_CXX20_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX20_COMPILE_FEATURES "cxx_std_20")$/;"	v
+CMAKE_CXX23_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX23_COMPILE_FEATURES "cxx_std_23")$/;"	v
+CMAKE_CXX98_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX98_COMPILE_FEATURES "cxx_std_98;cxx_template_template_parameters")$/;"	v
+CMAKE_CXX_ABI_COMPILED	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_ABI_COMPILED TRUE)$/;"	v
+CMAKE_CXX_BYTE_ORDER	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_BYTE_ORDER "LITTLE_ENDIAN")$/;"	v
+CMAKE_CXX_CL_SHOWINCLUDES_PREFIX	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_CL_SHOWINCLUDES_PREFIX "")$/;"	v
+CMAKE_CXX_COMPILER	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER "\/usr\/bin\/c++")$/;"	v
+CMAKE_CXX_COMPILER_ABI	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ABI "ELF")$/;"	v
+CMAKE_CXX_COMPILER_AR	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_AR "\/usr\/bin\/gcc-ar-11")$/;"	v
+CMAKE_CXX_COMPILER_ARG1	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ARG1 "")$/;"	v
+CMAKE_CXX_COMPILER_ENV_VAR	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ENV_VAR "CXX")$/;"	v
+CMAKE_CXX_COMPILER_FRONTEND_VARIANT	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "")$/;"	v
+CMAKE_CXX_COMPILER_ID	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ID "GNU")$/;"	v
+CMAKE_CXX_COMPILER_ID_RUN	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ID_RUN 1)$/;"	v
+CMAKE_CXX_COMPILER_LOADED	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_LOADED 1)$/;"	v
+CMAKE_CXX_COMPILER_RANLIB	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_RANLIB "\/usr\/bin\/gcc-ranlib-11")$/;"	v
+CMAKE_CXX_COMPILER_VERSION	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_VERSION "11.4.0")$/;"	v
+CMAKE_CXX_COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")$/;"	v
+CMAKE_CXX_COMPILER_WORKS	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_WORKS TRUE)$/;"	v
+CMAKE_CXX_COMPILER_WRAPPER	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_WRAPPER "")$/;"	v
+CMAKE_CXX_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILE_FEATURES "cxx_std_98;cxx_template_template_parameters;cxx_std_11;cxx_alias/;"	v
+CMAKE_CXX_EXTENSIONS_COMPUTED_DEFAULT	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_EXTENSIONS_COMPUTED_DEFAULT "ON")$/;"	v
+CMAKE_CXX_FLAGS_DEBUG	CMakeLists.txt	/^SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g -ggdb") ###$/;"	v
+CMAKE_CXX_FLAGS_RELEASE	CMakeLists.txt	/^SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall") ###$/;"	v
+CMAKE_CXX_IGNORE_EXTENSIONS	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IGNORE_EXTENSIONS inl;h;hpp;HPP;H;o;O;obj;OBJ;def;DEF;rc;RC)$/;"	v
+CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "\/usr\/include\/c++\/11;\/usr\/include\/x86_64-linux/;"	v
+CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "\/usr\/lib\/gcc\/x86_64-linux-gnu\/11;\/usr\/lib\/x86_6/;"	v
+CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")$/;"	v
+CMAKE_CXX_IMPLICIT_LINK_LIBRARIES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc_s;gcc;c;gcc_s;gcc")$/;"	v
+CMAKE_CXX_INCLUDE_REGEX_COMPLAIN	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_CXX_INCLUDE_REGEX_COMPLAIN ${CMAKE_C_INCLUDE_REGEX_COMPLAIN})$/;"	v
+CMAKE_CXX_INCLUDE_REGEX_SCAN	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_CXX_INCLUDE_REGEX_SCAN ${CMAKE_C_INCLUDE_REGEX_SCAN})$/;"	v
+CMAKE_CXX_LIBRARY_ARCHITECTURE	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LIBRARY_ARCHITECTURE "x86_64-linux-gnu")$/;"	v
+CMAKE_CXX_LINKER_PREFERENCE	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LINKER_PREFERENCE 30)$/;"	v
+CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES 1)$/;"	v
+CMAKE_CXX_PLATFORM_ID	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_PLATFORM_ID "Linux")$/;"	v
+CMAKE_CXX_SIMULATE_ID	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIMULATE_ID "")$/;"	v
+CMAKE_CXX_SIMULATE_VERSION	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIMULATE_VERSION "")$/;"	v
+CMAKE_CXX_SIZEOF_DATA_PTR	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIZEOF_DATA_PTR "8")$/;"	v
+CMAKE_CXX_SOURCE_FILE_EXTENSIONS	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SOURCE_FILE_EXTENSIONS C;M;c++;cc;cpp;cxx;m;mm;mpp;CPP;ixx;cppm)$/;"	v
+CMAKE_CXX_STANDARD_COMPUTED_DEFAULT	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "17")$/;"	v
+CMAKE_C_ABI_COMPILED	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_ABI_COMPILED TRUE)$/;"	v
+CMAKE_C_BYTE_ORDER	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_BYTE_ORDER "LITTLE_ENDIAN")$/;"	v
+CMAKE_C_CL_SHOWINCLUDES_PREFIX	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_CL_SHOWINCLUDES_PREFIX "")$/;"	v
+CMAKE_C_COMPILER	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER "\/usr\/bin\/cc")$/;"	v
+CMAKE_C_COMPILER_ABI	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_ABI "ELF")$/;"	v
+CMAKE_C_COMPILER_AR	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_AR "\/usr\/bin\/gcc-ar-11")$/;"	v
+CMAKE_C_COMPILER_ARG1	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_ARG1 "")$/;"	v
+CMAKE_C_COMPILER_ENV_VAR	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_ENV_VAR "CC")$/;"	v
+CMAKE_C_COMPILER_FRONTEND_VARIANT	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_FRONTEND_VARIANT "")$/;"	v
+CMAKE_C_COMPILER_ID	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_ID "GNU")$/;"	v
+CMAKE_C_COMPILER_ID_RUN	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_ID_RUN 1)$/;"	v
+CMAKE_C_COMPILER_LOADED	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_LOADED 1)$/;"	v
+CMAKE_C_COMPILER_RANLIB	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_RANLIB "\/usr\/bin\/gcc-ranlib-11")$/;"	v
+CMAKE_C_COMPILER_VERSION	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_VERSION "11.4.0")$/;"	v
+CMAKE_C_COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_VERSION_INTERNAL "")$/;"	v
+CMAKE_C_COMPILER_WORKS	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_WORKS TRUE)$/;"	v
+CMAKE_C_COMPILER_WRAPPER	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_WRAPPER "")$/;"	v
+CMAKE_C_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILE_FEATURES "c_std_90;c_function_prototypes;c_std_99;c_restrict;c_variadic_macr/;"	v
+CMAKE_C_EXTENSIONS_COMPUTED_DEFAULT	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_EXTENSIONS_COMPUTED_DEFAULT "ON")$/;"	v
+CMAKE_C_IGNORE_EXTENSIONS	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_IGNORE_EXTENSIONS h;H;o;O;obj;OBJ;def;DEF;rc;RC)$/;"	v
+CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "\/usr\/lib\/gcc\/x86_64-linux-gnu\/11\/include;\/usr\//;"	v
+CMAKE_C_IMPLICIT_LINK_DIRECTORIES	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "\/usr\/lib\/gcc\/x86_64-linux-gnu\/11;\/usr\/lib\/x86_64-/;"	v
+CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")$/;"	v
+CMAKE_C_IMPLICIT_LINK_LIBRARIES	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;gcc_s;c;gcc;gcc_s")$/;"	v
+CMAKE_C_INCLUDE_REGEX_COMPLAIN	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_C_INCLUDE_REGEX_COMPLAIN "^$")$/;"	v
+CMAKE_C_INCLUDE_REGEX_SCAN	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_C_INCLUDE_REGEX_SCAN "^.*$")$/;"	v
+CMAKE_C_LIBRARY_ARCHITECTURE	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_LIBRARY_ARCHITECTURE "x86_64-linux-gnu")$/;"	v
+CMAKE_C_LINKER_PREFERENCE	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_LINKER_PREFERENCE 10)$/;"	v
+CMAKE_C_PLATFORM_ID	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_PLATFORM_ID "Linux")$/;"	v
+CMAKE_C_SIMULATE_ID	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_SIMULATE_ID "")$/;"	v
+CMAKE_C_SIMULATE_VERSION	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_SIMULATE_VERSION "")$/;"	v
+CMAKE_C_SIZEOF_DATA_PTR	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_SIZEOF_DATA_PTR "8")$/;"	v
+CMAKE_C_SOURCE_FILE_EXTENSIONS	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_SOURCE_FILE_EXTENSIONS c;m)$/;"	v
+CMAKE_C_STANDARD_COMPUTED_DEFAULT	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C_STANDARD_COMPUTED_DEFAULT "17")$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/sylar.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_address.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_bytearray.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_config.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_fiber.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_hook.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_iomanager.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_scheduler.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_socket.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_thread.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_util.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_GENERATOR	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/sylar.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_address.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_bytearray.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_config.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_fiber.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_hook.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_iomanager.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_scheduler.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_socket.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_thread.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_util.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/sylar.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_address.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_bytearray.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_config.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_fiber.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_hook.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_iomanager.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_scheduler.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_socket.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_thread.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_util.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPEND_INFO_FILES	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_DEPEND_INFO_FILES$/;"	v
+CMAKE_FORCE_UNIX_PATHS	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_FORCE_UNIX_PATHS 1)$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/sylar.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_address.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_bytearray.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_config.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_fiber.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_hook.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_iomanager.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_scheduler.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_socket.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_thread.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_util.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_HOST_SYSTEM	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM "Linux-6.5.0-35-generic")$/;"	v
+CMAKE_HOST_SYSTEM_NAME	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_NAME "Linux")$/;"	v
+CMAKE_HOST_SYSTEM_PROCESSOR	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")$/;"	v
+CMAKE_HOST_SYSTEM_VERSION	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_VERSION "6.5.0-35-generic")$/;"	v
+CMAKE_INSTALL_COMPONENT	build/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")$/;"	v
+CMAKE_INSTALL_COMPONENT	build/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT)$/;"	v
+CMAKE_INSTALL_CONFIG_NAME	build/cmake_install.cmake	/^    set(CMAKE_INSTALL_CONFIG_NAME "Debug")$/;"	v
+CMAKE_INSTALL_MANIFEST	build/cmake_install.cmake	/^  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")$/;"	v
+CMAKE_INSTALL_MANIFEST	build/cmake_install.cmake	/^  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")$/;"	v
+CMAKE_INSTALL_PREFIX	build/cmake_install.cmake	/^  set(CMAKE_INSTALL_PREFIX "\/usr\/local")$/;"	v
+CMAKE_INSTALL_SO_NO_EXE	build/cmake_install.cmake	/^  set(CMAKE_INSTALL_SO_NO_EXE "1")$/;"	v
+CMAKE_INTERNAL_PLATFORM_ABI	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^  set(CMAKE_INTERNAL_PLATFORM_ABI "${CMAKE_C_COMPILER_ABI}")$/;"	v
+CMAKE_INTERNAL_PLATFORM_ABI	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^  set(CMAKE_INTERNAL_PLATFORM_ABI "${CMAKE_CXX_COMPILER_ABI}")$/;"	v
+CMAKE_LIBRARY_ARCHITECTURE	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^  set(CMAKE_LIBRARY_ARCHITECTURE "x86_64-linux-gnu")$/;"	v
+CMAKE_LIBRARY_ARCHITECTURE	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^  set(CMAKE_LIBRARY_ARCHITECTURE "x86_64-linux-gnu")$/;"	v
+CMAKE_LINKER	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_LINKER "\/usr\/bin\/ld")$/;"	v
+CMAKE_LINKER	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_LINKER "\/usr\/bin\/ld")$/;"	v
+CMAKE_MAKEFILE_DEPENDS	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_MAKEFILE_DEPENDS$/;"	v
+CMAKE_MAKEFILE_OUTPUTS	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_MAKEFILE_OUTPUTS$/;"	v
+CMAKE_MAKEFILE_PRODUCTS	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_MAKEFILE_PRODUCTS$/;"	v
+CMAKE_MT	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_MT "")$/;"	v
+CMAKE_MT	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_MT "")$/;"	v
+CMAKE_OBJDUMP	build/cmake_install.cmake	/^  set(CMAKE_OBJDUMP "\/usr\/bin\/objdump")$/;"	v
+CMAKE_RANLIB	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_RANLIB "\/usr\/bin\/ranlib")$/;"	v
+CMAKE_RANLIB	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_RANLIB "\/usr\/bin\/ranlib")$/;"	v
+CMAKE_RELATIVE_PATH_TOP_BINARY	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_BINARY "\/home\/huanghz\/cppLearning\/CPPLearning\/mySylarWeb\/build/;"	v
+CMAKE_RELATIVE_PATH_TOP_SOURCE	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_SOURCE "\/home\/huanghz\/cppLearning\/CPPLearning\/mySylarWeb")$/;"	v
+CMAKE_SIZEOF_VOID_P	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^  set(CMAKE_SIZEOF_VOID_P "${CMAKE_C_SIZEOF_DATA_PTR}")$/;"	v
+CMAKE_SIZEOF_VOID_P	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^  set(CMAKE_SIZEOF_VOID_P "${CMAKE_CXX_SIZEOF_DATA_PTR}")$/;"	v
+CMAKE_SOURCE_DIR	build/Makefile	/^CMAKE_SOURCE_DIR = \/home\/huanghz\/cppLearning\/CPPLearning\/mySylarWeb$/;"	m
+CMAKE_SYSTEM	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM "Linux-6.5.0-35-generic")$/;"	v
+CMAKE_SYSTEM_LOADED	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_LOADED 1)$/;"	v
+CMAKE_SYSTEM_NAME	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_NAME "Linux")$/;"	v
+CMAKE_SYSTEM_PROCESSOR	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_PROCESSOR "x86_64")$/;"	v
+CMAKE_SYSTEM_VERSION	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_VERSION "6.5.0-35-generic")$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/sylar.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_address.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_bytearray.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_config.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_fiber.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_hook.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_iomanager.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_scheduler.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_socket.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_thread.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_util.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_VERBOSE_MAKEFILE	CMakeLists.txt	/^set(CMAKE_VERBOSE_MAKEFILE ON)$/;"	v
+COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_ID /;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	file:
+COMPILER_VERSION	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION /;"	d	file:
+COMPILER_VERSION	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL_STR	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_INTERNAL_STR /;"	d	file:
+COMPILER_VERSION_INTERNAL_STR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_INTERNAL_STR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_TWEAK /;"	d	file:
+CXX_STD	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#      define CXX_STD /;"	d	file:
+CXX_STD	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#    define CXX_STD /;"	d	file:
+CXX_STD	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define CXX_STD /;"	d	file:
+C_VERSION	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define C_VERSION /;"	d	file:
+C_VERSION	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define C_VERSION$/;"	d	file:
+C_VERSION	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define C_VERSION /;"	d	file:
+CallerMainFunc	sylar/fiber.cc	/^void Fiber::CallerMainFunc(){$/;"	f	class:sylar::Fiber	typeref:typename:void
+Comparator	sylar/timer.h	/^	struct Comparator {$/;"	s	class:sylar::Timer
+Config	sylar/config.h	/^class Config{$/;"	c	namespace:sylar
+ConfigVar	sylar/config.h	/^    ConfigVar(const std::string& name,$/;"	f	class:sylar::ConfigVar
+ConfigVar	sylar/config.h	/^class ConfigVar : public ConfigVarBase {$/;"	c	namespace:sylar
+ConfigVarBase	sylar/config.h	/^    ConfigVarBase(const std::string& name, const std::string& description = "")$/;"	f	class:sylar::ConfigVarBase
+ConfigVarBase	sylar/config.h	/^class ConfigVarBase{$/;"	c	namespace:sylar
+ConfigVarMap	sylar/config.h	/^    typedef std::map<std::string, ConfigVarBase::ptr> ConfigVarMap;$/;"	t	class:sylar::Config	typeref:typename:std::map<std::string,ConfigVarBase::ptr>
+CountBytes	sylar/address.cc	/^static uint32_t CountBytes(T value) {$/;"	f	namespace:sylar	typeref:typename:uint32_t	file:
+Create	sylar/address.cc	/^Address::ptr Address::Create(const sockaddr* addr, socklen_t addrlen) {$/;"	f	class:sylar::Address	typeref:typename:Address::ptr
+Create	sylar/address.cc	/^IPAddress::ptr IPAddress::Create(const char* address, uint16_t port) {$/;"	f	class:sylar::IPAddress	typeref:typename:IPAddress::ptr
+Create	sylar/address.cc	/^IPv4Address::ptr IPv4Address::Create(const char* address, uint16_t port) {$/;"	f	class:sylar::IPv4Address	typeref:typename:IPv4Address::ptr
+Create	sylar/address.cc	/^IPv6Address::ptr IPv6Address::Create(const char* address = INADDR_ANY, uint16_t port) {$/;"	f	class:sylar::IPv6Address	typeref:typename:IPv6Address::ptr
+CreateMask	sylar/address.cc	/^static T CreateMask(uint32_t bits) {$/;"	f	namespace:sylar	typeref:typename:T	file:
+CreateTCP	sylar/socket.cc	/^Socket::ptr Socket::CreateTCP(sylar::Address::ptr address) {$/;"	f	class:sylar::Socket	typeref:typename:Socket::ptr
+CreateTCPSocket	sylar/socket.cc	/^Socket::ptr Socket::CreateTCPSocket() {$/;"	f	class:sylar::Socket	typeref:typename:Socket::ptr
+CreateTCPSocket6	sylar/socket.cc	/^Socket::ptr Socket::CreateTCPSocket6() {$/;"	f	class:sylar::Socket	typeref:typename:Socket::ptr
+CreateUDP	sylar/socket.cc	/^Socket::ptr Socket::CreateUDP(sylar::Address::ptr address) {$/;"	f	class:sylar::Socket	typeref:typename:Socket::ptr
+CreateUDPSocket	sylar/socket.cc	/^Socket::ptr Socket::CreateUDPSocket() {$/;"	f	class:sylar::Socket	typeref:typename:Socket::ptr
+CreateUDPSocket6	sylar/socket.cc	/^Socket::ptr Socket::CreateUDPSocket6() {$/;"	f	class:sylar::Socket	typeref:typename:Socket::ptr
+CreateUnixTCPSocket	sylar/socket.cc	/^Socket::ptr Socket::CreateUnixTCPSocket() {$/;"	f	class:sylar::Socket	typeref:typename:Socket::ptr
+CreateUnixUDPSocket	sylar/socket.cc	/^Socket::ptr Socket::CreateUnixUDPSocket() {$/;"	f	class:sylar::Socket	typeref:typename:Socket::ptr
+DEBUG	sylar/log.h	/^    DEBUG = 1,$/;"	e	enum:sylar::LogLevel::Level
+DEC	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#define DEC(/;"	d	file:
+DEC	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define DEC(/;"	d	file:
+DateTimeFormatItem	sylar/log.cpp	/^    DateTimeFormatItem(const std::string& format = "%Y-%m-%d %H:%M:%S"):$/;"	f	class:sylar::DateTimeFormatItem	file:
+DateTimeFormatItem	sylar/log.cpp	/^class DateTimeFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+Dealloc	sylar/fiber.cc	/^    static void Dealloc(void* vp, size_t size) {$/;"	f	class:sylar::MallocStackAllocator	typeref:typename:void	file:
+DecodeZigzag32	sylar/bytearray.cc	/^static int32_t DecodeZigzag32(const uint32_t& v) {$/;"	f	namespace:sylar	typeref:typename:int32_t	file:
+DecodeZigzag64	sylar/bytearray.cc	/^static int64_t DecodeZigzag64(const uint64_t& v) {$/;"	f	namespace:sylar	typeref:typename:int64_t	file:
+EQUALS	build/Makefile	/^EQUALS = =$/;"	m
+ERROR	sylar/log.h	/^    ERROR = 4,$/;"	e	enum:sylar::LogLevel::Level
+EXCEPT	sylar/fiber.h	/^        EXCEPT$/;"	e	enum:sylar::Fiber::State
+EXEC	sylar/fiber.h	/^        EXEC,$/;"	e	enum:sylar::Fiber::State
+EXECUTABLE_OUTPUT_PATH	CMakeLists.txt	/^SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}\/bin)$/;"	v
+ElapseFormatItem	sylar/log.cpp	/^    ElapseFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::ElapseFormatItem	file:
+ElapseFormatItem	sylar/log.cpp	/^class ElapseFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+EncodeZigzag32	sylar/bytearray.cc	/^static uint32_t EncodeZigzag32(const int32_t& v) {$/;"	f	namespace:sylar	typeref:typename:uint32_t	file:
+EncodeZigzag64	sylar/bytearray.cc	/^static uint64_t EncodeZigzag64(const int64_t& v) {$/;"	f	namespace:sylar	typeref:typename:uint64_t	file:
+Event	sylar/iomanager.h	/^	enum Event{$/;"	g	class:sylar::IOManager
+EventContext	sylar/iomanager.h	/^		struct EventContext{$/;"	s	struct:sylar::IOManager::FdContext
+FATAL	sylar/log.h	/^    FATAL = 5      $/;"	e	enum:sylar::LogLevel::Level
+Family	sylar/socket.h	/^	enum Family {$/;"	g	class:sylar::Socket
+FdContext	sylar/iomanager.h	/^	struct FdContext{$/;"	s	class:sylar::IOManager
+FdCtx	sylar/fd_manager.cc	/^FdCtx::FdCtx(int fd)$/;"	f	class:sylar::FdCtx
+FdCtx	sylar/fd_manager.h	/^class FdCtx : public std::enable_shared_from_this<FdCtx> {$/;"	c	namespace:sylar
+FdManager	sylar/fd_manager.cc	/^FdManager::FdManager() {$/;"	f	class:sylar::FdManager
+FdManager	sylar/fd_manager.h	/^class FdManager {$/;"	c	namespace:sylar
+FdMgr	sylar/fd_manager.h	/^typedef Singleton<FdManager> FdMgr;$/;"	t	namespace:sylar	typeref:typename:Singleton<FdManager>
+Fiber	sylar/fiber.cc	/^Fiber::Fiber(){$/;"	f	class:sylar::Fiber
+Fiber	sylar/fiber.cc	/^Fiber::Fiber(std::function<void()> cb, size_t stacksize, bool use_caller)$/;"	f	class:sylar::Fiber
+Fiber	sylar/fiber.h	/^class Fiber : public std::enable_shared_from_this<Fiber>{$/;"	c	namespace:sylar
+FiberAndThread	sylar/scheduler.h	/^        FiberAndThread()$/;"	f	struct:sylar::Scheduler::FiberAndThread
+FiberAndThread	sylar/scheduler.h	/^        FiberAndThread(Fiber::ptr f, int thr)$/;"	f	struct:sylar::Scheduler::FiberAndThread
+FiberAndThread	sylar/scheduler.h	/^        FiberAndThread(Fiber::ptr* f, int thr)$/;"	f	struct:sylar::Scheduler::FiberAndThread
+FiberAndThread	sylar/scheduler.h	/^        FiberAndThread(std::function<void()> f, int thr)$/;"	f	struct:sylar::Scheduler::FiberAndThread
+FiberAndThread	sylar/scheduler.h	/^        FiberAndThread(std::function<void()>* f, int thr)$/;"	f	struct:sylar::Scheduler::FiberAndThread
+FiberAndThread	sylar/scheduler.h	/^    struct FiberAndThread{$/;"	s	class:sylar::Scheduler
+FiberAndThread	temp/scheduler.h	/^        FiberAndThread()$/;"	f	struct:sylar::Scheduler::FiberAndThread
+FiberAndThread	temp/scheduler.h	/^        FiberAndThread(Fiber::ptr f, int thr)$/;"	f	struct:sylar::Scheduler::FiberAndThread
+FiberAndThread	temp/scheduler.h	/^        FiberAndThread(Fiber::ptr* f, int thr)$/;"	f	struct:sylar::Scheduler::FiberAndThread
+FiberAndThread	temp/scheduler.h	/^        FiberAndThread(std::function<void()> f, int thr)$/;"	f	struct:sylar::Scheduler::FiberAndThread
+FiberAndThread	temp/scheduler.h	/^        FiberAndThread(std::function<void()>* f, int thr)$/;"	f	struct:sylar::Scheduler::FiberAndThread
+FiberAndThread	temp/scheduler.h	/^    struct FiberAndThread {$/;"	s	class:sylar::Scheduler
+FiberIdFormatItem	sylar/log.cpp	/^    FiberIdFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::FiberIdFormatItem	file:
+FiberIdFormatItem	sylar/log.cpp	/^class FiberIdFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+FileLogAppender	sylar/log.cpp	/^FileLogAppender::FileLogAppender(const std::string& filename)$/;"	f	class:sylar::FileLogAppender
+FileLogAppender	sylar/log.h	/^class FileLogAppender : public LogAppender{$/;"	c	namespace:sylar
+FilenameFormatItem	sylar/log.cpp	/^    FilenameFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::FilenameFormatItem	file:
+FilenameFormatItem	sylar/log.cpp	/^class FilenameFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+FormatItem	sylar/log.h	/^    class FormatItem{$/;"	c	class:sylar::LogFormatter
+FromString	sylar/log.cpp	/^LogLevel::Level LogLevel::FromString(const std::string& str){$/;"	f	class:sylar::LogLevel	typeref:typename:LogLevel::Level
+GetCurrentMS	sylar/util.cpp	/^uint64_t GetCurrentMS() {$/;"	f	namespace:sylar	typeref:typename:uint64_t
+GetCurrentUS	sylar/util.cpp	/^uint64_t GetCurrentUS() {$/;"	f	namespace:sylar	typeref:typename:uint64_t
+GetDatas	sylar/config.h	/^    static ConfigVarMap& GetDatas(){$/;"	f	class:sylar::Config	typeref:typename:ConfigVarMap &
+GetFiberId	sylar/fiber.cc	/^uint64_t Fiber::GetFiberId(){$/;"	f	class:sylar::Fiber	typeref:typename:uint64_t
+GetFiberId	sylar/util.cpp	/^uint32_t GetFiberId(){$/;"	f	namespace:sylar	typeref:typename:uint32_t
+GetInstance	sylar/singleton.h	/^    static T* GetInstance(){$/;"	f	class:sylar::Singleton	typeref:typename:T *
+GetInstance	sylar/singleton.h	/^    static std::shared_ptr<T> GetInstance(){$/;"	f	class:sylar::SingletonPtr	typeref:typename:std::shared_ptr<T>
+GetInterfaceAddresses	sylar/address.cc	/^bool Address::GetInterfaceAddresses(std::multimap<std::string$/;"	f	class:sylar::Address	typeref:typename:bool
+GetInterfaceAddresses	sylar/address.cc	/^bool Address::GetInterfaceAddresses(std::vector<std::pair<Address::ptr, uint32_t> >&result$/;"	f	class:sylar::Address	typeref:typename:bool
+GetMainFiber	sylar/scheduler.cc	/^Fiber* Scheduler::GetMainFiber() {$/;"	f	class:sylar::Scheduler	typeref:typename:Fiber *
+GetMutex	sylar/config.h	/^    static RWMutexType& GetMutex(){$/;"	f	class:sylar::Config	typeref:typename:RWMutexType &
+GetName	sylar/thread.cpp	/^const std::string& Thread::GetName(){$/;"	f	class:sylar::Thread	typeref:typename:const std::string &
+GetThis	sylar/fiber.cc	/^Fiber::ptr Fiber::GetThis(){$/;"	f	class:sylar::Fiber	typeref:typename:Fiber::ptr
+GetThis	sylar/iomanager.cc	/^IOManager* IOManager::GetThis(){$/;"	f	class:sylar::IOManager	typeref:typename:IOManager *
+GetThis	sylar/scheduler.cc	/^Scheduler* Scheduler::GetThis() {$/;"	f	class:sylar::Scheduler	typeref:typename:Scheduler *
+GetThis	sylar/thread.cpp	/^Thread* Thread::GetThis(){$/;"	f	class:sylar::Thread	typeref:typename:Thread *
+GetThreadId	sylar/util.cpp	/^pid_t GetThreadId(){$/;"	f	namespace:sylar	typeref:typename:pid_t
+HEX	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#define HEX(/;"	d	file:
+HEX	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define HEX(/;"	d	file:
+HOLD	sylar/fiber.h	/^        HOLD,$/;"	e	enum:sylar::Fiber::State
+HOOK_FUN	sylar/hook.cc	/^#define HOOK_FUN(/;"	d	file:
+ID_VOID_MAIN	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define ID_VOID_MAIN$/;"	d	file:
+INFO	sylar/log.h	/^    INFO = 2,$/;"	e	enum:sylar::LogLevel::Level
+INIT	sylar/fiber.h	/^        INIT,$/;"	e	enum:sylar::Fiber::State
+IOManager	sylar/iomanager.cc	/^IOManager::IOManager(size_t threads, bool use_caller, const std::string& name)$/;"	f	class:sylar::IOManager
+IOManager	sylar/iomanager.h	/^class IOManager : public Scheduler, public TimerManager {$/;"	c	namespace:sylar
+IPAddress	sylar/address.h	/^class IPAddress : public Address {$/;"	c	namespace:sylar
+IPv4	sylar/socket.h	/^		IPv4 = AF_INET,$/;"	e	enum:sylar::Socket::Family
+IPv4Address	sylar/address.cc	/^IPv4Address::IPv4Address(const sockaddr_in& address) {$/;"	f	class:sylar::IPv4Address
+IPv4Address	sylar/address.cc	/^IPv4Address::IPv4Address(uint32_t address, uint16_t port) {$/;"	f	class:sylar::IPv4Address
+IPv4Address	sylar/address.h	/^class IPv4Address : public IPAddress {$/;"	c	namespace:sylar
+IPv6	sylar/socket.h	/^		IPv6 = AF_INET6,$/;"	e	enum:sylar::Socket::Family
+IPv6Address	sylar/address.cc	/^IPv6Address::IPv6Address() {$/;"	f	class:sylar::IPv6Address
+IPv6Address	sylar/address.cc	/^IPv6Address::IPv6Address(const sockaddr_in6& address) {$/;"	f	class:sylar::IPv6Address
+IPv6Address	sylar/address.cc	/^IPv6Address::IPv6Address(const uint8_t address[16], uint16_t port) {$/;"	f	class:sylar::IPv6Address
+IPv6Address	sylar/address.h	/^class IPv6Address : public IPAddress {$/;"	c	namespace:sylar
+LIBRARY_OUTPUT_PATH	CMakeLists.txt	/^SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}\/lib)$/;"	v
+LIB_LIB	CMakeLists.txt	/^set(LIB_LIB$/;"	v
+LIB_SRC	CMakeLists.txt	/^set(LIB_SRC$/;"	v
+Level	sylar/log.h	/^    enum Level{$/;"	g	class:sylar::LogLevel
+LevelFormatItem	sylar/log.cpp	/^    LevelFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::LevelFormatItem	file:
+LevelFormatItem	sylar/log.cpp	/^class LevelFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+LexicalCast	sylar/config.h	/^class LexicalCast {$/;"	c	namespace:sylar
+LexicalCast	sylar/config.h	/^class LexicalCast<std::list<T>, std::string>{$/;"	c	namespace:sylar
+LexicalCast	sylar/config.h	/^class LexicalCast<std::map<std::string, T>, std::string>{$/;"	c	namespace:sylar
+LexicalCast	sylar/config.h	/^class LexicalCast<std::set<T>, std::string>{$/;"	c	namespace:sylar
+LexicalCast	sylar/config.h	/^class LexicalCast<std::string, std::list<T>>{$/;"	c	namespace:sylar
+LexicalCast	sylar/config.h	/^class LexicalCast<std::string, std::map<std::string, T>>{$/;"	c	namespace:sylar
+LexicalCast	sylar/config.h	/^class LexicalCast<std::string, std::set<T>>{$/;"	c	namespace:sylar
+LexicalCast	sylar/config.h	/^class LexicalCast<std::string, std::unordered_map<std::string, T>>{$/;"	c	namespace:sylar
+LexicalCast	sylar/config.h	/^class LexicalCast<std::string, std::unordered_set<T>>{$/;"	c	namespace:sylar
+LexicalCast	sylar/config.h	/^class LexicalCast<std::string, std::vector<T>>{$/;"	c	namespace:sylar
+LexicalCast	sylar/config.h	/^class LexicalCast<std::unordered_map<std::string, T>, std::string>{$/;"	c	namespace:sylar
+LexicalCast	sylar/config.h	/^class LexicalCast<std::unordered_set<T>, std::string>{$/;"	c	namespace:sylar
+LexicalCast	sylar/config.h	/^class LexicalCast<std::vector<T>, std::string>{$/;"	c	namespace:sylar
+LexicalCast	sylar/log.cpp	/^class LexicalCast<std::set<LogDefine>, std::string>{$/;"	c	namespace:sylar	file:
+LexicalCast	sylar/log.cpp	/^class LexicalCast<std::string, std::set<LogDefine>>{$/;"	c	namespace:sylar	file:
+LexicalCast	tests/test_config.cc	/^class LexicalCast<Person, std::string>{$/;"	c	namespace:sylar	file:
+LexicalCast	tests/test_config.cc	/^class LexicalCast<std::string, Person>{$/;"	c	namespace:sylar	file:
+LineFormatItem	sylar/log.cpp	/^    LineFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::LineFormatItem	file:
+LineFormatItem	sylar/log.cpp	/^class LineFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+ListAllMember	sylar/config.cc	/^static void ListAllMember(const std::string& prefix,$/;"	f	namespace:sylar	typeref:typename:void	file:
+LoadFromYaml	sylar/config.cc	/^void Config::LoadFromYaml(const YAML::Node& root){$/;"	f	class:sylar::Config	typeref:typename:void
+Lock	sylar/thread.h	/^    typedef ScopedLockImpl<CASLock> Lock;$/;"	t	class:sylar::CASLock	typeref:typename:ScopedLockImpl<CASLock>
+Lock	sylar/thread.h	/^    typedef ScopedLockImpl<Mutex> Lock;$/;"	t	class:sylar::Mutex	typeref:typename:ScopedLockImpl<Mutex>
+Lock	sylar/thread.h	/^    typedef ScopedLockImpl<NullMutex> Lock;$/;"	t	class:sylar::NullMutex	typeref:typename:ScopedLockImpl<NullMutex>
+Lock	sylar/thread.h	/^    typedef ScopedLockImpl<Spinlock> Lock;$/;"	t	class:sylar::Spinlock	typeref:typename:ScopedLockImpl<Spinlock>
+LogAppender	sylar/log.h	/^class LogAppender{$/;"	c	namespace:sylar
+LogAppenderDefine	sylar/log.cpp	/^struct LogAppenderDefine{$/;"	s	namespace:sylar	file:
+LogDefine	sylar/log.cpp	/^struct LogDefine{$/;"	s	namespace:sylar	file:
+LogEvent	sylar/log.cpp	/^LogEvent::LogEvent(std::shared_ptr<Logger> logger, LogLevel::Level level$/;"	f	class:sylar::LogEvent
+LogEvent	sylar/log.h	/^class LogEvent{$/;"	c	namespace:sylar
+LogEventWrap	sylar/log.cpp	/^LogEventWrap::LogEventWrap(LogEvent::ptr e)$/;"	f	class:sylar::LogEventWrap
+LogEventWrap	sylar/log.h	/^class LogEventWrap{$/;"	c	namespace:sylar
+LogFormatter	sylar/log.cpp	/^LogFormatter::LogFormatter(const std::string& pattern)$/;"	f	class:sylar::LogFormatter
+LogFormatter	sylar/log.h	/^class LogFormatter{$/;"	c	namespace:sylar
+LogIniter	sylar/log.cpp	/^    LogIniter(){$/;"	f	struct:sylar::LogIniter	file:
+LogIniter	sylar/log.cpp	/^struct LogIniter{$/;"	s	namespace:sylar	file:
+LogLevel	sylar/log.h	/^class LogLevel{$/;"	c	namespace:sylar
+Logger	sylar/log.cpp	/^Logger::Logger(const std::string& name)$/;"	f	class:sylar::Logger
+Logger	sylar/log.h	/^class Logger : public std::enable_shared_from_this<Logger>{$/;"	c	namespace:sylar
+LoggerManager	sylar/log.cpp	/^LoggerManager::LoggerManager(){$/;"	f	class:sylar::LoggerManager
+LoggerManager	sylar/log.h	/^class LoggerManager{$/;"	c	namespace:sylar
+LoggerMgr	sylar/log.h	/^typedef sylar::Singleton<LoggerManager> LoggerMgr;$/;"	t	namespace:sylar	typeref:typename:sylar::Singleton<LoggerManager>
+Lookup	sylar/address.cc	/^bool Address::Lookup(std::vector<Address::ptr>& result, const std::string& host,$/;"	f	class:sylar::Address	typeref:typename:bool
+Lookup	sylar/config.h	/^    static typename ConfigVar<T>::ptr Lookup(const std::string& name){$/;"	f	class:sylar::Config	typeref:typename:ConfigVar<T>::ptr
+Lookup	sylar/config.h	/^    static typename ConfigVar<T>::ptr Lookup(const std::string& name,$/;"	f	class:sylar::Config	typeref:typename:ConfigVar<T>::ptr
+LookupAny	sylar/address.cc	/^Address::ptr Address::LookupAny(const std::string& host,$/;"	f	class:sylar::Address	typeref:typename:Address::ptr
+LookupAnyIPAddress	sylar/address.cc	/^IPAddress::ptr Address::LookupAnyIPAddress(const std::string& host,$/;"	f	class:sylar::Address	typeref:typename:IPAddress::ptr
+LookupBase	sylar/config.cc	/^ConfigVarBase::ptr Config::LookupBase(const std::string& name){$/;"	f	class:sylar::Config	typeref:typename:ConfigVarBase::ptr
+MAX_PATH_LEN	sylar/address.cc	/^static const size_t MAX_PATH_LEN = sizeof(((sockaddr_un*)0)->sun_path) - 1;$/;"	v	namespace:sylar	typeref:typename:const size_t	file:
+MainFunc	sylar/fiber.cc	/^void Fiber::MainFunc(){$/;"	f	class:sylar::Fiber	typeref:typename:void
+MallocStackAllocator	sylar/fiber.cc	/^class MallocStackAllocator{$/;"	c	namespace:sylar	file:
+MessageFormatItem	sylar/log.cpp	/^    MessageFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::MessageFormatItem	file:
+MessageFormatItem	sylar/log.cpp	/^class MessageFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+Mutex	sylar/thread.h	/^    Mutex(){$/;"	f	class:sylar::Mutex
+Mutex	sylar/thread.h	/^class Mutex : Noncopyable {$/;"	c	namespace:sylar
+MutexType	sylar/iomanager.h	/^		typedef Mutex MutexType;$/;"	t	struct:sylar::IOManager::FdContext	typeref:typename:Mutex
+MutexType	sylar/log.h	/^    typedef Spinlock MutexType;$/;"	t	class:sylar::LogAppender	typeref:typename:Spinlock
+MutexType	sylar/log.h	/^    typedef Spinlock MutexType;$/;"	t	class:sylar::Logger	typeref:typename:Spinlock
+MutexType	sylar/log.h	/^    typedef Spinlock MutexType;$/;"	t	class:sylar::LoggerManager	typeref:typename:Spinlock
+MutexType	sylar/scheduler.h	/^    typedef Mutex MutexType;$/;"	t	class:sylar::Scheduler	typeref:typename:Mutex
+MutexType	temp/scheduler.h	/^    typedef Mutex MutexType;$/;"	t	class:sylar::Scheduler	typeref:typename:Mutex
+MySylarWeb	CMakeLists.txt	/^project(MySylarWeb)$/;"	p
+NONE	sylar/iomanager.h	/^		NONE    = 0x0,$/;"	e	enum:sylar::IOManager::Event
+NameFormatItem	sylar/log.cpp	/^    NameFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::NameFormatItem	file:
+NameFormatItem	sylar/log.cpp	/^class NameFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+NewLineFormatItem	sylar/log.cpp	/^    NewLineFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::NewLineFormatItem	file:
+NewLineFormatItem	sylar/log.cpp	/^class NewLineFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+Node	sylar/bytearray.cc	/^ByteArray::Node::Node()$/;"	f	class:sylar::ByteArray::Node
+Node	sylar/bytearray.cc	/^ByteArray::Node::Node(size_t s)$/;"	f	class:sylar::ByteArray::Node
+Node	sylar/bytearray.h	/^	struct Node {$/;"	s	class:sylar::ByteArray
+Noncopyable	sylar/noncopyable.h	/^class Noncopyable {$/;"	c	namespace:sylar
+NullMutex	sylar/thread.h	/^    NullMutex(){};$/;"	f	class:sylar::NullMutex
+NullMutex	sylar/thread.h	/^class NullMutex : Noncopyable {$/;"	c	namespace:sylar
+NullRWMutex	sylar/thread.h	/^    NullRWMutex(){};$/;"	f	class:sylar::NullRWMutex
+NullRWMutex	sylar/thread.h	/^class NullRWMutex : Noncopyable {$/;"	c	namespace:sylar
+OnTimer	sylar/timer.cc	/^static void OnTimer(std::weak_ptr<void> weak_cond, std::function<void()> cb) {$/;"	f	namespace:sylar	typeref:typename:void	file:
+PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID$/;"	d	file:
+Person	tests/test_config.cc	/^class Person{$/;"	c	file:
+READ	sylar/iomanager.h	/^		READ    = 0x1,		\/\/EPOLLIN$/;"	e	enum:sylar::IOManager::Event
+READY	sylar/fiber.h	/^        READY,$/;"	e	enum:sylar::Fiber::State
+RM	build/Makefile	/^RM = \/usr\/bin\/cmake -E rm -f$/;"	m
+RWMutex	sylar/thread.h	/^    RWMutex(){$/;"	f	class:sylar::RWMutex
+RWMutex	sylar/thread.h	/^class RWMutex : Noncopyable {$/;"	c	namespace:sylar
+RWMutexType	sylar/config.h	/^    typedef RWMutex RWMutexType;$/;"	t	class:sylar::Config	typeref:typename:RWMutex
+RWMutexType	sylar/config.h	/^    typedef RWMutex RWMutexType;$/;"	t	class:sylar::ConfigVar	typeref:typename:RWMutex
+RWMutexType	sylar/fd_manager.h	/^	typedef RWMutex RWMutexType;$/;"	t	class:sylar::FdManager	typeref:typename:RWMutex
+RWMutexType	sylar/iomanager.h	/^	typedef RWMutex RWMutexType;$/;"	t	class:sylar::IOManager	typeref:typename:RWMutex
+RWMutexType	sylar/timer.h	/^	typedef RWMutex RWMutexType;$/;"	t	class:sylar::TimerManager	typeref:typename:RWMutex
+ReadLock	sylar/thread.h	/^    typedef ReadScopedLockImpl<NullMutex> ReadLock;$/;"	t	class:sylar::NullRWMutex	typeref:typename:ReadScopedLockImpl<NullMutex>
+ReadLock	sylar/thread.h	/^    typedef ReadScopedLockImpl<RWMutex> ReadLock;$/;"	t	class:sylar::RWMutex	typeref:typename:ReadScopedLockImpl<RWMutex>
+ReadScopedLockImpl	sylar/thread.h	/^    ReadScopedLockImpl(T& mutex)$/;"	f	struct:sylar::ReadScopedLockImpl
+ReadScopedLockImpl	sylar/thread.h	/^struct ReadScopedLockImpl{$/;"	s	namespace:sylar
+SHELL	build/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SIMULATE_ID	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_ID /;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_ID /;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_ID /;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_ID /;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_PATCH /;"	d	file:
+STRINGIFY	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#define STRINGIFY(/;"	d	file:
+STRINGIFY	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY(/;"	d	file:
+STRINGIFY_HELPER	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#define STRINGIFY_HELPER(/;"	d	file:
+STRINGIFY_HELPER	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY_HELPER(/;"	d	file:
+SYLAR_ASSERT	sylar/macro.h	/^#define SYLAR_ASSERT(/;"	d
+SYLAR_ASSERT2	sylar/macro.h	/^#define SYLAR_ASSERT2(/;"	d
+SYLAR_BIG_ENDIAN	sylar/endian.h	/^#define SYLAR_BIG_ENDIAN /;"	d
+SYLAR_BYTE_ORDER	sylar/endian.h	/^#define SYLAR_BYTE_ORDER /;"	d
+SYLAR_LICKLY	sylar/macro.h	/^#	define SYLAR_LICKLY(/;"	d
+SYLAR_LITTLE_ENDIAN	sylar/endian.h	/^#define SYLAR_LITTLE_ENDIAN /;"	d
+SYLAR_LOG_DEBUG	sylar/log.h	/^#define SYLAR_LOG_DEBUG(/;"	d
+SYLAR_LOG_ERROR	sylar/log.h	/^#define SYLAR_LOG_ERROR(/;"	d
+SYLAR_LOG_FATAL	sylar/log.h	/^#define SYLAR_LOG_FATAL(/;"	d
+SYLAR_LOG_FMT_DEBUG	sylar/log.h	/^#define SYLAR_LOG_FMT_DEBUG(/;"	d
+SYLAR_LOG_FMT_ERROR	sylar/log.h	/^#define SYLAR_LOG_FMT_ERROR(/;"	d
+SYLAR_LOG_FMT_FATAL	sylar/log.h	/^#define SYLAR_LOG_FMT_FATAL(/;"	d
+SYLAR_LOG_FMT_INFO	sylar/log.h	/^#define SYLAR_LOG_FMT_INFO(/;"	d
+SYLAR_LOG_FMT_LEVEL	sylar/log.h	/^#define SYLAR_LOG_FMT_LEVEL(/;"	d
+SYLAR_LOG_FMT_WARN	sylar/log.h	/^#define SYLAR_LOG_FMT_WARN(/;"	d
+SYLAR_LOG_INFO	sylar/log.h	/^#define SYLAR_LOG_INFO(/;"	d
+SYLAR_LOG_LEVEL	sylar/log.h	/^#define SYLAR_LOG_LEVEL(/;"	d
+SYLAR_LOG_NAME	sylar/log.h	/^#define SYLAR_LOG_NAME(/;"	d
+SYLAR_LOG_ROOT	sylar/log.h	/^#define SYLAR_LOG_ROOT(/;"	d
+SYLAR_LOG_WARN	sylar/log.h	/^#define SYLAR_LOG_WARN(/;"	d
+SYLAR_UNLICKLY	sylar/macro.h	/^#	define SYLAR_UNLICKLY(/;"	d
+Scheduler	sylar/scheduler.cc	/^Scheduler::Scheduler(size_t threads, bool use_caller, const std::string& name)$/;"	f	class:sylar::Scheduler
+Scheduler	sylar/scheduler.h	/^class Scheduler{$/;"	c	namespace:sylar
+Scheduler	temp/scheduler.h	/^class Scheduler {$/;"	c	namespace:sylar
+SchedulerSwitcher	temp/scheduler.h	/^class SchedulerSwitcher : public Noncopyable {$/;"	c	namespace:sylar
+ScopedLockImpl	sylar/thread.h	/^    ScopedLockImpl(T& mutex)$/;"	f	struct:sylar::ScopedLockImpl
+ScopedLockImpl	sylar/thread.h	/^struct ScopedLockImpl{$/;"	s	namespace:sylar
+Semaphore	sylar/thread.cpp	/^Semaphore::Semaphore(uint32_t count){$/;"	f	class:sylar::Semaphore
+Semaphore	sylar/thread.h	/^class Semaphore : Noncopyable {$/;"	c	namespace:sylar
+SetName	sylar/thread.cpp	/^void Thread::SetName(const std::string& name){$/;"	f	class:sylar::Thread	typeref:typename:void
+SetThis	sylar/fiber.cc	/^void Fiber::SetThis(Fiber* f){$/;"	f	class:sylar::Fiber	typeref:typename:void
+Singleton	sylar/singleton.h	/^class Singleton{$/;"	c	namespace:sylar
+SingletonPtr	sylar/singleton.h	/^class SingletonPtr{$/;"	c	namespace:sylar
+Socket	sylar/socket.cc	/^Socket::Socket(int family, int type, int protocol)$/;"	f	class:sylar::Socket
+Socket	sylar/socket.h	/^class Socket : public std::enable_shared_from_this<Socket>, Noncopyable {$/;"	c	namespace:sylar
+Spinlock	sylar/thread.h	/^    Spinlock(){$/;"	f	class:sylar::Spinlock
+Spinlock	sylar/thread.h	/^class Spinlock : Noncopyable {$/;"	c	namespace:sylar
+StackAllocator	sylar/fiber.cc	/^using StackAllocator = MallocStackAllocator;$/;"	t	namespace:sylar	typeref:typename:MallocStackAllocator	file:
+State	sylar/fiber.h	/^    enum State {$/;"	g	class:sylar::Fiber
+StdoutLogAppender	sylar/log.h	/^class StdoutLogAppender : public LogAppender{$/;"	c	namespace:sylar
+StringFormatItem	sylar/log.cpp	/^    StringFormatItem(const std::string& str)$/;"	f	class:sylar::StringFormatItem	file:
+StringFormatItem	sylar/log.cpp	/^class StringFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+TCP	sylar/socket.h	/^		TCP = SOCK_STREAM,$/;"	e	enum:sylar::Socket::Type
+TERM	sylar/fiber.h	/^        TERM,$/;"	e	enum:sylar::Fiber::State
+TabFormatItem	sylar/log.cpp	/^    TabFormatItem(const std::string& str = ""){}$/;"	f	class:sylar::TabFormatItem	file:
+TabFormatItem	sylar/log.cpp	/^class TabFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+Thread	sylar/thread.cpp	/^Thread::Thread(std::function<void()> cb, const std::string& name)$/;"	f	class:sylar::Thread
+Thread	sylar/thread.h	/^class Thread {$/;"	c	namespace:sylar
+ThreadIdFormatItem	sylar/log.cpp	/^    ThreadIdFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::ThreadIdFormatItem	file:
+ThreadIdFormatItem	sylar/log.cpp	/^class ThreadIdFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+ThreadNameFormatItem	sylar/log.cpp	/^    ThreadNameFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::ThreadNameFormatItem	file:
+ThreadNameFormatItem	sylar/log.cpp	/^class ThreadNameFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+Timer	sylar/timer.cc	/^Timer::Timer(uint64_t ms, std::function<void()> cb, $/;"	f	class:sylar::Timer
+Timer	sylar/timer.cc	/^Timer::Timer(uint64_t next)$/;"	f	class:sylar::Timer
+Timer	sylar/timer.h	/^class Timer : public std::enable_shared_from_this<Timer> {$/;"	c	namespace:sylar
+TimerManager	sylar/timer.cc	/^TimerManager::TimerManager() {$/;"	f	class:sylar::TimerManager
+TimerManager	sylar/timer.h	/^class TimerManager {$/;"	c	namespace:sylar
+ToString	sylar/log.cpp	/^const char* LogLevel::ToString(LogLevel::Level level){$/;"	f	class:sylar::LogLevel	typeref:typename:const char *
+TotalFibers	sylar/fiber.cc	/^uint64_t Fiber::TotalFibers(){$/;"	f	class:sylar::Fiber	typeref:typename:uint64_t
+Type	sylar/socket.h	/^	enum Type {$/;"	g	class:sylar::Socket
+UDP	sylar/socket.h	/^		UDP = SOCK_DGRAM$/;"	e	enum:sylar::Socket::Type
+UNIX	sylar/socket.h	/^		UNIX = AF_UNIX,$/;"	e	enum:sylar::Socket::Family
+UNKNOW	sylar/log.h	/^    UNKNOW = 0,$/;"	e	enum:sylar::LogLevel::Level
+UnixAddress	sylar/address.cc	/^UnixAddress::UnixAddress() {$/;"	f	class:sylar::UnixAddress
+UnixAddress	sylar/address.cc	/^UnixAddress::UnixAddress(const std::string& path) {$/;"	f	class:sylar::UnixAddress
+UnixAddress	sylar/address.h	/^class UnixAddress : public Address {$/;"	c	namespace:sylar
+UnknownAddress	sylar/address.cc	/^UnknownAddress::UnknownAddress(const sockaddr& addr) {$/;"	f	class:sylar::UnknownAddress
+UnknownAddress	sylar/address.cc	/^UnknownAddress::UnknownAddress(int family) {$/;"	f	class:sylar::UnknownAddress
+UnknownAddress	sylar/address.h	/^class UnknownAddress : public Address {$/;"	c	namespace:sylar
+VERBOSE	build/Makefile	/^VERBOSE = 1$/;"	m
+Visit	sylar/config.cc	/^void Config::Visit(std::function<void(ConfigVarBase::ptr)> cb){$/;"	f	class:sylar::Config	typeref:typename:void
+WARN	sylar/log.h	/^    WARN = 3,$/;"	e	enum:sylar::LogLevel::Level
+WRITE	sylar/iomanager.h	/^		WRITE   = 0x4,		\/\/EPOLLOUT$/;"	e	enum:sylar::IOManager::Event
+WriteLock	sylar/thread.h	/^    typedef WriteScopedLockImpl<NullMutex> WriteLock;$/;"	t	class:sylar::NullRWMutex	typeref:typename:WriteScopedLockImpl<NullMutex>
+WriteLock	sylar/thread.h	/^    typedef WriteScopedLockImpl<RWMutex> WriteLock;$/;"	t	class:sylar::RWMutex	typeref:typename:WriteScopedLockImpl<RWMutex>
+WriteScopedLockImpl	sylar/thread.h	/^    WriteScopedLockImpl(T& mutex)$/;"	f	struct:sylar::WriteScopedLockImpl
+WriteScopedLockImpl	sylar/thread.h	/^struct WriteScopedLockImpl{$/;"	s	namespace:sylar
+XX	sylar/bytearray.cc	/^#define XX(/;"	d	file:
+XX	sylar/hook.cc	/^#define XX(/;"	d	file:
+XX	sylar/log.cpp	/^#define XX(/;"	d	file:
+XX	tests/test_bytearray.cc	/^#define XX(/;"	d	file:
+XX	tests/test_config.cc	/^#define XX(/;"	d	file:
+XX_M	tests/test_config.cc	/^#define XX_M(/;"	d	file:
+XX_PM	tests/test_config.cc	/^#define XX_PM(/;"	d	file:
+YieldToHold	sylar/fiber.cc	/^void Fiber::YieldToHold(){$/;"	f	class:sylar::Fiber	typeref:typename:void
+YieldToReady	sylar/fiber.cc	/^void Fiber::YieldToReady(){$/;"	f	class:sylar::Fiber	typeref:typename:void
+_HookIniter	sylar/hook.cc	/^	_HookIniter() {$/;"	f	struct:sylar::_HookIniter	file:
+_HookIniter	sylar/hook.cc	/^struct _HookIniter {$/;"	s	namespace:sylar	file:
+__FD_MANAGER_H__	sylar/fd_manager.h	/^#define __FD_MANAGER_H__$/;"	d
+__SYLAR_ADDRESS_H__	sylar/address.h	/^#define __SYLAR_ADDRESS_H__$/;"	d
+__SYLAR_BYTEARRAY_H__	sylar/bytearray.h	/^#define __SYLAR_BYTEARRAY_H__$/;"	d
+__SYLAR_CONFIG_H__	sylar/config.h	/^#define __SYLAR_CONFIG_H__$/;"	d
+__SYLAR_ENDIAN_H__	sylar/endian.h	/^#define __SYLAR_ENDIAN_H__$/;"	d
+__SYLAR_FIBER_H__	sylar/fiber.h	/^#define __SYLAR_FIBER_H__$/;"	d
+__SYLAR_HOOK_H__	backup/hook.h	/^#define __SYLAR_HOOK_H__$/;"	d
+__SYLAR_HOOK_H__	sylar/hook.h	/^#define __SYLAR_HOOK_H__$/;"	d
+__SYLAR_IOMANAGER_H__	sylar/iomanager.h	/^#define __SYLAR_IOMANAGER_H__$/;"	d
+__SYLAR_LOG_H__	sylar/log.h	/^#define __SYLAR_LOG_H__$/;"	d
+__SYLAR_MACRO_H__	sylar/macro.h	/^#define __SYLAR_MACRO_H__$/;"	d
+__SYLAR_NONCOPYABLE_H__	sylar/noncopyable.h	/^#define __SYLAR_NONCOPYABLE_H__$/;"	d
+__SYLAR_SCHEDULER_H__	sylar/scheduler.h	/^#define __SYLAR_SCHEDULER_H__$/;"	d
+__SYLAR_SCHEDULER_H__	temp/scheduler.h	/^#define __SYLAR_SCHEDULER_H__$/;"	d
+__SYLAR_SINGLETON_H__	sylar/singleton.h	/^#define __SYLAR_SINGLETON_H__$/;"	d
+__SYLAR_SOCKET_H__	sylar/socket.h	/^#define __SYLAR_SOCKET_H__$/;"	d
+__SYLAR_SYLAR_H__	sylar/sylar.h	/^#define __SYLAR_SYLAR_H__$/;"	d
+__SYLAR_THREAD_H__	sylar/thread.h	/^#define __SYLAR_THREAD_H__$/;"	d
+__SYLAR_UTIL_H__	sylar/util.h	/^#define __SYLAR_UTIL_H__$/;"	d
+__TIMER_H__	sylar/timer.h	/^#define __TIMER_H__$/;"	d
+__anon1e88cae60102	sylar/iomanager.cc	/^	std::shared_ptr<epoll_event> shared_events(events, [](epoll_event* ptr){ $/;"	f	function:sylar::IOManager::idle	file:
+__anon22667aa60102	sylar/bytearray.cc	/^	std::shared_ptr<char>buff(new char[m_baseSize], [](char* ptr) { delete[] ptr;});$/;"	f	function:sylar::ByteArray::readFromFile	file:
+__anon3b42f90b0102	tests/test_hook.cc	/^	iom.schedule([](){$/;"	f	function:test_sleep	file:
+__anon3b42f90b0202	tests/test_hook.cc	/^	iom.schedule([](){$/;"	f	function:test_sleep	file:
+__anon7d002dd00102	tests/test_config.cc	/^    g_person->addListener([](const Person& old_value, const Person& new_value){$/;"	f	function:test_class	file:
+__anon7d002dd00202	tests/test_config.cc	/^    sylar::Config::Visit([](sylar::ConfigVarBase::ptr var){$/;"	f	function:main	file:
+__anon92fb03240102	sylar/hook.cc	/^		g_tcp_connect_timeout->addListener([](const int& old_value, const int& new_value){$/;"	f	function:sylar::_HookIniter::_HookIniter	file:
+__anon92fb03240202	sylar/hook.cc	/^			timer = iom->addConditionTimer(to, [winfo, fd, iom, event](){$/;"	f	function:do_io	file:
+__anon92fb03240302	sylar/hook.cc	/^	iom->addTimer(usec \/ 1000, [iom, fiber](){$/;"	f	function:usleep	file:
+__anon92fb03240402	sylar/hook.cc	/^	iom->addTimer(timeout_ms, [iom, fiber](){$/;"	f	function:nanosleep	file:
+__anon92fb03240502	sylar/hook.cc	/^		timer = iom->addConditionTimer(timeout_ms, [winfo, fd, iom]() {$/;"	f	function:connect_with_timeout	file:
+__anona5e9892d0102	tests/test_iomanager.cc	/^		sylar::IOManager::GetThis()->addEvent(sock, sylar::IOManager::READ, [](){$/;"	f	function:test_fiber	file:
+__anona5e9892d0202	tests/test_iomanager.cc	/^		sylar::IOManager::GetThis()->addEvent(sock, sylar::IOManager::WRITE, [](){$/;"	f	function:test_fiber	file:
+__anona5e9892d0302	tests/test_iomanager.cc	/^	s_timer = iom.addTimer(1000, [](){$/;"	f	function:test_timer	file:
+__anonc632a2320102	sylar/log.cpp	/^                    const std::set<LogDefine>& new_value){$/;"	f	function:sylar::LogIniter::LogIniter	file:
+__has_include	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define __has_include(/;"	d	file:
+__has_include	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define __has_include(/;"	d	file:
+__log_init	sylar/log.cpp	/^static LogIniter __log_init;$/;"	v	namespace:sylar	typeref:typename:LogIniter	file:
+accept	sylar/hook.cc	/^int accept(int s, struct sockaddr *addr, socklen_t *addrlen) {$/;"	f	typeref:typename:int
+accept	sylar/socket.cc	/^Socket::ptr Socket::accept() {$/;"	f	class:sylar::Socket	typeref:typename:Socket::ptr
+accept_fun	backup/hook.h	/^typedef int (*accept_fun)(int sockfd, struct sockaddr *addr, socklen_t *addrlen);$/;"	t	typeref:typename:int (*)(int sockfd,struct sockaddr * addr,socklen_t * addrlen)
+accept_fun	sylar/hook.h	/^typedef int (*accept_fun)(int s, struct sockaddr *addr, socklen_t *addrlen);$/;"	t	typeref:typename:int (*)(int s,struct sockaddr * addr,socklen_t * addrlen)
+addAppender	sylar/log.cpp	/^void Logger::addAppender(LogAppender::ptr appender){$/;"	f	class:sylar::Logger	typeref:typename:void
+addCapacity	sylar/bytearray.cc	/^void ByteArray::addCapacity(size_t size) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+addConditionTimer	sylar/timer.cc	/^Timer::ptr TimerManager::addConditionTimer(uint64_t ms, std::function<void()> cb$/;"	f	class:sylar::TimerManager	typeref:typename:Timer::ptr
+addEvent	sylar/iomanager.cc	/^int IOManager::addEvent(int fd, Event event, std::function<void()> cb){$/;"	f	class:sylar::IOManager	typeref:typename:int
+addListener	sylar/config.h	/^    uint64_t addListener(on_change_cb cb) {$/;"	f	class:sylar::ConfigVar	typeref:typename:uint64_t
+addTimer	sylar/timer.cc	/^Timer::ptr TimerManager::addTimer(uint64_t ms, std::function<void()> cb$/;"	f	class:sylar::TimerManager	typeref:typename:Timer::ptr
+addTimer	sylar/timer.cc	/^void TimerManager::addTimer(Timer::ptr val, RWMutexType::WriteLock& lock) {$/;"	f	class:sylar::TimerManager	typeref:typename:void
+algorithm	.vscode/settings.json	/^        "algorithm": "cpp",$/;"	s	object:files.associations
+all	build/Makefile	/^all: cmake_check_build_system$/;"	t
+appenders	sylar/log.cpp	/^    std::vector<LogAppenderDefine> appenders;$/;"	m	struct:sylar::LogDefine	typeref:typename:std::vector<LogAppenderDefine>	file:
+args	.vscode/tasks.json	/^            "args": [$/;"	a	object:tasks.0
+array	.vscode/settings.json	/^        "array": "cpp",$/;"	s	object:files.associations
+atomic	.vscode/settings.json	/^        "atomic": "cpp",$/;"	s	object:files.associations
+back	sylar/fiber.cc	/^void Fiber::back() {$/;"	f	class:sylar::Fiber	typeref:typename:void
+bind	sylar/socket.cc	/^bool Socket::bind(const Address::ptr addr) {$/;"	f	class:sylar::Socket	typeref:typename:bool
+bit	.vscode/settings.json	/^        "bit": "cpp",$/;"	s	object:files.associations
+broadcastAddress	sylar/address.cc	/^IPAddress::ptr IPv4Address::broadcastAddress(uint32_t prefix_len) {$/;"	f	class:sylar::IPv4Address	typeref:typename:IPAddress::ptr
+broadcastAddress	sylar/address.cc	/^IPAddress::ptr IPv6Address::broadcastAddress(uint32_t prefix_len) {$/;"	f	class:sylar::IPv6Address	typeref:typename:IPAddress::ptr
+byteswap	sylar/endian.h	/^byteswap(T value) {$/;"	f	namespace:sylar	typeref:typename:std::enable_if<sizeof (T)==sizeof (uint16_t),T>::type
+byteswap	sylar/endian.h	/^byteswap(T value) {$/;"	f	namespace:sylar	typeref:typename:std::enable_if<sizeof (T)==sizeof (uint32_t),T>::type
+byteswap	sylar/endian.h	/^byteswap(T value) {$/;"	f	namespace:sylar	typeref:typename:std::enable_if<sizeof (T)==sizeof (uint64_t),T>::type
+byteswapOnBigEndian	sylar/endian.h	/^T byteswapOnBigEndian(T t) {$/;"	f	namespace:sylar	typeref:typename:T
+byteswapOnLittleEndian	sylar/endian.h	/^T byteswapOnLittleEndian(T t) {$/;"	f	namespace:sylar	typeref:typename:T
+cStandard	.vscode/c_cpp_properties.json	/^            "cStandard": "c17",$/;"	s	object:configurations.0
+call	sylar/fiber.cc	/^void Fiber::call(){$/;"	f	class:sylar::Fiber	typeref:typename:void
+cancel	sylar/timer.cc	/^bool Timer::cancel() {$/;"	f	class:sylar::Timer	typeref:typename:bool
+cancelAccept	sylar/socket.cc	/^bool Socket::cancelAccept() {$/;"	f	class:sylar::Socket	typeref:typename:bool
+cancelAll	sylar/iomanager.cc	/^bool IOManager::cancelAll(int fd){$/;"	f	class:sylar::IOManager	typeref:typename:bool
+cancelAll	sylar/socket.cc	/^bool Socket::cancelAll() {$/;"	f	class:sylar::Socket	typeref:typename:bool
+cancelEvent	sylar/iomanager.cc	/^bool IOManager::cancelEvent(int fd, Event event){$/;"	f	class:sylar::IOManager	typeref:typename:bool
+cancelRead	sylar/socket.cc	/^bool Socket::cancelRead() {$/;"	f	class:sylar::Socket	typeref:typename:bool
+cancelWrite	sylar/socket.cc	/^bool Socket::cancelWrite() {$/;"	f	class:sylar::Socket	typeref:typename:bool
+cancelled	sylar/hook.cc	/^	int cancelled = 0;$/;"	m	struct:timer_info	typeref:typename:int	file:
+cb	sylar/iomanager.h	/^			std::function<void()> cb;      		    \/\/事件的回调函数$/;"	m	struct:sylar::IOManager::FdContext::EventContext	typeref:typename:std::function<void ()>
+cb	sylar/scheduler.h	/^        std::function<void()> cb;$/;"	m	struct:sylar::Scheduler::FiberAndThread	typeref:typename:std::function<void ()>
+cb	temp/scheduler.h	/^        std::function<void()> cb;$/;"	m	struct:sylar::Scheduler::FiberAndThread	typeref:typename:std::function<void ()>
+cctype	.vscode/settings.json	/^        "cctype": "cpp",$/;"	s	object:files.associations
+cfenv	.vscode/settings.json	/^        "cfenv": "cpp",$/;"	s	object:files.associations
+chrono	.vscode/settings.json	/^        "chrono": "cpp",$/;"	s	object:files.associations
+cinttypes	.vscode/settings.json	/^        "cinttypes": "cpp",$/;"	s	object:files.associations
+clean	build/Makefile	/^clean:$/;"	t
+clean/fast	build/Makefile	/^clean\/fast: clean$/;"	t
+clear	sylar/bytearray.cc	/^void ByteArray::clear() {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+clearAppenders	sylar/log.cpp	/^void Logger::clearAppenders(){$/;"	f	class:sylar::Logger	typeref:typename:void
+clearListener	sylar/config.h	/^    void clearListener() {$/;"	f	class:sylar::ConfigVar	typeref:typename:void
+clocale	.vscode/settings.json	/^        "clocale": "cpp",$/;"	s	object:files.associations
+close	sylar/hook.cc	/^int close(int fd) {$/;"	f	typeref:typename:int
+close	sylar/socket.cc	/^bool Socket::close() {$/;"	f	class:sylar::Socket	typeref:typename:bool
+close_fun	backup/hook.h	/^typedef int (*close_fun)(int fd);$/;"	t	typeref:typename:int (*)(int fd)
+close_fun	sylar/hook.h	/^typedef int (*close_fun)(int fd);$/;"	t	typeref:typename:int (*)(int fd)
+cmake.configureOnOpen	.vscode/settings.json	/^    "cmake.configureOnOpen": true$/;"	b
+cmake_check_build_system	build/Makefile	/^cmake_check_build_system:$/;"	t
+cmake_force	build/Makefile	/^cmake_force:$/;"	t
+cmath	.vscode/settings.json	/^        "cmath": "cpp",$/;"	s	object:files.associations
+command	.vscode/tasks.json	/^            "command": "\/usr\/bin\/g++",$/;"	s	object:tasks.0
+compare	.vscode/settings.json	/^        "compare": "cpp",$/;"	s	object:files.associations
+compilerPath	.vscode/c_cpp_properties.json	/^            "compilerPath": "\/usr\/bin\/clang",$/;"	s	object:configurations.0
+complex	.vscode/settings.json	/^        "complex": "cpp",$/;"	s	object:files.associations
+concepts	.vscode/settings.json	/^        "concepts": "cpp",$/;"	s	object:files.associations
+configurationProvider	.vscode/c_cpp_properties.json	/^            "configurationProvider": "ms-vscode.cmake-tools"$/;"	s	object:configurations.0
+configurations	.vscode/c_cpp_properties.json	/^    "configurations": [$/;"	a
+configurations	.vscode/launch.json	/^    "configurations": []$/;"	a
+connect	sylar/hook.cc	/^int connect(int sockfd, const struct sockaddr *addr, socklen_t addrlen) {$/;"	f	typeref:typename:int
+connect	sylar/socket.cc	/^bool Socket::connect(const Address::ptr addr, uint64_t timeout_ms) {$/;"	f	class:sylar::Socket	typeref:typename:bool
+connect_fun	backup/hook.h	/^typedef int (*connect_fun)(int sockfd, const struct sockaddr *addr, socklen_t addrlen);$/;"	t	typeref:typename:int (*)(int sockfd,const struct sockaddr * addr,socklen_t addrlen)
+connect_fun	sylar/hook.h	/^typedef int (*connect_fun)(int sockfd, const struct sockaddr *addr, socklen_t addrlen);$/;"	t	typeref:typename:int (*)(int sockfd,const struct sockaddr * addr,socklen_t addrlen)
+connect_with_timeout	sylar/hook.cc	/^int connect_with_timeout(int fd, const struct sockaddr* addr, socklen_t addrlen, uint64_t timeou/;"	f	typeref:typename:int
+const	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define const$/;"	d	file:
+contextResize	sylar/iomanager.cc	/^void IOManager::contextResize(size_t size){$/;"	f	class:sylar::IOManager	typeref:typename:void
+count	tests/test_thread.cpp	/^int count = 0;$/;"	v	typeref:typename:int
+cppStandard	.vscode/c_cpp_properties.json	/^            "cppStandard": "c++14",$/;"	s	object:configurations.0
+cstdarg	.vscode/settings.json	/^        "cstdarg": "cpp",$/;"	s	object:files.associations
+cstddef	.vscode/settings.json	/^        "cstddef": "cpp",$/;"	s	object:files.associations
+cstdint	.vscode/settings.json	/^        "cstdint": "cpp",$/;"	s	object:files.associations
+cstdio	.vscode/settings.json	/^        "cstdio": "cpp",$/;"	s	object:files.associations
+cstdlib	.vscode/settings.json	/^        "cstdlib": "cpp",$/;"	s	object:files.associations
+cstring	.vscode/settings.json	/^        "cstring": "cpp",$/;"	s	object:files.associations
+ctime	.vscode/settings.json	/^        "ctime": "cpp",$/;"	s	object:files.associations
+cwchar	.vscode/settings.json	/^        "cwchar": "cpp",$/;"	s	object:files.associations
+cwctype	.vscode/settings.json	/^        "cwctype": "cpp",$/;"	s	object:files.associations
+cwd	.vscode/tasks.json	/^                "cwd": "${fileDirname}"$/;"	s	object:tasks.0.options
+debug	sylar/log.cpp	/^void Logger::debug(LogEvent::ptr event){$/;"	f	class:sylar::Logger	typeref:typename:void
+default_target	build/Makefile	/^default_target: all$/;"	t
+defines	.vscode/c_cpp_properties.json	/^            "defines": [],$/;"	a	object:configurations.0
+del	sylar/fd_manager.cc	/^void FdManager::del(int fd) {$/;"	f	class:sylar::FdManager	typeref:typename:void
+delAppender	sylar/log.cpp	/^void Logger::delAppender(LogAppender::ptr appender){$/;"	f	class:sylar::Logger	typeref:typename:void
+delEvent	sylar/iomanager.cc	/^bool IOManager::delEvent(int fd, Event event){$/;"	f	class:sylar::IOManager	typeref:typename:bool
+delListener	sylar/config.h	/^    void delListener(uint64_t key){$/;"	f	class:sylar::ConfigVar	typeref:typename:void
+depend	build/Makefile	/^depend:$/;"	t
+deque	.vscode/settings.json	/^        "deque": "cpp",$/;"	s	object:files.associations
+detail	.vscode/tasks.json	/^            "detail": "调试器生成的任务。"$/;"	s	object:tasks.0
+detectClockRollover	sylar/timer.cc	/^bool TimerManager::detectClockRollover(uint64_t now_ms) {$/;"	f	class:sylar::TimerManager	typeref:typename:bool
+do_io	sylar/hook.cc	/^static ssize_t do_io(int fd, OriginFun fun, const char* hook_fun_name, $/;"	f	typeref:typename:ssize_t	file:
+dump	sylar/socket.cc	/^std::ostream& Socket::dump(std::ostream& os) const {$/;"	f	class:sylar::Socket	typeref:typename:std::ostream &
+edit_cache	build/Makefile	/^edit_cache:$/;"	t
+edit_cache/fast	build/Makefile	/^edit_cache\/fast: edit_cache$/;"	t
+error	sylar/log.cpp	/^void Logger::error(LogEvent::ptr event){$/;"	f	class:sylar::Logger	typeref:typename:void
+events	sylar/iomanager.h	/^		Event events = NONE;			\/\/已经注册的时间$/;"	m	struct:sylar::IOManager::FdContext	typeref:typename:Event
+exception	.vscode/settings.json	/^        "exception": "cpp",$/;"	s	object:files.associations
+fatal	sylar/log.cpp	/^void Logger::fatal(LogEvent::ptr event){$/;"	f	class:sylar::Logger	typeref:typename:void
+fcntl	sylar/hook.cc	/^int fcntl(int fd, int cmd, ... \/* arg *\/ ) {$/;"	f	typeref:typename:int
+fcntl_fun	backup/hook.h	/^typedef int (*fcntl_fun)(int fd, int cmd, ... \/* arg *\/ );$/;"	t	typeref:typename:int (*)(int fd,int cmd,...)
+fcntl_fun	sylar/hook.h	/^typedef int (*fcntl_fun)(int fd, int cmd, ... \/* arg *\/ );$/;"	t	typeref:typename:int (*)(int fd,int cmd,...)
+fd	sylar/iomanager.h	/^		int fd = 0;						\/\/写事件$/;"	m	struct:sylar::IOManager::FdContext	typeref:typename:int
+fiber	sylar/iomanager.h	/^			Fiber::ptr fiber;		                \/\/事件协程$/;"	m	struct:sylar::IOManager::FdContext::EventContext	typeref:typename:Fiber::ptr
+fiber	sylar/scheduler.h	/^        Fiber::ptr fiber;$/;"	m	struct:sylar::Scheduler::FiberAndThread	typeref:typename:Fiber::ptr
+fiber	temp/scheduler.h	/^        Fiber::ptr fiber;$/;"	m	struct:sylar::Scheduler::FiberAndThread	typeref:typename:Fiber::ptr
+file	sylar/log.cpp	/^    std::string file;$/;"	m	struct:sylar::LogAppenderDefine	typeref:typename:std::string	file:
+files.associations	.vscode/settings.json	/^    "files.associations": {$/;"	o
+force_redefine_file_macro_for_sources	cmake/utils.cmake	/^function(force_redefine_file_macro_for_sources targetname)$/;"	f
+format	sylar/log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::DateTimeFormatItem	typeref:typename:void	file:
+format	sylar/log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::ElapseFormatItem	typeref:typename:void	file:
+format	sylar/log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::FiberIdFormatItem	typeref:typename:void	file:
+format	sylar/log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::FilenameFormatItem	typeref:typename:void	file:
+format	sylar/log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::LevelFormatItem	typeref:typename:void	file:
+format	sylar/log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::LineFormatItem	typeref:typename:void	file:
+format	sylar/log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::MessageFormatItem	typeref:typename:void	file:
+format	sylar/log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::NameFormatItem	typeref:typename:void	file:
+format	sylar/log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::NewLineFormatItem	typeref:typename:void	file:
+format	sylar/log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::StringFormatItem	typeref:typename:void	file:
+format	sylar/log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::TabFormatItem	typeref:typename:void	file:
+format	sylar/log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::ThreadIdFormatItem	typeref:typename:void	file:
+format	sylar/log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::ThreadNameFormatItem	typeref:typename:void	file:
+format	sylar/log.cpp	/^std::string LogFormatter::format(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent/;"	f	class:sylar::LogFormatter	typeref:typename:std::string
+format	sylar/log.cpp	/^void LogEvent::format(const char* fmt, ...) {$/;"	f	class:sylar::LogEvent	typeref:typename:void
+format	sylar/log.cpp	/^void LogEvent::format(const char* fmt, va_list al) {$/;"	f	class:sylar::LogEvent	typeref:typename:void
+formatter	sylar/log.cpp	/^    std::string formatter;$/;"	m	struct:sylar::LogAppenderDefine	typeref:typename:std::string	file:
+formatter	sylar/log.cpp	/^    std::string formatter;$/;"	m	struct:sylar::LogDefine	typeref:typename:std::string	file:
+fromString	sylar/config.h	/^    bool fromString(const std::string& val) override {$/;"	f	class:sylar::ConfigVar	typeref:typename:bool
+fstream	.vscode/settings.json	/^        "fstream": "cpp",$/;"	s	object:files.associations
+fun1	tests/test_thread.cpp	/^void fun1(){$/;"	f	typeref:typename:void
+fun2	tests/test_thread.cpp	/^void fun2(){$/;"	f	typeref:typename:void
+fun3	tests/test_thread.cpp	/^void fun3(){$/;"	f	typeref:typename:void
+functional	.vscode/settings.json	/^        "functional": "cpp",$/;"	s	object:files.associations
+g_fiber_stack_size	sylar/fiber.cc	/^static ConfigVar<uint32_t>::ptr g_fiber_stack_size = $/;"	v	namespace:sylar	typeref:typename:ConfigVar<uint32_t>::ptr	file:
+g_float_value_config	tests/test_config.cc	/^sylar::ConfigVar<float>::ptr g_float_value_config = $/;"	v	typeref:typename:sylar::ConfigVar<float>::ptr
+g_int_list_value_config	tests/test_config.cc	/^sylar::ConfigVar<std::list<int>>::ptr g_int_list_value_config = $/;"	v	typeref:typename:sylar::ConfigVar<std::list<int>>::ptr
+g_int_set_value_config	tests/test_config.cc	/^sylar::ConfigVar<std::set<int>>::ptr g_int_set_value_config = $/;"	v	typeref:typename:sylar::ConfigVar<std::set<int>>::ptr
+g_int_uset_value_config	tests/test_config.cc	/^sylar::ConfigVar<std::unordered_set<int>>::ptr g_int_uset_value_config = $/;"	v	typeref:typename:sylar::ConfigVar<std::unordered_set<int>>::ptr
+g_int_value_config	tests/test_config.cc	/^sylar::ConfigVar<int>::ptr g_int_value_config = $/;"	v	typeref:typename:sylar::ConfigVar<int>::ptr
+g_int_valuex_config	tests/test_config.cc	/^sylar::ConfigVar<float>::ptr g_int_valuex_config = $/;"	v	typeref:typename:sylar::ConfigVar<float>::ptr
+g_int_vec_value_config	tests/test_config.cc	/^sylar::ConfigVar<std::vector<int>>::ptr g_int_vec_value_config = $/;"	v	typeref:typename:sylar::ConfigVar<std::vector<int>>::ptr
+g_log_defines	sylar/log.cpp	/^sylar::ConfigVar<std::set<LogDefine> >::ptr g_log_defines = $/;"	v	namespace:sylar	typeref:typename:sylar::ConfigVar<std::set<LogDefine>>::ptr
+g_logger	sylar/address.cc	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar	typeref:typename:sylar::Logger::ptr	file:
+g_logger	sylar/bytearray.cc	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar	typeref:typename:sylar::Logger::ptr	file:
+g_logger	sylar/fiber.cc	/^static Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar	typeref:typename:Logger::ptr	file:
+g_logger	sylar/hook.cc	/^sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	typeref:typename:sylar::Logger::ptr
+g_logger	sylar/iomanager.cc	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar	typeref:typename:sylar::Logger::ptr	file:
+g_logger	sylar/scheduler.cc	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar	typeref:typename:sylar::Logger::ptr	file:
+g_logger	sylar/socket.cc	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar	typeref:typename:sylar::Logger::ptr	file:
+g_logger	sylar/thread.cpp	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar	typeref:typename:sylar::Logger::ptr	file:
+g_logger	sylar/util.cpp	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar	typeref:typename:sylar::Logger::ptr	file:
+g_logger	tests/test_address.cc	/^sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();$/;"	v	typeref:typename:sylar::Logger::ptr
+g_logger	tests/test_bytearray.cc	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();$/;"	v	typeref:typename:sylar::Logger::ptr	file:
+g_logger	tests/test_fiber.cc	/^sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();$/;"	v	typeref:typename:sylar::Logger::ptr
+g_logger	tests/test_hook.cc	/^sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();$/;"	v	typeref:typename:sylar::Logger::ptr
+g_logger	tests/test_iomanager.cc	/^sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();$/;"	v	typeref:typename:sylar::Logger::ptr
+g_logger	tests/test_scheduler.cc	/^sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();$/;"	v	typeref:typename:sylar::Logger::ptr
+g_logger	tests/test_socket.cc	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();$/;"	v	typeref:typename:sylar::Logger::ptr	file:
+g_logger	tests/test_thread.cpp	/^sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();$/;"	v	typeref:typename:sylar::Logger::ptr
+g_logger	tests/test_util.cc	/^sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();$/;"	v	typeref:typename:sylar::Logger::ptr
+g_person	tests/test_config.cc	/^sylar::ConfigVar<Person>::ptr g_person = $/;"	v	typeref:typename:sylar::ConfigVar<Person>::ptr
+g_person_map	tests/test_config.cc	/^sylar::ConfigVar<std::map<std::string, Person> >::ptr g_person_map = $/;"	v	typeref:typename:sylar::ConfigVar<std::map<std::string,Person>>::ptr
+g_person_vec_map	tests/test_config.cc	/^sylar::ConfigVar<std::map<std::string, std::vector<Person> > >::ptr g_person_vec_map =$/;"	v	typeref:typename:sylar::ConfigVar<std::map<std::string,std::vector<Person>>>::ptr
+g_str_int_map_value_config	tests/test_config.cc	/^sylar::ConfigVar<std::map<std::string, int>>::ptr g_str_int_map_value_config = $/;"	v	typeref:typename:sylar::ConfigVar<std::map<std::string,int>>::ptr
+g_str_int_umap_value_config	tests/test_config.cc	/^sylar::ConfigVar<std::unordered_map<std::string, int>>::ptr g_str_int_umap_value_config = $/;"	v	typeref:typename:sylar::ConfigVar<std::unordered_map<std::string,int>>::ptr
+g_tcp_connect_timeout	sylar/hook.cc	/^static sylar::ConfigVar<int>::ptr g_tcp_connect_timeout = $/;"	v	namespace:sylar	typeref:typename:sylar::ConfigVar<int>::ptr	file:
+get	sylar/fd_manager.cc	/^FdCtx::ptr FdManager::get(int fd, bool auto_create) {$/;"	f	class:sylar::FdManager	typeref:typename:FdCtx::ptr
+getAddr	sylar/address.cc	/^const sockaddr* IPv4Address::getAddr() const {$/;"	f	class:sylar::IPv4Address	typeref:typename:const sockaddr *
+getAddr	sylar/address.cc	/^const sockaddr* IPv6Address::getAddr() const {$/;"	f	class:sylar::IPv6Address	typeref:typename:const sockaddr *
+getAddr	sylar/address.cc	/^const sockaddr* UnixAddress::getAddr() const {$/;"	f	class:sylar::UnixAddress	typeref:typename:const sockaddr *
+getAddr	sylar/address.cc	/^const sockaddr* UnknownAddress::getAddr() const {$/;"	f	class:sylar::UnknownAddress	typeref:typename:const sockaddr *
+getAddr	sylar/address.cc	/^sockaddr* IPv4Address::getAddr() {$/;"	f	class:sylar::IPv4Address	typeref:typename:sockaddr *
+getAddr	sylar/address.cc	/^sockaddr* IPv6Address::getAddr() {$/;"	f	class:sylar::IPv6Address	typeref:typename:sockaddr *
+getAddr	sylar/address.cc	/^sockaddr* UnixAddress::getAddr() {$/;"	f	class:sylar::UnixAddress	typeref:typename:sockaddr *
+getAddr	sylar/address.cc	/^sockaddr* UnknownAddress::getAddr() {$/;"	f	class:sylar::UnknownAddress	typeref:typename:sockaddr *
+getAddrLen	sylar/address.cc	/^socklen_t IPv4Address::getAddrLen() const {$/;"	f	class:sylar::IPv4Address	typeref:typename:socklen_t
+getAddrLen	sylar/address.cc	/^socklen_t IPv6Address::getAddrLen() const {$/;"	f	class:sylar::IPv6Address	typeref:typename:socklen_t
+getAddrLen	sylar/address.cc	/^socklen_t UnixAddress::getAddrLen() const {$/;"	f	class:sylar::UnixAddress	typeref:typename:socklen_t
+getAddrLen	sylar/address.cc	/^socklen_t UnknownAddress::getAddrLen() const {$/;"	f	class:sylar::UnknownAddress	typeref:typename:socklen_t
+getBaseSize	sylar/bytearray.h	/^	size_t getBaseSize() const { return m_baseSize; }$/;"	f	class:sylar::ByteArray	typeref:typename:size_t
+getCapacity	sylar/bytearray.h	/^	size_t getCapacity() const { return m_capacity - m_position; }$/;"	f	class:sylar::ByteArray	typeref:typename:size_t
+getContent	sylar/log.h	/^    std::string getContent() const {return m_ss.str();}$/;"	f	class:sylar::LogEvent	typeref:typename:std::string
+getContext	sylar/iomanager.cc	/^IOManager::FdContext::EventContext& IOManager::FdContext::getContext(IOManager::Event event){$/;"	f	class:sylar::IOManager::FdContext	typeref:typename:IOManager::FdContext::EventContext &
+getDescription	sylar/config.h	/^    const std::string& getDescription() const { return m_description; }$/;"	f	class:sylar::ConfigVarBase	typeref:typename:const std::string &
+getElapse	sylar/log.h	/^    uint32_t getElapse() const { return m_elapse;}$/;"	f	class:sylar::LogEvent	typeref:typename:uint32_t
+getError	sylar/socket.cc	/^int Socket::getError() {$/;"	f	class:sylar::Socket	typeref:typename:int
+getEvent	sylar/log.h	/^    LogEvent::ptr getEvent() const { return m_event;}$/;"	f	class:sylar::LogEventWrap	typeref:typename:LogEvent::ptr
+getFamily	sylar/address.cc	/^int Address::getFamily() const {$/;"	f	class:sylar::Address	typeref:typename:int
+getFamily	sylar/socket.h	/^	int getFamily() const { return m_family; }$/;"	f	class:sylar::Socket	typeref:typename:int
+getFiberId	sylar/log.h	/^    uint32_t getFiberId() const { return m_fiberId;}$/;"	f	class:sylar::LogEvent	typeref:typename:uint32_t
+getFile	sylar/log.h	/^    const char* getFile() const { return m_file;}$/;"	f	class:sylar::LogEvent	typeref:typename:const char *
+getFormatter	sylar/log.cpp	/^LogFormatter::ptr LogAppender::getFormatter(){$/;"	f	class:sylar::LogAppender	typeref:typename:LogFormatter::ptr
+getFormatter	sylar/log.cpp	/^LogFormatter::ptr Logger::getFormatter(){$/;"	f	class:sylar::Logger	typeref:typename:LogFormatter::ptr
+getId	sylar/fiber.h	/^    uint64_t getId() const { return m_id; }$/;"	f	class:sylar::Fiber	typeref:typename:uint64_t
+getId	sylar/thread.h	/^    pid_t getId() const { return m_id; }$/;"	f	class:sylar::Thread	typeref:typename:pid_t
+getLevel	sylar/log.h	/^    LogLevel::Level getLevel() const { return m_level; }$/;"	f	class:sylar::LogAppender	typeref:typename:LogLevel::Level
+getLevel	sylar/log.h	/^    LogLevel::Level getLevel() const { return m_level; }$/;"	f	class:sylar::LogEvent	typeref:typename:LogLevel::Level
+getLevel	sylar/log.h	/^    LogLevel::Level getLevel() const {return m_level;}$/;"	f	class:sylar::Logger	typeref:typename:LogLevel::Level
+getLine	sylar/log.h	/^    int32_t getLine() const { return m_line;}$/;"	f	class:sylar::LogEvent	typeref:typename:int32_t
+getListener	sylar/config.h	/^    on_change_cb getListener(uint64_t key){$/;"	f	class:sylar::ConfigVar	typeref:typename:on_change_cb
+getLocalAddress	sylar/socket.cc	/^Address::ptr Socket::getLocalAddress() {$/;"	f	class:sylar::Socket	typeref:typename:Address::ptr
+getLogger	sylar/log.cpp	/^Logger::ptr LoggerManager::getLogger(const std::string& name){$/;"	f	class:sylar::LoggerManager	typeref:typename:Logger::ptr
+getLogger	sylar/log.h	/^    std::shared_ptr<Logger> getLogger() const { return m_logger;}$/;"	f	class:sylar::LogEvent	typeref:typename:std::shared_ptr<Logger>
+getName	sylar/config.h	/^    const std::string& getName() const { return m_name; }$/;"	f	class:sylar::ConfigVarBase	typeref:typename:const std::string &
+getName	sylar/log.h	/^    const std::string& getName() const {return m_name;}$/;"	f	class:sylar::Logger	typeref:typename:const std::string &
+getName	sylar/scheduler.h	/^    const std::string& getName() const { return m_name; }$/;"	f	class:sylar::Scheduler	typeref:typename:const std::string &
+getName	sylar/thread.h	/^    const std::string& getName() const { return m_name; }$/;"	f	class:sylar::Thread	typeref:typename:const std::string &
+getName	temp/scheduler.h	/^    const std::string& getName() const { return m_name;}$/;"	f	class:sylar::Scheduler	typeref:typename:const std::string &
+getNextTimer	sylar/timer.cc	/^uint64_t TimerManager::getNextTimer() {$/;"	f	class:sylar::TimerManager	typeref:typename:uint64_t
+getOption	sylar/socket.cc	/^bool Socket::getOption(int level, int option, void* result, size_t* len) {$/;"	f	class:sylar::Socket	typeref:typename:bool
+getOption	sylar/socket.h	/^	bool getOption(int level, int option, T& result) {$/;"	f	class:sylar::Socket	typeref:typename:bool
+getPattern	sylar/log.h	/^    const std::string getPattern() const { return m_pattern; }$/;"	f	class:sylar::LogFormatter	typeref:typename:const std::string
+getPort	sylar/address.cc	/^uint32_t IPv4Address::getPort() const {$/;"	f	class:sylar::IPv4Address	typeref:typename:uint32_t
+getPort	sylar/address.cc	/^uint32_t IPv6Address::getPort() const {$/;"	f	class:sylar::IPv6Address	typeref:typename:uint32_t
+getPosition	sylar/bytearray.h	/^	size_t getPosition() const { return m_position; }$/;"	f	class:sylar::ByteArray	typeref:typename:size_t
+getProtocol	sylar/socket.h	/^	int getProtocol() const { return m_protocol; }$/;"	f	class:sylar::Socket	typeref:typename:int
+getReadBuffers	sylar/bytearray.cc	/^uint64_t ByteArray::getReadBuffers(std::vector<iovec>& buffers, uint64_t len) const {$/;"	f	class:sylar::ByteArray	typeref:typename:uint64_t
+getReadBuffers	sylar/bytearray.cc	/^uint64_t ByteArray::getReadBuffers(std::vector<iovec>& buffers, uint64_t len, uint64_t position)/;"	f	class:sylar::ByteArray	typeref:typename:uint64_t
+getReadSize	sylar/bytearray.h	/^	size_t getReadSize() const { return m_size - m_position; }$/;"	f	class:sylar::ByteArray	typeref:typename:size_t
+getRecvTimeout	sylar/socket.cc	/^int64_t Socket::getRecvTimeout() {$/;"	f	class:sylar::Socket	typeref:typename:int64_t
+getRemoteAddress	sylar/socket.cc	/^Address::ptr Socket::getRemoteAddress() {$/;"	f	class:sylar::Socket	typeref:typename:Address::ptr
+getRoot	sylar/log.h	/^    Logger::ptr getRoot() const { return m_root; }$/;"	f	class:sylar::LoggerManager	typeref:typename:Logger::ptr
+getSS	sylar/log.cpp	/^std::stringstream& LogEventWrap::getSS(){$/;"	f	class:sylar::LogEventWrap	typeref:typename:std::stringstream &
+getSS	sylar/log.h	/^    std::stringstream& getSS(){return m_ss;};$/;"	f	class:sylar::LogEvent	typeref:typename:std::stringstream &
+getSendTimeout	sylar/socket.cc	/^int64_t Socket::getSendTimeout() {$/;"	f	class:sylar::Socket	typeref:typename:int64_t
+getSize	sylar/bytearray.h	/^	size_t getSize() const { return m_size; }$/;"	f	class:sylar::ByteArray	typeref:typename:size_t
+getSocket	sylar/socket.h	/^	int getSocket() const { return m_sock; }$/;"	f	class:sylar::Socket	typeref:typename:int
+getState	sylar/fiber.h	/^    State getState() const { return m_state; }$/;"	f	class:sylar::Fiber	typeref:typename:State
+getSysNonblock	sylar/fd_manager.h	/^	bool getSysNonblock() const { return m_sysNonblock; }$/;"	f	class:sylar::FdCtx	typeref:typename:bool
+getThreadId	sylar/log.h	/^    uint32_t getThreadId() const { return m_threadId;}$/;"	f	class:sylar::LogEvent	typeref:typename:uint32_t
+getThreadName	sylar/log.h	/^    const std::string& getThreadName() const { return m_threadName;}$/;"	f	class:sylar::LogEvent	typeref:typename:const std::string &
+getTime	sylar/log.h	/^    uint64_t getTime() const { return m_time;}$/;"	f	class:sylar::LogEvent	typeref:typename:uint64_t
+getTimeout	sylar/fd_manager.cc	/^uint64_t FdCtx::getTimeout(int type) {$/;"	f	class:sylar::FdCtx	typeref:typename:uint64_t
+getType	sylar/socket.h	/^	int getType() const { return m_type; }$/;"	f	class:sylar::Socket	typeref:typename:int
+getTypeName	sylar/config.h	/^    std::string getTypeName() const override { return typeid(T).name(); }$/;"	f	class:sylar::ConfigVar	typeref:typename:std::string
+getUserNonblock	sylar/fd_manager.h	/^	bool getUserNonblock() const { return m_userNonblock; }$/;"	f	class:sylar::FdCtx	typeref:typename:bool
+getValue	sylar/config.h	/^    const T getValue() { $/;"	f	class:sylar::ConfigVar	typeref:typename:const T
+getWriteBuffers	sylar/bytearray.cc	/^uint64_t ByteArray::getWriteBuffers(std::vector<iovec>& buffers, uint64_t len) {$/;"	f	class:sylar::ByteArray	typeref:typename:uint64_t
+getsockopt	sylar/hook.cc	/^int getsockopt(int sockfd, int level, int optname, void *optval, socklen_t *optlen) {$/;"	f	typeref:typename:int
+getsockopt_fun	backup/hook.h	/^typedef int (*getsockopt_fun)(int sockfd, int level, int optname, void *optval, socklen_t *optle/;"	t	typeref:typename:int (*)(int sockfd,int level,int optname,void * optval,socklen_t * optlen)
+getsockopt_fun	sylar/hook.h	/^typedef int (*getsockopt_fun)(int sockfd, int level, int optname, void *optval, socklen_t *optle/;"	t	typeref:typename:int (*)(int sockfd,int level,int optname,void * optval,socklen_t * optlen)
+group	.vscode/tasks.json	/^            "group": {$/;"	o	object:tasks.0
+hasIdleThreads	sylar/scheduler.h	/^	bool hasIdleThreads(){ return m_idleThreadCount > 0; }$/;"	f	class:sylar::Scheduler	typeref:typename:bool
+hasIdleThreads	temp/scheduler.h	/^    bool hasIdleThreads() { return m_idleThreadCount > 0;}$/;"	f	class:sylar::Scheduler	typeref:typename:bool
+hasTimer	sylar/timer.cc	/^bool TimerManager::hasTimer() {$/;"	f	class:sylar::TimerManager	typeref:typename:bool
+help	build/Makefile	/^help:$/;"	t
+hook_init	sylar/hook.cc	/^void hook_init() {$/;"	f	namespace:sylar	typeref:typename:void
+idle	sylar/iomanager.cc	/^void IOManager::idle() {$/;"	f	class:sylar::IOManager	typeref:typename:void
+idle	sylar/scheduler.cc	/^void Scheduler::idle() {$/;"	f	class:sylar::Scheduler	typeref:typename:void
+includePath	.vscode/c_cpp_properties.json	/^            "includePath": [$/;"	a	object:configurations.0
+info	sylar/log.cpp	/^void Logger::info(LogEvent::ptr event){$/;"	f	class:sylar::Logger	typeref:typename:void
+info_arch	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v	typeref:typename:char const *
+info_arch	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v	typeref:typename:char const *
+info_compiler	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v	typeref:typename:char const *
+info_compiler	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v	typeref:typename:char const *
+info_cray	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v	typeref:typename:char const *
+info_cray	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v	typeref:typename:char const *
+info_language_extensions_default	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^const char* info_language_extensions_default = "INFO" ":" "extensions_default["$/;"	v	typeref:typename:const char *
+info_language_extensions_default	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^const char* info_language_extensions_default = "INFO" ":" "extensions_default["$/;"	v	typeref:typename:const char *
+info_language_standard_default	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^const char* info_language_standard_default =$/;"	v	typeref:typename:const char *
+info_language_standard_default	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^const char* info_language_standard_default = "INFO" ":" "standard_default["$/;"	v	typeref:typename:const char *
+info_platform	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v	typeref:typename:char const *
+info_platform	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v	typeref:typename:char const *
+info_simulate	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v	typeref:typename:char const *
+info_simulate	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v	typeref:typename:char const *
+info_simulate_version	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const info_simulate_version[] = {$/;"	v	typeref:typename:char const[]
+info_simulate_version	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_simulate_version[] = {$/;"	v	typeref:typename:char const[]
+info_version	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v	typeref:typename:char const[]
+info_version	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";$/;"	v	typeref:typename:char const *
+info_version	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v	typeref:typename:char const[]
+info_version	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";$/;"	v	typeref:typename:char const *
+info_version_internal	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const info_version_internal[] = {$/;"	v	typeref:typename:char const[]
+info_version_internal	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INT/;"	v	typeref:typename:char const *
+info_version_internal	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version_internal[] = {$/;"	v	typeref:typename:char const[]
+info_version_internal	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INT/;"	v	typeref:typename:char const *
+init	sylar/fd_manager.cc	/^bool FdCtx::init() {$/;"	f	class:sylar::FdCtx	typeref:typename:bool
+init	sylar/log.cpp	/^void LogFormatter::init(){$/;"	f	class:sylar::LogFormatter	typeref:typename:void
+init	sylar/log.cpp	/^void LoggerManager::init(){$/;"	f	class:sylar::LoggerManager	typeref:typename:void
+init	sylar/socket.cc	/^bool Socket::init(int sock) {$/;"	f	class:sylar::Socket	typeref:typename:bool
+initSock	sylar/socket.cc	/^void Socket::initSock() {$/;"	f	class:sylar::Socket	typeref:typename:void
+initializer_list	.vscode/settings.json	/^        "initializer_list": "cpp",$/;"	s	object:files.associations
+insert	sylar/address.cc	/^std::ostream& IPv4Address::insert(std::ostream& os) const {$/;"	f	class:sylar::IPv4Address	typeref:typename:std::ostream &
+insert	sylar/address.cc	/^std::ostream& IPv6Address::insert(std::ostream& os) const {$/;"	f	class:sylar::IPv6Address	typeref:typename:std::ostream &
+insert	sylar/address.cc	/^std::ostream& UnixAddress::insert(std::ostream& os) const {$/;"	f	class:sylar::UnixAddress	typeref:typename:std::ostream &
+insert	sylar/address.cc	/^std::ostream& UnknownAddress::insert(std::ostream& os) const {$/;"	f	class:sylar::UnknownAddress	typeref:typename:std::ostream &
+intelliSenseMode	.vscode/c_cpp_properties.json	/^            "intelliSenseMode": "linux-clang-x64",$/;"	s	object:configurations.0
+ioctl	sylar/hook.cc	/^int ioctl(int d, unsigned long int request, ...) {$/;"	f	typeref:typename:int
+ioctl_fun	backup/hook.h	/^typedef int (*ioctl_fun)(int fd, unsigned long request, ...);$/;"	t	typeref:typename:int (*)(int fd,unsigned long request,...)
+ioctl_fun	sylar/hook.h	/^typedef int (*ioctl_fun)(int d, unsigned long int request, ...);$/;"	t	typeref:typename:int (*)(int d,unsigned long int request,...)
+iomanip	.vscode/settings.json	/^        "iomanip": "cpp",$/;"	s	object:files.associations
+iosfwd	.vscode/settings.json	/^        "iosfwd": "cpp",$/;"	s	object:files.associations
+iostream	.vscode/settings.json	/^        "iostream": "cpp",$/;"	s	object:files.associations
+isClose	sylar/fd_manager.h	/^	bool isClose() const { return m_isClosed; }$/;"	f	class:sylar::FdCtx	typeref:typename:bool
+isConnected	sylar/socket.h	/^	bool isConnected() const { return m_isConnected; }$/;"	f	class:sylar::Socket	typeref:typename:bool
+isDefault	.vscode/tasks.json	/^                "isDefault": true$/;"	b	object:tasks.0.group
+isError	sylar/log.h	/^    bool isError() const { return m_error; }$/;"	f	class:sylar::LogFormatter	typeref:typename:bool
+isInit	sylar/fd_manager.h	/^	bool isInit() const { return m_isInit; }$/;"	f	class:sylar::FdCtx	typeref:typename:bool
+isLittleEndian	sylar/bytearray.cc	/^bool ByteArray::isLittleEndian() const {$/;"	f	class:sylar::ByteArray	typeref:typename:bool
+isSocket	sylar/fd_manager.h	/^	bool isSocket() const { return m_isSocket; }$/;"	f	class:sylar::FdCtx	typeref:typename:bool
+isValid	sylar/socket.cc	/^bool Socket::isValid() const {$/;"	f	class:sylar::Socket	typeref:typename:bool
+is_hook_enable	sylar/hook.cc	/^bool is_hook_enable() {$/;"	f	namespace:sylar	typeref:typename:bool
+istream	.vscode/settings.json	/^        "istream": "cpp",$/;"	s	object:files.associations
+iterator	.vscode/settings.json	/^        "iterator": "cpp",$/;"	s	object:files.associations
+join	sylar/thread.cpp	/^void Thread::join(){$/;"	f	class:sylar::Thread	typeref:typename:void
+kind	.vscode/tasks.json	/^                "kind": "build",$/;"	s	object:tasks.0.group
+label	.vscode/tasks.json	/^            "label": "C\/C++: g++ 生成活动文件",$/;"	s	object:tasks.0
+level	sylar/log.cpp	/^    LogLevel::Level level = LogLevel::UNKNOW;$/;"	m	struct:sylar::LogAppenderDefine	typeref:typename:LogLevel::Level	file:
+level	sylar/log.cpp	/^    LogLevel::Level level = LogLevel::UNKNOW;$/;"	m	struct:sylar::LogDefine	typeref:typename:LogLevel::Level	file:
+limits	.vscode/settings.json	/^        "limits": "cpp",$/;"	s	object:files.associations
+list	.vscode/settings.json	/^        "list": "cpp",$/;"	s	object:files.associations
+listExpiredCb	sylar/timer.cc	/^void TimerManager::listExpiredCb(std::vector<std::function<void()> >& cbs) {$/;"	f	class:sylar::TimerManager	typeref:typename:void
+listen	sylar/socket.cc	/^bool Socket::listen(int backlog) {$/;"	f	class:sylar::Socket	typeref:typename:bool
+lock	sylar/thread.h	/^    void lock(){$/;"	f	class:sylar::CASLock	typeref:typename:void
+lock	sylar/thread.h	/^    void lock(){$/;"	f	class:sylar::Mutex	typeref:typename:void
+lock	sylar/thread.h	/^    void lock(){$/;"	f	class:sylar::Spinlock	typeref:typename:void
+lock	sylar/thread.h	/^    void lock(){$/;"	f	struct:sylar::ReadScopedLockImpl	typeref:typename:void
+lock	sylar/thread.h	/^    void lock(){$/;"	f	struct:sylar::ScopedLockImpl	typeref:typename:void
+lock	sylar/thread.h	/^    void lock(){$/;"	f	struct:sylar::WriteScopedLockImpl	typeref:typename:void
+lock	sylar/thread.h	/^    void lock(){};$/;"	f	class:sylar::NullMutex	typeref:typename:void
+log	sylar/log.cpp	/^void FileLogAppender::log(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr e/;"	f	class:sylar::FileLogAppender	typeref:typename:void
+log	sylar/log.cpp	/^void Logger::log(LogLevel::Level level, LogEvent::ptr event){$/;"	f	class:sylar::Logger	typeref:typename:void
+log	sylar/log.cpp	/^void StdoutLogAppender::log(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr/;"	f	class:sylar::StdoutLogAppender	typeref:typename:void
+m_activeThreadCount	sylar/scheduler.h	/^    std::atomic<size_t> m_activeThreadCount {0};$/;"	m	class:sylar::Scheduler	typeref:typename:std::atomic<size_t>
+m_activeThreadCount	temp/scheduler.h	/^    std::atomic<size_t> m_activeThreadCount = {0};$/;"	m	class:sylar::Scheduler	typeref:typename:std::atomic<size_t>
+m_addr	sylar/address.h	/^	sockaddr m_addr;$/;"	m	class:sylar::UnknownAddress	typeref:typename:sockaddr
+m_addr	sylar/address.h	/^	sockaddr_in m_addr;$/;"	m	class:sylar::IPv4Address	typeref:typename:sockaddr_in
+m_addr	sylar/address.h	/^	sockaddr_in6 m_addr;$/;"	m	class:sylar::IPv6Address	typeref:typename:sockaddr_in6
+m_addr	sylar/address.h	/^	sockaddr_un m_addr;$/;"	m	class:sylar::UnixAddress	typeref:typename:sockaddr_un
+m_age	tests/test_config.cc	/^    int m_age = 0;$/;"	m	class:Person	typeref:typename:int	file:
+m_appenders	sylar/log.h	/^    std::list<LogAppender::ptr> m_appenders;            \/\/Appender集合$/;"	m	class:sylar::Logger	typeref:typename:std::list<LogAppender::ptr>
+m_autoStop	sylar/scheduler.h	/^    bool m_autoStop = false;$/;"	m	class:sylar::Scheduler	typeref:typename:bool
+m_autoStop	temp/scheduler.h	/^    bool m_autoStop = false;$/;"	m	class:sylar::Scheduler	typeref:typename:bool
+m_baseSize	sylar/bytearray.h	/^	size_t m_baseSize;$/;"	m	class:sylar::ByteArray	typeref:typename:size_t
+m_caller	temp/scheduler.h	/^    Scheduler* m_caller;$/;"	m	class:sylar::SchedulerSwitcher	typeref:typename:Scheduler *
+m_capacity	sylar/bytearray.h	/^	size_t m_capacity;$/;"	m	class:sylar::ByteArray	typeref:typename:size_t
+m_cb	sylar/fiber.h	/^    std::function<void()> m_cb;$/;"	m	class:sylar::Fiber	typeref:typename:std::function<void ()>
+m_cb	sylar/thread.h	/^    std::function<void()> m_cb;$/;"	m	class:sylar::Thread	typeref:typename:std::function<void ()>
+m_cb	sylar/timer.h	/^	std::function<void()> m_cb;$/;"	m	class:sylar::Timer	typeref:typename:std::function<void ()>
+m_cbs	sylar/config.h	/^    std::map<uint64_t, on_change_cb> m_cbs;$/;"	m	class:sylar::ConfigVar	typeref:typename:std::map<uint64_t,on_change_cb>
+m_ctx	sylar/fiber.h	/^    ucontext_t m_ctx;$/;"	m	class:sylar::Fiber	typeref:typename:ucontext_t
+m_cur	sylar/bytearray.h	/^	Node* m_cur;$/;"	m	class:sylar::ByteArray	typeref:typename:Node *
+m_datas	sylar/fd_manager.h	/^	std::vector<FdCtx::ptr> m_datas;$/;"	m	class:sylar::FdManager	typeref:typename:std::vector<FdCtx::ptr>
+m_description	sylar/config.h	/^    std::string m_description;$/;"	m	class:sylar::ConfigVarBase	typeref:typename:std::string
+m_elapse	sylar/log.h	/^    uint32_t m_elapse = 0;          \/\/程序启动开始到现在的毫秒数$/;"	m	class:sylar::LogEvent	typeref:typename:uint32_t
+m_endian	sylar/bytearray.h	/^	int8_t m_endian;$/;"	m	class:sylar::ByteArray	typeref:typename:int8_t
+m_epfd	sylar/iomanager.h	/^	int m_epfd = 0;$/;"	m	class:sylar::IOManager	typeref:typename:int
+m_error	sylar/log.h	/^    bool m_error = false;$/;"	m	class:sylar::LogFormatter	typeref:typename:bool
+m_event	sylar/log.h	/^    LogEvent::ptr m_event;$/;"	m	class:sylar::LogEventWrap	typeref:typename:LogEvent::ptr
+m_family	sylar/socket.h	/^	int m_family;$/;"	m	class:sylar::Socket	typeref:typename:int
+m_fd	sylar/fd_manager.h	/^	int m_fd;$/;"	m	class:sylar::FdCtx	typeref:typename:int
+m_fdContexts	sylar/iomanager.h	/^	std::vector<FdContext*> m_fdContexts;$/;"	m	class:sylar::IOManager	typeref:typename:std::vector<FdContext * >
+m_fiberId	sylar/log.h	/^    uint32_t m_fiberId = 0;         \/\/协程id$/;"	m	class:sylar::LogEvent	typeref:typename:uint32_t
+m_fibers	sylar/scheduler.h	/^    std::list<FiberAndThread> m_fibers;$/;"	m	class:sylar::Scheduler	typeref:typename:std::list<FiberAndThread>
+m_fibers	temp/scheduler.h	/^    std::list<FiberAndThread> m_fibers;$/;"	m	class:sylar::Scheduler	typeref:typename:std::list<FiberAndThread>
+m_file	sylar/log.h	/^    const char* m_file = nullptr;   \/\/文件名$/;"	m	class:sylar::LogEvent	typeref:typename:const char *
+m_filename	sylar/log.h	/^    std::string m_filename;$/;"	m	class:sylar::FileLogAppender	typeref:typename:std::string
+m_filestreams	sylar/log.h	/^    std::ofstream m_filestreams;$/;"	m	class:sylar::FileLogAppender	typeref:typename:std::ofstream
+m_format	sylar/log.cpp	/^    std::string m_format;$/;"	m	class:sylar::DateTimeFormatItem	typeref:typename:std::string	file:
+m_formatter	sylar/log.h	/^    LogFormatter::ptr m_formatter;$/;"	m	class:sylar::LogAppender	typeref:typename:LogFormatter::ptr
+m_formatter	sylar/log.h	/^    LogFormatter::ptr m_formatter;$/;"	m	class:sylar::Logger	typeref:typename:LogFormatter::ptr
+m_hasFormatter	sylar/log.h	/^    bool m_hasFormatter = false;$/;"	m	class:sylar::LogAppender	typeref:typename:bool
+m_id	sylar/fiber.h	/^    uint64_t m_id = 0;$/;"	m	class:sylar::Fiber	typeref:typename:uint64_t
+m_id	sylar/thread.h	/^    pid_t m_id = -1;$/;"	m	class:sylar::Thread	typeref:typename:pid_t
+m_idleThreadCount	sylar/scheduler.h	/^    std::atomic<size_t> m_idleThreadCount {0};$/;"	m	class:sylar::Scheduler	typeref:typename:std::atomic<size_t>
+m_idleThreadCount	temp/scheduler.h	/^    std::atomic<size_t> m_idleThreadCount = {0};$/;"	m	class:sylar::Scheduler	typeref:typename:std::atomic<size_t>
+m_isClosed	sylar/fd_manager.h	/^	bool m_isClosed: 1;$/;"	m	class:sylar::FdCtx	typeref:typename:bool:1
+m_isConnected	sylar/socket.h	/^	bool m_isConnected;$/;"	m	class:sylar::Socket	typeref:typename:bool
+m_isInit	sylar/fd_manager.h	/^	bool m_isInit: 1;$/;"	m	class:sylar::FdCtx	typeref:typename:bool:1
+m_isSocket	sylar/fd_manager.h	/^	bool m_isSocket: 1;$/;"	m	class:sylar::FdCtx	typeref:typename:bool:1
+m_items	sylar/log.h	/^    std::vector<FormatItem::ptr> m_items;$/;"	m	class:sylar::LogFormatter	typeref:typename:std::vector<FormatItem::ptr>
+m_lastTime	sylar/log.h	/^    uint64_t m_lastTime = 0;$/;"	m	class:sylar::FileLogAppender	typeref:typename:uint64_t
+m_length	sylar/address.h	/^	socklen_t m_length;$/;"	m	class:sylar::UnixAddress	typeref:typename:socklen_t
+m_level	sylar/log.h	/^    LogLevel::Level m_level = LogLevel::Level::DEBUG;$/;"	m	class:sylar::LogAppender	typeref:typename:LogLevel::Level
+m_level	sylar/log.h	/^    LogLevel::Level m_level;                            \/\/日志级别$/;"	m	class:sylar::Logger	typeref:typename:LogLevel::Level
+m_level	sylar/log.h	/^    LogLevel::Level m_level;$/;"	m	class:sylar::LogEvent	typeref:typename:LogLevel::Level
+m_line	sylar/log.h	/^    int32_t m_line = 0;             \/\/行号$/;"	m	class:sylar::LogEvent	typeref:typename:int32_t
+m_localAddress	sylar/socket.h	/^	Address::ptr m_localAddress;$/;"	m	class:sylar::Socket	typeref:typename:Address::ptr
+m_lock	sylar/thread.h	/^    pthread_rwlock_t m_lock;$/;"	m	class:sylar::RWMutex	typeref:typename:pthread_rwlock_t
+m_locked	sylar/thread.h	/^    bool m_locked;$/;"	m	struct:sylar::ReadScopedLockImpl	typeref:typename:bool
+m_locked	sylar/thread.h	/^    bool m_locked;$/;"	m	struct:sylar::ScopedLockImpl	typeref:typename:bool
+m_locked	sylar/thread.h	/^    bool m_locked;$/;"	m	struct:sylar::WriteScopedLockImpl	typeref:typename:bool
+m_logger	sylar/log.h	/^    std::shared_ptr<Logger> m_logger;$/;"	m	class:sylar::LogEvent	typeref:typename:std::shared_ptr<Logger>
+m_loggers	sylar/log.h	/^    std::map<std::string, Logger::ptr> m_loggers;$/;"	m	class:sylar::LoggerManager	typeref:typename:std::map<std::string,Logger::ptr>
+m_manager	sylar/timer.h	/^	TimerManager* m_manager = nullptr;$/;"	m	class:sylar::Timer	typeref:typename:TimerManager *
+m_ms	sylar/timer.h	/^	uint64_t m_ms = 0;				\/\/执行周期$/;"	m	class:sylar::Timer	typeref:typename:uint64_t
+m_mutex	sylar/config.h	/^    RWMutexType m_mutex;$/;"	m	class:sylar::ConfigVar	typeref:typename:RWMutexType
+m_mutex	sylar/fd_manager.h	/^	RWMutexType m_mutex;$/;"	m	class:sylar::FdManager	typeref:typename:RWMutexType
+m_mutex	sylar/iomanager.h	/^	RWMutexType m_mutex;$/;"	m	class:sylar::IOManager	typeref:typename:RWMutexType
+m_mutex	sylar/log.h	/^    MutexType m_mutex;$/;"	m	class:sylar::LogAppender	typeref:typename:MutexType
+m_mutex	sylar/log.h	/^    MutexType m_mutex;$/;"	m	class:sylar::Logger	typeref:typename:MutexType
+m_mutex	sylar/log.h	/^    MutexType m_mutex;$/;"	m	class:sylar::LoggerManager	typeref:typename:MutexType
+m_mutex	sylar/scheduler.h	/^    MutexType m_mutex;$/;"	m	class:sylar::Scheduler	typeref:typename:MutexType
+m_mutex	sylar/thread.h	/^    T& m_mutex;$/;"	m	struct:sylar::ReadScopedLockImpl	typeref:typename:T &
+m_mutex	sylar/thread.h	/^    T& m_mutex;$/;"	m	struct:sylar::ScopedLockImpl	typeref:typename:T &
+m_mutex	sylar/thread.h	/^    T& m_mutex;$/;"	m	struct:sylar::WriteScopedLockImpl	typeref:typename:T &
+m_mutex	sylar/thread.h	/^    pthread_mutex_t m_mutex;$/;"	m	class:sylar::Mutex	typeref:typename:pthread_mutex_t
+m_mutex	sylar/thread.h	/^    pthread_spinlock_t m_mutex;$/;"	m	class:sylar::Spinlock	typeref:typename:pthread_spinlock_t
+m_mutex	sylar/thread.h	/^    volatile std::atomic_flag m_mutex;$/;"	m	class:sylar::CASLock	typeref:typename:volatile std::atomic_flag
+m_mutex	sylar/timer.h	/^	RWMutexType m_mutex;$/;"	m	class:sylar::TimerManager	typeref:typename:RWMutexType
+m_mutex	temp/scheduler.h	/^    MutexType m_mutex;$/;"	m	class:sylar::Scheduler	typeref:typename:MutexType
+m_name	sylar/config.h	/^    std::string m_name;$/;"	m	class:sylar::ConfigVarBase	typeref:typename:std::string
+m_name	sylar/log.h	/^    std::string m_name;                                \/\/日志名称$/;"	m	class:sylar::Logger	typeref:typename:std::string
+m_name	sylar/scheduler.h	/^    std::string m_name;$/;"	m	class:sylar::Scheduler	typeref:typename:std::string
+m_name	sylar/thread.h	/^    std::string m_name;$/;"	m	class:sylar::Thread	typeref:typename:std::string
+m_name	temp/scheduler.h	/^    std::string m_name;$/;"	m	class:sylar::Scheduler	typeref:typename:std::string
+m_name	tests/test_config.cc	/^    std::string m_name;$/;"	m	class:Person	typeref:typename:std::string	file:
+m_next	sylar/timer.h	/^	uint64_t m_next = 0;			\/\/精确的执行时间$/;"	m	class:sylar::Timer	typeref:typename:uint64_t
+m_pattern	sylar/log.h	/^    std::string m_pattern;$/;"	m	class:sylar::LogFormatter	typeref:typename:std::string
+m_pendingEventCount	sylar/iomanager.h	/^	std::atomic<size_t> m_pendingEventCount = {0};$/;"	m	class:sylar::IOManager	typeref:typename:std::atomic<size_t>
+m_position	sylar/bytearray.h	/^	size_t m_position;$/;"	m	class:sylar::ByteArray	typeref:typename:size_t
+m_previouseTime	sylar/timer.h	/^	uint64_t m_previouseTime = 0;$/;"	m	class:sylar::TimerManager	typeref:typename:uint64_t
+m_protocol	sylar/socket.h	/^	int m_protocol;$/;"	m	class:sylar::Socket	typeref:typename:int
+m_recurring	sylar/timer.h	/^	bool m_recurring = false;		\/\/是否循环定时器$/;"	m	class:sylar::Timer	typeref:typename:bool
+m_recvTimeout	sylar/fd_manager.h	/^	uint64_t m_recvTimeout;$/;"	m	class:sylar::FdCtx	typeref:typename:uint64_t
+m_remoteAddress	sylar/socket.h	/^	Address::ptr m_remoteAddress;$/;"	m	class:sylar::Socket	typeref:typename:Address::ptr
+m_root	sylar/bytearray.h	/^	Node* m_root;$/;"	m	class:sylar::ByteArray	typeref:typename:Node *
+m_root	sylar/log.h	/^    Logger::ptr m_root;$/;"	m	class:sylar::Logger	typeref:typename:Logger::ptr
+m_root	sylar/log.h	/^    Logger::ptr m_root;$/;"	m	class:sylar::LoggerManager	typeref:typename:Logger::ptr
+m_rootFiber	sylar/scheduler.h	/^    Fiber::ptr m_rootFiber;$/;"	m	class:sylar::Scheduler	typeref:typename:Fiber::ptr
+m_rootFiber	temp/scheduler.h	/^    Fiber::ptr m_rootFiber;$/;"	m	class:sylar::Scheduler	typeref:typename:Fiber::ptr
+m_rootThread	sylar/scheduler.h	/^    int m_rootThread = 0;$/;"	m	class:sylar::Scheduler	typeref:typename:int
+m_rootThread	temp/scheduler.h	/^    int m_rootThread = 0;$/;"	m	class:sylar::Scheduler	typeref:typename:int
+m_semaphore	sylar/thread.h	/^    Semaphore m_semaphore;$/;"	m	class:sylar::Thread	typeref:typename:Semaphore
+m_semaphore	sylar/thread.h	/^    sem_t m_semaphore;$/;"	m	class:sylar::Semaphore	typeref:typename:sem_t
+m_sendTimeout	sylar/fd_manager.h	/^	uint64_t m_sendTimeout;$/;"	m	class:sylar::FdCtx	typeref:typename:uint64_t
+m_sex	tests/test_config.cc	/^    bool m_sex = 0;$/;"	m	class:Person	typeref:typename:bool	file:
+m_size	sylar/bytearray.h	/^	size_t m_size;$/;"	m	class:sylar::ByteArray	typeref:typename:size_t
+m_sock	sylar/socket.h	/^	int m_sock;$/;"	m	class:sylar::Socket	typeref:typename:int
+m_ss	sylar/log.h	/^    std::stringstream m_ss;         \/\/日志内容流$/;"	m	class:sylar::LogEvent	typeref:typename:std::stringstream
+m_stack	sylar/fiber.h	/^    void* m_stack = nullptr;$/;"	m	class:sylar::Fiber	typeref:typename:void *
+m_stacksize	sylar/fiber.h	/^    uint32_t m_stacksize = 0;$/;"	m	class:sylar::Fiber	typeref:typename:uint32_t
+m_state	sylar/fiber.h	/^    State m_state = INIT;$/;"	m	class:sylar::Fiber	typeref:typename:State
+m_stopping	sylar/scheduler.h	/^    bool m_stopping = true;$/;"	m	class:sylar::Scheduler	typeref:typename:bool
+m_stopping	temp/scheduler.h	/^    bool m_stopping = true;$/;"	m	class:sylar::Scheduler	typeref:typename:bool
+m_string	sylar/log.cpp	/^    std::string m_string;$/;"	m	class:sylar::StringFormatItem	typeref:typename:std::string	file:
+m_string	sylar/log.cpp	/^    std::string m_string;$/;"	m	class:sylar::TabFormatItem	typeref:typename:std::string	file:
+m_sysNonblock	sylar/fd_manager.h	/^	bool m_sysNonblock: 1;$/;"	m	class:sylar::FdCtx	typeref:typename:bool:1
+m_thread	sylar/thread.h	/^    pthread_t m_thread = 0;$/;"	m	class:sylar::Thread	typeref:typename:pthread_t
+m_threadCount	sylar/scheduler.h	/^    size_t m_threadCount = 0;$/;"	m	class:sylar::Scheduler	typeref:typename:size_t
+m_threadCount	temp/scheduler.h	/^    size_t m_threadCount = 0;$/;"	m	class:sylar::Scheduler	typeref:typename:size_t
+m_threadId	sylar/log.h	/^    int32_t m_threadId = 0;         \/\/线程id$/;"	m	class:sylar::LogEvent	typeref:typename:int32_t
+m_threadIds	sylar/scheduler.h	/^    std::vector<int> m_threadIds;$/;"	m	class:sylar::Scheduler	typeref:typename:std::vector<int>
+m_threadIds	temp/scheduler.h	/^    std::vector<int> m_threadIds;$/;"	m	class:sylar::Scheduler	typeref:typename:std::vector<int>
+m_threadName	sylar/log.h	/^    std::string m_threadName;       \/\/线程名称$/;"	m	class:sylar::LogEvent	typeref:typename:std::string
+m_threads	sylar/scheduler.h	/^    std::vector<Thread::ptr> m_threads;$/;"	m	class:sylar::Scheduler	typeref:typename:std::vector<Thread::ptr>
+m_threads	temp/scheduler.h	/^    std::vector<Thread::ptr> m_threads;$/;"	m	class:sylar::Scheduler	typeref:typename:std::vector<Thread::ptr>
+m_tickleFds	sylar/iomanager.h	/^	int m_tickleFds[2];$/;"	m	class:sylar::IOManager	typeref:typename:int[2]
+m_tickled	sylar/timer.h	/^	bool m_tickled = false;$/;"	m	class:sylar::TimerManager	typeref:typename:bool
+m_time	sylar/log.h	/^    uint64_t m_time;                \/\/时间戳$/;"	m	class:sylar::LogEvent	typeref:typename:uint64_t
+m_timers	sylar/timer.h	/^	std::set<Timer::ptr, Timer::Comparator>  m_timers;$/;"	m	class:sylar::TimerManager	typeref:typename:std::set<Timer::ptr,Timer::Comparator>
+m_type	sylar/socket.h	/^	int m_type;$/;"	m	class:sylar::Socket	typeref:typename:int
+m_userNonblock	sylar/fd_manager.h	/^	bool m_userNonblock: 1;$/;"	m	class:sylar::FdCtx	typeref:typename:bool:1
+m_val	sylar/config.h	/^    T m_val;$/;"	m	class:sylar::ConfigVar	typeref:typename:T
+main	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^int main(argc, argv) int argc; char *argv[];$/;"	f
+main	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f	typeref:typename:void
+main	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int
+main	tests/test.cc	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
+main	tests/test_address.cc	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
+main	tests/test_bytearray.cc	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
+main	tests/test_config.cc	/^int main(int argc, char** argv){$/;"	f	typeref:typename:int
+main	tests/test_fiber.cc	/^int main(int argc, char** argv){$/;"	f	typeref:typename:int
+main	tests/test_hook.cc	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
+main	tests/test_iomanager.cc	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
+main	tests/test_scheduler.cc	/^int main(int argc, char** argv){$/;"	f	typeref:typename:int
+main	tests/test_socket.cc	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
+main	tests/test_thread.cpp	/^int main(int argc, char** argv){$/;"	f	typeref:typename:int
+main	tests/test_util.cc	/^int main(int argc, char** argv){$/;"	f	typeref:typename:int
+map	.vscode/settings.json	/^        "map": "cpp",$/;"	s	object:files.associations
+memory	.vscode/settings.json	/^        "memory": "cpp",$/;"	s	object:files.associations
+memory_resource	.vscode/settings.json	/^        "memory_resource": "cpp",$/;"	s	object:files.associations
+mutex	sylar/iomanager.h	/^		MutexType mutex;$/;"	m	struct:sylar::IOManager::FdContext	typeref:typename:MutexType
+name	.vscode/c_cpp_properties.json	/^            "name": "Linux",$/;"	s	object:configurations.0
+name	sylar/log.cpp	/^    std::string name;$/;"	m	struct:sylar::LogDefine	typeref:typename:std::string	file:
+nanosleep	sylar/hook.cc	/^int nanosleep(const struct timespec *req, struct timespec *rem) {$/;"	f	typeref:typename:int
+nanosleep_fun	backup/hook.h	/^typedef int (*nanosleep_fun)(const struct timespec *req, struct timespec *rem);$/;"	t	typeref:typename:int (*)(const struct timespec * req,struct timespec * rem)
+nanosleep_fun	sylar/hook.h	/^typedef int (*nanosleep_fun)(const struct timespec *req, struct timespec *rem);$/;"	t	typeref:typename:int (*)(const struct timespec * req,struct timespec * rem)
+networdAddress	sylar/address.cc	/^IPAddress::ptr IPv4Address::networdAddress(uint32_t prefix_len) {$/;"	f	class:sylar::IPv4Address	typeref:typename:IPAddress::ptr
+networdAddress	sylar/address.cc	/^IPAddress::ptr IPv6Address::networdAddress(uint32_t prefix_len) {$/;"	f	class:sylar::IPv6Address	typeref:typename:IPAddress::ptr
+new	.vscode/settings.json	/^        "new": "cpp",$/;"	s	object:files.associations
+newSock	sylar/socket.cc	/^void Socket::newSock(){$/;"	f	class:sylar::Socket	typeref:typename:void
+next	sylar/bytearray.h	/^		Node* next;$/;"	m	struct:sylar::ByteArray::Node	typeref:typename:Node *
+notify	sylar/thread.cpp	/^void Semaphore::notify(){$/;"	f	class:sylar::Semaphore	typeref:typename:void
+numbers	.vscode/settings.json	/^        "numbers": "cpp",$/;"	s	object:files.associations
+numeric	.vscode/settings.json	/^        "numeric": "cpp",$/;"	s	object:files.associations
+onTimerInsertedAtFront	sylar/iomanager.cc	/^void IOManager::onTimerInsertedAtFront() {$/;"	f	class:sylar::IOManager	typeref:typename:void
+on_change_cb	sylar/config.h	/^    typedef std::function<void (const T& old_value, const T& new_value)> on_change_cb;$/;"	t	class:sylar::ConfigVar
+operator !=	sylar/address.cc	/^bool Address::operator!=(const Address& rhs) const {$/;"	f	class:sylar::Address	typeref:typename:bool
+operator ()	sylar/config.h	/^    T operator()(const F& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:T
+operator ()	sylar/config.h	/^    std::list<T> operator()(const std::string& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::list<T>
+operator ()	sylar/config.h	/^    std::map<std::string, T> operator()(const std::string& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::map<std::string,T>
+operator ()	sylar/config.h	/^    std::set<T> operator()(const std::string& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::set<T>
+operator ()	sylar/config.h	/^    std::string operator()(const std::list<T>& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::string
+operator ()	sylar/config.h	/^    std::string operator()(const std::map<std::string, T>& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::string
+operator ()	sylar/config.h	/^    std::string operator()(const std::set<T>& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::string
+operator ()	sylar/config.h	/^    std::string operator()(const std::unordered_map<std::string, T>& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::string
+operator ()	sylar/config.h	/^    std::string operator()(const std::unordered_set<T>& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::string
+operator ()	sylar/config.h	/^    std::string operator()(const std::vector<T>& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::string
+operator ()	sylar/config.h	/^    std::unordered_map<std::string, T> operator()(const std::string& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::unordered_map<std::string,T>
+operator ()	sylar/config.h	/^    std::unordered_set<T> operator()(const std::string& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::unordered_set<T>
+operator ()	sylar/config.h	/^    std::vector<T> operator()(const std::string& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::vector<T>
+operator ()	sylar/log.cpp	/^        std::set<LogDefine> operator()(const std::string& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::set<LogDefine>	file:
+operator ()	sylar/log.cpp	/^    std::string operator()(const std::set<LogDefine>& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::string	file:
+operator ()	tests/test_config.cc	/^    Person operator()(const std::string& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:Person	file:
+operator ()	tests/test_config.cc	/^    std::string operator()(const Person& p){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::string	file:
+operator () 	sylar/timer.cc	/^bool Timer::Comparator::operator() (const Timer::ptr& lhs$/;"	f	class:sylar::Timer::Comparator	typeref:typename:bool
+operator <	sylar/address.cc	/^bool Address::operator<(const Address& rhs) const {$/;"	f	class:sylar::Address	typeref:typename:bool
+operator <	sylar/log.cpp	/^    bool operator<(const LogDefine& oth) const {$/;"	f	struct:sylar::LogDefine	typeref:typename:bool	file:
+operator ==	sylar/address.cc	/^bool Address::operator==(const Address& rhs) const {$/;"	f	class:sylar::Address	typeref:typename:bool
+operator ==	sylar/log.cpp	/^    bool operator==(const LogAppenderDefine& oth) const{$/;"	f	struct:sylar::LogAppenderDefine	typeref:typename:bool	file:
+operator ==	sylar/log.cpp	/^    bool operator==(const LogDefine& oth) const{$/;"	f	struct:sylar::LogDefine	typeref:typename:bool	file:
+operator ==	tests/test_config.cc	/^    bool operator== (const Person& oth) const {$/;"	f	class:Person	typeref:typename:bool	file:
+options	.vscode/tasks.json	/^            "options": {$/;"	o	object:tasks.0
+ostream	.vscode/settings.json	/^        "ostream": "cpp",$/;"	s	object:files.associations
+preinstall	build/Makefile	/^preinstall: all$/;"	t
+preinstall/fast	build/Makefile	/^preinstall\/fast:$/;"	t
+print_yaml	tests/test_config.cc	/^void print_yaml(const YAML::Node& node, int level){$/;"	f	typeref:typename:void
+problemMatcher	.vscode/tasks.json	/^            "problemMatcher": [$/;"	a	object:tasks.0
+protobuf_out	cmake/utils.cmake	/^    set(protobuf_out ${outputdir}\/${src_path}\/${src_file}.pb.cc)$/;"	v	function:protobufmaker
+protobufmaker	cmake/utils.cmake	/^function(protobufmaker src_proto outputlist outputdir)$/;"	f
+ptr	sylar/address.h	/^	typedef std::shared_ptr<Address> ptr;$/;"	t	class:sylar::Address	typeref:typename:std::shared_ptr<Address>
+ptr	sylar/address.h	/^	typedef std::shared_ptr<IPAddress> ptr;$/;"	t	class:sylar::IPAddress	typeref:typename:std::shared_ptr<IPAddress>
+ptr	sylar/address.h	/^	typedef std::shared_ptr<IPv4Address> ptr;$/;"	t	class:sylar::IPv4Address	typeref:typename:std::shared_ptr<IPv4Address>
+ptr	sylar/address.h	/^	typedef std::shared_ptr<IPv6Address> ptr;$/;"	t	class:sylar::IPv6Address	typeref:typename:std::shared_ptr<IPv6Address>
+ptr	sylar/address.h	/^	typedef std::shared_ptr<UnixAddress> ptr;$/;"	t	class:sylar::UnixAddress	typeref:typename:std::shared_ptr<UnixAddress>
+ptr	sylar/address.h	/^	typedef std::shared_ptr<UnknownAddress> ptr;$/;"	t	class:sylar::UnknownAddress	typeref:typename:std::shared_ptr<UnknownAddress>
+ptr	sylar/bytearray.h	/^		char* ptr;$/;"	m	struct:sylar::ByteArray::Node	typeref:typename:char *
+ptr	sylar/bytearray.h	/^	typedef std::shared_ptr<ByteArray> ptr;$/;"	t	class:sylar::ByteArray	typeref:typename:std::shared_ptr<ByteArray>
+ptr	sylar/config.h	/^    typedef std::shared_ptr<ConfigVar> ptr;$/;"	t	class:sylar::ConfigVar	typeref:typename:std::shared_ptr<ConfigVar>
+ptr	sylar/config.h	/^    typedef std::shared_ptr<ConfigVarBase> ptr;$/;"	t	class:sylar::ConfigVarBase	typeref:typename:std::shared_ptr<ConfigVarBase>
+ptr	sylar/fd_manager.h	/^	typedef std::shared_ptr<FdCtx> ptr;$/;"	t	class:sylar::FdCtx	typeref:typename:std::shared_ptr<FdCtx>
+ptr	sylar/fiber.h	/^    typedef std::shared_ptr<Fiber> ptr;$/;"	t	class:sylar::Fiber	typeref:typename:std::shared_ptr<Fiber>
+ptr	sylar/iomanager.h	/^	typedef std::shared_ptr<IOManager> ptr;$/;"	t	class:sylar::IOManager	typeref:typename:std::shared_ptr<IOManager>
+ptr	sylar/log.h	/^        typedef std::shared_ptr<FormatItem> ptr;$/;"	t	class:sylar::LogFormatter::FormatItem	typeref:typename:std::shared_ptr<FormatItem>
+ptr	sylar/log.h	/^    typedef std::shared_ptr<FileLogAppender> ptr;$/;"	t	class:sylar::FileLogAppender	typeref:typename:std::shared_ptr<FileLogAppender>
+ptr	sylar/log.h	/^    typedef std::shared_ptr<LogAppender> ptr;$/;"	t	class:sylar::LogAppender	typeref:typename:std::shared_ptr<LogAppender>
+ptr	sylar/log.h	/^    typedef std::shared_ptr<LogEvent> ptr;$/;"	t	class:sylar::LogEvent	typeref:typename:std::shared_ptr<LogEvent>
+ptr	sylar/log.h	/^    typedef std::shared_ptr<LogFormatter> ptr;$/;"	t	class:sylar::LogFormatter	typeref:typename:std::shared_ptr<LogFormatter>
+ptr	sylar/log.h	/^    typedef std::shared_ptr<Logger> ptr;$/;"	t	class:sylar::Logger	typeref:typename:std::shared_ptr<Logger>
+ptr	sylar/log.h	/^    typedef std::shared_ptr<StdoutLogAppender> ptr;$/;"	t	class:sylar::StdoutLogAppender	typeref:typename:std::shared_ptr<StdoutLogAppender>
+ptr	sylar/scheduler.h	/^    typedef std::shared_ptr<Scheduler> ptr;$/;"	t	class:sylar::Scheduler	typeref:typename:std::shared_ptr<Scheduler>
+ptr	sylar/socket.h	/^	typedef std::shared_ptr<Socket> ptr;$/;"	t	class:sylar::Socket	typeref:typename:std::shared_ptr<Socket>
+ptr	sylar/thread.h	/^    typedef std::shared_ptr<Thread> ptr;$/;"	t	class:sylar::Thread	typeref:typename:std::shared_ptr<Thread>
+ptr	sylar/timer.h	/^	typedef std::shared_ptr<Timer> ptr;$/;"	t	class:sylar::Timer	typeref:typename:std::shared_ptr<Timer>
+ptr	temp/scheduler.h	/^    typedef std::shared_ptr<Scheduler> ptr;$/;"	t	class:sylar::Scheduler	typeref:typename:std::shared_ptr<Scheduler>
+qnxnto	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v	typeref:typename:char const *
+qnxnto	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v	typeref:typename:char const *
+ragelmaker	cmake/utils.cmake	/^function(ragelmaker src_rl outputlist outputdir)$/;"	f
+random	.vscode/settings.json	/^        "random": "cpp",$/;"	s	object:files.associations
+ratio	.vscode/settings.json	/^        "ratio": "cpp",$/;"	s	object:files.associations
+rdlock	sylar/thread.h	/^    void rdlock(){$/;"	f	class:sylar::RWMutex	typeref:typename:void
+rdlock	sylar/thread.h	/^    void rdlock(){};$/;"	f	class:sylar::NullRWMutex	typeref:typename:void
+read	sylar/bytearray.cc	/^void ByteArray::read(void* buf, size_t size) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+read	sylar/bytearray.cc	/^void ByteArray::read(void* buf, size_t size, size_t position) const {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+read	sylar/hook.cc	/^ssize_t read(int fd, void *buf, size_t count) {$/;"	f	typeref:typename:ssize_t
+read	sylar/iomanager.h	/^		EventContext read;				\/\/读事件$/;"	m	struct:sylar::IOManager::FdContext	typeref:typename:EventContext
+readDouble	sylar/bytearray.cc	/^double ByteArray::readDouble() {$/;"	f	class:sylar::ByteArray	typeref:typename:double
+readFint16	sylar/bytearray.cc	/^int16_t ByteArray::readFint16() {$/;"	f	class:sylar::ByteArray	typeref:typename:int16_t
+readFint32	sylar/bytearray.cc	/^int32_t ByteArray::readFint32() {$/;"	f	class:sylar::ByteArray	typeref:typename:int32_t
+readFint64	sylar/bytearray.cc	/^int64_t ByteArray::readFint64() {$/;"	f	class:sylar::ByteArray	typeref:typename:int64_t
+readFint8	sylar/bytearray.cc	/^int8_t ByteArray::readFint8() {$/;"	f	class:sylar::ByteArray	typeref:typename:int8_t
+readFloat	sylar/bytearray.cc	/^float ByteArray::readFloat() {$/;"	f	class:sylar::ByteArray	typeref:typename:float
+readFromFile	sylar/bytearray.cc	/^bool ByteArray::readFromFile(const std::string& name) {$/;"	f	class:sylar::ByteArray	typeref:typename:bool
+readFuint16	sylar/bytearray.cc	/^uint16_t ByteArray::readFuint16() {$/;"	f	class:sylar::ByteArray	typeref:typename:uint16_t
+readFuint32	sylar/bytearray.cc	/^uint32_t ByteArray::readFuint32() {$/;"	f	class:sylar::ByteArray	typeref:typename:uint32_t
+readFuint64	sylar/bytearray.cc	/^uint64_t ByteArray::readFuint64() {$/;"	f	class:sylar::ByteArray	typeref:typename:uint64_t
+readFuint8	sylar/bytearray.cc	/^uint8_t ByteArray::readFuint8() {$/;"	f	class:sylar::ByteArray	typeref:typename:uint8_t
+readInt32	sylar/bytearray.cc	/^int32_t ByteArray::readInt32() {$/;"	f	class:sylar::ByteArray	typeref:typename:int32_t
+readInt64	sylar/bytearray.cc	/^int64_t ByteArray::readInt64() {$/;"	f	class:sylar::ByteArray	typeref:typename:int64_t
+readStringF16	sylar/bytearray.cc	/^std::string ByteArray::readStringF16() {$/;"	f	class:sylar::ByteArray	typeref:typename:std::string
+readStringF32	sylar/bytearray.cc	/^std::string ByteArray::readStringF32() {$/;"	f	class:sylar::ByteArray	typeref:typename:std::string
+readStringF64	sylar/bytearray.cc	/^std::string ByteArray::readStringF64() {$/;"	f	class:sylar::ByteArray	typeref:typename:std::string
+readStringVint	sylar/bytearray.cc	/^std::string ByteArray::readStringVint() {$/;"	f	class:sylar::ByteArray	typeref:typename:std::string
+readUint32	sylar/bytearray.cc	/^uint32_t ByteArray::readUint32() {$/;"	f	class:sylar::ByteArray	typeref:typename:uint32_t
+readUint64	sylar/bytearray.cc	/^uint64_t ByteArray::readUint64() {$/;"	f	class:sylar::ByteArray	typeref:typename:uint64_t
+read_fun	backup/hook.h	/^typedef ssize_t (*read_fun)(int fd, void *buf, size_t count);$/;"	t	typeref:typename:ssize_t (*)(int fd,void * buf,size_t count)
+read_fun	sylar/hook.h	/^typedef ssize_t (*read_fun)(int fd, void *buf, size_t count);$/;"	t	typeref:typename:ssize_t (*)(int fd,void * buf,size_t count)
+readv	sylar/hook.cc	/^ssize_t readv(int fd, const struct iovec *iov, int iovcnt) {$/;"	f	typeref:typename:ssize_t
+readv_fun	backup/hook.h	/^typedef ssize_t (*readv_fun)(int fd, const struct iovec *iov, int iovcnt);$/;"	t	typeref:typename:ssize_t (*)(int fd,const struct iovec * iov,int iovcnt)
+readv_fun	sylar/hook.h	/^typedef ssize_t (*readv_fun)(int fd, const struct iovec *iov, int iovcnt);$/;"	t	typeref:typename:ssize_t (*)(int fd,const struct iovec * iov,int iovcnt)
+rebuild_cache	build/Makefile	/^rebuild_cache:$/;"	t
+rebuild_cache/fast	build/Makefile	/^rebuild_cache\/fast: rebuild_cache$/;"	t
+recv	sylar/hook.cc	/^ssize_t recv(int sockfd, void *buf, size_t len, int flags) {$/;"	f	typeref:typename:ssize_t
+recv	sylar/socket.cc	/^int Socket::recv(iovec* buffers, size_t length, int flags) {$/;"	f	class:sylar::Socket	typeref:typename:int
+recv	sylar/socket.cc	/^int Socket::recv(void* buffer, size_t length, int flags) {$/;"	f	class:sylar::Socket	typeref:typename:int
+recvFrom	sylar/socket.cc	/^int Socket::recvFrom(iovec* buffers, size_t length, Address::ptr from, int flags) {$/;"	f	class:sylar::Socket	typeref:typename:int
+recvFrom	sylar/socket.cc	/^int Socket::recvFrom(void* buffer, size_t length, Address::ptr from, int flags) {$/;"	f	class:sylar::Socket	typeref:typename:int
+recv_fun	backup/hook.h	/^typedef ssize_t (*recv_fun)(int sockfd, void *buf, size_t len, int flags);$/;"	t	typeref:typename:ssize_t (*)(int sockfd,void * buf,size_t len,int flags)
+recv_fun	sylar/hook.h	/^typedef ssize_t (*recv_fun)(int sockfd, void *buf, size_t len, int flags);$/;"	t	typeref:typename:ssize_t (*)(int sockfd,void * buf,size_t len,int flags)
+recvfrom	sylar/hook.cc	/^ssize_t recvfrom(int sockfd, void *buf, size_t len, int flags, struct sockaddr *src_addr, sockle/;"	f	typeref:typename:ssize_t
+recvfrom_fun	backup/hook.h	/^typedef ssize_t (*recvfrom_fun)(int sockfd, void *buf, size_t len, int flags, struct sockaddr *s/;"	t	typeref:typename:ssize_t (*)(int sockfd,void * buf,size_t len,int flags,struct sockaddr * src_addr,socklen_t * addrlen)
+recvfrom_fun	sylar/hook.h	/^typedef ssize_t (*recvfrom_fun)(int sockfd, void *buf, size_t len, int flags, struct sockaddr *s/;"	t	typeref:typename:ssize_t (*)(int sockfd,void * buf,size_t len,int flags,struct sockaddr * src_addr,socklen_t * addrlen)
+recvmsg	sylar/hook.cc	/^ssize_t recvmsg(int sockfd, struct msghdr *msg, int flags) {$/;"	f	typeref:typename:ssize_t
+recvmsg_fun	backup/hook.h	/^typedef ssize_t (*recvmsg_fun)(int sockfd, struct msghdr *msg, int flags);$/;"	t	typeref:typename:ssize_t (*)(int sockfd,struct msghdr * msg,int flags)
+recvmsg_fun	sylar/hook.h	/^typedef ssize_t (*recvmsg_fun)(int sockfd, struct msghdr *msg, int flags);$/;"	t	typeref:typename:ssize_t (*)(int sockfd,struct msghdr * msg,int flags)
+refresh	sylar/timer.cc	/^bool Timer::refresh() {$/;"	f	class:sylar::Timer	typeref:typename:bool
+reopen	sylar/log.cpp	/^bool FileLogAppender::reopen(){$/;"	f	class:sylar::FileLogAppender	typeref:typename:bool
+reset	sylar/fiber.cc	/^void Fiber::reset(std::function<void()> cb){$/;"	f	class:sylar::Fiber	typeref:typename:void
+reset	sylar/scheduler.h	/^        void reset(){$/;"	f	struct:sylar::Scheduler::FiberAndThread	typeref:typename:void
+reset	sylar/timer.cc	/^bool Timer::reset(uint64_t ms, bool from_now) {$/;"	f	class:sylar::Timer	typeref:typename:bool
+reset	temp/scheduler.h	/^        void reset() {$/;"	f	struct:sylar::Scheduler::FiberAndThread	typeref:typename:void
+resetContext	sylar/iomanager.cc	/^void IOManager::FdContext::resetContext(EventContext& ctx){$/;"	f	class:sylar::IOManager::FdContext	typeref:typename:void
+rl_out	cmake/utils.cmake	/^    set(rl_out ${outputdir}\/${src_file}.rl.cc)$/;"	v	function:ragelmaker
+run	sylar/scheduler.cc	/^void Scheduler::run() {$/;"	f	class:sylar::Scheduler	typeref:typename:void
+run	sylar/thread.cpp	/^void* Thread::run(void* arg){$/;"	f	class:sylar::Thread	typeref:typename:void *
+run_in_fiber	tests/test_fiber.cc	/^void run_in_fiber(){$/;"	f	typeref:typename:void
+s_connect_timeout	sylar/hook.cc	/^static uint64_t s_connect_timeout = -1;$/;"	v	namespace:sylar	typeref:typename:uint64_t	file:
+s_fiber_count	sylar/fiber.cc	/^static std::atomic<uint64_t> s_fiber_count {0};$/;"	v	namespace:sylar	typeref:typename:std::atomic<uint64_t>	file:
+s_fiber_id	sylar/fiber.cc	/^static std::atomic<uint64_t> s_fiber_id {0};$/;"	v	namespace:sylar	typeref:typename:std::atomic<uint64_t>	file:
+s_hook_initer	sylar/hook.cc	/^static _HookIniter s_hook_initer;$/;"	v	namespace:sylar	typeref:typename:_HookIniter	file:
+s_mutex	tests/test_thread.cpp	/^sylar::Mutex s_mutex;$/;"	v	typeref:typename:sylar::Mutex
+s_timer	tests/test_iomanager.cc	/^sylar::Timer::ptr s_timer;$/;"	v	typeref:typename:sylar::Timer::ptr
+schedule	sylar/scheduler.h	/^    void schedule(FiberOrCb fc, int thread = -1){$/;"	f	class:sylar::Scheduler	typeref:typename:void
+schedule	sylar/scheduler.h	/^    void schedule(InputIterator begin, InputIterator end){$/;"	f	class:sylar::Scheduler	typeref:typename:void
+schedule	temp/scheduler.h	/^    void schedule(FiberOrCb fc, int thread = -1) {$/;"	f	class:sylar::Scheduler	typeref:typename:void
+schedule	temp/scheduler.h	/^    void schedule(InputIterator begin, InputIterator end) {$/;"	f	class:sylar::Scheduler	typeref:typename:void
+scheduleNoLock	sylar/scheduler.h	/^    bool scheduleNoLock(FiberOrCb fc, int thread){$/;"	f	class:sylar::Scheduler	typeref:typename:bool
+scheduleNoLock	temp/scheduler.h	/^    bool scheduleNoLock(FiberOrCb fc, int thread) {$/;"	f	class:sylar::Scheduler	typeref:typename:bool
+scheduler	sylar/iomanager.h	/^			Scheduler* scheduler = nullptr;    		\/\/待执行的scheduler$/;"	m	struct:sylar::IOManager::FdContext::EventContext	typeref:typename:Scheduler *
+semaphore	.vscode/settings.json	/^        "semaphore": "cpp",$/;"	s	object:files.associations
+send	sylar/hook.cc	/^ssize_t send(int s, const void *msg, size_t len, int flags) {$/;"	f	typeref:typename:ssize_t
+send	sylar/socket.cc	/^int Socket::send(const iovec* buffers, size_t length, int flags) {$/;"	f	class:sylar::Socket	typeref:typename:int
+send	sylar/socket.cc	/^int Socket::send(const void* buffer, size_t length, int flags) {$/;"	f	class:sylar::Socket	typeref:typename:int
+sendTo	sylar/socket.cc	/^int Socket::sendTo(const iovec* buffers, size_t length, const Address::ptr to, int flags) {$/;"	f	class:sylar::Socket	typeref:typename:int
+sendTo	sylar/socket.cc	/^int Socket::sendTo(const void* buffer, size_t length, const Address::ptr to, int flags) {$/;"	f	class:sylar::Socket	typeref:typename:int
+send_fun	backup/hook.h	/^typedef ssize_t (*send_fun)(int sockfd, const void *buf, size_t len, int flags);$/;"	t	typeref:typename:ssize_t (*)(int sockfd,const void * buf,size_t len,int flags)
+send_fun	sylar/hook.h	/^typedef ssize_t (*send_fun)(int s, const void *msg, size_t len, int flags);$/;"	t	typeref:typename:ssize_t (*)(int s,const void * msg,size_t len,int flags)
+sendmsg	sylar/hook.cc	/^ssize_t sendmsg(int s, const struct msghdr *msg, int flags) {$/;"	f	typeref:typename:ssize_t
+sendmsg_fun	backup/hook.h	/^typedef ssize_t (*sendmsg_fun)(int sockfd, const struct msghdr *msg, int flags);$/;"	t	typeref:typename:ssize_t (*)(int sockfd,const struct msghdr * msg,int flags)
+sendmsg_fun	sylar/hook.h	/^typedef ssize_t (*sendmsg_fun)(int s, const struct msghdr *msg, int flags);$/;"	t	typeref:typename:ssize_t (*)(int s,const struct msghdr * msg,int flags)
+sendto	sylar/hook.cc	/^ssize_t sendto(int s, const void *msg, size_t len, int flags, const struct sockaddr *to, socklen/;"	f	typeref:typename:ssize_t
+sendto_fun	backup/hook.h	/^typedef ssize_t (*sendto_fun)(int sockfd, const void *buf, size_t len, int flags, const struct s/;"	t	typeref:typename:ssize_t (*)(int sockfd,const void * buf,size_t len,int flags,const struct sockaddr * dest_addr,socklen_t addrlen)
+sendto_fun	sylar/hook.h	/^typedef ssize_t (*sendto_fun)(int s, const void *msg, size_t len, int flags, const struct sockad/;"	t	typeref:typename:ssize_t (*)(int s,const void * msg,size_t len,int flags,const struct sockaddr * to,socklen_t tolen)
+set	.vscode/settings.json	/^        "set": "cpp",$/;"	s	object:files.associations
+setAddrLen	sylar/address.cc	/^void UnixAddress::setAddrLen(uint32_t v) {$/;"	f	class:sylar::UnixAddress	typeref:typename:void
+setFormatter	sylar/log.cpp	/^void LogAppender::setFormatter(LogFormatter::ptr val){$/;"	f	class:sylar::LogAppender	typeref:typename:void
+setFormatter	sylar/log.cpp	/^void Logger::setFormatter(LogFormatter::ptr val){$/;"	f	class:sylar::Logger	typeref:typename:void
+setFormatter	sylar/log.cpp	/^void Logger::setFormatter(const std::string& val){$/;"	f	class:sylar::Logger	typeref:typename:void
+setIsLittleEndian	sylar/bytearray.cc	/^void ByteArray::setIsLittleEndian(bool val) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+setLevel	sylar/log.h	/^    void setLevel(LogLevel::Level val) { m_level = val; }$/;"	f	class:sylar::LogAppender	typeref:typename:void
+setLevel	sylar/log.h	/^    void setLevel(LogLevel::Level val) {m_level = val;}$/;"	f	class:sylar::Logger	typeref:typename:void
+setOption	sylar/socket.cc	/^bool Socket::setOption(int level, int option, const void* result, size_t len) {$/;"	f	class:sylar::Socket	typeref:typename:bool
+setOption	sylar/socket.h	/^	bool setOption(int level, int option, const T& value) {$/;"	f	class:sylar::Socket	typeref:typename:bool
+setPort	sylar/address.cc	/^void IPv4Address::setPort(uint16_t v) {$/;"	f	class:sylar::IPv4Address	typeref:typename:void
+setPort	sylar/address.cc	/^void IPv6Address::setPort(uint16_t v) {$/;"	f	class:sylar::IPv6Address	typeref:typename:void
+setPosition	sylar/bytearray.cc	/^void ByteArray::setPosition(size_t v) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+setRecvTimeout	sylar/socket.cc	/^void Socket::setRecvTimeout(int64_t v) {$/;"	f	class:sylar::Socket	typeref:typename:void
+setSendTimeout	sylar/socket.cc	/^void Socket::setSendTimeout(int64_t v) {$/;"	f	class:sylar::Socket	typeref:typename:void
+setSysNonblock	sylar/fd_manager.h	/^	void setSysNonblock(bool v) { m_sysNonblock = v; }$/;"	f	class:sylar::FdCtx	typeref:typename:void
+setThis	sylar/scheduler.cc	/^void Scheduler::setThis() {$/;"	f	class:sylar::Scheduler	typeref:typename:void
+setTimeout	sylar/fd_manager.cc	/^void FdCtx::setTimeout(int type, uint64_t v) {$/;"	f	class:sylar::FdCtx	typeref:typename:void
+setUserNonblock	sylar/fd_manager.h	/^	void setUserNonblock(bool v) { m_userNonblock = v; }$/;"	f	class:sylar::FdCtx	typeref:typename:void
+setValue	sylar/config.h	/^    void setValue(const T& v)  { $/;"	f	class:sylar::ConfigVar	typeref:typename:void
+set_hook_enable	sylar/hook.cc	/^void set_hook_enable(bool flag) {$/;"	f	namespace:sylar	typeref:typename:void
+setsockopt	sylar/hook.cc	/^int setsockopt(int sockfd, int level, int optname, const void *optval, socklen_t optlen) {$/;"	f	typeref:typename:int
+setsockopt_fun	backup/hook.h	/^typedef int (*setsockopt_fun)(int sockfd, int level, int optname, const void *optval, socklen_t /;"	t	typeref:typename:int (*)(int sockfd,int level,int optname,const void * optval,socklen_t optlen)
+setsockopt_fun	sylar/hook.h	/^typedef int (*setsockopt_fun)(int sockfd, int level, int optname, const void *optval, socklen_t /;"	t	typeref:typename:int (*)(int sockfd,int level,int optname,const void * optval,socklen_t optlen)
+size	sylar/bytearray.h	/^		size_t size;$/;"	m	struct:sylar::ByteArray::Node	typeref:typename:size_t
+sleep	sylar/hook.cc	/^unsigned int sleep(unsigned int seconds) {$/;"	f	typeref:typename:unsigned int
+sleep_fun	backup/hook.h	/^typedef unsigned int (*sleep_fun) (unsigned int seconds);$/;"	t	typeref:typename:unsigned int (*)(unsigned int seconds)
+sleep_fun	sylar/hook.h	/^typedef unsigned int (*sleep_fun)(unsigned int seconds);$/;"	t	typeref:typename:unsigned int (*)(unsigned int seconds)
+sock	tests/test_iomanager.cc	/^int sock = 0;$/;"	v	typeref:typename:int
+socket	sylar/hook.cc	/^int socket(int domain, int type, int protocol) {$/;"	f	typeref:typename:int
+socket_fun	backup/hook.h	/^typedef int (*socket_fun)(int domain, int type, int protocol);$/;"	t	typeref:typename:int (*)(int domain,int type,int protocol)
+socket_fun	sylar/hook.h	/^typedef int (*socket_fun)(int domain, int type, int protocol);$/;"	t	typeref:typename:int (*)(int domain,int type,int protocol)
+sstream	.vscode/settings.json	/^        "sstream": "cpp",$/;"	s	object:files.associations
+start	sylar/scheduler.cc	/^void Scheduler::start() {$/;"	f	class:sylar::Scheduler	typeref:typename:void
+stdexcept	.vscode/settings.json	/^        "stdexcept": "cpp",$/;"	s	object:files.associations
+stop	sylar/scheduler.cc	/^void Scheduler::stop() {$/;"	f	class:sylar::Scheduler	typeref:typename:void
+stop_token	.vscode/settings.json	/^        "stop_token": "cpp",$/;"	s	object:files.associations
+stopping	sylar/iomanager.cc	/^bool IOManager::stopping() {$/;"	f	class:sylar::IOManager	typeref:typename:bool
+stopping	sylar/iomanager.cc	/^bool IOManager::stopping(uint64_t& timeout) {$/;"	f	class:sylar::IOManager	typeref:typename:bool
+stopping	sylar/scheduler.cc	/^bool Scheduler::stopping() {$/;"	f	class:sylar::Scheduler	typeref:typename:bool
+streambuf	.vscode/settings.json	/^        "streambuf": "cpp",$/;"	s	object:files.associations
+string	.vscode/settings.json	/^        "string": "cpp",$/;"	s	object:files.associations
+string_view	.vscode/settings.json	/^        "string_view": "cpp",$/;"	s	object:files.associations
+strstream	.vscode/settings.json	/^        "strstream": "cpp",$/;"	s	object:files.associations
+subnetMask	sylar/address.cc	/^IPAddress::ptr IPv4Address::subnetMask(uint32_t prefix_len) {$/;"	f	class:sylar::IPv4Address	typeref:typename:IPAddress::ptr
+subnetMask	sylar/address.cc	/^IPAddress::ptr IPv6Address::subnetMask(uint32_t prefix_len) {$/;"	f	class:sylar::IPv6Address	typeref:typename:IPAddress::ptr
+swapIn	sylar/fiber.cc	/^void Fiber::swapIn(){$/;"	f	class:sylar::Fiber	typeref:typename:void
+swapOut	sylar/fiber.cc	/^void Fiber::swapOut(){$/;"	f	class:sylar::Fiber	typeref:typename:void
+sylar	CMakeLists.txt	/^add_library(sylar SHARED ${LIB_SRC})$/;"	t
+sylar	backup/hook.h	/^namespace sylar {$/;"	n
+sylar	build/Makefile	/^sylar: cmake_check_build_system$/;"	t
+sylar	sylar/address.cc	/^namespace sylar {$/;"	n	file:
+sylar	sylar/address.h	/^namespace sylar {$/;"	n
+sylar	sylar/bytearray.cc	/^namespace sylar {$/;"	n	file:
+sylar	sylar/bytearray.h	/^namespace sylar {$/;"	n
+sylar	sylar/config.cc	/^namespace sylar{$/;"	n	file:
+sylar	sylar/config.h	/^namespace sylar{$/;"	n
+sylar	sylar/endian.h	/^namespace sylar {$/;"	n
+sylar	sylar/fd_manager.cc	/^namespace sylar {$/;"	n	file:
+sylar	sylar/fd_manager.h	/^namespace sylar {$/;"	n
+sylar	sylar/fiber.cc	/^namespace sylar{$/;"	n	file:
+sylar	sylar/fiber.h	/^namespace sylar{$/;"	n
+sylar	sylar/hook.cc	/^namespace sylar {$/;"	n	file:
+sylar	sylar/hook.h	/^namespace sylar {$/;"	n
+sylar	sylar/iomanager.cc	/^namespace sylar{$/;"	n	file:
+sylar	sylar/iomanager.h	/^namespace sylar {$/;"	n
+sylar	sylar/log.cpp	/^namespace sylar{$/;"	n	file:
+sylar	sylar/log.h	/^namespace sylar{$/;"	n
+sylar	sylar/noncopyable.h	/^namespace sylar {$/;"	n
+sylar	sylar/scheduler.cc	/^namespace sylar {$/;"	n	file:
+sylar	sylar/scheduler.h	/^namespace sylar{$/;"	n
+sylar	sylar/singleton.h	/^namespace sylar{$/;"	n
+sylar	sylar/socket.cc	/^namespace sylar {$/;"	n	file:
+sylar	sylar/socket.h	/^namespace sylar {$/;"	n
+sylar	sylar/thread.cpp	/^namespace sylar{$/;"	n	file:
+sylar	sylar/thread.h	/^namespace sylar{$/;"	n
+sylar	sylar/timer.cc	/^namespace sylar {$/;"	n	file:
+sylar	sylar/timer.h	/^namespace sylar {$/;"	n
+sylar	sylar/util.cpp	/^namespace sylar{$/;"	n	file:
+sylar	sylar/util.h	/^namespace sylar{$/;"	n
+sylar	temp/scheduler.h	/^namespace sylar {$/;"	n
+sylar	tests/test_config.cc	/^namespace sylar{$/;"	n	file:
+sylar/address.cc.i	build/Makefile	/^sylar\/address.cc.i:$/;"	t
+sylar/address.cc.o	build/Makefile	/^sylar\/address.cc.o:$/;"	t
+sylar/address.cc.s	build/Makefile	/^sylar\/address.cc.s:$/;"	t
+sylar/address.i	build/Makefile	/^sylar\/address.i: sylar\/address.cc.i$/;"	t
+sylar/address.o	build/Makefile	/^sylar\/address.o: sylar\/address.cc.o$/;"	t
+sylar/address.s	build/Makefile	/^sylar\/address.s: sylar\/address.cc.s$/;"	t
+sylar/bytearray.cc.i	build/Makefile	/^sylar\/bytearray.cc.i:$/;"	t
+sylar/bytearray.cc.o	build/Makefile	/^sylar\/bytearray.cc.o:$/;"	t
+sylar/bytearray.cc.s	build/Makefile	/^sylar\/bytearray.cc.s:$/;"	t
+sylar/bytearray.i	build/Makefile	/^sylar\/bytearray.i: sylar\/bytearray.cc.i$/;"	t
+sylar/bytearray.o	build/Makefile	/^sylar\/bytearray.o: sylar\/bytearray.cc.o$/;"	t
+sylar/bytearray.s	build/Makefile	/^sylar\/bytearray.s: sylar\/bytearray.cc.s$/;"	t
+sylar/config.cc.i	build/Makefile	/^sylar\/config.cc.i:$/;"	t
+sylar/config.cc.o	build/Makefile	/^sylar\/config.cc.o:$/;"	t
+sylar/config.cc.s	build/Makefile	/^sylar\/config.cc.s:$/;"	t
+sylar/config.i	build/Makefile	/^sylar\/config.i: sylar\/config.cc.i$/;"	t
+sylar/config.o	build/Makefile	/^sylar\/config.o: sylar\/config.cc.o$/;"	t
+sylar/config.s	build/Makefile	/^sylar\/config.s: sylar\/config.cc.s$/;"	t
+sylar/fast	build/Makefile	/^sylar\/fast:$/;"	t
+sylar/fd_manager.cc.i	build/Makefile	/^sylar\/fd_manager.cc.i:$/;"	t
+sylar/fd_manager.cc.o	build/Makefile	/^sylar\/fd_manager.cc.o:$/;"	t
+sylar/fd_manager.cc.s	build/Makefile	/^sylar\/fd_manager.cc.s:$/;"	t
+sylar/fd_manager.i	build/Makefile	/^sylar\/fd_manager.i: sylar\/fd_manager.cc.i$/;"	t
+sylar/fd_manager.o	build/Makefile	/^sylar\/fd_manager.o: sylar\/fd_manager.cc.o$/;"	t
+sylar/fd_manager.s	build/Makefile	/^sylar\/fd_manager.s: sylar\/fd_manager.cc.s$/;"	t
+sylar/fiber.cc.i	build/Makefile	/^sylar\/fiber.cc.i:$/;"	t
+sylar/fiber.cc.o	build/Makefile	/^sylar\/fiber.cc.o:$/;"	t
+sylar/fiber.cc.s	build/Makefile	/^sylar\/fiber.cc.s:$/;"	t
+sylar/fiber.i	build/Makefile	/^sylar\/fiber.i: sylar\/fiber.cc.i$/;"	t
+sylar/fiber.o	build/Makefile	/^sylar\/fiber.o: sylar\/fiber.cc.o$/;"	t
+sylar/fiber.s	build/Makefile	/^sylar\/fiber.s: sylar\/fiber.cc.s$/;"	t
+sylar/hook.cc.i	build/Makefile	/^sylar\/hook.cc.i:$/;"	t
+sylar/hook.cc.o	build/Makefile	/^sylar\/hook.cc.o:$/;"	t
+sylar/hook.cc.s	build/Makefile	/^sylar\/hook.cc.s:$/;"	t
+sylar/hook.i	build/Makefile	/^sylar\/hook.i: sylar\/hook.cc.i$/;"	t
+sylar/hook.o	build/Makefile	/^sylar\/hook.o: sylar\/hook.cc.o$/;"	t
+sylar/hook.s	build/Makefile	/^sylar\/hook.s: sylar\/hook.cc.s$/;"	t
+sylar/iomanager.cc.i	build/Makefile	/^sylar\/iomanager.cc.i:$/;"	t
+sylar/iomanager.cc.o	build/Makefile	/^sylar\/iomanager.cc.o:$/;"	t
+sylar/iomanager.cc.s	build/Makefile	/^sylar\/iomanager.cc.s:$/;"	t
+sylar/iomanager.i	build/Makefile	/^sylar\/iomanager.i: sylar\/iomanager.cc.i$/;"	t
+sylar/iomanager.o	build/Makefile	/^sylar\/iomanager.o: sylar\/iomanager.cc.o$/;"	t
+sylar/iomanager.s	build/Makefile	/^sylar\/iomanager.s: sylar\/iomanager.cc.s$/;"	t
+sylar/log.cpp.i	build/Makefile	/^sylar\/log.cpp.i:$/;"	t
+sylar/log.cpp.o	build/Makefile	/^sylar\/log.cpp.o:$/;"	t
+sylar/log.cpp.s	build/Makefile	/^sylar\/log.cpp.s:$/;"	t
+sylar/log.i	build/Makefile	/^sylar\/log.i: sylar\/log.cpp.i$/;"	t
+sylar/log.o	build/Makefile	/^sylar\/log.o: sylar\/log.cpp.o$/;"	t
+sylar/log.s	build/Makefile	/^sylar\/log.s: sylar\/log.cpp.s$/;"	t
+sylar/scheduler.cc.i	build/Makefile	/^sylar\/scheduler.cc.i:$/;"	t
+sylar/scheduler.cc.o	build/Makefile	/^sylar\/scheduler.cc.o:$/;"	t
+sylar/scheduler.cc.s	build/Makefile	/^sylar\/scheduler.cc.s:$/;"	t
+sylar/scheduler.i	build/Makefile	/^sylar\/scheduler.i: sylar\/scheduler.cc.i$/;"	t
+sylar/scheduler.o	build/Makefile	/^sylar\/scheduler.o: sylar\/scheduler.cc.o$/;"	t
+sylar/scheduler.s	build/Makefile	/^sylar\/scheduler.s: sylar\/scheduler.cc.s$/;"	t
+sylar/socket.cc.i	build/Makefile	/^sylar\/socket.cc.i:$/;"	t
+sylar/socket.cc.o	build/Makefile	/^sylar\/socket.cc.o:$/;"	t
+sylar/socket.cc.s	build/Makefile	/^sylar\/socket.cc.s:$/;"	t
+sylar/socket.i	build/Makefile	/^sylar\/socket.i: sylar\/socket.cc.i$/;"	t
+sylar/socket.o	build/Makefile	/^sylar\/socket.o: sylar\/socket.cc.o$/;"	t
+sylar/socket.s	build/Makefile	/^sylar\/socket.s: sylar\/socket.cc.s$/;"	t
+sylar/thread.cpp.i	build/Makefile	/^sylar\/thread.cpp.i:$/;"	t
+sylar/thread.cpp.o	build/Makefile	/^sylar\/thread.cpp.o:$/;"	t
+sylar/thread.cpp.s	build/Makefile	/^sylar\/thread.cpp.s:$/;"	t
+sylar/thread.i	build/Makefile	/^sylar\/thread.i: sylar\/thread.cpp.i$/;"	t
+sylar/thread.o	build/Makefile	/^sylar\/thread.o: sylar\/thread.cpp.o$/;"	t
+sylar/thread.s	build/Makefile	/^sylar\/thread.s: sylar\/thread.cpp.s$/;"	t
+sylar/timer.cc.i	build/Makefile	/^sylar\/timer.cc.i:$/;"	t
+sylar/timer.cc.o	build/Makefile	/^sylar\/timer.cc.o:$/;"	t
+sylar/timer.cc.s	build/Makefile	/^sylar\/timer.cc.s:$/;"	t
+sylar/timer.i	build/Makefile	/^sylar\/timer.i: sylar\/timer.cc.i$/;"	t
+sylar/timer.o	build/Makefile	/^sylar\/timer.o: sylar\/timer.cc.o$/;"	t
+sylar/timer.s	build/Makefile	/^sylar\/timer.s: sylar\/timer.cc.s$/;"	t
+sylar/util.cpp.i	build/Makefile	/^sylar\/util.cpp.i:$/;"	t
+sylar/util.cpp.o	build/Makefile	/^sylar\/util.cpp.o:$/;"	t
+sylar/util.cpp.s	build/Makefile	/^sylar\/util.cpp.s:$/;"	t
+sylar/util.i	build/Makefile	/^sylar\/util.i: sylar\/util.cpp.i$/;"	t
+sylar/util.o	build/Makefile	/^sylar\/util.o: sylar\/util.cpp.o$/;"	t
+sylar/util.s	build/Makefile	/^sylar\/util.s: sylar\/util.cpp.s$/;"	t
+sylar_add_executable	cmake/utils.cmake	/^function(sylar_add_executable targetname srcs depends libs)$/;"	f
+system_error	.vscode/settings.json	/^        "system_error": "cpp",$/;"	s	object:files.associations
+t_fiber	sylar/fiber.cc	/^static thread_local Fiber* t_fiber = nullptr;$/;"	v	namespace:sylar	typeref:typename:thread_local Fiber *	file:
+t_hook_enable	sylar/hook.cc	/^static thread_local bool t_hook_enable = false;$/;"	v	namespace:sylar	typeref:typename:thread_local bool	file:
+t_scheduler	sylar/scheduler.cc	/^static thread_local Scheduler* t_scheduler = nullptr;$/;"	v	namespace:sylar	typeref:typename:thread_local Scheduler *	file:
+t_scheduler_fiber	sylar/scheduler.cc	/^static thread_local Fiber* t_scheduler_fiber = nullptr;$/;"	v	namespace:sylar	typeref:typename:thread_local Fiber *	file:
+t_thread	sylar/thread.cpp	/^static thread_local Thread* t_thread = nullptr;$/;"	v	namespace:sylar	typeref:typename:thread_local Thread *	file:
+t_threadFiber	sylar/fiber.cc	/^static thread_local Fiber::ptr t_threadFiber = nullptr;$/;"	v	namespace:sylar	typeref:typename:thread_local Fiber::ptr	file:
+t_thread_name	sylar/thread.cpp	/^static thread_local std::string t_thread_name = "UNKNOW";$/;"	v	namespace:sylar	typeref:typename:thread_local std::string	file:
+tasks	.vscode/tasks.json	/^    "tasks": [$/;"	a
+test	CMakeLists.txt	/^add_executable(test tests\/test.cc)$/;"	t
+test	build/Makefile	/^test: cmake_check_build_system$/;"	t
+test	tests/test_address.cc	/^void test() {$/;"	f	typeref:typename:void
+test	tests/test_bytearray.cc	/^void test() {$/;"	f	typeref:typename:void
+test/fast	build/Makefile	/^test\/fast:$/;"	t
+test1	tests/test_iomanager.cc	/^void test1() {$/;"	f	typeref:typename:void
+test_address	CMakeLists.txt	/^add_executable(test_address tests\/test_address.cc)$/;"	t
+test_address	build/Makefile	/^test_address: cmake_check_build_system$/;"	t
+test_address/fast	build/Makefile	/^test_address\/fast:$/;"	t
+test_assert	tests/test_util.cc	/^void test_assert(){$/;"	f	typeref:typename:void
+test_bytearray	CMakeLists.txt	/^add_executable(test_bytearray tests\/test_bytearray.cc)$/;"	t
+test_bytearray	build/Makefile	/^test_bytearray: cmake_check_build_system$/;"	t
+test_bytearray/fast	build/Makefile	/^test_bytearray\/fast:$/;"	t
+test_class	tests/test_config.cc	/^void test_class(){$/;"	f	typeref:typename:void
+test_config	CMakeLists.txt	/^add_executable(test_config tests\/test_config.cc)$/;"	t
+test_config	build/Makefile	/^test_config: cmake_check_build_system$/;"	t
+test_config	tests/test_config.cc	/^void test_config(){$/;"	f	typeref:typename:void
+test_config/fast	build/Makefile	/^test_config\/fast:$/;"	t
+test_fiber	CMakeLists.txt	/^add_executable(test_fiber tests\/test_fiber.cc)$/;"	t
+test_fiber	build/Makefile	/^test_fiber: cmake_check_build_system$/;"	t
+test_fiber	tests/test_fiber.cc	/^void test_fiber(){$/;"	f	typeref:typename:void
+test_fiber	tests/test_iomanager.cc	/^void test_fiber() {$/;"	f	typeref:typename:void
+test_fiber	tests/test_scheduler.cc	/^void test_fiber(){$/;"	f	typeref:typename:void
+test_fiber/fast	build/Makefile	/^test_fiber\/fast:$/;"	t
+test_hook	CMakeLists.txt	/^add_executable(test_hook tests\/test_hook.cc)$/;"	t
+test_hook	build/Makefile	/^test_hook: cmake_check_build_system$/;"	t
+test_hook/fast	build/Makefile	/^test_hook\/fast:$/;"	t
+test_iface	tests/test_address.cc	/^void test_iface() {$/;"	f	typeref:typename:void
+test_iomanager	CMakeLists.txt	/^add_executable(test_iomanager tests\/test_iomanager.cc)$/;"	t
+test_iomanager	build/Makefile	/^test_iomanager: cmake_check_build_system$/;"	t
+test_iomanager/fast	build/Makefile	/^test_iomanager\/fast:$/;"	t
+test_ipv4	tests/test_address.cc	/^void test_ipv4() {$/;"	f	typeref:typename:void
+test_log	tests/test_config.cc	/^void test_log(){$/;"	f	typeref:typename:void
+test_scheduler	CMakeLists.txt	/^add_executable(test_scheduler tests\/test_scheduler.cc)$/;"	t
+test_scheduler	build/Makefile	/^test_scheduler: cmake_check_build_system$/;"	t
+test_scheduler/fast	build/Makefile	/^test_scheduler\/fast:$/;"	t
+test_sleep	tests/test_hook.cc	/^void test_sleep() {$/;"	f	typeref:typename:void
+test_sock	tests/test_hook.cc	/^void test_sock() {$/;"	f	typeref:typename:void
+test_socket	CMakeLists.txt	/^add_executable(test_socket tests\/test_socket.cc)$/;"	t
+test_socket	build/Makefile	/^test_socket: cmake_check_build_system$/;"	t
+test_socket	tests/test_socket.cc	/^void test_socket() {$/;"	f	typeref:typename:void
+test_socket/fast	build/Makefile	/^test_socket\/fast:$/;"	t
+test_thread	CMakeLists.txt	/^add_executable(test_thread tests\/test_thread.cpp)$/;"	t
+test_thread	build/Makefile	/^test_thread: cmake_check_build_system$/;"	t
+test_thread/fast	build/Makefile	/^test_thread\/fast:$/;"	t
+test_timer	tests/test_iomanager.cc	/^void test_timer() {$/;"	f	typeref:typename:void
+test_util	CMakeLists.txt	/^add_executable(test_util tests\/test_util.cc)$/;"	t
+test_util	build/Makefile	/^test_util: cmake_check_build_system$/;"	t
+test_util/fast	build/Makefile	/^test_util\/fast:$/;"	t
+test_yaml	tests/test_config.cc	/^void test_yaml(){$/;"	f	typeref:typename:void
+tests/test.cc.i	build/Makefile	/^tests\/test.cc.i:$/;"	t
+tests/test.cc.o	build/Makefile	/^tests\/test.cc.o:$/;"	t
+tests/test.cc.s	build/Makefile	/^tests\/test.cc.s:$/;"	t
+tests/test.i	build/Makefile	/^tests\/test.i: tests\/test.cc.i$/;"	t
+tests/test.o	build/Makefile	/^tests\/test.o: tests\/test.cc.o$/;"	t
+tests/test.s	build/Makefile	/^tests\/test.s: tests\/test.cc.s$/;"	t
+tests/test_address.cc.i	build/Makefile	/^tests\/test_address.cc.i:$/;"	t
+tests/test_address.cc.o	build/Makefile	/^tests\/test_address.cc.o:$/;"	t
+tests/test_address.cc.s	build/Makefile	/^tests\/test_address.cc.s:$/;"	t
+tests/test_address.i	build/Makefile	/^tests\/test_address.i: tests\/test_address.cc.i$/;"	t
+tests/test_address.o	build/Makefile	/^tests\/test_address.o: tests\/test_address.cc.o$/;"	t
+tests/test_address.s	build/Makefile	/^tests\/test_address.s: tests\/test_address.cc.s$/;"	t
+tests/test_bytearray.cc.i	build/Makefile	/^tests\/test_bytearray.cc.i:$/;"	t
+tests/test_bytearray.cc.o	build/Makefile	/^tests\/test_bytearray.cc.o:$/;"	t
+tests/test_bytearray.cc.s	build/Makefile	/^tests\/test_bytearray.cc.s:$/;"	t
+tests/test_bytearray.i	build/Makefile	/^tests\/test_bytearray.i: tests\/test_bytearray.cc.i$/;"	t
+tests/test_bytearray.o	build/Makefile	/^tests\/test_bytearray.o: tests\/test_bytearray.cc.o$/;"	t
+tests/test_bytearray.s	build/Makefile	/^tests\/test_bytearray.s: tests\/test_bytearray.cc.s$/;"	t
+tests/test_config.cc.i	build/Makefile	/^tests\/test_config.cc.i:$/;"	t
+tests/test_config.cc.o	build/Makefile	/^tests\/test_config.cc.o:$/;"	t
+tests/test_config.cc.s	build/Makefile	/^tests\/test_config.cc.s:$/;"	t
+tests/test_config.i	build/Makefile	/^tests\/test_config.i: tests\/test_config.cc.i$/;"	t
+tests/test_config.o	build/Makefile	/^tests\/test_config.o: tests\/test_config.cc.o$/;"	t
+tests/test_config.s	build/Makefile	/^tests\/test_config.s: tests\/test_config.cc.s$/;"	t
+tests/test_fiber.cc.i	build/Makefile	/^tests\/test_fiber.cc.i:$/;"	t
+tests/test_fiber.cc.o	build/Makefile	/^tests\/test_fiber.cc.o:$/;"	t
+tests/test_fiber.cc.s	build/Makefile	/^tests\/test_fiber.cc.s:$/;"	t
+tests/test_fiber.i	build/Makefile	/^tests\/test_fiber.i: tests\/test_fiber.cc.i$/;"	t
+tests/test_fiber.o	build/Makefile	/^tests\/test_fiber.o: tests\/test_fiber.cc.o$/;"	t
+tests/test_fiber.s	build/Makefile	/^tests\/test_fiber.s: tests\/test_fiber.cc.s$/;"	t
+tests/test_hook.cc.i	build/Makefile	/^tests\/test_hook.cc.i:$/;"	t
+tests/test_hook.cc.o	build/Makefile	/^tests\/test_hook.cc.o:$/;"	t
+tests/test_hook.cc.s	build/Makefile	/^tests\/test_hook.cc.s:$/;"	t
+tests/test_hook.i	build/Makefile	/^tests\/test_hook.i: tests\/test_hook.cc.i$/;"	t
+tests/test_hook.o	build/Makefile	/^tests\/test_hook.o: tests\/test_hook.cc.o$/;"	t
+tests/test_hook.s	build/Makefile	/^tests\/test_hook.s: tests\/test_hook.cc.s$/;"	t
+tests/test_iomanager.cc.i	build/Makefile	/^tests\/test_iomanager.cc.i:$/;"	t
+tests/test_iomanager.cc.o	build/Makefile	/^tests\/test_iomanager.cc.o:$/;"	t
+tests/test_iomanager.cc.s	build/Makefile	/^tests\/test_iomanager.cc.s:$/;"	t
+tests/test_iomanager.i	build/Makefile	/^tests\/test_iomanager.i: tests\/test_iomanager.cc.i$/;"	t
+tests/test_iomanager.o	build/Makefile	/^tests\/test_iomanager.o: tests\/test_iomanager.cc.o$/;"	t
+tests/test_iomanager.s	build/Makefile	/^tests\/test_iomanager.s: tests\/test_iomanager.cc.s$/;"	t
+tests/test_scheduler.cc.i	build/Makefile	/^tests\/test_scheduler.cc.i:$/;"	t
+tests/test_scheduler.cc.o	build/Makefile	/^tests\/test_scheduler.cc.o:$/;"	t
+tests/test_scheduler.cc.s	build/Makefile	/^tests\/test_scheduler.cc.s:$/;"	t
+tests/test_scheduler.i	build/Makefile	/^tests\/test_scheduler.i: tests\/test_scheduler.cc.i$/;"	t
+tests/test_scheduler.o	build/Makefile	/^tests\/test_scheduler.o: tests\/test_scheduler.cc.o$/;"	t
+tests/test_scheduler.s	build/Makefile	/^tests\/test_scheduler.s: tests\/test_scheduler.cc.s$/;"	t
+tests/test_socket.cc.i	build/Makefile	/^tests\/test_socket.cc.i:$/;"	t
+tests/test_socket.cc.o	build/Makefile	/^tests\/test_socket.cc.o:$/;"	t
+tests/test_socket.cc.s	build/Makefile	/^tests\/test_socket.cc.s:$/;"	t
+tests/test_socket.i	build/Makefile	/^tests\/test_socket.i: tests\/test_socket.cc.i$/;"	t
+tests/test_socket.o	build/Makefile	/^tests\/test_socket.o: tests\/test_socket.cc.o$/;"	t
+tests/test_socket.s	build/Makefile	/^tests\/test_socket.s: tests\/test_socket.cc.s$/;"	t
+tests/test_thread.cpp.i	build/Makefile	/^tests\/test_thread.cpp.i:$/;"	t
+tests/test_thread.cpp.o	build/Makefile	/^tests\/test_thread.cpp.o:$/;"	t
+tests/test_thread.cpp.s	build/Makefile	/^tests\/test_thread.cpp.s:$/;"	t
+tests/test_thread.i	build/Makefile	/^tests\/test_thread.i: tests\/test_thread.cpp.i$/;"	t
+tests/test_thread.o	build/Makefile	/^tests\/test_thread.o: tests\/test_thread.cpp.o$/;"	t
+tests/test_thread.s	build/Makefile	/^tests\/test_thread.s: tests\/test_thread.cpp.s$/;"	t
+tests/test_util.cc.i	build/Makefile	/^tests\/test_util.cc.i:$/;"	t
+tests/test_util.cc.o	build/Makefile	/^tests\/test_util.cc.o:$/;"	t
+tests/test_util.cc.s	build/Makefile	/^tests\/test_util.cc.s:$/;"	t
+tests/test_util.i	build/Makefile	/^tests\/test_util.i: tests\/test_util.cc.i$/;"	t
+tests/test_util.o	build/Makefile	/^tests\/test_util.o: tests\/test_util.cc.o$/;"	t
+tests/test_util.s	build/Makefile	/^tests\/test_util.s: tests\/test_util.cc.s$/;"	t
+thread	.vscode/settings.json	/^        "thread": "cpp",$/;"	s	object:files.associations
+thread	sylar/scheduler.h	/^        int thread;$/;"	m	struct:sylar::Scheduler::FiberAndThread	typeref:typename:int
+thread	temp/scheduler.h	/^        int thread;$/;"	m	struct:sylar::Scheduler::FiberAndThread	typeref:typename:int
+tickle	sylar/iomanager.cc	/^void IOManager::tickle() {$/;"	f	class:sylar::IOManager	typeref:typename:void
+tickle	sylar/scheduler.cc	/^void Scheduler::tickle() {$/;"	f	class:sylar::Scheduler	typeref:typename:void
+timer_info	sylar/hook.cc	/^struct timer_info {$/;"	s	file:
+toHexString	sylar/bytearray.cc	/^std::string ByteArray::toHexString() const {$/;"	f	class:sylar::ByteArray	typeref:typename:std::string
+toString	sylar/address.cc	/^std::string Address::toString() {$/;"	f	class:sylar::Address	typeref:typename:std::string
+toString	sylar/bytearray.cc	/^std::string ByteArray::toString() const {$/;"	f	class:sylar::ByteArray	typeref:typename:std::string
+toString	sylar/config.h	/^    std::string toString() override {$/;"	f	class:sylar::ConfigVar	typeref:typename:std::string
+toString	tests/test_config.cc	/^    std::string toString() const{$/;"	f	class:Person	typeref:typename:std::string	file:
+toYamlString	sylar/log.cpp	/^std::string FileLogAppender::toYamlString(){$/;"	f	class:sylar::FileLogAppender	typeref:typename:std::string
+toYamlString	sylar/log.cpp	/^std::string Logger::toYamlString(){$/;"	f	class:sylar::Logger	typeref:typename:std::string
+toYamlString	sylar/log.cpp	/^std::string LoggerManager::toYamlString(){$/;"	f	class:sylar::LoggerManager	typeref:typename:std::string
+toYamlString	sylar/log.cpp	/^std::string StdoutLogAppender::toYamlString(){$/;"	f	class:sylar::StdoutLogAppender	typeref:typename:std::string
+triggerEvent	sylar/iomanager.cc	/^void IOManager::FdContext::triggerEvent(IOManager::Event event){$/;"	f	class:sylar::IOManager::FdContext	typeref:typename:void
+tuple	.vscode/settings.json	/^        "tuple": "cpp",$/;"	s	object:files.associations
+tv	sylar/socket.cc	/^	struct timeval tv{int(v \/ 1000), int(v % 1000 * 1000)};$/;"	s	function:sylar::Socket::setRecvTimeout	file:
+tv	sylar/socket.cc	/^	struct timeval tv{int(v \/ 1000), int(v % 1000 * 1000)};$/;"	s	function:sylar::Socket::setSendTimeout	file:
+type	.vscode/tasks.json	/^            "type": "cppbuild",$/;"	s	object:tasks.0
+type	sylar/log.cpp	/^    int type = 0; \/\/1 File, 2 Stdout$/;"	m	struct:sylar::LogAppenderDefine	typeref:typename:int	file:
+type_traits	.vscode/settings.json	/^        "type_traits": "cpp",$/;"	s	object:files.associations
+typeinfo	.vscode/settings.json	/^        "typeinfo": "cpp",$/;"	s	object:files.associations
+unlock	sylar/thread.h	/^    void unlock(){$/;"	f	class:sylar::CASLock	typeref:typename:void
+unlock	sylar/thread.h	/^    void unlock(){$/;"	f	class:sylar::Mutex	typeref:typename:void
+unlock	sylar/thread.h	/^    void unlock(){$/;"	f	class:sylar::RWMutex	typeref:typename:void
+unlock	sylar/thread.h	/^    void unlock(){$/;"	f	class:sylar::Spinlock	typeref:typename:void
+unlock	sylar/thread.h	/^    void unlock(){$/;"	f	struct:sylar::ReadScopedLockImpl	typeref:typename:void
+unlock	sylar/thread.h	/^    void unlock(){$/;"	f	struct:sylar::ScopedLockImpl	typeref:typename:void
+unlock	sylar/thread.h	/^    void unlock(){$/;"	f	struct:sylar::WriteScopedLockImpl	typeref:typename:void
+unlock	sylar/thread.h	/^    void unlock(){};$/;"	f	class:sylar::NullMutex	typeref:typename:void
+unlock	sylar/thread.h	/^    void unlock(){};$/;"	f	class:sylar::NullRWMutex	typeref:typename:void
+unordered_map	.vscode/settings.json	/^        "unordered_map": "cpp",$/;"	s	object:files.associations
+unordered_set	.vscode/settings.json	/^        "unordered_set": "cpp"$/;"	s	object:files.associations
+usleep	sylar/hook.cc	/^int usleep(useconds_t usec) {$/;"	f	typeref:typename:int
+usleep_fun	backup/hook.h	/^typedef int (*usleep_fun)(useconds_t usec);$/;"	t	typeref:typename:int (*)(useconds_t usec)
+usleep_fun	sylar/hook.h	/^typedef int (*usleep_fun)(useconds_t usec);$/;"	t	typeref:typename:int (*)(useconds_t usec)
+utility	.vscode/settings.json	/^        "utility": "cpp",$/;"	s	object:files.associations
+valarray	.vscode/settings.json	/^        "valarray": "cpp",$/;"	s	object:files.associations
+vector	.vscode/settings.json	/^        "vector": "cpp",$/;"	s	object:files.associations
+version	.vscode/c_cpp_properties.json	/^    "version": 4$/;"	n
+version	.vscode/tasks.json	/^    "version": "2.0.0"$/;"	s
+volatile	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define volatile$/;"	d	file:
+wait	sylar/thread.cpp	/^void Semaphore::wait(){$/;"	f	class:sylar::Semaphore	typeref:typename:void
+warn	sylar/log.cpp	/^void Logger::warn(LogEvent::ptr event){$/;"	f	class:sylar::Logger	typeref:typename:void
+weak_ptr	sylar/socket.h	/^	typedef std::weak_ptr<Socket> weak_ptr;$/;"	t	class:sylar::Socket	typeref:typename:std::weak_ptr<Socket>
+wirteDouble	sylar/bytearray.cc	/^void ByteArray::wirteDouble(double value) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+write	sylar/bytearray.cc	/^void ByteArray::write(const void* buf, size_t size) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+write	sylar/hook.cc	/^ssize_t write(int fd, const void *buf, size_t count) {$/;"	f	typeref:typename:ssize_t
+write	sylar/iomanager.h	/^		EventContext write;				\/\/事件关联的句柄$/;"	m	struct:sylar::IOManager::FdContext	typeref:typename:EventContext
+writeFint16	sylar/bytearray.cc	/^void ByteArray::writeFint16(int16_t value) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+writeFint32	sylar/bytearray.cc	/^void ByteArray::writeFint32(int32_t value) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+writeFint64	sylar/bytearray.cc	/^void ByteArray::writeFint64(int64_t value) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+writeFint8	sylar/bytearray.cc	/^void ByteArray::writeFint8(int8_t value) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+writeFloat	sylar/bytearray.cc	/^void ByteArray::writeFloat(float value) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+writeFuint16	sylar/bytearray.cc	/^void ByteArray::writeFuint16(uint16_t value) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+writeFuint32	sylar/bytearray.cc	/^void ByteArray::writeFuint32(uint32_t value) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+writeFuint64	sylar/bytearray.cc	/^void ByteArray::writeFuint64(uint64_t value) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+writeFuint8	sylar/bytearray.cc	/^void ByteArray::writeFuint8(uint8_t value) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+writeInt32	sylar/bytearray.cc	/^void ByteArray::writeInt32(int32_t value) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+writeInt64	sylar/bytearray.cc	/^void ByteArray::writeInt64(int64_t value) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+writeStringF16	sylar/bytearray.cc	/^void ByteArray::writeStringF16(const std::string& value) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+writeStringF32	sylar/bytearray.cc	/^void ByteArray::writeStringF32(const std::string& value) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+writeStringF64	sylar/bytearray.cc	/^void ByteArray::writeStringF64(const std::string& value) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+writeStringVint	sylar/bytearray.cc	/^void ByteArray::writeStringVint(const std::string& value) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+writeStringWithoutLength	sylar/bytearray.cc	/^void ByteArray::writeStringWithoutLength(const std::string& value) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+writeToFile	sylar/bytearray.cc	/^bool ByteArray::writeToFile(const std::string& name) const {$/;"	f	class:sylar::ByteArray	typeref:typename:bool
+writeUint32	sylar/bytearray.cc	/^void ByteArray::writeUint32(uint32_t value) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+writeUint64	sylar/bytearray.cc	/^void ByteArray::writeUint64(uint64_t value) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+write_fun	backup/hook.h	/^typedef ssize_t (*write_fun)(int fd, const void *buf, size_t count);$/;"	t	typeref:typename:ssize_t (*)(int fd,const void * buf,size_t count)
+write_fun	sylar/hook.h	/^typedef ssize_t (*write_fun)(int fd, const void *buf, size_t count);$/;"	t	typeref:typename:ssize_t (*)(int fd,const void * buf,size_t count)
+writev	sylar/hook.cc	/^ssize_t writev(int fd, const struct iovec *iov, int iovcnt) {$/;"	f	typeref:typename:ssize_t
+writev_fun	backup/hook.h	/^typedef ssize_t (*writev_fun)(int fd, const struct iovec *iov, int iovcnt);$/;"	t	typeref:typename:ssize_t (*)(int fd,const struct iovec * iov,int iovcnt)
+writev_fun	sylar/hook.h	/^typedef ssize_t (*writev_fun)(int fd, const struct iovec *iov, int iovcnt);$/;"	t	typeref:typename:ssize_t (*)(int fd,const struct iovec * iov,int iovcnt)
+wrlock	sylar/thread.h	/^    void wrlock(){$/;"	f	class:sylar::RWMutex	typeref:typename:void
+wrlock	sylar/thread.h	/^    void wrlock(){};$/;"	f	class:sylar::NullRWMutex	typeref:typename:void
+~Address	sylar/address.h	/^	virtual ~Address() {};$/;"	f	class:sylar::Address
+~ByteArray	sylar/bytearray.cc	/^ByteArray::~ByteArray() {$/;"	f	class:sylar::ByteArray
+~CASLock	sylar/thread.h	/^    ~CASLock(){$/;"	f	class:sylar::CASLock
+~ConfigVarBase	sylar/config.h	/^    virtual ~ConfigVarBase(){}$/;"	f	class:sylar::ConfigVarBase
+~FdCtx	sylar/fd_manager.cc	/^FdCtx::~FdCtx() {$/;"	f	class:sylar::FdCtx
+~Fiber	sylar/fiber.cc	/^Fiber::~Fiber(){$/;"	f	class:sylar::Fiber
+~FormatItem	sylar/log.h	/^        virtual ~FormatItem(){}$/;"	f	class:sylar::LogFormatter::FormatItem
+~IOManager	sylar/iomanager.cc	/^IOManager::~IOManager(){$/;"	f	class:sylar::IOManager
+~LogAppender	sylar/log.h	/^    virtual ~LogAppender(){}$/;"	f	class:sylar::LogAppender
+~LogEventWrap	sylar/log.cpp	/^LogEventWrap::~LogEventWrap(){$/;"	f	class:sylar::LogEventWrap
+~Mutex	sylar/thread.h	/^    ~Mutex(){$/;"	f	class:sylar::Mutex
+~Node	sylar/bytearray.cc	/^ByteArray::Node::~Node() {$/;"	f	class:sylar::ByteArray::Node
+~NullMutex	sylar/thread.h	/^    ~NullMutex(){};$/;"	f	class:sylar::NullMutex
+~NullRWMutex	sylar/thread.h	/^    ~NullRWMutex(){};$/;"	f	class:sylar::NullRWMutex
+~RWMutex	sylar/thread.h	/^    ~RWMutex(){$/;"	f	class:sylar::RWMutex
+~ReadScopedLockImpl	sylar/thread.h	/^    ~ReadScopedLockImpl(){$/;"	f	struct:sylar::ReadScopedLockImpl
+~Scheduler	sylar/scheduler.cc	/^Scheduler::~Scheduler() {$/;"	f	class:sylar::Scheduler
+~ScopedLockImpl	sylar/thread.h	/^    ~ScopedLockImpl(){$/;"	f	struct:sylar::ScopedLockImpl
+~Semaphore	sylar/thread.cpp	/^Semaphore::~Semaphore(){$/;"	f	class:sylar::Semaphore
+~Socket	sylar/socket.cc	/^Socket::~Socket() {$/;"	f	class:sylar::Socket
+~Spinlock	sylar/thread.h	/^    ~Spinlock(){$/;"	f	class:sylar::Spinlock
+~Thread	sylar/thread.cpp	/^Thread::~Thread(){$/;"	f	class:sylar::Thread
+~TimerManager	sylar/timer.cc	/^TimerManager::~TimerManager() {$/;"	f	class:sylar::TimerManager
+~WriteScopedLockImpl	sylar/thread.h	/^    ~WriteScopedLockImpl(){$/;"	f	struct:sylar::WriteScopedLockImpl

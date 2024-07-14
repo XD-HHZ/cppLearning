@@ -1,0 +1,657 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/huanghz/cppLearning/CPPLearning/mySylarWeb/sylar/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+Alloc	fiber.cc	/^    static void* Alloc(size_t size){$/;"	f	class:sylar::MallocStackAllocator	typeref:typename:void *	file:
+Backtrace	util.cpp	/^void Backtrace(std::vector<std::string>& bt, int size, int skip){$/;"	f	namespace:sylar	typeref:typename:void
+BacktraceToString	util.cpp	/^std::string BacktraceToString(int size, int skip, const std::string& prefix){$/;"	f	namespace:sylar	typeref:typename:std::string
+CASLock	thread.h	/^    CASLock(){$/;"	f	class:sylar::CASLock
+CASLock	thread.h	/^class CASLock{$/;"	c	namespace:sylar
+CallerMainFunc	fiber.cc	/^void Fiber::CallerMainFunc(){$/;"	f	class:sylar::Fiber	typeref:typename:void
+Comparator	timer.h	/^	struct Comparator {$/;"	s	class:sylar::Timer
+Config	config.h	/^class Config{$/;"	c	namespace:sylar
+ConfigVar	config.h	/^    ConfigVar(const std::string& name,$/;"	f	class:sylar::ConfigVar
+ConfigVar	config.h	/^class ConfigVar : public ConfigVarBase {$/;"	c	namespace:sylar
+ConfigVarBase	config.h	/^    ConfigVarBase(const std::string& name, const std::string& description = "")$/;"	f	class:sylar::ConfigVarBase
+ConfigVarBase	config.h	/^class ConfigVarBase{$/;"	c	namespace:sylar
+ConfigVarMap	config.h	/^    typedef std::map<std::string, ConfigVarBase::ptr> ConfigVarMap;$/;"	t	class:sylar::Config	typeref:typename:std::map<std::string,ConfigVarBase::ptr>
+DEBUG	log.h	/^    DEBUG = 1,$/;"	e	enum:sylar::LogLevel::Level
+DateTimeFormatItem	log.cpp	/^    DateTimeFormatItem(const std::string& format = "%Y-%m-%d %H:%M:%S"):$/;"	f	class:sylar::DateTimeFormatItem	file:
+DateTimeFormatItem	log.cpp	/^class DateTimeFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+Dealloc	fiber.cc	/^    static void Dealloc(void* vp, size_t size) {$/;"	f	class:sylar::MallocStackAllocator	typeref:typename:void	file:
+ERROR	log.h	/^    ERROR = 4,$/;"	e	enum:sylar::LogLevel::Level
+EXCEPT	fiber.h	/^        EXCEPT$/;"	e	enum:sylar::Fiber::State
+EXEC	fiber.h	/^        EXEC,$/;"	e	enum:sylar::Fiber::State
+ElapseFormatItem	log.cpp	/^    ElapseFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::ElapseFormatItem	file:
+ElapseFormatItem	log.cpp	/^class ElapseFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+Event	iomanager.h	/^	enum Event{$/;"	g	class:sylar::IOManager
+EventContext	iomanager.h	/^		struct EventContext{$/;"	s	struct:sylar::IOManager::FdContext
+FATAL	log.h	/^    FATAL = 5      $/;"	e	enum:sylar::LogLevel::Level
+FdContext	iomanager.h	/^	struct FdContext{$/;"	s	class:sylar::IOManager
+FdCtx	fd_manager.cc	/^FdCtx::FdCtx(int fd)$/;"	f	class:sylar::FdCtx
+FdCtx	fd_manager.h	/^class FdCtx : public std::enable_shared_from_this<FdCtx> {$/;"	c	namespace:sylar
+FdManager	fd_manager.cc	/^FdManager::FdManager() {$/;"	f	class:sylar::FdManager
+FdManager	fd_manager.h	/^class FdManager {$/;"	c	namespace:sylar
+FdMgr	fd_manager.h	/^typedef Singleton<FdManager> FdMgr;$/;"	t	namespace:sylar	typeref:typename:Singleton<FdManager>
+Fiber	fiber.cc	/^Fiber::Fiber(){$/;"	f	class:sylar::Fiber
+Fiber	fiber.cc	/^Fiber::Fiber(std::function<void()> cb, size_t stacksize, bool use_caller)$/;"	f	class:sylar::Fiber
+Fiber	fiber.h	/^class Fiber : public std::enable_shared_from_this<Fiber>{$/;"	c	namespace:sylar
+FiberAndThread	scheduler.h	/^        FiberAndThread()$/;"	f	struct:sylar::Scheduler::FiberAndThread
+FiberAndThread	scheduler.h	/^        FiberAndThread(Fiber::ptr f, int thr)$/;"	f	struct:sylar::Scheduler::FiberAndThread
+FiberAndThread	scheduler.h	/^        FiberAndThread(Fiber::ptr* f, int thr)$/;"	f	struct:sylar::Scheduler::FiberAndThread
+FiberAndThread	scheduler.h	/^        FiberAndThread(std::function<void()> f, int thr)$/;"	f	struct:sylar::Scheduler::FiberAndThread
+FiberAndThread	scheduler.h	/^        FiberAndThread(std::function<void()>* f, int thr)$/;"	f	struct:sylar::Scheduler::FiberAndThread
+FiberAndThread	scheduler.h	/^    struct FiberAndThread{$/;"	s	class:sylar::Scheduler
+FiberIdFormatItem	log.cpp	/^    FiberIdFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::FiberIdFormatItem	file:
+FiberIdFormatItem	log.cpp	/^class FiberIdFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+FileLogAppender	log.cpp	/^FileLogAppender::FileLogAppender(const std::string& filename)$/;"	f	class:sylar::FileLogAppender
+FileLogAppender	log.h	/^class FileLogAppender : public LogAppender{$/;"	c	namespace:sylar
+FilenameFormatItem	log.cpp	/^    FilenameFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::FilenameFormatItem	file:
+FilenameFormatItem	log.cpp	/^class FilenameFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+FormatItem	log.h	/^    class FormatItem{$/;"	c	class:sylar::LogFormatter
+FromString	log.cpp	/^LogLevel::Level LogLevel::FromString(const std::string& str){$/;"	f	class:sylar::LogLevel	typeref:typename:LogLevel::Level
+GetCurrentMS	util.cpp	/^uint64_t GetCurrentMS() {$/;"	f	namespace:sylar	typeref:typename:uint64_t
+GetCurrentUS	util.cpp	/^uint64_t GetCurrentUS() {$/;"	f	namespace:sylar	typeref:typename:uint64_t
+GetDatas	config.h	/^    static ConfigVarMap& GetDatas(){$/;"	f	class:sylar::Config	typeref:typename:ConfigVarMap &
+GetFiberId	fiber.cc	/^uint64_t Fiber::GetFiberId(){$/;"	f	class:sylar::Fiber	typeref:typename:uint64_t
+GetFiberId	util.cpp	/^uint32_t GetFiberId(){$/;"	f	namespace:sylar	typeref:typename:uint32_t
+GetInstance	singleton.h	/^    static T* GetInstance(){$/;"	f	class:sylar::Singleton	typeref:typename:T *
+GetInstance	singleton.h	/^    static std::shared_ptr<T> GetInstance(){$/;"	f	class:sylar::SingletonPtr	typeref:typename:std::shared_ptr<T>
+GetMainFiber	scheduler.cc	/^Fiber* Scheduler::GetMainFiber() {$/;"	f	class:sylar::Scheduler	typeref:typename:Fiber *
+GetMutex	config.h	/^    static RWMutexType& GetMutex(){$/;"	f	class:sylar::Config	typeref:typename:RWMutexType &
+GetName	thread.cpp	/^const std::string& Thread::GetName(){$/;"	f	class:sylar::Thread	typeref:typename:const std::string &
+GetThis	fiber.cc	/^Fiber::ptr Fiber::GetThis(){$/;"	f	class:sylar::Fiber	typeref:typename:Fiber::ptr
+GetThis	iomanager.cc	/^IOManager* IOManager::GetThis(){$/;"	f	class:sylar::IOManager	typeref:typename:IOManager *
+GetThis	scheduler.cc	/^Scheduler* Scheduler::GetThis() {$/;"	f	class:sylar::Scheduler	typeref:typename:Scheduler *
+GetThis	thread.cpp	/^Thread* Thread::GetThis(){$/;"	f	class:sylar::Thread	typeref:typename:Thread *
+GetThreadId	util.cpp	/^pid_t GetThreadId(){$/;"	f	namespace:sylar	typeref:typename:pid_t
+HOLD	fiber.h	/^        HOLD,$/;"	e	enum:sylar::Fiber::State
+HOOK_FUN	hook.cc	/^#define HOOK_FUN(/;"	d	file:
+INFO	log.h	/^    INFO = 2,$/;"	e	enum:sylar::LogLevel::Level
+INIT	fiber.h	/^        INIT,$/;"	e	enum:sylar::Fiber::State
+IOManager	iomanager.cc	/^IOManager::IOManager(size_t threads, bool use_caller, const std::string& name)$/;"	f	class:sylar::IOManager
+IOManager	iomanager.h	/^class IOManager : public Scheduler, public TimerManager {$/;"	c	namespace:sylar
+Level	log.h	/^    enum Level{$/;"	g	class:sylar::LogLevel
+LevelFormatItem	log.cpp	/^    LevelFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::LevelFormatItem	file:
+LevelFormatItem	log.cpp	/^class LevelFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+LexicalCast	config.h	/^class LexicalCast {$/;"	c	namespace:sylar
+LexicalCast	config.h	/^class LexicalCast<std::list<T>, std::string>{$/;"	c	namespace:sylar
+LexicalCast	config.h	/^class LexicalCast<std::map<std::string, T>, std::string>{$/;"	c	namespace:sylar
+LexicalCast	config.h	/^class LexicalCast<std::set<T>, std::string>{$/;"	c	namespace:sylar
+LexicalCast	config.h	/^class LexicalCast<std::string, std::list<T>>{$/;"	c	namespace:sylar
+LexicalCast	config.h	/^class LexicalCast<std::string, std::map<std::string, T>>{$/;"	c	namespace:sylar
+LexicalCast	config.h	/^class LexicalCast<std::string, std::set<T>>{$/;"	c	namespace:sylar
+LexicalCast	config.h	/^class LexicalCast<std::string, std::unordered_map<std::string, T>>{$/;"	c	namespace:sylar
+LexicalCast	config.h	/^class LexicalCast<std::string, std::unordered_set<T>>{$/;"	c	namespace:sylar
+LexicalCast	config.h	/^class LexicalCast<std::string, std::vector<T>>{$/;"	c	namespace:sylar
+LexicalCast	config.h	/^class LexicalCast<std::unordered_map<std::string, T>, std::string>{$/;"	c	namespace:sylar
+LexicalCast	config.h	/^class LexicalCast<std::unordered_set<T>, std::string>{$/;"	c	namespace:sylar
+LexicalCast	config.h	/^class LexicalCast<std::vector<T>, std::string>{$/;"	c	namespace:sylar
+LexicalCast	log.cpp	/^class LexicalCast<std::set<LogDefine>, std::string>{$/;"	c	namespace:sylar	file:
+LexicalCast	log.cpp	/^class LexicalCast<std::string, std::set<LogDefine>>{$/;"	c	namespace:sylar	file:
+LineFormatItem	log.cpp	/^    LineFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::LineFormatItem	file:
+LineFormatItem	log.cpp	/^class LineFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+ListAllMember	config.cc	/^static void ListAllMember(const std::string& prefix,$/;"	f	namespace:sylar	typeref:typename:void	file:
+LoadFromYaml	config.cc	/^void Config::LoadFromYaml(const YAML::Node& root){$/;"	f	class:sylar::Config	typeref:typename:void
+Lock	thread.h	/^    typedef ScopedLockImpl<CASLock> Lock;$/;"	t	class:sylar::CASLock	typeref:typename:ScopedLockImpl<CASLock>
+Lock	thread.h	/^    typedef ScopedLockImpl<Mutex> Lock;$/;"	t	class:sylar::Mutex	typeref:typename:ScopedLockImpl<Mutex>
+Lock	thread.h	/^    typedef ScopedLockImpl<NullMutex> Lock;$/;"	t	class:sylar::NullMutex	typeref:typename:ScopedLockImpl<NullMutex>
+Lock	thread.h	/^    typedef ScopedLockImpl<Spinlock> Lock;$/;"	t	class:sylar::Spinlock	typeref:typename:ScopedLockImpl<Spinlock>
+LogAppender	log.h	/^class LogAppender{$/;"	c	namespace:sylar
+LogAppenderDefine	log.cpp	/^struct LogAppenderDefine{$/;"	s	namespace:sylar	file:
+LogDefine	log.cpp	/^struct LogDefine{$/;"	s	namespace:sylar	file:
+LogEvent	log.cpp	/^LogEvent::LogEvent(std::shared_ptr<Logger> logger, LogLevel::Level level$/;"	f	class:sylar::LogEvent
+LogEvent	log.h	/^class LogEvent{$/;"	c	namespace:sylar
+LogEventWrap	log.cpp	/^LogEventWrap::LogEventWrap(LogEvent::ptr e)$/;"	f	class:sylar::LogEventWrap
+LogEventWrap	log.h	/^class LogEventWrap{$/;"	c	namespace:sylar
+LogFormatter	log.cpp	/^LogFormatter::LogFormatter(const std::string& pattern)$/;"	f	class:sylar::LogFormatter
+LogFormatter	log.h	/^class LogFormatter{$/;"	c	namespace:sylar
+LogIniter	log.cpp	/^    LogIniter(){$/;"	f	struct:sylar::LogIniter	file:
+LogIniter	log.cpp	/^struct LogIniter{$/;"	s	namespace:sylar	file:
+LogLevel	log.h	/^class LogLevel{$/;"	c	namespace:sylar
+Logger	log.cpp	/^Logger::Logger(const std::string& name)$/;"	f	class:sylar::Logger
+Logger	log.h	/^class Logger : public std::enable_shared_from_this<Logger>{$/;"	c	namespace:sylar
+LoggerManager	log.cpp	/^LoggerManager::LoggerManager(){$/;"	f	class:sylar::LoggerManager
+LoggerManager	log.h	/^class LoggerManager{$/;"	c	namespace:sylar
+LoggerMgr	log.h	/^typedef sylar::Singleton<LoggerManager> LoggerMgr;$/;"	t	namespace:sylar	typeref:typename:sylar::Singleton<LoggerManager>
+Lookup	config.h	/^    static typename ConfigVar<T>::ptr Lookup(const std::string& name){$/;"	f	class:sylar::Config	typeref:typename:ConfigVar<T>::ptr
+Lookup	config.h	/^    static typename ConfigVar<T>::ptr Lookup(const std::string& name,$/;"	f	class:sylar::Config	typeref:typename:ConfigVar<T>::ptr
+LookupBase	config.cc	/^ConfigVarBase::ptr Config::LookupBase(const std::string& name){$/;"	f	class:sylar::Config	typeref:typename:ConfigVarBase::ptr
+MainFunc	fiber.cc	/^void Fiber::MainFunc(){$/;"	f	class:sylar::Fiber	typeref:typename:void
+MallocStackAllocator	fiber.cc	/^class MallocStackAllocator{$/;"	c	namespace:sylar	file:
+MessageFormatItem	log.cpp	/^    MessageFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::MessageFormatItem	file:
+MessageFormatItem	log.cpp	/^class MessageFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+Mutex	thread.h	/^    Mutex(){$/;"	f	class:sylar::Mutex
+Mutex	thread.h	/^class Mutex{$/;"	c	namespace:sylar
+MutexType	iomanager.h	/^		typedef Mutex MutexType;$/;"	t	struct:sylar::IOManager::FdContext	typeref:typename:Mutex
+MutexType	log.h	/^    typedef Spinlock MutexType;$/;"	t	class:sylar::LogAppender	typeref:typename:Spinlock
+MutexType	log.h	/^    typedef Spinlock MutexType;$/;"	t	class:sylar::Logger	typeref:typename:Spinlock
+MutexType	log.h	/^    typedef Spinlock MutexType;$/;"	t	class:sylar::LoggerManager	typeref:typename:Spinlock
+MutexType	scheduler.h	/^    typedef Mutex MutexType;$/;"	t	class:sylar::Scheduler	typeref:typename:Mutex
+NONE	iomanager.h	/^		NONE    = 0x0,$/;"	e	enum:sylar::IOManager::Event
+NameFormatItem	log.cpp	/^    NameFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::NameFormatItem	file:
+NameFormatItem	log.cpp	/^class NameFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+NewLineFormatItem	log.cpp	/^    NewLineFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::NewLineFormatItem	file:
+NewLineFormatItem	log.cpp	/^class NewLineFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+NullMutex	thread.h	/^    NullMutex(){};$/;"	f	class:sylar::NullMutex
+NullMutex	thread.h	/^class NullMutex{$/;"	c	namespace:sylar
+NullRWMutex	thread.h	/^    NullRWMutex(){};$/;"	f	class:sylar::NullRWMutex
+NullRWMutex	thread.h	/^class NullRWMutex{$/;"	c	namespace:sylar
+OnTimer	timer.cc	/^static void OnTimer(std::weak_ptr<void> weak_cond, std::function<void()> cb) {$/;"	f	namespace:sylar	typeref:typename:void	file:
+READ	iomanager.h	/^		READ    = 0x1,		\/\/EPOLLIN$/;"	e	enum:sylar::IOManager::Event
+READY	fiber.h	/^        READY,$/;"	e	enum:sylar::Fiber::State
+RWMutex	thread.h	/^    RWMutex(){$/;"	f	class:sylar::RWMutex
+RWMutex	thread.h	/^class RWMutex{$/;"	c	namespace:sylar
+RWMutexType	config.h	/^    typedef RWMutex RWMutexType;$/;"	t	class:sylar::Config	typeref:typename:RWMutex
+RWMutexType	config.h	/^    typedef RWMutex RWMutexType;$/;"	t	class:sylar::ConfigVar	typeref:typename:RWMutex
+RWMutexType	fd_manager.h	/^	typedef RWMutex RWMutexType;$/;"	t	class:sylar::FdManager	typeref:typename:RWMutex
+RWMutexType	iomanager.h	/^	typedef RWMutex RWMutexType;$/;"	t	class:sylar::IOManager	typeref:typename:RWMutex
+RWMutexType	timer.h	/^	typedef RWMutex RWMutexType;$/;"	t	class:sylar::TimerManager	typeref:typename:RWMutex
+ReadLock	thread.h	/^    typedef ReadScopedLockImpl<NullMutex> ReadLock;$/;"	t	class:sylar::NullRWMutex	typeref:typename:ReadScopedLockImpl<NullMutex>
+ReadLock	thread.h	/^    typedef ReadScopedLockImpl<RWMutex> ReadLock;$/;"	t	class:sylar::RWMutex	typeref:typename:ReadScopedLockImpl<RWMutex>
+ReadScopedLockImpl	thread.h	/^    ReadScopedLockImpl(T& mutex)$/;"	f	struct:sylar::ReadScopedLockImpl
+ReadScopedLockImpl	thread.h	/^struct ReadScopedLockImpl{$/;"	s	namespace:sylar
+SYLAR_ASSERT	macro.h	/^#define SYLAR_ASSERT(/;"	d
+SYLAR_ASSERT2	macro.h	/^#define SYLAR_ASSERT2(/;"	d
+SYLAR_LOG_DEBUG	log.h	/^#define SYLAR_LOG_DEBUG(/;"	d
+SYLAR_LOG_ERROR	log.h	/^#define SYLAR_LOG_ERROR(/;"	d
+SYLAR_LOG_FATAL	log.h	/^#define SYLAR_LOG_FATAL(/;"	d
+SYLAR_LOG_FMT_DEBUG	log.h	/^#define SYLAR_LOG_FMT_DEBUG(/;"	d
+SYLAR_LOG_FMT_ERROR	log.h	/^#define SYLAR_LOG_FMT_ERROR(/;"	d
+SYLAR_LOG_FMT_FATAL	log.h	/^#define SYLAR_LOG_FMT_FATAL(/;"	d
+SYLAR_LOG_FMT_INFO	log.h	/^#define SYLAR_LOG_FMT_INFO(/;"	d
+SYLAR_LOG_FMT_LEVEL	log.h	/^#define SYLAR_LOG_FMT_LEVEL(/;"	d
+SYLAR_LOG_FMT_WARN	log.h	/^#define SYLAR_LOG_FMT_WARN(/;"	d
+SYLAR_LOG_INFO	log.h	/^#define SYLAR_LOG_INFO(/;"	d
+SYLAR_LOG_LEVEL	log.h	/^#define SYLAR_LOG_LEVEL(/;"	d
+SYLAR_LOG_NAME	log.h	/^#define SYLAR_LOG_NAME(/;"	d
+SYLAR_LOG_ROOT	log.h	/^#define SYLAR_LOG_ROOT(/;"	d
+SYLAR_LOG_WARN	log.h	/^#define SYLAR_LOG_WARN(/;"	d
+Scheduler	scheduler.cc	/^Scheduler::Scheduler(size_t threads, bool use_caller, const std::string& name)$/;"	f	class:sylar::Scheduler
+Scheduler	scheduler.h	/^class Scheduler{$/;"	c	namespace:sylar
+ScopedLockImpl	thread.h	/^    ScopedLockImpl(T& mutex)$/;"	f	struct:sylar::ScopedLockImpl
+ScopedLockImpl	thread.h	/^struct ScopedLockImpl{$/;"	s	namespace:sylar
+Semaphore	thread.cpp	/^Semaphore::Semaphore(uint32_t count){$/;"	f	class:sylar::Semaphore
+Semaphore	thread.h	/^class Semaphore{$/;"	c	namespace:sylar
+SetName	thread.cpp	/^void Thread::SetName(const std::string& name){$/;"	f	class:sylar::Thread	typeref:typename:void
+SetThis	fiber.cc	/^void Fiber::SetThis(Fiber* f){$/;"	f	class:sylar::Fiber	typeref:typename:void
+Singleton	singleton.h	/^class Singleton{$/;"	c	namespace:sylar
+SingletonPtr	singleton.h	/^class SingletonPtr{$/;"	c	namespace:sylar
+Spinlock	thread.h	/^    Spinlock(){$/;"	f	class:sylar::Spinlock
+Spinlock	thread.h	/^class Spinlock{$/;"	c	namespace:sylar
+StackAllocator	fiber.cc	/^using StackAllocator = MallocStackAllocator;$/;"	t	namespace:sylar	typeref:typename:MallocStackAllocator	file:
+State	fiber.h	/^    enum State {$/;"	g	class:sylar::Fiber
+StdoutLogAppender	log.h	/^class StdoutLogAppender : public LogAppender{$/;"	c	namespace:sylar
+StringFormatItem	log.cpp	/^    StringFormatItem(const std::string& str)$/;"	f	class:sylar::StringFormatItem	file:
+StringFormatItem	log.cpp	/^class StringFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+TERM	fiber.h	/^        TERM,$/;"	e	enum:sylar::Fiber::State
+TabFormatItem	log.cpp	/^    TabFormatItem(const std::string& str = ""){}$/;"	f	class:sylar::TabFormatItem	file:
+TabFormatItem	log.cpp	/^class TabFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+Thread	thread.cpp	/^Thread::Thread(std::function<void()> cb, const std::string& name)$/;"	f	class:sylar::Thread
+Thread	thread.h	/^class Thread {$/;"	c	namespace:sylar
+ThreadIdFormatItem	log.cpp	/^    ThreadIdFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::ThreadIdFormatItem	file:
+ThreadIdFormatItem	log.cpp	/^class ThreadIdFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+ThreadNameFormatItem	log.cpp	/^    ThreadNameFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::ThreadNameFormatItem	file:
+ThreadNameFormatItem	log.cpp	/^class ThreadNameFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+Timer	timer.cc	/^Timer::Timer(uint64_t ms, std::function<void()> cb, $/;"	f	class:sylar::Timer
+Timer	timer.cc	/^Timer::Timer(uint64_t next)$/;"	f	class:sylar::Timer
+Timer	timer.h	/^class Timer : public std::enable_shared_from_this<Timer> {$/;"	c	namespace:sylar
+TimerManager	timer.cc	/^TimerManager::TimerManager() {$/;"	f	class:sylar::TimerManager
+TimerManager	timer.h	/^class TimerManager {$/;"	c	namespace:sylar
+ToString	log.cpp	/^const char* LogLevel::ToString(LogLevel::Level level){$/;"	f	class:sylar::LogLevel	typeref:typename:const char *
+TotalFibers	fiber.cc	/^uint64_t Fiber::TotalFibers(){$/;"	f	class:sylar::Fiber	typeref:typename:uint64_t
+UNKNOW	log.h	/^    UNKNOW = 0,$/;"	e	enum:sylar::LogLevel::Level
+Visit	config.cc	/^void Config::Visit(std::function<void(ConfigVarBase::ptr)> cb){$/;"	f	class:sylar::Config	typeref:typename:void
+WARN	log.h	/^    WARN = 3,$/;"	e	enum:sylar::LogLevel::Level
+WRITE	iomanager.h	/^		WRITE   = 0x4,		\/\/EPOLLOUT$/;"	e	enum:sylar::IOManager::Event
+WriteLock	thread.h	/^    typedef WriteScopedLockImpl<NullMutex> WriteLock;$/;"	t	class:sylar::NullRWMutex	typeref:typename:WriteScopedLockImpl<NullMutex>
+WriteLock	thread.h	/^    typedef WriteScopedLockImpl<RWMutex> WriteLock;$/;"	t	class:sylar::RWMutex	typeref:typename:WriteScopedLockImpl<RWMutex>
+WriteScopedLockImpl	thread.h	/^    WriteScopedLockImpl(T& mutex)$/;"	f	struct:sylar::WriteScopedLockImpl
+WriteScopedLockImpl	thread.h	/^struct WriteScopedLockImpl{$/;"	s	namespace:sylar
+XX	hook.cc	/^#define XX(/;"	d	file:
+XX	log.cpp	/^#define XX(/;"	d	file:
+YieldToHold	fiber.cc	/^void Fiber::YieldToHold(){$/;"	f	class:sylar::Fiber	typeref:typename:void
+YieldToReady	fiber.cc	/^void Fiber::YieldToReady(){$/;"	f	class:sylar::Fiber	typeref:typename:void
+_HookIniter	hook.cc	/^	_HookIniter() {$/;"	f	struct:sylar::_HookIniter	file:
+_HookIniter	hook.cc	/^struct _HookIniter {$/;"	s	namespace:sylar	file:
+__FD_MANAGER_H__	fd_manager.h	/^#define __FD_MANAGER_H__$/;"	d
+__SYLAR_CONFIG_H__	config.h	/^#define __SYLAR_CONFIG_H__$/;"	d
+__SYLAR_FIBER_H__	fiber.h	/^#define __SYLAR_FIBER_H__$/;"	d
+__SYLAR_HOOK_H__	hook.h	/^#define __SYLAR_HOOK_H__$/;"	d
+__SYLAR_IOMANAGER_H__	iomanager.h	/^#define __SYLAR_IOMANAGER_H__$/;"	d
+__SYLAR_LOG_H__	log.h	/^#define __SYLAR_LOG_H__$/;"	d
+__SYLAR_MACRO_H__	macro.h	/^#define __SYLAR_MACRO_H__$/;"	d
+__SYLAR_SCHEDULER_H__	scheduler.h	/^#define __SYLAR_SCHEDULER_H__$/;"	d
+__SYLAR_SINGLETON_H__	singleton.h	/^#define __SYLAR_SINGLETON_H__$/;"	d
+__SYLAR_SYLAR_H__	sylar.h	/^#define __SYLAR_SYLAR_H__$/;"	d
+__SYLAR_THREAD_H__	thread.h	/^#define __SYLAR_THREAD_H__$/;"	d
+__SYLAR_UTIL_H__	util.h	/^#define __SYLAR_UTIL_H__$/;"	d
+__TIMER_H__	timer.h	/^#define __TIMER_H__$/;"	d
+__anon546906ea0102	hook.cc	/^		g_tcp_connect_timeout->addListener([](const int& old_value, const int& new_value){$/;"	f	function:sylar::_HookIniter::_HookIniter	file:
+__anon546906ea0202	hook.cc	/^			timer = iom->addConditionTimer(to, [winfo, fd, iom, event](){$/;"	f	function:do_io	file:
+__anon546906ea0302	hook.cc	/^	iom->addTimer(usec \/ 1000, [iom, fiber](){$/;"	f	function:usleep	file:
+__anon546906ea0402	hook.cc	/^	iom->addTimer(timeout_ms, [iom, fiber](){$/;"	f	function:nanosleep	file:
+__anon546906ea0502	hook.cc	/^		timer = iom->addConditionTimer(timeout_ms, [winfo, fd, iom]() {$/;"	f	function:connect_with_timeout	file:
+__anon87a0a5f80102	log.cpp	/^                    const std::set<LogDefine>& new_value){$/;"	f	function:sylar::LogIniter::LogIniter	file:
+__anonc20e1a6c0102	iomanager.cc	/^	std::shared_ptr<epoll_event> shared_events(events, [](epoll_event* ptr){ $/;"	f	function:sylar::IOManager::idle	file:
+__log_init	log.cpp	/^static LogIniter __log_init;$/;"	v	namespace:sylar	typeref:typename:LogIniter	file:
+accept	hook.cc	/^int accept(int s, struct sockaddr *addr, socklen_t *addrlen) {$/;"	f	typeref:typename:int
+accept_fun	hook.h	/^typedef int (*accept_fun)(int s, struct sockaddr *addr, socklen_t *addrlen);$/;"	t	typeref:typename:int (*)(int s,struct sockaddr * addr,socklen_t * addrlen)
+addAppender	log.cpp	/^void Logger::addAppender(LogAppender::ptr appender){$/;"	f	class:sylar::Logger	typeref:typename:void
+addConditionTimer	timer.cc	/^Timer::ptr TimerManager::addConditionTimer(uint64_t ms, std::function<void()> cb$/;"	f	class:sylar::TimerManager	typeref:typename:Timer::ptr
+addEvent	iomanager.cc	/^int IOManager::addEvent(int fd, Event event, std::function<void()> cb){$/;"	f	class:sylar::IOManager	typeref:typename:int
+addListener	config.h	/^    uint64_t addListener(on_change_cb cb) {$/;"	f	class:sylar::ConfigVar	typeref:typename:uint64_t
+addTimer	timer.cc	/^Timer::ptr TimerManager::addTimer(uint64_t ms, std::function<void()> cb$/;"	f	class:sylar::TimerManager	typeref:typename:Timer::ptr
+addTimer	timer.cc	/^void TimerManager::addTimer(Timer::ptr val, RWMutexType::WriteLock& lock) {$/;"	f	class:sylar::TimerManager	typeref:typename:void
+appenders	log.cpp	/^    std::vector<LogAppenderDefine> appenders;$/;"	m	struct:sylar::LogDefine	typeref:typename:std::vector<LogAppenderDefine>	file:
+back	fiber.cc	/^void Fiber::back() {$/;"	f	class:sylar::Fiber	typeref:typename:void
+call	fiber.cc	/^void Fiber::call(){$/;"	f	class:sylar::Fiber	typeref:typename:void
+cancel	timer.cc	/^bool Timer::cancel() {$/;"	f	class:sylar::Timer	typeref:typename:bool
+cancelAll	iomanager.cc	/^bool IOManager::cancelAll(int fd){$/;"	f	class:sylar::IOManager	typeref:typename:bool
+cancelEvent	iomanager.cc	/^bool IOManager::cancelEvent(int fd, Event event){$/;"	f	class:sylar::IOManager	typeref:typename:bool
+cancelled	hook.cc	/^	int cancelled = 0;$/;"	m	struct:timer_info	typeref:typename:int	file:
+cb	iomanager.h	/^			std::function<void()> cb;      		    \/\/事件的回调函数$/;"	m	struct:sylar::IOManager::FdContext::EventContext	typeref:typename:std::function<void ()>
+cb	scheduler.h	/^        std::function<void()> cb;$/;"	m	struct:sylar::Scheduler::FiberAndThread	typeref:typename:std::function<void ()>
+clearAppenders	log.cpp	/^void Logger::clearAppenders(){$/;"	f	class:sylar::Logger	typeref:typename:void
+clearListener	config.h	/^    void clearListener() {$/;"	f	class:sylar::ConfigVar	typeref:typename:void
+close	hook.cc	/^int close(int fd) {$/;"	f	typeref:typename:int
+close_fun	hook.h	/^typedef int (*close_fun)(int fd);$/;"	t	typeref:typename:int (*)(int fd)
+connect	hook.cc	/^int connect(int sockfd, const struct sockaddr *addr, socklen_t addrlen) {$/;"	f	typeref:typename:int
+connect_fun	hook.h	/^typedef int (*connect_fun)(int sockfd, const struct sockaddr *addr, socklen_t addrlen);$/;"	t	typeref:typename:int (*)(int sockfd,const struct sockaddr * addr,socklen_t addrlen)
+connect_with_timeout	hook.cc	/^int connect_with_timeout(int fd, const struct sockaddr* addr, socklen_t addrlen, uint64_t timeou/;"	f	typeref:typename:int
+contextResize	iomanager.cc	/^void IOManager::contextResize(size_t size){$/;"	f	class:sylar::IOManager	typeref:typename:void
+debug	log.cpp	/^void Logger::debug(LogEvent::ptr event){$/;"	f	class:sylar::Logger	typeref:typename:void
+del	fd_manager.cc	/^void FdManager::del(int fd) {$/;"	f	class:sylar::FdManager	typeref:typename:void
+delAppender	log.cpp	/^void Logger::delAppender(LogAppender::ptr appender){$/;"	f	class:sylar::Logger	typeref:typename:void
+delEvent	iomanager.cc	/^bool IOManager::delEvent(int fd, Event event){$/;"	f	class:sylar::IOManager	typeref:typename:bool
+delListener	config.h	/^    void delListener(uint64_t key){$/;"	f	class:sylar::ConfigVar	typeref:typename:void
+detectClockRollover	timer.cc	/^bool TimerManager::detectClockRollover(uint64_t now_ms) {$/;"	f	class:sylar::TimerManager	typeref:typename:bool
+do_io	hook.cc	/^static ssize_t do_io(int fd, OriginFun fun, const char* hook_fun_name, $/;"	f	typeref:typename:ssize_t	file:
+error	log.cpp	/^void Logger::error(LogEvent::ptr event){$/;"	f	class:sylar::Logger	typeref:typename:void
+events	iomanager.h	/^		Event events = NONE;			\/\/已经注册的时间$/;"	m	struct:sylar::IOManager::FdContext	typeref:typename:Event
+fatal	log.cpp	/^void Logger::fatal(LogEvent::ptr event){$/;"	f	class:sylar::Logger	typeref:typename:void
+fcntl	hook.cc	/^int fcntl(int fd, int cmd, ... \/* arg *\/ ) {$/;"	f	typeref:typename:int
+fcntl_fun	hook.h	/^typedef int (*fcntl_fun)(int fd, int cmd, ... \/* arg *\/ );$/;"	t	typeref:typename:int (*)(int fd,int cmd,...)
+fd	iomanager.h	/^		int fd = 0;						\/\/写事件$/;"	m	struct:sylar::IOManager::FdContext	typeref:typename:int
+fiber	iomanager.h	/^			Fiber::ptr fiber;		                \/\/事件协程$/;"	m	struct:sylar::IOManager::FdContext::EventContext	typeref:typename:Fiber::ptr
+fiber	scheduler.h	/^        Fiber::ptr fiber;$/;"	m	struct:sylar::Scheduler::FiberAndThread	typeref:typename:Fiber::ptr
+file	log.cpp	/^    std::string file;$/;"	m	struct:sylar::LogAppenderDefine	typeref:typename:std::string	file:
+format	log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::DateTimeFormatItem	typeref:typename:void	file:
+format	log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::ElapseFormatItem	typeref:typename:void	file:
+format	log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::FiberIdFormatItem	typeref:typename:void	file:
+format	log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::FilenameFormatItem	typeref:typename:void	file:
+format	log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::LevelFormatItem	typeref:typename:void	file:
+format	log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::LineFormatItem	typeref:typename:void	file:
+format	log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::MessageFormatItem	typeref:typename:void	file:
+format	log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::NameFormatItem	typeref:typename:void	file:
+format	log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::NewLineFormatItem	typeref:typename:void	file:
+format	log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::StringFormatItem	typeref:typename:void	file:
+format	log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::TabFormatItem	typeref:typename:void	file:
+format	log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::ThreadIdFormatItem	typeref:typename:void	file:
+format	log.cpp	/^    void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event/;"	f	class:sylar::ThreadNameFormatItem	typeref:typename:void	file:
+format	log.cpp	/^std::string LogFormatter::format(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent/;"	f	class:sylar::LogFormatter	typeref:typename:std::string
+format	log.cpp	/^void LogEvent::format(const char* fmt, ...) {$/;"	f	class:sylar::LogEvent	typeref:typename:void
+format	log.cpp	/^void LogEvent::format(const char* fmt, va_list al) {$/;"	f	class:sylar::LogEvent	typeref:typename:void
+formatter	log.cpp	/^    std::string formatter;$/;"	m	struct:sylar::LogAppenderDefine	typeref:typename:std::string	file:
+formatter	log.cpp	/^    std::string formatter;$/;"	m	struct:sylar::LogDefine	typeref:typename:std::string	file:
+fromString	config.h	/^    bool fromString(const std::string& val) override {$/;"	f	class:sylar::ConfigVar	typeref:typename:bool
+g_fiber_stack_size	fiber.cc	/^static ConfigVar<uint32_t>::ptr g_fiber_stack_size = $/;"	v	namespace:sylar	typeref:typename:ConfigVar<uint32_t>::ptr	file:
+g_log_defines	log.cpp	/^sylar::ConfigVar<std::set<LogDefine> >::ptr g_log_defines = $/;"	v	namespace:sylar	typeref:typename:sylar::ConfigVar<std::set<LogDefine>>::ptr
+g_logger	fiber.cc	/^static Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar	typeref:typename:Logger::ptr	file:
+g_logger	hook.cc	/^sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	typeref:typename:sylar::Logger::ptr
+g_logger	iomanager.cc	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar	typeref:typename:sylar::Logger::ptr	file:
+g_logger	scheduler.cc	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar	typeref:typename:sylar::Logger::ptr	file:
+g_logger	thread.cpp	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar	typeref:typename:sylar::Logger::ptr	file:
+g_logger	util.cpp	/^sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar	typeref:typename:sylar::Logger::ptr
+g_tcp_connect_timeout	hook.cc	/^static sylar::ConfigVar<int>::ptr g_tcp_connect_timeout = $/;"	v	namespace:sylar	typeref:typename:sylar::ConfigVar<int>::ptr	file:
+get	fd_manager.cc	/^FdCtx::ptr FdManager::get(int fd, bool auto_create) {$/;"	f	class:sylar::FdManager	typeref:typename:FdCtx::ptr
+getContent	log.h	/^    std::string getContent() const {return m_ss.str();}$/;"	f	class:sylar::LogEvent	typeref:typename:std::string
+getContext	iomanager.cc	/^IOManager::FdContext::EventContext& IOManager::FdContext::getContext(IOManager::Event event){$/;"	f	class:sylar::IOManager::FdContext	typeref:typename:IOManager::FdContext::EventContext &
+getDescription	config.h	/^    const std::string& getDescription() const { return m_description; }$/;"	f	class:sylar::ConfigVarBase	typeref:typename:const std::string &
+getElapse	log.h	/^    uint32_t getElapse() const { return m_elapse;}$/;"	f	class:sylar::LogEvent	typeref:typename:uint32_t
+getEvent	log.h	/^    LogEvent::ptr getEvent() const { return m_event;}$/;"	f	class:sylar::LogEventWrap	typeref:typename:LogEvent::ptr
+getFiberId	log.h	/^    uint32_t getFiberId() const { return m_fiberId;}$/;"	f	class:sylar::LogEvent	typeref:typename:uint32_t
+getFile	log.h	/^    const char* getFile() const { return m_file;}$/;"	f	class:sylar::LogEvent	typeref:typename:const char *
+getFormatter	log.cpp	/^LogFormatter::ptr LogAppender::getFormatter(){$/;"	f	class:sylar::LogAppender	typeref:typename:LogFormatter::ptr
+getFormatter	log.cpp	/^LogFormatter::ptr Logger::getFormatter(){$/;"	f	class:sylar::Logger	typeref:typename:LogFormatter::ptr
+getId	fiber.h	/^    uint64_t getId() const { return m_id; }$/;"	f	class:sylar::Fiber	typeref:typename:uint64_t
+getId	thread.h	/^    pid_t getId() const { return m_id; }$/;"	f	class:sylar::Thread	typeref:typename:pid_t
+getLevel	log.h	/^    LogLevel::Level getLevel() const { return m_level; }$/;"	f	class:sylar::LogAppender	typeref:typename:LogLevel::Level
+getLevel	log.h	/^    LogLevel::Level getLevel() const { return m_level; }$/;"	f	class:sylar::LogEvent	typeref:typename:LogLevel::Level
+getLevel	log.h	/^    LogLevel::Level getLevel() const {return m_level;}$/;"	f	class:sylar::Logger	typeref:typename:LogLevel::Level
+getLine	log.h	/^    int32_t getLine() const { return m_line;}$/;"	f	class:sylar::LogEvent	typeref:typename:int32_t
+getListener	config.h	/^    on_change_cb getListener(uint64_t key){$/;"	f	class:sylar::ConfigVar	typeref:typename:on_change_cb
+getLogger	log.cpp	/^Logger::ptr LoggerManager::getLogger(const std::string& name){$/;"	f	class:sylar::LoggerManager	typeref:typename:Logger::ptr
+getLogger	log.h	/^    std::shared_ptr<Logger> getLogger() const { return m_logger;}$/;"	f	class:sylar::LogEvent	typeref:typename:std::shared_ptr<Logger>
+getName	config.h	/^    const std::string& getName() const { return m_name; }$/;"	f	class:sylar::ConfigVarBase	typeref:typename:const std::string &
+getName	log.h	/^    const std::string& getName() const {return m_name;}$/;"	f	class:sylar::Logger	typeref:typename:const std::string &
+getName	scheduler.h	/^    const std::string& getName() const { return m_name; }$/;"	f	class:sylar::Scheduler	typeref:typename:const std::string &
+getName	thread.h	/^    const std::string& getName() const { return m_name; }$/;"	f	class:sylar::Thread	typeref:typename:const std::string &
+getNextTimer	timer.cc	/^uint64_t TimerManager::getNextTimer() {$/;"	f	class:sylar::TimerManager	typeref:typename:uint64_t
+getPattern	log.h	/^    const std::string getPattern() const { return m_pattern; }$/;"	f	class:sylar::LogFormatter	typeref:typename:const std::string
+getRoot	log.h	/^    Logger::ptr getRoot() const { return m_root; }$/;"	f	class:sylar::LoggerManager	typeref:typename:Logger::ptr
+getSS	log.cpp	/^std::stringstream& LogEventWrap::getSS(){$/;"	f	class:sylar::LogEventWrap	typeref:typename:std::stringstream &
+getSS	log.h	/^    std::stringstream& getSS(){return m_ss;};$/;"	f	class:sylar::LogEvent	typeref:typename:std::stringstream &
+getState	fiber.h	/^    State getState() const { return m_state; }$/;"	f	class:sylar::Fiber	typeref:typename:State
+getSysNonblock	fd_manager.h	/^	bool getSysNonblock() const { return m_sysNonblock; }$/;"	f	class:sylar::FdCtx	typeref:typename:bool
+getThreadId	log.h	/^    uint32_t getThreadId() const { return m_threadId;}$/;"	f	class:sylar::LogEvent	typeref:typename:uint32_t
+getThreadName	log.h	/^    const std::string& getThreadName() const { return m_threadName;}$/;"	f	class:sylar::LogEvent	typeref:typename:const std::string &
+getTime	log.h	/^    uint64_t getTime() const { return m_time;}$/;"	f	class:sylar::LogEvent	typeref:typename:uint64_t
+getTimeout	fd_manager.cc	/^uint64_t FdCtx::getTimeout(int type) {$/;"	f	class:sylar::FdCtx	typeref:typename:uint64_t
+getTypeName	config.h	/^    std::string getTypeName() const override { return typeid(T).name(); }$/;"	f	class:sylar::ConfigVar	typeref:typename:std::string
+getUserNonblock	fd_manager.h	/^	bool getUserNonblock() const { return m_userNonblock; }$/;"	f	class:sylar::FdCtx	typeref:typename:bool
+getValue	config.h	/^    const T getValue() { $/;"	f	class:sylar::ConfigVar	typeref:typename:const T
+getsockopt	hook.cc	/^int getsockopt(int sockfd, int level, int optname, void *optval, socklen_t *optlen) {$/;"	f	typeref:typename:int
+getsockopt_fun	hook.h	/^typedef int (*getsockopt_fun)(int sockfd, int level, int optname, void *optval, socklen_t *optle/;"	t	typeref:typename:int (*)(int sockfd,int level,int optname,void * optval,socklen_t * optlen)
+hasIdleThreads	scheduler.h	/^	bool hasIdleThreads(){ return m_idleThreadCount > 0; }$/;"	f	class:sylar::Scheduler	typeref:typename:bool
+hasTimer	timer.cc	/^bool TimerManager::hasTimer() {$/;"	f	class:sylar::TimerManager	typeref:typename:bool
+hook_init	hook.cc	/^void hook_init() {$/;"	f	namespace:sylar	typeref:typename:void
+idle	iomanager.cc	/^void IOManager::idle() {$/;"	f	class:sylar::IOManager	typeref:typename:void
+idle	scheduler.cc	/^void Scheduler::idle() {$/;"	f	class:sylar::Scheduler	typeref:typename:void
+info	log.cpp	/^void Logger::info(LogEvent::ptr event){$/;"	f	class:sylar::Logger	typeref:typename:void
+init	fd_manager.cc	/^bool FdCtx::init() {$/;"	f	class:sylar::FdCtx	typeref:typename:bool
+init	log.cpp	/^void LogFormatter::init(){$/;"	f	class:sylar::LogFormatter	typeref:typename:void
+init	log.cpp	/^void LoggerManager::init(){$/;"	f	class:sylar::LoggerManager	typeref:typename:void
+ioctl	hook.cc	/^int ioctl(int d, unsigned long int request, ...) {$/;"	f	typeref:typename:int
+ioctl_fun	hook.h	/^typedef int (*ioctl_fun)(int d, unsigned long int request, ...);$/;"	t	typeref:typename:int (*)(int d,unsigned long int request,...)
+isClose	fd_manager.h	/^	bool isClose() const { return m_isClosed; }$/;"	f	class:sylar::FdCtx	typeref:typename:bool
+isError	log.h	/^    bool isError() const { return m_error; }$/;"	f	class:sylar::LogFormatter	typeref:typename:bool
+isInit	fd_manager.h	/^	bool isInit() const { return m_isInit; }$/;"	f	class:sylar::FdCtx	typeref:typename:bool
+isSocket	fd_manager.h	/^	bool isSocket() const { return m_isSocket; }$/;"	f	class:sylar::FdCtx	typeref:typename:bool
+is_hook_enable	hook.cc	/^bool is_hook_enable() {$/;"	f	namespace:sylar	typeref:typename:bool
+join	thread.cpp	/^void Thread::join(){$/;"	f	class:sylar::Thread	typeref:typename:void
+level	log.cpp	/^    LogLevel::Level level = LogLevel::UNKNOW;$/;"	m	struct:sylar::LogAppenderDefine	typeref:typename:LogLevel::Level	file:
+level	log.cpp	/^    LogLevel::Level level = LogLevel::UNKNOW;$/;"	m	struct:sylar::LogDefine	typeref:typename:LogLevel::Level	file:
+listExpiredCb	timer.cc	/^void TimerManager::listExpiredCb(std::vector<std::function<void()> >& cbs) {$/;"	f	class:sylar::TimerManager	typeref:typename:void
+lock	thread.h	/^    void lock(){$/;"	f	class:sylar::CASLock	typeref:typename:void
+lock	thread.h	/^    void lock(){$/;"	f	class:sylar::Mutex	typeref:typename:void
+lock	thread.h	/^    void lock(){$/;"	f	class:sylar::Spinlock	typeref:typename:void
+lock	thread.h	/^    void lock(){$/;"	f	struct:sylar::ReadScopedLockImpl	typeref:typename:void
+lock	thread.h	/^    void lock(){$/;"	f	struct:sylar::ScopedLockImpl	typeref:typename:void
+lock	thread.h	/^    void lock(){$/;"	f	struct:sylar::WriteScopedLockImpl	typeref:typename:void
+lock	thread.h	/^    void lock(){};$/;"	f	class:sylar::NullMutex	typeref:typename:void
+log	log.cpp	/^void FileLogAppender::log(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr e/;"	f	class:sylar::FileLogAppender	typeref:typename:void
+log	log.cpp	/^void Logger::log(LogLevel::Level level, LogEvent::ptr event){$/;"	f	class:sylar::Logger	typeref:typename:void
+log	log.cpp	/^void StdoutLogAppender::log(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr/;"	f	class:sylar::StdoutLogAppender	typeref:typename:void
+m_activeThreadCount	scheduler.h	/^    std::atomic<size_t> m_activeThreadCount {0};$/;"	m	class:sylar::Scheduler	typeref:typename:std::atomic<size_t>
+m_appenders	log.h	/^    std::list<LogAppender::ptr> m_appenders;            \/\/Appender集合$/;"	m	class:sylar::Logger	typeref:typename:std::list<LogAppender::ptr>
+m_autoStop	scheduler.h	/^    bool m_autoStop = false;$/;"	m	class:sylar::Scheduler	typeref:typename:bool
+m_cb	fiber.h	/^    std::function<void()> m_cb;$/;"	m	class:sylar::Fiber	typeref:typename:std::function<void ()>
+m_cb	thread.h	/^    std::function<void()> m_cb;$/;"	m	class:sylar::Thread	typeref:typename:std::function<void ()>
+m_cb	timer.h	/^	std::function<void()> m_cb;$/;"	m	class:sylar::Timer	typeref:typename:std::function<void ()>
+m_cbs	config.h	/^    std::map<uint64_t, on_change_cb> m_cbs;$/;"	m	class:sylar::ConfigVar	typeref:typename:std::map<uint64_t,on_change_cb>
+m_ctx	fiber.h	/^    ucontext_t m_ctx;$/;"	m	class:sylar::Fiber	typeref:typename:ucontext_t
+m_datas	fd_manager.h	/^	std::vector<FdCtx::ptr> m_datas;$/;"	m	class:sylar::FdManager	typeref:typename:std::vector<FdCtx::ptr>
+m_description	config.h	/^    std::string m_description;$/;"	m	class:sylar::ConfigVarBase	typeref:typename:std::string
+m_elapse	log.h	/^    uint32_t m_elapse = 0;          \/\/程序启动开始到现在的毫秒数$/;"	m	class:sylar::LogEvent	typeref:typename:uint32_t
+m_epfd	iomanager.h	/^	int m_epfd = 0;$/;"	m	class:sylar::IOManager	typeref:typename:int
+m_error	log.h	/^    bool m_error = false;$/;"	m	class:sylar::LogFormatter	typeref:typename:bool
+m_event	log.h	/^    LogEvent::ptr m_event;$/;"	m	class:sylar::LogEventWrap	typeref:typename:LogEvent::ptr
+m_fd	fd_manager.h	/^	int m_fd;$/;"	m	class:sylar::FdCtx	typeref:typename:int
+m_fdContexts	iomanager.h	/^	std::vector<FdContext*> m_fdContexts;$/;"	m	class:sylar::IOManager	typeref:typename:std::vector<FdContext * >
+m_fiberId	log.h	/^    uint32_t m_fiberId = 0;         \/\/协程id$/;"	m	class:sylar::LogEvent	typeref:typename:uint32_t
+m_fibers	scheduler.h	/^    std::list<FiberAndThread> m_fibers;$/;"	m	class:sylar::Scheduler	typeref:typename:std::list<FiberAndThread>
+m_file	log.h	/^    const char* m_file = nullptr;   \/\/文件名$/;"	m	class:sylar::LogEvent	typeref:typename:const char *
+m_filename	log.h	/^    std::string m_filename;$/;"	m	class:sylar::FileLogAppender	typeref:typename:std::string
+m_filestreams	log.h	/^    std::ofstream m_filestreams;$/;"	m	class:sylar::FileLogAppender	typeref:typename:std::ofstream
+m_format	log.cpp	/^    std::string m_format;$/;"	m	class:sylar::DateTimeFormatItem	typeref:typename:std::string	file:
+m_formatter	log.h	/^    LogFormatter::ptr m_formatter;$/;"	m	class:sylar::LogAppender	typeref:typename:LogFormatter::ptr
+m_formatter	log.h	/^    LogFormatter::ptr m_formatter;$/;"	m	class:sylar::Logger	typeref:typename:LogFormatter::ptr
+m_hasFormatter	log.h	/^    bool m_hasFormatter = false;$/;"	m	class:sylar::LogAppender	typeref:typename:bool
+m_id	fiber.h	/^    uint64_t m_id = 0;$/;"	m	class:sylar::Fiber	typeref:typename:uint64_t
+m_id	thread.h	/^    pid_t m_id = -1;$/;"	m	class:sylar::Thread	typeref:typename:pid_t
+m_idleThreadCount	scheduler.h	/^    std::atomic<size_t> m_idleThreadCount {0};$/;"	m	class:sylar::Scheduler	typeref:typename:std::atomic<size_t>
+m_isClosed	fd_manager.h	/^	bool m_isClosed: 1;$/;"	m	class:sylar::FdCtx	typeref:typename:bool:1
+m_isInit	fd_manager.h	/^	bool m_isInit: 1;$/;"	m	class:sylar::FdCtx	typeref:typename:bool:1
+m_isSocket	fd_manager.h	/^	bool m_isSocket: 1;$/;"	m	class:sylar::FdCtx	typeref:typename:bool:1
+m_items	log.h	/^    std::vector<FormatItem::ptr> m_items;$/;"	m	class:sylar::LogFormatter	typeref:typename:std::vector<FormatItem::ptr>
+m_lastTime	log.h	/^    uint64_t m_lastTime = 0;$/;"	m	class:sylar::FileLogAppender	typeref:typename:uint64_t
+m_level	log.h	/^    LogLevel::Level m_level = LogLevel::Level::DEBUG;$/;"	m	class:sylar::LogAppender	typeref:typename:LogLevel::Level
+m_level	log.h	/^    LogLevel::Level m_level;                            \/\/日志级别$/;"	m	class:sylar::Logger	typeref:typename:LogLevel::Level
+m_level	log.h	/^    LogLevel::Level m_level;$/;"	m	class:sylar::LogEvent	typeref:typename:LogLevel::Level
+m_line	log.h	/^    int32_t m_line = 0;             \/\/行号$/;"	m	class:sylar::LogEvent	typeref:typename:int32_t
+m_lock	thread.h	/^    pthread_rwlock_t m_lock;$/;"	m	class:sylar::RWMutex	typeref:typename:pthread_rwlock_t
+m_locked	thread.h	/^    bool m_locked;$/;"	m	struct:sylar::ReadScopedLockImpl	typeref:typename:bool
+m_locked	thread.h	/^    bool m_locked;$/;"	m	struct:sylar::ScopedLockImpl	typeref:typename:bool
+m_locked	thread.h	/^    bool m_locked;$/;"	m	struct:sylar::WriteScopedLockImpl	typeref:typename:bool
+m_logger	log.h	/^    std::shared_ptr<Logger> m_logger;$/;"	m	class:sylar::LogEvent	typeref:typename:std::shared_ptr<Logger>
+m_loggers	log.h	/^    std::map<std::string, Logger::ptr> m_loggers;$/;"	m	class:sylar::LoggerManager	typeref:typename:std::map<std::string,Logger::ptr>
+m_manager	timer.h	/^	TimerManager* m_manager = nullptr;$/;"	m	class:sylar::Timer	typeref:typename:TimerManager *
+m_ms	timer.h	/^	uint64_t m_ms = 0;				\/\/执行周期$/;"	m	class:sylar::Timer	typeref:typename:uint64_t
+m_mutex	config.h	/^    RWMutexType m_mutex;$/;"	m	class:sylar::ConfigVar	typeref:typename:RWMutexType
+m_mutex	fd_manager.h	/^	RWMutexType m_mutex;$/;"	m	class:sylar::FdManager	typeref:typename:RWMutexType
+m_mutex	iomanager.h	/^	RWMutexType m_mutex;$/;"	m	class:sylar::IOManager	typeref:typename:RWMutexType
+m_mutex	log.h	/^    MutexType m_mutex;$/;"	m	class:sylar::LogAppender	typeref:typename:MutexType
+m_mutex	log.h	/^    MutexType m_mutex;$/;"	m	class:sylar::Logger	typeref:typename:MutexType
+m_mutex	log.h	/^    MutexType m_mutex;$/;"	m	class:sylar::LoggerManager	typeref:typename:MutexType
+m_mutex	scheduler.h	/^    MutexType m_mutex;$/;"	m	class:sylar::Scheduler	typeref:typename:MutexType
+m_mutex	thread.h	/^    T& m_mutex;$/;"	m	struct:sylar::ReadScopedLockImpl	typeref:typename:T &
+m_mutex	thread.h	/^    T& m_mutex;$/;"	m	struct:sylar::ScopedLockImpl	typeref:typename:T &
+m_mutex	thread.h	/^    T& m_mutex;$/;"	m	struct:sylar::WriteScopedLockImpl	typeref:typename:T &
+m_mutex	thread.h	/^    pthread_mutex_t m_mutex;$/;"	m	class:sylar::Mutex	typeref:typename:pthread_mutex_t
+m_mutex	thread.h	/^    pthread_spinlock_t m_mutex;$/;"	m	class:sylar::Spinlock	typeref:typename:pthread_spinlock_t
+m_mutex	thread.h	/^    volatile std::atomic_flag m_mutex;$/;"	m	class:sylar::CASLock	typeref:typename:volatile std::atomic_flag
+m_mutex	timer.h	/^	RWMutexType m_mutex;$/;"	m	class:sylar::TimerManager	typeref:typename:RWMutexType
+m_name	config.h	/^    std::string m_name;$/;"	m	class:sylar::ConfigVarBase	typeref:typename:std::string
+m_name	log.h	/^    std::string m_name;                                \/\/日志名称$/;"	m	class:sylar::Logger	typeref:typename:std::string
+m_name	scheduler.h	/^    std::string m_name;$/;"	m	class:sylar::Scheduler	typeref:typename:std::string
+m_name	thread.h	/^    std::string m_name;$/;"	m	class:sylar::Thread	typeref:typename:std::string
+m_next	timer.h	/^	uint64_t m_next = 0;			\/\/精确的执行时间$/;"	m	class:sylar::Timer	typeref:typename:uint64_t
+m_pattern	log.h	/^    std::string m_pattern;$/;"	m	class:sylar::LogFormatter	typeref:typename:std::string
+m_pendingEventCount	iomanager.h	/^	std::atomic<size_t> m_pendingEventCount = {0};$/;"	m	class:sylar::IOManager	typeref:typename:std::atomic<size_t>
+m_previouseTime	timer.h	/^	uint64_t m_previouseTime = 0;$/;"	m	class:sylar::TimerManager	typeref:typename:uint64_t
+m_recurring	timer.h	/^	bool m_recurring = false;		\/\/是否循环定时器$/;"	m	class:sylar::Timer	typeref:typename:bool
+m_recvTimeout	fd_manager.h	/^	uint64_t m_recvTimeout;$/;"	m	class:sylar::FdCtx	typeref:typename:uint64_t
+m_root	log.h	/^    Logger::ptr m_root;$/;"	m	class:sylar::Logger	typeref:typename:Logger::ptr
+m_root	log.h	/^    Logger::ptr m_root;$/;"	m	class:sylar::LoggerManager	typeref:typename:Logger::ptr
+m_rootFiber	scheduler.h	/^    Fiber::ptr m_rootFiber;$/;"	m	class:sylar::Scheduler	typeref:typename:Fiber::ptr
+m_rootThread	scheduler.h	/^    int m_rootThread = 0;$/;"	m	class:sylar::Scheduler	typeref:typename:int
+m_semaphore	thread.h	/^    Semaphore m_semaphore;$/;"	m	class:sylar::Thread	typeref:typename:Semaphore
+m_semaphore	thread.h	/^    sem_t m_semaphore;$/;"	m	class:sylar::Semaphore	typeref:typename:sem_t
+m_sendTimeout	fd_manager.h	/^	uint64_t m_sendTimeout;$/;"	m	class:sylar::FdCtx	typeref:typename:uint64_t
+m_ss	log.h	/^    std::stringstream m_ss;         \/\/日志内容流$/;"	m	class:sylar::LogEvent	typeref:typename:std::stringstream
+m_stack	fiber.h	/^    void* m_stack = nullptr;$/;"	m	class:sylar::Fiber	typeref:typename:void *
+m_stacksize	fiber.h	/^    uint32_t m_stacksize = 0;$/;"	m	class:sylar::Fiber	typeref:typename:uint32_t
+m_state	fiber.h	/^    State m_state = INIT;$/;"	m	class:sylar::Fiber	typeref:typename:State
+m_stopping	scheduler.h	/^    bool m_stopping = true;$/;"	m	class:sylar::Scheduler	typeref:typename:bool
+m_string	log.cpp	/^    std::string m_string;$/;"	m	class:sylar::StringFormatItem	typeref:typename:std::string	file:
+m_string	log.cpp	/^    std::string m_string;$/;"	m	class:sylar::TabFormatItem	typeref:typename:std::string	file:
+m_sysNonblock	fd_manager.h	/^	bool m_sysNonblock: 1;$/;"	m	class:sylar::FdCtx	typeref:typename:bool:1
+m_thread	thread.h	/^    pthread_t m_thread = 0;$/;"	m	class:sylar::Thread	typeref:typename:pthread_t
+m_threadCount	scheduler.h	/^    size_t m_threadCount = 0;$/;"	m	class:sylar::Scheduler	typeref:typename:size_t
+m_threadId	log.h	/^    int32_t m_threadId = 0;         \/\/线程id$/;"	m	class:sylar::LogEvent	typeref:typename:int32_t
+m_threadIds	scheduler.h	/^    std::vector<int> m_threadIds;$/;"	m	class:sylar::Scheduler	typeref:typename:std::vector<int>
+m_threadName	log.h	/^    std::string m_threadName;       \/\/线程名称$/;"	m	class:sylar::LogEvent	typeref:typename:std::string
+m_threads	scheduler.h	/^    std::vector<Thread::ptr> m_threads;$/;"	m	class:sylar::Scheduler	typeref:typename:std::vector<Thread::ptr>
+m_tickleFds	iomanager.h	/^	int m_tickleFds[2];$/;"	m	class:sylar::IOManager	typeref:typename:int[2]
+m_tickled	timer.h	/^	bool m_tickled = false;$/;"	m	class:sylar::TimerManager	typeref:typename:bool
+m_time	log.h	/^    uint64_t m_time;                \/\/时间戳$/;"	m	class:sylar::LogEvent	typeref:typename:uint64_t
+m_timers	timer.h	/^	std::set<Timer::ptr, Timer::Comparator>  m_timers;$/;"	m	class:sylar::TimerManager	typeref:typename:std::set<Timer::ptr,Timer::Comparator>
+m_userNonblock	fd_manager.h	/^	bool m_userNonblock: 1;$/;"	m	class:sylar::FdCtx	typeref:typename:bool:1
+m_val	config.h	/^    T m_val;$/;"	m	class:sylar::ConfigVar	typeref:typename:T
+mutex	iomanager.h	/^		MutexType mutex;$/;"	m	struct:sylar::IOManager::FdContext	typeref:typename:MutexType
+name	log.cpp	/^    std::string name;$/;"	m	struct:sylar::LogDefine	typeref:typename:std::string	file:
+nanosleep	hook.cc	/^int nanosleep(const struct timespec *req, struct timespec *rem) {$/;"	f	typeref:typename:int
+nanosleep_fun	hook.h	/^typedef int (*nanosleep_fun)(const struct timespec *req, struct timespec *rem);$/;"	t	typeref:typename:int (*)(const struct timespec * req,struct timespec * rem)
+notify	thread.cpp	/^void Semaphore::notify(){$/;"	f	class:sylar::Semaphore	typeref:typename:void
+onTimerInsertedAtFront	iomanager.cc	/^void IOManager::onTimerInsertedAtFront() {$/;"	f	class:sylar::IOManager	typeref:typename:void
+on_change_cb	config.h	/^    typedef std::function<void (const T& old_value, const T& new_value)> on_change_cb;$/;"	t	class:sylar::ConfigVar
+operator ()	config.h	/^    T operator()(const F& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:T
+operator ()	config.h	/^    std::list<T> operator()(const std::string& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::list<T>
+operator ()	config.h	/^    std::map<std::string, T> operator()(const std::string& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::map<std::string,T>
+operator ()	config.h	/^    std::set<T> operator()(const std::string& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::set<T>
+operator ()	config.h	/^    std::string operator()(const std::list<T>& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::string
+operator ()	config.h	/^    std::string operator()(const std::map<std::string, T>& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::string
+operator ()	config.h	/^    std::string operator()(const std::set<T>& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::string
+operator ()	config.h	/^    std::string operator()(const std::unordered_map<std::string, T>& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::string
+operator ()	config.h	/^    std::string operator()(const std::unordered_set<T>& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::string
+operator ()	config.h	/^    std::string operator()(const std::vector<T>& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::string
+operator ()	config.h	/^    std::unordered_map<std::string, T> operator()(const std::string& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::unordered_map<std::string,T>
+operator ()	config.h	/^    std::unordered_set<T> operator()(const std::string& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::unordered_set<T>
+operator ()	config.h	/^    std::vector<T> operator()(const std::string& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::vector<T>
+operator ()	log.cpp	/^        std::set<LogDefine> operator()(const std::string& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::set<LogDefine>	file:
+operator ()	log.cpp	/^    std::string operator()(const std::set<LogDefine>& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::string	file:
+operator () 	timer.cc	/^bool Timer::Comparator::operator() (const Timer::ptr& lhs$/;"	f	class:sylar::Timer::Comparator	typeref:typename:bool
+operator <	log.cpp	/^    bool operator<(const LogDefine& oth) const {$/;"	f	struct:sylar::LogDefine	typeref:typename:bool	file:
+operator ==	log.cpp	/^    bool operator==(const LogAppenderDefine& oth) const{$/;"	f	struct:sylar::LogAppenderDefine	typeref:typename:bool	file:
+operator ==	log.cpp	/^    bool operator==(const LogDefine& oth) const{$/;"	f	struct:sylar::LogDefine	typeref:typename:bool	file:
+ptr	config.h	/^    typedef std::shared_ptr<ConfigVar> ptr;$/;"	t	class:sylar::ConfigVar	typeref:typename:std::shared_ptr<ConfigVar>
+ptr	config.h	/^    typedef std::shared_ptr<ConfigVarBase> ptr;$/;"	t	class:sylar::ConfigVarBase	typeref:typename:std::shared_ptr<ConfigVarBase>
+ptr	fd_manager.h	/^	typedef std::shared_ptr<FdCtx> ptr;$/;"	t	class:sylar::FdCtx	typeref:typename:std::shared_ptr<FdCtx>
+ptr	fiber.h	/^    typedef std::shared_ptr<Fiber> ptr;$/;"	t	class:sylar::Fiber	typeref:typename:std::shared_ptr<Fiber>
+ptr	iomanager.h	/^	typedef std::shared_ptr<IOManager> ptr;$/;"	t	class:sylar::IOManager	typeref:typename:std::shared_ptr<IOManager>
+ptr	log.h	/^        typedef std::shared_ptr<FormatItem> ptr;$/;"	t	class:sylar::LogFormatter::FormatItem	typeref:typename:std::shared_ptr<FormatItem>
+ptr	log.h	/^    typedef std::shared_ptr<FileLogAppender> ptr;$/;"	t	class:sylar::FileLogAppender	typeref:typename:std::shared_ptr<FileLogAppender>
+ptr	log.h	/^    typedef std::shared_ptr<LogAppender> ptr;$/;"	t	class:sylar::LogAppender	typeref:typename:std::shared_ptr<LogAppender>
+ptr	log.h	/^    typedef std::shared_ptr<LogEvent> ptr;$/;"	t	class:sylar::LogEvent	typeref:typename:std::shared_ptr<LogEvent>
+ptr	log.h	/^    typedef std::shared_ptr<LogFormatter> ptr;$/;"	t	class:sylar::LogFormatter	typeref:typename:std::shared_ptr<LogFormatter>
+ptr	log.h	/^    typedef std::shared_ptr<Logger> ptr;$/;"	t	class:sylar::Logger	typeref:typename:std::shared_ptr<Logger>
+ptr	log.h	/^    typedef std::shared_ptr<StdoutLogAppender> ptr;$/;"	t	class:sylar::StdoutLogAppender	typeref:typename:std::shared_ptr<StdoutLogAppender>
+ptr	scheduler.h	/^    typedef std::shared_ptr<Scheduler> ptr;$/;"	t	class:sylar::Scheduler	typeref:typename:std::shared_ptr<Scheduler>
+ptr	thread.h	/^    typedef std::shared_ptr<Thread> ptr;$/;"	t	class:sylar::Thread	typeref:typename:std::shared_ptr<Thread>
+ptr	timer.h	/^	typedef std::shared_ptr<Timer> ptr;$/;"	t	class:sylar::Timer	typeref:typename:std::shared_ptr<Timer>
+rdlock	thread.h	/^    void rdlock(){$/;"	f	class:sylar::RWMutex	typeref:typename:void
+rdlock	thread.h	/^    void rdlock(){};$/;"	f	class:sylar::NullRWMutex	typeref:typename:void
+read	hook.cc	/^ssize_t read(int fd, void *buf, size_t count) {$/;"	f	typeref:typename:ssize_t
+read	iomanager.h	/^		EventContext read;				\/\/读事件$/;"	m	struct:sylar::IOManager::FdContext	typeref:typename:EventContext
+read_fun	hook.h	/^typedef ssize_t (*read_fun)(int fd, void *buf, size_t count);$/;"	t	typeref:typename:ssize_t (*)(int fd,void * buf,size_t count)
+readv	hook.cc	/^ssize_t readv(int fd, const struct iovec *iov, int iovcnt) {$/;"	f	typeref:typename:ssize_t
+readv_fun	hook.h	/^typedef ssize_t (*readv_fun)(int fd, const struct iovec *iov, int iovcnt);$/;"	t	typeref:typename:ssize_t (*)(int fd,const struct iovec * iov,int iovcnt)
+recv	hook.cc	/^ssize_t recv(int sockfd, void *buf, size_t len, int flags) {$/;"	f	typeref:typename:ssize_t
+recv_fun	hook.h	/^typedef ssize_t (*recv_fun)(int sockfd, void *buf, size_t len, int flags);$/;"	t	typeref:typename:ssize_t (*)(int sockfd,void * buf,size_t len,int flags)
+recvfrom	hook.cc	/^ssize_t recvfrom(int sockfd, void *buf, size_t len, int flags, struct sockaddr *src_addr, sockle/;"	f	typeref:typename:ssize_t
+recvfrom_fun	hook.h	/^typedef ssize_t (*recvfrom_fun)(int sockfd, void *buf, size_t len, int flags, struct sockaddr *s/;"	t	typeref:typename:ssize_t (*)(int sockfd,void * buf,size_t len,int flags,struct sockaddr * src_addr,socklen_t * addrlen)
+recvmsg	hook.cc	/^ssize_t recvmsg(int sockfd, struct msghdr *msg, int flags) {$/;"	f	typeref:typename:ssize_t
+recvmsg_fun	hook.h	/^typedef ssize_t (*recvmsg_fun)(int sockfd, struct msghdr *msg, int flags);$/;"	t	typeref:typename:ssize_t (*)(int sockfd,struct msghdr * msg,int flags)
+refresh	timer.cc	/^bool Timer::refresh() {$/;"	f	class:sylar::Timer	typeref:typename:bool
+reopen	log.cpp	/^bool FileLogAppender::reopen(){$/;"	f	class:sylar::FileLogAppender	typeref:typename:bool
+reset	fiber.cc	/^void Fiber::reset(std::function<void()> cb){$/;"	f	class:sylar::Fiber	typeref:typename:void
+reset	scheduler.h	/^        void reset(){$/;"	f	struct:sylar::Scheduler::FiberAndThread	typeref:typename:void
+reset	timer.cc	/^bool Timer::reset(uint64_t ms, bool from_now) {$/;"	f	class:sylar::Timer	typeref:typename:bool
+resetContext	iomanager.cc	/^void IOManager::FdContext::resetContext(EventContext& ctx){$/;"	f	class:sylar::IOManager::FdContext	typeref:typename:void
+run	scheduler.cc	/^void Scheduler::run() {$/;"	f	class:sylar::Scheduler	typeref:typename:void
+run	thread.cpp	/^void* Thread::run(void* arg){$/;"	f	class:sylar::Thread	typeref:typename:void *
+s_connect_timeout	hook.cc	/^static uint64_t s_connect_timeout = -1;$/;"	v	namespace:sylar	typeref:typename:uint64_t	file:
+s_fiber_count	fiber.cc	/^static std::atomic<uint64_t> s_fiber_count {0};$/;"	v	namespace:sylar	typeref:typename:std::atomic<uint64_t>	file:
+s_fiber_id	fiber.cc	/^static std::atomic<uint64_t> s_fiber_id {0};$/;"	v	namespace:sylar	typeref:typename:std::atomic<uint64_t>	file:
+s_hook_initer	hook.cc	/^static _HookIniter s_hook_initer;$/;"	v	namespace:sylar	typeref:typename:_HookIniter	file:
+schedule	scheduler.h	/^    void schedule(FiberOrCb fc, int thread = -1){$/;"	f	class:sylar::Scheduler	typeref:typename:void
+schedule	scheduler.h	/^    void schedule(InputIterator begin, InputIterator end){$/;"	f	class:sylar::Scheduler	typeref:typename:void
+scheduleNoLock	scheduler.h	/^    bool scheduleNoLock(FiberOrCb fc, int thread){$/;"	f	class:sylar::Scheduler	typeref:typename:bool
+scheduler	iomanager.h	/^			Scheduler* scheduler = nullptr;    		\/\/待执行的scheduler$/;"	m	struct:sylar::IOManager::FdContext::EventContext	typeref:typename:Scheduler *
+send	hook.cc	/^ssize_t send(int s, const void *msg, size_t len, int flags) {$/;"	f	typeref:typename:ssize_t
+send_fun	hook.h	/^typedef ssize_t (*send_fun)(int s, const void *msg, size_t len, int flags);$/;"	t	typeref:typename:ssize_t (*)(int s,const void * msg,size_t len,int flags)
+sendmsg	hook.cc	/^ssize_t sendmsg(int s, const struct msghdr *msg, int flags) {$/;"	f	typeref:typename:ssize_t
+sendmsg_fun	hook.h	/^typedef ssize_t (*sendmsg_fun)(int s, const struct msghdr *msg, int flags);$/;"	t	typeref:typename:ssize_t (*)(int s,const struct msghdr * msg,int flags)
+sendto	hook.cc	/^ssize_t sendto(int s, const void *msg, size_t len, int flags, const struct sockaddr *to, socklen/;"	f	typeref:typename:ssize_t
+sendto_fun	hook.h	/^typedef ssize_t (*sendto_fun)(int s, const void *msg, size_t len, int flags, const struct sockad/;"	t	typeref:typename:ssize_t (*)(int s,const void * msg,size_t len,int flags,const struct sockaddr * to,socklen_t tolen)
+setFormatter	log.cpp	/^void LogAppender::setFormatter(LogFormatter::ptr val){$/;"	f	class:sylar::LogAppender	typeref:typename:void
+setFormatter	log.cpp	/^void Logger::setFormatter(LogFormatter::ptr val){$/;"	f	class:sylar::Logger	typeref:typename:void
+setFormatter	log.cpp	/^void Logger::setFormatter(const std::string& val){$/;"	f	class:sylar::Logger	typeref:typename:void
+setLevel	log.h	/^    void setLevel(LogLevel::Level val) { m_level = val; }$/;"	f	class:sylar::LogAppender	typeref:typename:void
+setLevel	log.h	/^    void setLevel(LogLevel::Level val) {m_level = val;}$/;"	f	class:sylar::Logger	typeref:typename:void
+setSysNonblock	fd_manager.h	/^	void setSysNonblock(bool v) { m_sysNonblock = v; }$/;"	f	class:sylar::FdCtx	typeref:typename:void
+setThis	scheduler.cc	/^void Scheduler::setThis() {$/;"	f	class:sylar::Scheduler	typeref:typename:void
+setTimeout	fd_manager.cc	/^void FdCtx::setTimeout(int type, uint64_t v) {$/;"	f	class:sylar::FdCtx	typeref:typename:void
+setUserNonblock	fd_manager.h	/^	void setUserNonblock(bool v) { m_userNonblock = v; }$/;"	f	class:sylar::FdCtx	typeref:typename:void
+setValue	config.h	/^    void setValue(const T& v)  { $/;"	f	class:sylar::ConfigVar	typeref:typename:void
+set_hook_enable	hook.cc	/^void set_hook_enable(bool flag) {$/;"	f	namespace:sylar	typeref:typename:void
+setsockopt	hook.cc	/^int setsockopt(int sockfd, int level, int optname, const void *optval, socklen_t optlen) {$/;"	f	typeref:typename:int
+setsockopt_fun	hook.h	/^typedef int (*setsockopt_fun)(int sockfd, int level, int optname, const void *optval, socklen_t /;"	t	typeref:typename:int (*)(int sockfd,int level,int optname,const void * optval,socklen_t optlen)
+sleep	hook.cc	/^unsigned int sleep(unsigned int seconds) {$/;"	f	typeref:typename:unsigned int
+sleep_fun	hook.h	/^typedef unsigned int (*sleep_fun)(unsigned int seconds);$/;"	t	typeref:typename:unsigned int (*)(unsigned int seconds)
+socket	hook.cc	/^int socket(int domain, int type, int protocol) {$/;"	f	typeref:typename:int
+socket_fun	hook.h	/^typedef int (*socket_fun)(int domain, int type, int protocol);$/;"	t	typeref:typename:int (*)(int domain,int type,int protocol)
+start	scheduler.cc	/^void Scheduler::start() {$/;"	f	class:sylar::Scheduler	typeref:typename:void
+stop	scheduler.cc	/^void Scheduler::stop() {$/;"	f	class:sylar::Scheduler	typeref:typename:void
+stopping	iomanager.cc	/^bool IOManager::stopping() {$/;"	f	class:sylar::IOManager	typeref:typename:bool
+stopping	iomanager.cc	/^bool IOManager::stopping(uint64_t& timeout) {$/;"	f	class:sylar::IOManager	typeref:typename:bool
+stopping	scheduler.cc	/^bool Scheduler::stopping() {$/;"	f	class:sylar::Scheduler	typeref:typename:bool
+swapIn	fiber.cc	/^void Fiber::swapIn(){$/;"	f	class:sylar::Fiber	typeref:typename:void
+swapOut	fiber.cc	/^void Fiber::swapOut(){$/;"	f	class:sylar::Fiber	typeref:typename:void
+sylar	config.cc	/^namespace sylar{$/;"	n	file:
+sylar	config.h	/^namespace sylar{$/;"	n
+sylar	fd_manager.cc	/^namespace sylar {$/;"	n	file:
+sylar	fd_manager.h	/^namespace sylar {$/;"	n
+sylar	fiber.cc	/^namespace sylar{$/;"	n	file:
+sylar	fiber.h	/^namespace sylar{$/;"	n
+sylar	hook.cc	/^namespace sylar {$/;"	n	file:
+sylar	hook.h	/^namespace sylar {$/;"	n
+sylar	iomanager.cc	/^namespace sylar{$/;"	n	file:
+sylar	iomanager.h	/^namespace sylar {$/;"	n
+sylar	log.cpp	/^namespace sylar{$/;"	n	file:
+sylar	log.h	/^namespace sylar{$/;"	n
+sylar	scheduler.cc	/^namespace sylar {$/;"	n	file:
+sylar	scheduler.h	/^namespace sylar{$/;"	n
+sylar	singleton.h	/^namespace sylar{$/;"	n
+sylar	thread.cpp	/^namespace sylar{$/;"	n	file:
+sylar	thread.h	/^namespace sylar{$/;"	n
+sylar	timer.cc	/^namespace sylar {$/;"	n	file:
+sylar	timer.h	/^namespace sylar {$/;"	n
+sylar	util.cpp	/^namespace sylar{$/;"	n	file:
+sylar	util.h	/^namespace sylar{$/;"	n
+t_fiber	fiber.cc	/^static thread_local Fiber* t_fiber = nullptr;$/;"	v	namespace:sylar	typeref:typename:thread_local Fiber *	file:
+t_hook_enable	hook.cc	/^static thread_local bool t_hook_enable = false;$/;"	v	namespace:sylar	typeref:typename:thread_local bool	file:
+t_scheduler	scheduler.cc	/^static thread_local Scheduler* t_scheduler = nullptr;$/;"	v	namespace:sylar	typeref:typename:thread_local Scheduler *	file:
+t_scheduler_fiber	scheduler.cc	/^static thread_local Fiber* t_scheduler_fiber = nullptr;$/;"	v	namespace:sylar	typeref:typename:thread_local Fiber *	file:
+t_thread	thread.cpp	/^static thread_local Thread* t_thread = nullptr;$/;"	v	namespace:sylar	typeref:typename:thread_local Thread *	file:
+t_threadFiber	fiber.cc	/^static thread_local Fiber::ptr t_threadFiber = nullptr;$/;"	v	namespace:sylar	typeref:typename:thread_local Fiber::ptr	file:
+t_thread_name	thread.cpp	/^static thread_local std::string t_thread_name = "UNKNOW";$/;"	v	namespace:sylar	typeref:typename:thread_local std::string	file:
+thread	scheduler.h	/^        int thread;$/;"	m	struct:sylar::Scheduler::FiberAndThread	typeref:typename:int
+tickle	iomanager.cc	/^void IOManager::tickle() {$/;"	f	class:sylar::IOManager	typeref:typename:void
+tickle	scheduler.cc	/^void Scheduler::tickle() {$/;"	f	class:sylar::Scheduler	typeref:typename:void
+timer_info	hook.cc	/^struct timer_info {$/;"	s	file:
+toString	config.h	/^    std::string toString() override {$/;"	f	class:sylar::ConfigVar	typeref:typename:std::string
+toYamlString	log.cpp	/^std::string FileLogAppender::toYamlString(){$/;"	f	class:sylar::FileLogAppender	typeref:typename:std::string
+toYamlString	log.cpp	/^std::string Logger::toYamlString(){$/;"	f	class:sylar::Logger	typeref:typename:std::string
+toYamlString	log.cpp	/^std::string LoggerManager::toYamlString(){$/;"	f	class:sylar::LoggerManager	typeref:typename:std::string
+toYamlString	log.cpp	/^std::string StdoutLogAppender::toYamlString(){$/;"	f	class:sylar::StdoutLogAppender	typeref:typename:std::string
+triggerEvent	iomanager.cc	/^void IOManager::FdContext::triggerEvent(IOManager::Event event){$/;"	f	class:sylar::IOManager::FdContext	typeref:typename:void
+type	log.cpp	/^    int type = 0; \/\/1 File, 2 Stdout$/;"	m	struct:sylar::LogAppenderDefine	typeref:typename:int	file:
+unlock	thread.h	/^    void unlock(){$/;"	f	class:sylar::CASLock	typeref:typename:void
+unlock	thread.h	/^    void unlock(){$/;"	f	class:sylar::Mutex	typeref:typename:void
+unlock	thread.h	/^    void unlock(){$/;"	f	class:sylar::RWMutex	typeref:typename:void
+unlock	thread.h	/^    void unlock(){$/;"	f	class:sylar::Spinlock	typeref:typename:void
+unlock	thread.h	/^    void unlock(){$/;"	f	struct:sylar::ReadScopedLockImpl	typeref:typename:void
+unlock	thread.h	/^    void unlock(){$/;"	f	struct:sylar::ScopedLockImpl	typeref:typename:void
+unlock	thread.h	/^    void unlock(){$/;"	f	struct:sylar::WriteScopedLockImpl	typeref:typename:void
+unlock	thread.h	/^    void unlock(){};$/;"	f	class:sylar::NullMutex	typeref:typename:void
+unlock	thread.h	/^    void unlock(){};$/;"	f	class:sylar::NullRWMutex	typeref:typename:void
+usleep	hook.cc	/^int usleep(useconds_t usec) {$/;"	f	typeref:typename:int
+usleep_fun	hook.h	/^typedef int (*usleep_fun)(useconds_t usec);$/;"	t	typeref:typename:int (*)(useconds_t usec)
+wait	thread.cpp	/^void Semaphore::wait(){$/;"	f	class:sylar::Semaphore	typeref:typename:void
+warn	log.cpp	/^void Logger::warn(LogEvent::ptr event){$/;"	f	class:sylar::Logger	typeref:typename:void
+write	hook.cc	/^ssize_t write(int fd, const void *buf, size_t count) {$/;"	f	typeref:typename:ssize_t
+write	iomanager.h	/^		EventContext write;				\/\/事件关联的句柄$/;"	m	struct:sylar::IOManager::FdContext	typeref:typename:EventContext
+write_fun	hook.h	/^typedef ssize_t (*write_fun)(int fd, const void *buf, size_t count);$/;"	t	typeref:typename:ssize_t (*)(int fd,const void * buf,size_t count)
+writev	hook.cc	/^ssize_t writev(int fd, const struct iovec *iov, int iovcnt) {$/;"	f	typeref:typename:ssize_t
+writev_fun	hook.h	/^typedef ssize_t (*writev_fun)(int fd, const struct iovec *iov, int iovcnt);$/;"	t	typeref:typename:ssize_t (*)(int fd,const struct iovec * iov,int iovcnt)
+wrlock	thread.h	/^    void wrlock(){$/;"	f	class:sylar::RWMutex	typeref:typename:void
+wrlock	thread.h	/^    void wrlock(){};$/;"	f	class:sylar::NullRWMutex	typeref:typename:void
+~CASLock	thread.h	/^    ~CASLock(){$/;"	f	class:sylar::CASLock
+~ConfigVarBase	config.h	/^    virtual ~ConfigVarBase(){}$/;"	f	class:sylar::ConfigVarBase
+~FdCtx	fd_manager.cc	/^FdCtx::~FdCtx() {$/;"	f	class:sylar::FdCtx
+~Fiber	fiber.cc	/^Fiber::~Fiber(){$/;"	f	class:sylar::Fiber
+~FormatItem	log.h	/^        virtual ~FormatItem(){}$/;"	f	class:sylar::LogFormatter::FormatItem
+~IOManager	iomanager.cc	/^IOManager::~IOManager(){$/;"	f	class:sylar::IOManager
+~LogAppender	log.h	/^    virtual ~LogAppender(){}$/;"	f	class:sylar::LogAppender
+~LogEventWrap	log.cpp	/^LogEventWrap::~LogEventWrap(){$/;"	f	class:sylar::LogEventWrap
+~Mutex	thread.h	/^    ~Mutex(){$/;"	f	class:sylar::Mutex
+~NullMutex	thread.h	/^    ~NullMutex(){};$/;"	f	class:sylar::NullMutex
+~NullRWMutex	thread.h	/^    ~NullRWMutex(){};$/;"	f	class:sylar::NullRWMutex
+~RWMutex	thread.h	/^    ~RWMutex(){$/;"	f	class:sylar::RWMutex
+~ReadScopedLockImpl	thread.h	/^    ~ReadScopedLockImpl(){$/;"	f	struct:sylar::ReadScopedLockImpl
+~Scheduler	scheduler.cc	/^Scheduler::~Scheduler() {$/;"	f	class:sylar::Scheduler
+~ScopedLockImpl	thread.h	/^    ~ScopedLockImpl(){$/;"	f	struct:sylar::ScopedLockImpl
+~Semaphore	thread.cpp	/^Semaphore::~Semaphore(){$/;"	f	class:sylar::Semaphore
+~Spinlock	thread.h	/^    ~Spinlock(){$/;"	f	class:sylar::Spinlock
+~Thread	thread.cpp	/^Thread::~Thread(){$/;"	f	class:sylar::Thread
+~TimerManager	timer.cc	/^TimerManager::~TimerManager() {$/;"	f	class:sylar::TimerManager
+~WriteScopedLockImpl	thread.h	/^    ~WriteScopedLockImpl(){$/;"	f	struct:sylar::WriteScopedLockImpl
