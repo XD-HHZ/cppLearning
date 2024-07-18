@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/huanghz/cppLearning/CPPLearning/mySylarWeb/.
+CXX_INCLUDES = -I/home/huanghz/workspace/mySylarWeb/.
 
 CXX_FLAGS =  -O0 -Wall -g -ggdb
 

@@ -108,6 +108,8 @@ private:
 	Address::ptr m_remoteAddress;
 };
 
+std::ostream& operator<<(std::ostream& os, const Socket& addr);
+
 }
 
 #endif

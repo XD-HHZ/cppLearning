@@ -1,4 +1,4 @@
-# Install script for directory: /home/huanghz/cppLearning/CPPLearning/mySylarWeb
+# Install script for directory: /home/huanghz/workspace/mySylarWeb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/huanghz/cppLearning/CPPLearning/mySylarWeb/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/huanghz/workspace/mySylarWeb/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

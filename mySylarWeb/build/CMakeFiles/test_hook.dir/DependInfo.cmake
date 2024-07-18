@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/huanghz/cppLearning/CPPLearning/mySylarWeb/tests/test_hook.cc" "CMakeFiles/test_hook.dir/tests/test_hook.cc.o" "gcc" "CMakeFiles/test_hook.dir/tests/test_hook.cc.o.d"
+  "/home/huanghz/workspace/mySylarWeb/tests/test_hook.cc" "CMakeFiles/test_hook.dir/tests/test_hook.cc.o" "gcc" "CMakeFiles/test_hook.dir/tests/test_hook.cc.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/huanghz/cppLearning/CPPLearning/mySylarWeb/build/CMakeFiles/sylar.dir/DependInfo.cmake"
+  "/home/huanghz/workspace/mySylarWeb/build/CMakeFiles/sylar.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,7 +1,7 @@
 CMakeFiles/sylar.dir/sylar/timer.cc.o: \
- /home/huanghz/cppLearning/CPPLearning/mySylarWeb/sylar/timer.cc \
+ /home/huanghz/workspace/mySylarWeb/sylar/timer.cc \
  /usr/include/stdc-predef.h \
- /home/huanghz/cppLearning/CPPLearning/mySylarWeb/sylar/timer.h \
+ /home/huanghz/workspace/mySylarWeb/sylar/timer.h \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -125,7 +125,7 @@ CMakeFiles/sylar.dir/sylar/timer.cc.o: \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/huanghz/cppLearning/CPPLearning/mySylarWeb/sylar/thread.h \
+ /home/huanghz/workspace/mySylarWeb/sylar/thread.h \
  /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \
  /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/cstdint \
@@ -173,9 +173,9 @@ CMakeFiles/sylar.dir/sylar/timer.cc.o: \
  /usr/include/c++/11/bits/basic_string.tcc /usr/include/semaphore.h \
  /usr/include/x86_64-linux-gnu/bits/semaphore.h \
  /usr/include/c++/11/atomic \
- /home/huanghz/cppLearning/CPPLearning/mySylarWeb/sylar/noncopyable.h \
- /home/huanghz/cppLearning/CPPLearning/mySylarWeb/sylar/util.h \
- /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /home/huanghz/workspace/mySylarWeb/sylar/noncopyable.h \
+ /home/huanghz/workspace/mySylarWeb/sylar/util.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \

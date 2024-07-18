@@ -4,7 +4,7 @@
 !_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
 !_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
 !_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
-!_TAG_PROC_CWD	/home/huanghz/cppLearning/CPPLearning/mySylarWeb/	//
+!_TAG_PROC_CWD	/home/huanghz/workspace/mySylarWeb/	//
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
@@ -42,7 +42,7 @@ CASLock	sylar/thread.h	/^    CASLock(){$/;"	f	class:sylar::CASLock
 CASLock	sylar/thread.h	/^class CASLock : Noncopyable {$/;"	c	namespace:sylar
 CMAKE_AR	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_AR "\/usr\/bin\/ar")$/;"	v
 CMAKE_AR	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_AR "\/usr\/bin\/ar")$/;"	v
-CMAKE_BINARY_DIR	build/Makefile	/^CMAKE_BINARY_DIR = \/home\/huanghz\/cppLearning\/CPPLearning\/mySylarWeb\/build$/;"	m
+CMAKE_BINARY_DIR	build/Makefile	/^CMAKE_BINARY_DIR = \/home\/huanghz\/workspace\/mySylarWeb\/build$/;"	m
 CMAKE_BUILD_TYPE	CMakeLists.txt	/^SET(CMAKE_BUILD_TYPE "Debug")###$/;"	v
 CMAKE_C11_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C11_COMPILE_FEATURES "c_std_11;c_static_assert")$/;"	v
 CMAKE_C17_COMPILE_FEATURES	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_C17_COMPILE_FEATURES "c_std_17")$/;"	v
@@ -140,6 +140,8 @@ CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_bytearray.dir/DependInfo.cm
 CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_config.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
 CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_fiber.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
 CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_hook.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_http.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_http_parser.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
 CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_iomanager.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
 CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_scheduler.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
 CMAKE_DEPENDS_DEPENDENCY_FILES	build/CMakeFiles/test_socket.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
@@ -153,6 +155,8 @@ CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_bytearray.dir/DependInfo.cma
 CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_config.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
 CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_fiber.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
 CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_hook.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_http.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_http_parser.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
 CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_iomanager.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
 CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_scheduler.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
 CMAKE_DEPENDS_IN_PROJECT_ONLY	build/CMakeFiles/test_socket.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
@@ -165,6 +169,8 @@ CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_bytearray.dir/DependInfo.cmake	/^s
 CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_config.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
 CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_fiber.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
 CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_hook.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_http.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_http_parser.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
 CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_iomanager.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
 CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_scheduler.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
 CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/test_socket.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
@@ -179,15 +185,17 @@ CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_bytearray.dir/DependInfo.c
 CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_config.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
 CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_fiber.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
 CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_hook.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_http.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_http_parser.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
 CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_iomanager.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
 CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_scheduler.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
 CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_socket.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
 CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_thread.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
 CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/test_util.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
-CMAKE_HOST_SYSTEM	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM "Linux-6.5.0-35-generic")$/;"	v
+CMAKE_HOST_SYSTEM	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM "Linux-6.5.0-41-generic")$/;"	v
 CMAKE_HOST_SYSTEM_NAME	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_NAME "Linux")$/;"	v
 CMAKE_HOST_SYSTEM_PROCESSOR	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")$/;"	v
-CMAKE_HOST_SYSTEM_VERSION	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_VERSION "6.5.0-35-generic")$/;"	v
+CMAKE_HOST_SYSTEM_VERSION	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_VERSION "6.5.0-41-generic")$/;"	v
 CMAKE_INSTALL_COMPONENT	build/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")$/;"	v
 CMAKE_INSTALL_COMPONENT	build/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT)$/;"	v
 CMAKE_INSTALL_CONFIG_NAME	build/cmake_install.cmake	/^    set(CMAKE_INSTALL_CONFIG_NAME "Debug")$/;"	v
@@ -209,16 +217,16 @@ CMAKE_MT	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_MT "")$/;"	v
 CMAKE_OBJDUMP	build/cmake_install.cmake	/^  set(CMAKE_OBJDUMP "\/usr\/bin\/objdump")$/;"	v
 CMAKE_RANLIB	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^set(CMAKE_RANLIB "\/usr\/bin\/ranlib")$/;"	v
 CMAKE_RANLIB	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^set(CMAKE_RANLIB "\/usr\/bin\/ranlib")$/;"	v
-CMAKE_RELATIVE_PATH_TOP_BINARY	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_BINARY "\/home\/huanghz\/cppLearning\/CPPLearning\/mySylarWeb\/build/;"	v
-CMAKE_RELATIVE_PATH_TOP_SOURCE	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_SOURCE "\/home\/huanghz\/cppLearning\/CPPLearning\/mySylarWeb")$/;"	v
+CMAKE_RELATIVE_PATH_TOP_BINARY	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_BINARY "\/home\/huanghz\/workspace\/mySylarWeb\/build")$/;"	v
+CMAKE_RELATIVE_PATH_TOP_SOURCE	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_SOURCE "\/home\/huanghz\/workspace\/mySylarWeb")$/;"	v
 CMAKE_SIZEOF_VOID_P	build/CMakeFiles/3.22.1/CMakeCCompiler.cmake	/^  set(CMAKE_SIZEOF_VOID_P "${CMAKE_C_SIZEOF_DATA_PTR}")$/;"	v
 CMAKE_SIZEOF_VOID_P	build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake	/^  set(CMAKE_SIZEOF_VOID_P "${CMAKE_CXX_SIZEOF_DATA_PTR}")$/;"	v
-CMAKE_SOURCE_DIR	build/Makefile	/^CMAKE_SOURCE_DIR = \/home\/huanghz\/cppLearning\/CPPLearning\/mySylarWeb$/;"	m
-CMAKE_SYSTEM	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM "Linux-6.5.0-35-generic")$/;"	v
+CMAKE_SOURCE_DIR	build/Makefile	/^CMAKE_SOURCE_DIR = \/home\/huanghz\/workspace\/mySylarWeb$/;"	m
+CMAKE_SYSTEM	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM "Linux-6.5.0-41-generic")$/;"	v
 CMAKE_SYSTEM_LOADED	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_LOADED 1)$/;"	v
 CMAKE_SYSTEM_NAME	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_NAME "Linux")$/;"	v
 CMAKE_SYSTEM_PROCESSOR	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_PROCESSOR "x86_64")$/;"	v
-CMAKE_SYSTEM_VERSION	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_VERSION "6.5.0-35-generic")$/;"	v
+CMAKE_SYSTEM_VERSION	build/CMakeFiles/3.22.1/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_VERSION "6.5.0-41-generic")$/;"	v
 CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/sylar.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
 CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
 CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_address.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
@@ -226,6 +234,8 @@ CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_bytearray.dir/DependInfo.cm
 CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_config.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
 CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_fiber.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
 CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_hook.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_http.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_http_parser.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
 CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_iomanager.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
 CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_scheduler.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
 CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/test_socket.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
@@ -279,6 +289,8 @@ C_VERSION	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define C_V
 C_VERSION	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define C_VERSION$/;"	d	file:
 C_VERSION	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define C_VERSION /;"	d	file:
 CallerMainFunc	sylar/fiber.cc	/^void Fiber::CallerMainFunc(){$/;"	f	class:sylar::Fiber	typeref:typename:void
+CaseInsensitiveLess	sylar/http/http.h	/^struct CaseInsensitiveLess {$/;"	s	namespace:sylar::http
+CharsToHttpMethod	sylar/http/http.cc	/^HttpMethod CharsToHttpMethod(const char* m) {$/;"	f	namespace:sylar::http	typeref:typename:HttpMethod
 Comparator	sylar/timer.h	/^	struct Comparator {$/;"	s	class:sylar::Timer
 Config	sylar/config.h	/^class Config{$/;"	c	namespace:sylar
 ConfigVar	sylar/config.h	/^    ConfigVar(const std::string& name,$/;"	f	class:sylar::ConfigVar
@@ -371,6 +383,22 @@ HEX	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#define HEX(/;"	d	f
 HEX	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define HEX(/;"	d	file:
 HOLD	sylar/fiber.h	/^        HOLD,$/;"	e	enum:sylar::Fiber::State
 HOOK_FUN	sylar/hook.cc	/^#define HOOK_FUN(/;"	d	file:
+HTTP_METHOD_MAP	sylar/http/http.h	/^	HTTP_METHOD_MAP(XX)$/;"	e	enum:sylar::http::HttpMethod
+HTTP_METHOD_MAP	sylar/http/http.h	/^#define HTTP_METHOD_MAP(/;"	d
+HTTP_STATUS_MAP	sylar/http/http.h	/^	HTTP_STATUS_MAP(XX)$/;"	e	enum:sylar::http::HttpStatus
+HTTP_STATUS_MAP	sylar/http/http.h	/^#define HTTP_STATUS_MAP(/;"	d
+HttpMethod	sylar/http/http.h	/^enum class HttpMethod {$/;"	g	namespace:sylar::http
+HttpMethodToString	sylar/http/http.cc	/^const char* HttpMethodToString(const HttpMethod& m) {$/;"	f	namespace:sylar::http	typeref:typename:const char *
+HttpRequest	sylar/http/http.cc	/^HttpRequest::HttpRequest(uint8_t version, bool close)$/;"	f	class:sylar::http::HttpRequest
+HttpRequest	sylar/http/http.h	/^class HttpRequest {$/;"	c	namespace:sylar::http
+HttpRequestParser	sylar/http/http_parser.cc	/^HttpRequestParser::HttpRequestParser()$/;"	f	class:sylar::http::HttpRequestParser
+HttpRequestParser	sylar/http/http_parser.h	/^class HttpRequestParser {$/;"	c	namespace:sylar::http
+HttpResponse	sylar/http/http.cc	/^HttpResponse::HttpResponse(uint8_t version, bool close)$/;"	f	class:sylar::http::HttpResponse
+HttpResponse	sylar/http/http.h	/^class HttpResponse {$/;"	c	namespace:sylar::http
+HttpResponseParser	sylar/http/http_parser.cc	/^HttpResponseParser::HttpResponseParser()$/;"	f	class:sylar::http::HttpResponseParser
+HttpResponseParser	sylar/http/http_parser.h	/^class HttpResponseParser {$/;"	c	namespace:sylar::http
+HttpStatus	sylar/http/http.h	/^enum class HttpStatus {$/;"	g	namespace:sylar::http
+HttpStatusToString	sylar/http/http.cc	/^const char* HttpStatusToString(const HttpStatus& s) {$/;"	f	namespace:sylar::http	typeref:typename:const char *
 ID_VOID_MAIN	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define ID_VOID_MAIN$/;"	d	file:
 INFO	sylar/log.h	/^    INFO = 2,$/;"	e	enum:sylar::LogLevel::Level
 INIT	sylar/fiber.h	/^        INIT,$/;"	e	enum:sylar::Fiber::State
@@ -386,6 +414,8 @@ IPv6Address	sylar/address.cc	/^IPv6Address::IPv6Address() {$/;"	f	class:sylar::I
 IPv6Address	sylar/address.cc	/^IPv6Address::IPv6Address(const sockaddr_in6& address) {$/;"	f	class:sylar::IPv6Address
 IPv6Address	sylar/address.cc	/^IPv6Address::IPv6Address(const uint8_t address[16], uint16_t port) {$/;"	f	class:sylar::IPv6Address
 IPv6Address	sylar/address.h	/^class IPv6Address : public IPAddress {$/;"	c	namespace:sylar
+LEN	sylar/http/http11_parser.rl.cc	/^#define LEN(/;"	d	file:
+LEN	sylar/http/httpclient_parser.rl.cc	/^#define LEN(/;"	d	file:
 LIBRARY_OUTPUT_PATH	CMakeLists.txt	/^SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}\/lib)$/;"	v
 LIB_LIB	CMakeLists.txt	/^set(LIB_LIB$/;"	v
 LIB_SRC	CMakeLists.txt	/^set(LIB_SRC$/;"	v
@@ -440,9 +470,13 @@ Lookup	sylar/config.h	/^    static typename ConfigVar<T>::ptr Lookup(const std::
 LookupAny	sylar/address.cc	/^Address::ptr Address::LookupAny(const std::string& host,$/;"	f	class:sylar::Address	typeref:typename:Address::ptr
 LookupAnyIPAddress	sylar/address.cc	/^IPAddress::ptr Address::LookupAnyIPAddress(const std::string& host,$/;"	f	class:sylar::Address	typeref:typename:IPAddress::ptr
 LookupBase	sylar/config.cc	/^ConfigVarBase::ptr Config::LookupBase(const std::string& name){$/;"	f	class:sylar::Config	typeref:typename:ConfigVarBase::ptr
+MARK	sylar/http/http11_parser.rl.cc	/^#define MARK(/;"	d	file:
+MARK	sylar/http/httpclient_parser.rl.cc	/^#define MARK(/;"	d	file:
 MAX_PATH_LEN	sylar/address.cc	/^static const size_t MAX_PATH_LEN = sizeof(((sockaddr_un*)0)->sun_path) - 1;$/;"	v	namespace:sylar	typeref:typename:const size_t	file:
 MainFunc	sylar/fiber.cc	/^void Fiber::MainFunc(){$/;"	f	class:sylar::Fiber	typeref:typename:void
 MallocStackAllocator	sylar/fiber.cc	/^class MallocStackAllocator{$/;"	c	namespace:sylar	file:
+MapType	sylar/http/http.h	/^	typedef std::map<std::string, std::string, CaseInsensitiveLess> MapType;$/;"	t	class:sylar::http::HttpRequest	typeref:typename:std::map<std::string,std::string,CaseInsensitiveLess>
+MapType	sylar/http/http.h	/^	typedef std::map<std::string, std::string, CaseInsensitiveLess> MapType;$/;"	t	class:sylar::http::HttpResponse	typeref:typename:std::map<std::string,std::string,CaseInsensitiveLess>
 MessageFormatItem	sylar/log.cpp	/^    MessageFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::MessageFormatItem	file:
 MessageFormatItem	sylar/log.cpp	/^class MessageFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
 Mutex	sylar/thread.h	/^    Mutex(){$/;"	f	class:sylar::Mutex
@@ -476,6 +510,8 @@ PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  de
 PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID$/;"	d	file:
 PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	file:
 PLATFORM_ID	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID$/;"	d	file:
+PTR_TO	sylar/http/http11_parser.rl.cc	/^#define PTR_TO(/;"	d	file:
+PTR_TO	sylar/http/httpclient_parser.rl.cc	/^#define PTR_TO(/;"	d	file:
 Person	tests/test_config.cc	/^class Person{$/;"	c	file:
 READ	sylar/iomanager.h	/^		READ    = 0x1,		\/\/EPOLLIN$/;"	e	enum:sylar::IOManager::Event
 READY	sylar/fiber.h	/^        READY,$/;"	e	enum:sylar::Fiber::State
@@ -554,10 +590,13 @@ State	sylar/fiber.h	/^    enum State {$/;"	g	class:sylar::Fiber
 StdoutLogAppender	sylar/log.h	/^class StdoutLogAppender : public LogAppender{$/;"	c	namespace:sylar
 StringFormatItem	sylar/log.cpp	/^    StringFormatItem(const std::string& str)$/;"	f	class:sylar::StringFormatItem	file:
 StringFormatItem	sylar/log.cpp	/^class StringFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+StringToHttpMethod	sylar/http/http.cc	/^HttpMethod StringToHttpMethod(const std::string& m) {$/;"	f	namespace:sylar::http	typeref:typename:HttpMethod
 TCP	sylar/socket.h	/^		TCP = SOCK_STREAM,$/;"	e	enum:sylar::Socket::Type
 TERM	sylar/fiber.h	/^        TERM,$/;"	e	enum:sylar::Fiber::State
 TabFormatItem	sylar/log.cpp	/^    TabFormatItem(const std::string& str = ""){}$/;"	f	class:sylar::TabFormatItem	file:
 TabFormatItem	sylar/log.cpp	/^class TabFormatItem : public LogFormatter::FormatItem{$/;"	c	namespace:sylar	file:
+TcpServer	sylar/tcp_server.cc	/^TcpServer::TcpServer(sylar::IOManager* worker)$/;"	f	class:sylar::TcpServer
+TcpServer	sylar/tcp_server.h	/^class TcpServer : public std::enable_shared_from_this<TcpServer> {$/;"	c	namespace:sylar
 Thread	sylar/thread.cpp	/^Thread::Thread(std::function<void()> cb, const std::string& name)$/;"	f	class:sylar::Thread
 Thread	sylar/thread.h	/^class Thread {$/;"	c	namespace:sylar
 ThreadIdFormatItem	sylar/log.cpp	/^    ThreadIdFormatItem(const std::string& str = ""){};$/;"	f	class:sylar::ThreadIdFormatItem	file:
@@ -591,6 +630,8 @@ WriteScopedLockImpl	sylar/thread.h	/^    WriteScopedLockImpl(T& mutex)$/;"	f	str
 WriteScopedLockImpl	sylar/thread.h	/^struct WriteScopedLockImpl{$/;"	s	namespace:sylar
 XX	sylar/bytearray.cc	/^#define XX(/;"	d	file:
 XX	sylar/hook.cc	/^#define XX(/;"	d	file:
+XX	sylar/http/http.cc	/^#define XX(/;"	d	file:
+XX	sylar/http/http.h	/^#define XX(/;"	d
 XX	sylar/log.cpp	/^#define XX(/;"	d	file:
 XX	tests/test_bytearray.cc	/^#define XX(/;"	d	file:
 XX	tests/test_config.cc	/^#define XX(/;"	d	file:
@@ -600,6 +641,8 @@ YieldToHold	sylar/fiber.cc	/^void Fiber::YieldToHold(){$/;"	f	class:sylar::Fiber
 YieldToReady	sylar/fiber.cc	/^void Fiber::YieldToReady(){$/;"	f	class:sylar::Fiber	typeref:typename:void
 _HookIniter	sylar/hook.cc	/^	_HookIniter() {$/;"	f	struct:sylar::_HookIniter	file:
 _HookIniter	sylar/hook.cc	/^struct _HookIniter {$/;"	s	namespace:sylar	file:
+_RequestSizeIniter	sylar/http/http_parser.cc	/^	_RequestSizeIniter() {$/;"	f	struct:sylar::http::_RequestSizeIniter	file:
+_RequestSizeIniter	sylar/http/http_parser.cc	/^struct _RequestSizeIniter {$/;"	s	namespace:sylar::http	file:
 __FD_MANAGER_H__	sylar/fd_manager.h	/^#define __FD_MANAGER_H__$/;"	d
 __SYLAR_ADDRESS_H__	sylar/address.h	/^#define __SYLAR_ADDRESS_H__$/;"	d
 __SYLAR_BYTEARRAY_H__	sylar/bytearray.h	/^#define __SYLAR_BYTEARRAY_H__$/;"	d
@@ -608,6 +651,8 @@ __SYLAR_ENDIAN_H__	sylar/endian.h	/^#define __SYLAR_ENDIAN_H__$/;"	d
 __SYLAR_FIBER_H__	sylar/fiber.h	/^#define __SYLAR_FIBER_H__$/;"	d
 __SYLAR_HOOK_H__	backup/hook.h	/^#define __SYLAR_HOOK_H__$/;"	d
 __SYLAR_HOOK_H__	sylar/hook.h	/^#define __SYLAR_HOOK_H__$/;"	d
+__SYLAR_HTTP_HTTP_H__	sylar/http/http.h	/^#define __SYLAR_HTTP_HTTP_H__$/;"	d
+__SYLAR_HTTP_PARSER_H__	sylar/http/http_parser.h	/^#define __SYLAR_HTTP_PARSER_H__$/;"	d
 __SYLAR_IOMANAGER_H__	sylar/iomanager.h	/^#define __SYLAR_IOMANAGER_H__$/;"	d
 __SYLAR_LOG_H__	sylar/log.h	/^#define __SYLAR_LOG_H__$/;"	d
 __SYLAR_MACRO_H__	sylar/macro.h	/^#define __SYLAR_MACRO_H__$/;"	d
@@ -617,6 +662,7 @@ __SYLAR_SCHEDULER_H__	temp/scheduler.h	/^#define __SYLAR_SCHEDULER_H__$/;"	d
 __SYLAR_SINGLETON_H__	sylar/singleton.h	/^#define __SYLAR_SINGLETON_H__$/;"	d
 __SYLAR_SOCKET_H__	sylar/socket.h	/^#define __SYLAR_SOCKET_H__$/;"	d
 __SYLAR_SYLAR_H__	sylar/sylar.h	/^#define __SYLAR_SYLAR_H__$/;"	d
+__SYLAR_TCP_SERVER_H__	sylar/tcp_server.h	/^#define __SYLAR_TCP_SERVER_H__$/;"	d
 __SYLAR_THREAD_H__	sylar/thread.h	/^#define __SYLAR_THREAD_H__$/;"	d
 __SYLAR_UTIL_H__	sylar/util.h	/^#define __SYLAR_UTIL_H__$/;"	d
 __TIMER_H__	sylar/timer.h	/^#define __TIMER_H__$/;"	d
@@ -635,9 +681,13 @@ __anona5e9892d0102	tests/test_iomanager.cc	/^		sylar::IOManager::GetThis()->addE
 __anona5e9892d0202	tests/test_iomanager.cc	/^		sylar::IOManager::GetThis()->addEvent(sock, sylar::IOManager::WRITE, [](){$/;"	f	function:test_fiber	file:
 __anona5e9892d0302	tests/test_iomanager.cc	/^	s_timer = iom.addTimer(1000, [](){$/;"	f	function:test_timer	file:
 __anonc632a2320102	sylar/log.cpp	/^                    const std::set<LogDefine>& new_value){$/;"	f	function:sylar::LogIniter::LogIniter	file:
+__anond9beb92e0102	sylar/http/http_parser.cc	/^				[](const uint64_t& ov, const uint64_t& nv){$/;"	f	function:sylar::http::_RequestSizeIniter::_RequestSizeIniter	file:
+__anond9beb92e0202	sylar/http/http_parser.cc	/^				[](const uint64_t& ov, const uint64_t& nv){$/;"	f	function:sylar::http::_RequestSizeIniter::_RequestSizeIniter	file:
 __has_include	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define __has_include(/;"	d	file:
 __has_include	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define __has_include(/;"	d	file:
 __log_init	sylar/log.cpp	/^static LogIniter __log_init;$/;"	v	namespace:sylar	typeref:typename:LogIniter	file:
+_http11_common_h	sylar/http/http11_common.h	/^#define _http11_common_h$/;"	d
+_init	sylar/http/http_parser.cc	/^static _RequestSizeIniter _init;$/;"	v	namespace:sylar::http	typeref:typename:_RequestSizeIniter	file:
 accept	sylar/hook.cc	/^int accept(int s, struct sockaddr *addr, socklen_t *addrlen) {$/;"	f	typeref:typename:int
 accept	sylar/socket.cc	/^Socket::ptr Socket::accept() {$/;"	f	class:sylar::Socket	typeref:typename:Socket::ptr
 accept_fun	backup/hook.h	/^typedef int (*accept_fun)(int sockfd, struct sockaddr *addr, socklen_t *addrlen);$/;"	t	typeref:typename:int (*)(int sockfd,struct sockaddr * addr,socklen_t * addrlen)
@@ -657,7 +707,11 @@ array	.vscode/settings.json	/^        "array": "cpp",$/;"	s	object:files.associa
 atomic	.vscode/settings.json	/^        "atomic": "cpp",$/;"	s	object:files.associations
 back	sylar/fiber.cc	/^void Fiber::back() {$/;"	f	class:sylar::Fiber	typeref:typename:void
 bind	sylar/socket.cc	/^bool Socket::bind(const Address::ptr addr) {$/;"	f	class:sylar::Socket	typeref:typename:bool
+bind	sylar/tcp_server.cc	/^bool TcpServer::bind(const std::vector<Address::ptr>& addrs$/;"	f	class:sylar::TcpServer	typeref:typename:bool
+bind	sylar/tcp_server.cc	/^bool TcpServer::bind(sylar::Address::ptr addr) {$/;"	f	class:sylar::TcpServer	typeref:typename:bool
 bit	.vscode/settings.json	/^        "bit": "cpp",$/;"	s	object:files.associations
+body_start	sylar/http/http11_parser.h	/^  size_t body_start;$/;"	m	struct:http_parser	typeref:typename:size_t
+body_start	sylar/http/httpclient_parser.h	/^  size_t body_start;$/;"	m	struct:httpclient_parser	typeref:typename:size_t
 broadcastAddress	sylar/address.cc	/^IPAddress::ptr IPv4Address::broadcastAddress(uint32_t prefix_len) {$/;"	f	class:sylar::IPv4Address	typeref:typename:IPAddress::ptr
 broadcastAddress	sylar/address.cc	/^IPAddress::ptr IPv6Address::broadcastAddress(uint32_t prefix_len) {$/;"	f	class:sylar::IPv6Address	typeref:typename:IPAddress::ptr
 byteswap	sylar/endian.h	/^byteswap(T value) {$/;"	f	namespace:sylar	typeref:typename:std::enable_if<sizeof (T)==sizeof (uint16_t),T>::type
@@ -680,7 +734,16 @@ cb	sylar/scheduler.h	/^        std::function<void()> cb;$/;"	m	struct:sylar::Sch
 cb	temp/scheduler.h	/^        std::function<void()> cb;$/;"	m	struct:sylar::Scheduler::FiberAndThread	typeref:typename:std::function<void ()>
 cctype	.vscode/settings.json	/^        "cctype": "cpp",$/;"	s	object:files.associations
 cfenv	.vscode/settings.json	/^        "cfenv": "cpp",$/;"	s	object:files.associations
+check	sylar/http/httpclient_parser.rl.cc	/^#define check(/;"	d	file:
+checkGetAs	sylar/http/http.h	/^bool checkGetAs(const MapType& m, const std::string& key, T& val, const T& def = T()) {$/;"	f	namespace:sylar::http	typeref:typename:bool
+checkGetCookieAs	sylar/http/http.h	/^	bool checkGetCookieAs(const std::string& key, T& val, const T& def = T()) {$/;"	f	class:sylar::http::HttpRequest	typeref:typename:bool
+checkGetHeaderAs	sylar/http/http.h	/^	bool checkGetHeaderAs(const std::string& key, T& val, const T& def = T()) {$/;"	f	class:sylar::http::HttpRequest	typeref:typename:bool
+checkGetHeaderAs	sylar/http/http.h	/^	bool checkGetHeaderAs(const std::string& key, T& val, const T& def = T()) {$/;"	f	class:sylar::http::HttpResponse	typeref:typename:bool
+checkGetParamAs	sylar/http/http.h	/^	bool checkGetParamAs(const std::string& key, T& val, const T& def = T()) {$/;"	f	class:sylar::http::HttpRequest	typeref:typename:bool
 chrono	.vscode/settings.json	/^        "chrono": "cpp",$/;"	s	object:files.associations
+chunk_size	sylar/http/httpclient_parser.h	/^  element_cb chunk_size;$/;"	m	struct:httpclient_parser	typeref:typename:element_cb
+chunked	sylar/http/httpclient_parser.h	/^  int chunked;$/;"	m	struct:httpclient_parser	typeref:typename:int
+chunks_done	sylar/http/httpclient_parser.h	/^  int chunks_done;$/;"	m	struct:httpclient_parser	typeref:typename:int
 cinttypes	.vscode/settings.json	/^        "cinttypes": "cpp",$/;"	s	object:files.associations
 clean	build/Makefile	/^clean:$/;"	t
 clean/fast	build/Makefile	/^clean\/fast: clean$/;"	t
@@ -689,6 +752,7 @@ clearAppenders	sylar/log.cpp	/^void Logger::clearAppenders(){$/;"	f	class:sylar:
 clearListener	sylar/config.h	/^    void clearListener() {$/;"	f	class:sylar::ConfigVar	typeref:typename:void
 clocale	.vscode/settings.json	/^        "clocale": "cpp",$/;"	s	object:files.associations
 close	sylar/hook.cc	/^int close(int fd) {$/;"	f	typeref:typename:int
+close	sylar/http/httpclient_parser.h	/^  int close;$/;"	m	struct:httpclient_parser	typeref:typename:int
 close	sylar/socket.cc	/^bool Socket::close() {$/;"	f	class:sylar::Socket	typeref:typename:bool
 close_fun	backup/hook.h	/^typedef int (*close_fun)(int fd);$/;"	t	typeref:typename:int (*)(int fd)
 close_fun	sylar/hook.h	/^typedef int (*close_fun)(int fd);$/;"	t	typeref:typename:int (*)(int fd)
@@ -710,9 +774,13 @@ connect_fun	backup/hook.h	/^typedef int (*connect_fun)(int sockfd, const struct 
 connect_fun	sylar/hook.h	/^typedef int (*connect_fun)(int sockfd, const struct sockaddr *addr, socklen_t addrlen);$/;"	t	typeref:typename:int (*)(int sockfd,const struct sockaddr * addr,socklen_t addrlen)
 connect_with_timeout	sylar/hook.cc	/^int connect_with_timeout(int fd, const struct sockaddr* addr, socklen_t addrlen, uint64_t timeou/;"	f	typeref:typename:int
 const	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define const$/;"	d	file:
+content_len	sylar/http/http11_parser.h	/^  int content_len;$/;"	m	struct:http_parser	typeref:typename:int
+content_len	sylar/http/httpclient_parser.h	/^  int content_len;$/;"	m	struct:httpclient_parser	typeref:typename:int
 contextResize	sylar/iomanager.cc	/^void IOManager::contextResize(size_t size){$/;"	f	class:sylar::IOManager	typeref:typename:void
 count	tests/test_thread.cpp	/^int count = 0;$/;"	v	typeref:typename:int
 cppStandard	.vscode/c_cpp_properties.json	/^            "cppStandard": "c++14",$/;"	s	object:configurations.0
+cs	sylar/http/http11_parser.h	/^  int cs;$/;"	m	struct:http_parser	typeref:typename:int
+cs	sylar/http/httpclient_parser.h	/^  int cs;$/;"	m	struct:httpclient_parser	typeref:typename:int
 cstdarg	.vscode/settings.json	/^        "cstdarg": "cpp",$/;"	s	object:files.associations
 cstddef	.vscode/settings.json	/^        "cstddef": "cpp",$/;"	s	object:files.associations
 cstdint	.vscode/settings.json	/^        "cstdint": "cpp",$/;"	s	object:files.associations
@@ -723,24 +791,35 @@ ctime	.vscode/settings.json	/^        "ctime": "cpp",$/;"	s	object:files.associa
 cwchar	.vscode/settings.json	/^        "cwchar": "cpp",$/;"	s	object:files.associations
 cwctype	.vscode/settings.json	/^        "cwctype": "cpp",$/;"	s	object:files.associations
 cwd	.vscode/tasks.json	/^                "cwd": "${fileDirname}"$/;"	s	object:tasks.0.options
+data	sylar/http/http11_parser.h	/^  void *data;$/;"	m	struct:http_parser	typeref:typename:void *
+data	sylar/http/httpclient_parser.h	/^  void *data;$/;"	m	struct:httpclient_parser	typeref:typename:void *
 debug	sylar/log.cpp	/^void Logger::debug(LogEvent::ptr event){$/;"	f	class:sylar::Logger	typeref:typename:void
 default_target	build/Makefile	/^default_target: all$/;"	t
 defines	.vscode/c_cpp_properties.json	/^            "defines": [],$/;"	a	object:configurations.0
 del	sylar/fd_manager.cc	/^void FdManager::del(int fd) {$/;"	f	class:sylar::FdManager	typeref:typename:void
 delAppender	sylar/log.cpp	/^void Logger::delAppender(LogAppender::ptr appender){$/;"	f	class:sylar::Logger	typeref:typename:void
+delCookie	sylar/http/http.cc	/^void HttpRequest::delCookie(const std::string& key) {$/;"	f	class:sylar::http::HttpRequest	typeref:typename:void
 delEvent	sylar/iomanager.cc	/^bool IOManager::delEvent(int fd, Event event){$/;"	f	class:sylar::IOManager	typeref:typename:bool
+delHeader	sylar/http/http.cc	/^void HttpRequest::delHeader(const std::string& key) {$/;"	f	class:sylar::http::HttpRequest	typeref:typename:void
+delHeader	sylar/http/http.cc	/^void HttpResponse::delHeader(const std::string& key) {$/;"	f	class:sylar::http::HttpResponse	typeref:typename:void
 delListener	sylar/config.h	/^    void delListener(uint64_t key){$/;"	f	class:sylar::ConfigVar	typeref:typename:void
+delParam	sylar/http/http.cc	/^void HttpRequest::delParam(const std::string& key) {$/;"	f	class:sylar::http::HttpRequest	typeref:typename:void
 depend	build/Makefile	/^depend:$/;"	t
 deque	.vscode/settings.json	/^        "deque": "cpp",$/;"	s	object:files.associations
 detail	.vscode/tasks.json	/^            "detail": "调试器生成的任务。"$/;"	s	object:tasks.0
 detectClockRollover	sylar/timer.cc	/^bool TimerManager::detectClockRollover(uint64_t now_ms) {$/;"	f	class:sylar::TimerManager	typeref:typename:bool
 do_io	sylar/hook.cc	/^static ssize_t do_io(int fd, OriginFun fun, const char* hook_fun_name, $/;"	f	typeref:typename:ssize_t	file:
+dump	sylar/http/http.cc	/^std::ostream& HttpRequest::dump(std::ostream& os) const {$/;"	f	class:sylar::http::HttpRequest	typeref:typename:std::ostream &
+dump	sylar/http/http.cc	/^std::ostream& HttpResponse::dump(std::ostream& os) const {$/;"	f	class:sylar::http::HttpResponse	typeref:typename:std::ostream &
 dump	sylar/socket.cc	/^std::ostream& Socket::dump(std::ostream& os) const {$/;"	f	class:sylar::Socket	typeref:typename:std::ostream &
 edit_cache	build/Makefile	/^edit_cache:$/;"	t
 edit_cache/fast	build/Makefile	/^edit_cache\/fast: edit_cache$/;"	t
+element_cb	sylar/http/http11_common.h	/^typedef void (*element_cb)(void *data, const char *at, size_t length);$/;"	t	typeref:typename:void (*)(void * data,const char * at,size_t length)
 error	sylar/log.cpp	/^void Logger::error(LogEvent::ptr event){$/;"	f	class:sylar::Logger	typeref:typename:void
 events	sylar/iomanager.h	/^		Event events = NONE;			\/\/已经注册的时间$/;"	m	struct:sylar::IOManager::FdContext	typeref:typename:Event
 exception	.vscode/settings.json	/^        "exception": "cpp",$/;"	s	object:files.associations
+execute	sylar/http/http_parser.cc	/^size_t HttpRequestParser::execute(char* data, size_t len) {$/;"	f	class:sylar::http::HttpRequestParser	typeref:typename:size_t
+execute	sylar/http/http_parser.cc	/^size_t HttpResponseParser::execute(char* data, size_t len) {$/;"	f	class:sylar::http::HttpResponseParser	typeref:typename:size_t
 fatal	sylar/log.cpp	/^void Logger::fatal(LogEvent::ptr event){$/;"	f	class:sylar::Logger	typeref:typename:void
 fcntl	sylar/hook.cc	/^int fcntl(int fd, int cmd, ... \/* arg *\/ ) {$/;"	f	typeref:typename:int
 fcntl_fun	backup/hook.h	/^typedef int (*fcntl_fun)(int fd, int cmd, ... \/* arg *\/ );$/;"	t	typeref:typename:int (*)(int fd,int cmd,...)
@@ -749,6 +828,11 @@ fd	sylar/iomanager.h	/^		int fd = 0;						\/\/写事件$/;"	m	struct:sylar::IOMa
 fiber	sylar/iomanager.h	/^			Fiber::ptr fiber;		                \/\/事件协程$/;"	m	struct:sylar::IOManager::FdContext::EventContext	typeref:typename:Fiber::ptr
 fiber	sylar/scheduler.h	/^        Fiber::ptr fiber;$/;"	m	struct:sylar::Scheduler::FiberAndThread	typeref:typename:Fiber::ptr
 fiber	temp/scheduler.h	/^        Fiber::ptr fiber;$/;"	m	struct:sylar::Scheduler::FiberAndThread	typeref:typename:Fiber::ptr
+field_cb	sylar/http/http11_common.h	/^typedef void (*field_cb)(void *data, const char *field, size_t flen, const char *value, size_t v/;"	t	typeref:typename:void (*)(void * data,const char * field,size_t flen,const char * value,size_t vlen)
+field_len	sylar/http/http11_parser.h	/^  size_t field_len;$/;"	m	struct:http_parser	typeref:typename:size_t
+field_len	sylar/http/httpclient_parser.h	/^  size_t field_len;$/;"	m	struct:httpclient_parser	typeref:typename:size_t
+field_start	sylar/http/http11_parser.h	/^  size_t field_start;$/;"	m	struct:http_parser	typeref:typename:size_t
+field_start	sylar/http/httpclient_parser.h	/^  size_t field_start;$/;"	m	struct:httpclient_parser	typeref:typename:size_t
 file	sylar/log.cpp	/^    std::string file;$/;"	m	struct:sylar::LogAppenderDefine	typeref:typename:std::string	file:
 files.associations	.vscode/settings.json	/^    "files.associations": {$/;"	o
 force_redefine_file_macro_for_sources	cmake/utils.cmake	/^function(force_redefine_file_macro_for_sources targetname)$/;"	f
@@ -770,6 +854,7 @@ format	sylar/log.cpp	/^void LogEvent::format(const char* fmt, ...) {$/;"	f	class
 format	sylar/log.cpp	/^void LogEvent::format(const char* fmt, va_list al) {$/;"	f	class:sylar::LogEvent	typeref:typename:void
 formatter	sylar/log.cpp	/^    std::string formatter;$/;"	m	struct:sylar::LogAppenderDefine	typeref:typename:std::string	file:
 formatter	sylar/log.cpp	/^    std::string formatter;$/;"	m	struct:sylar::LogDefine	typeref:typename:std::string	file:
+fragment	sylar/http/http11_parser.h	/^  element_cb fragment;$/;"	m	struct:http_parser	typeref:typename:element_cb
 fromString	sylar/config.h	/^    bool fromString(const std::string& val) override {$/;"	f	class:sylar::ConfigVar	typeref:typename:bool
 fstream	.vscode/settings.json	/^        "fstream": "cpp",$/;"	s	object:files.associations
 fun1	tests/test_thread.cpp	/^void fun1(){$/;"	f	typeref:typename:void
@@ -778,6 +863,8 @@ fun3	tests/test_thread.cpp	/^void fun3(){$/;"	f	typeref:typename:void
 functional	.vscode/settings.json	/^        "functional": "cpp",$/;"	s	object:files.associations
 g_fiber_stack_size	sylar/fiber.cc	/^static ConfigVar<uint32_t>::ptr g_fiber_stack_size = $/;"	v	namespace:sylar	typeref:typename:ConfigVar<uint32_t>::ptr	file:
 g_float_value_config	tests/test_config.cc	/^sylar::ConfigVar<float>::ptr g_float_value_config = $/;"	v	typeref:typename:sylar::ConfigVar<float>::ptr
+g_http_request_buffer_size	sylar/http/http_parser.cc	/^static sylar::ConfigVar<uint64_t>::ptr g_http_request_buffer_size = $/;"	v	namespace:sylar::http	typeref:typename:sylar::ConfigVar<uint64_t>::ptr	file:
+g_http_request_max_body_size	sylar/http/http_parser.cc	/^static sylar::ConfigVar<uint64_t>::ptr g_http_request_max_body_size = $/;"	v	namespace:sylar::http	typeref:typename:sylar::ConfigVar<uint64_t>::ptr	file:
 g_int_list_value_config	tests/test_config.cc	/^sylar::ConfigVar<std::list<int>>::ptr g_int_list_value_config = $/;"	v	typeref:typename:sylar::ConfigVar<std::list<int>>::ptr
 g_int_set_value_config	tests/test_config.cc	/^sylar::ConfigVar<std::set<int>>::ptr g_int_set_value_config = $/;"	v	typeref:typename:sylar::ConfigVar<std::set<int>>::ptr
 g_int_uset_value_config	tests/test_config.cc	/^sylar::ConfigVar<std::unordered_set<int>>::ptr g_int_uset_value_config = $/;"	v	typeref:typename:sylar::ConfigVar<std::unordered_set<int>>::ptr
@@ -789,15 +876,18 @@ g_logger	sylar/address.cc	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME(
 g_logger	sylar/bytearray.cc	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar	typeref:typename:sylar::Logger::ptr	file:
 g_logger	sylar/fiber.cc	/^static Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar	typeref:typename:Logger::ptr	file:
 g_logger	sylar/hook.cc	/^sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	typeref:typename:sylar::Logger::ptr
+g_logger	sylar/http/http_parser.cc	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar::http	typeref:typename:sylar::Logger::ptr	file:
 g_logger	sylar/iomanager.cc	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar	typeref:typename:sylar::Logger::ptr	file:
 g_logger	sylar/scheduler.cc	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar	typeref:typename:sylar::Logger::ptr	file:
 g_logger	sylar/socket.cc	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar	typeref:typename:sylar::Logger::ptr	file:
+g_logger	sylar/tcp_server.cc	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar	typeref:typename:sylar::Logger::ptr	file:
 g_logger	sylar/thread.cpp	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar	typeref:typename:sylar::Logger::ptr	file:
 g_logger	sylar/util.cpp	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");$/;"	v	namespace:sylar	typeref:typename:sylar::Logger::ptr	file:
 g_logger	tests/test_address.cc	/^sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();$/;"	v	typeref:typename:sylar::Logger::ptr
 g_logger	tests/test_bytearray.cc	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();$/;"	v	typeref:typename:sylar::Logger::ptr	file:
 g_logger	tests/test_fiber.cc	/^sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();$/;"	v	typeref:typename:sylar::Logger::ptr
 g_logger	tests/test_hook.cc	/^sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();$/;"	v	typeref:typename:sylar::Logger::ptr
+g_logger	tests/test_http_parser.cc	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();$/;"	v	typeref:typename:sylar::Logger::ptr	file:
 g_logger	tests/test_iomanager.cc	/^sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();$/;"	v	typeref:typename:sylar::Logger::ptr
 g_logger	tests/test_scheduler.cc	/^sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();$/;"	v	typeref:typename:sylar::Logger::ptr
 g_logger	tests/test_socket.cc	/^static sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();$/;"	v	typeref:typename:sylar::Logger::ptr	file:
@@ -809,6 +899,7 @@ g_person_vec_map	tests/test_config.cc	/^sylar::ConfigVar<std::map<std::string, s
 g_str_int_map_value_config	tests/test_config.cc	/^sylar::ConfigVar<std::map<std::string, int>>::ptr g_str_int_map_value_config = $/;"	v	typeref:typename:sylar::ConfigVar<std::map<std::string,int>>::ptr
 g_str_int_umap_value_config	tests/test_config.cc	/^sylar::ConfigVar<std::unordered_map<std::string, int>>::ptr g_str_int_umap_value_config = $/;"	v	typeref:typename:sylar::ConfigVar<std::unordered_map<std::string,int>>::ptr
 g_tcp_connect_timeout	sylar/hook.cc	/^static sylar::ConfigVar<int>::ptr g_tcp_connect_timeout = $/;"	v	namespace:sylar	typeref:typename:sylar::ConfigVar<int>::ptr	file:
+g_tcp_server_read_timeout	sylar/tcp_server.cc	/^static sylar::ConfigVar<uint64_t>::ptr g_tcp_server_read_timeout = $/;"	v	namespace:sylar	typeref:typename:sylar::ConfigVar<uint64_t>::ptr	file:
 get	sylar/fd_manager.cc	/^FdCtx::ptr FdManager::get(int fd, bool auto_create) {$/;"	f	class:sylar::FdManager	typeref:typename:FdCtx::ptr
 getAddr	sylar/address.cc	/^const sockaddr* IPv4Address::getAddr() const {$/;"	f	class:sylar::IPv4Address	typeref:typename:const sockaddr *
 getAddr	sylar/address.cc	/^const sockaddr* IPv6Address::getAddr() const {$/;"	f	class:sylar::IPv6Address	typeref:typename:const sockaddr *
@@ -822,10 +913,20 @@ getAddrLen	sylar/address.cc	/^socklen_t IPv4Address::getAddrLen() const {$/;"	f	
 getAddrLen	sylar/address.cc	/^socklen_t IPv6Address::getAddrLen() const {$/;"	f	class:sylar::IPv6Address	typeref:typename:socklen_t
 getAddrLen	sylar/address.cc	/^socklen_t UnixAddress::getAddrLen() const {$/;"	f	class:sylar::UnixAddress	typeref:typename:socklen_t
 getAddrLen	sylar/address.cc	/^socklen_t UnknownAddress::getAddrLen() const {$/;"	f	class:sylar::UnknownAddress	typeref:typename:socklen_t
+getAs	sylar/http/http.h	/^T getAs(const MapType& m, const std::string& key, const T& def = T()) {$/;"	f	namespace:sylar::http	typeref:typename:T
 getBaseSize	sylar/bytearray.h	/^	size_t getBaseSize() const { return m_baseSize; }$/;"	f	class:sylar::ByteArray	typeref:typename:size_t
+getBody	sylar/http/http.h	/^	const std::string& getBody() const { return m_body; }$/;"	f	class:sylar::http::HttpRequest	typeref:typename:const std::string &
+getBody	sylar/http/http.h	/^	const std::string& getBody() const { return m_body; }$/;"	f	class:sylar::http::HttpResponse	typeref:typename:const std::string &
 getCapacity	sylar/bytearray.h	/^	size_t getCapacity() const { return m_capacity - m_position; }$/;"	f	class:sylar::ByteArray	typeref:typename:size_t
 getContent	sylar/log.h	/^    std::string getContent() const {return m_ss.str();}$/;"	f	class:sylar::LogEvent	typeref:typename:std::string
+getContentLength	sylar/http/http_parser.cc	/^uint64_t HttpRequestParser::getContentLength(){$/;"	f	class:sylar::http::HttpRequestParser	typeref:typename:uint64_t
+getContentLength	sylar/http/http_parser.cc	/^uint64_t HttpResponseParser::getContentLength(){$/;"	f	class:sylar::http::HttpResponseParser	typeref:typename:uint64_t
 getContext	sylar/iomanager.cc	/^IOManager::FdContext::EventContext& IOManager::FdContext::getContext(IOManager::Event event){$/;"	f	class:sylar::IOManager::FdContext	typeref:typename:IOManager::FdContext::EventContext &
+getCookie	sylar/http/http.cc	/^std::string HttpRequest::getCookie(const std::string& key$/;"	f	class:sylar::http::HttpRequest	typeref:typename:std::string
+getCookieAs	sylar/http/http.h	/^	T getCookieAs(const std::string& key, const T& def = T()) {$/;"	f	class:sylar::http::HttpRequest	typeref:typename:T
+getCookies	sylar/http/http.h	/^	const MapType& getCookies() const { return m_cookies; }$/;"	f	class:sylar::http::HttpRequest	typeref:typename:const MapType &
+getData	sylar/http/http_parser.h	/^	HttpRequest::ptr getData() const { return m_data; }$/;"	f	class:sylar::http::HttpRequestParser	typeref:typename:HttpRequest::ptr
+getData	sylar/http/http_parser.h	/^	HttpResponse::ptr getData() const { return m_data; }$/;"	f	class:sylar::http::HttpResponseParser	typeref:typename:HttpResponse::ptr
 getDescription	sylar/config.h	/^    const std::string& getDescription() const { return m_description; }$/;"	f	class:sylar::ConfigVarBase	typeref:typename:const std::string &
 getElapse	sylar/log.h	/^    uint32_t getElapse() const { return m_elapse;}$/;"	f	class:sylar::LogEvent	typeref:typename:uint32_t
 getError	sylar/socket.cc	/^int Socket::getError() {$/;"	f	class:sylar::Socket	typeref:typename:int
@@ -836,6 +937,12 @@ getFiberId	sylar/log.h	/^    uint32_t getFiberId() const { return m_fiberId;}$/;
 getFile	sylar/log.h	/^    const char* getFile() const { return m_file;}$/;"	f	class:sylar::LogEvent	typeref:typename:const char *
 getFormatter	sylar/log.cpp	/^LogFormatter::ptr LogAppender::getFormatter(){$/;"	f	class:sylar::LogAppender	typeref:typename:LogFormatter::ptr
 getFormatter	sylar/log.cpp	/^LogFormatter::ptr Logger::getFormatter(){$/;"	f	class:sylar::Logger	typeref:typename:LogFormatter::ptr
+getHeader	sylar/http/http.cc	/^std::string HttpRequest::getHeader(const std::string& key$/;"	f	class:sylar::http::HttpRequest	typeref:typename:std::string
+getHeader	sylar/http/http.cc	/^std::string HttpResponse::getHeader(const std::string& key, const std::string& def) const {$/;"	f	class:sylar::http::HttpResponse	typeref:typename:std::string
+getHeaderAs	sylar/http/http.h	/^	T getHeaderAs(const std::string& key, const T& def = T()) {$/;"	f	class:sylar::http::HttpRequest	typeref:typename:T
+getHeaderAs	sylar/http/http.h	/^	T getHeaderAs(const std::string& key, const T& def = T()) {$/;"	f	class:sylar::http::HttpResponse	typeref:typename:T
+getHeaders	sylar/http/http.h	/^	const MapType& getHeaders() const { return m_headers; }$/;"	f	class:sylar::http::HttpRequest	typeref:typename:const MapType &
+getHeaders	sylar/http/http.h	/^	const MapType& getHeaders() const { return m_headers; }$/;"	f	class:sylar::http::HttpResponse	typeref:typename:const MapType &
 getId	sylar/fiber.h	/^    uint64_t getId() const { return m_id; }$/;"	f	class:sylar::Fiber	typeref:typename:uint64_t
 getId	sylar/thread.h	/^    pid_t getId() const { return m_id; }$/;"	f	class:sylar::Thread	typeref:typename:pid_t
 getLevel	sylar/log.h	/^    LogLevel::Level getLevel() const { return m_level; }$/;"	f	class:sylar::LogAppender	typeref:typename:LogLevel::Level
@@ -846,22 +953,31 @@ getListener	sylar/config.h	/^    on_change_cb getListener(uint64_t key){$/;"	f	c
 getLocalAddress	sylar/socket.cc	/^Address::ptr Socket::getLocalAddress() {$/;"	f	class:sylar::Socket	typeref:typename:Address::ptr
 getLogger	sylar/log.cpp	/^Logger::ptr LoggerManager::getLogger(const std::string& name){$/;"	f	class:sylar::LoggerManager	typeref:typename:Logger::ptr
 getLogger	sylar/log.h	/^    std::shared_ptr<Logger> getLogger() const { return m_logger;}$/;"	f	class:sylar::LogEvent	typeref:typename:std::shared_ptr<Logger>
+getMethod	sylar/http/http.h	/^	HttpMethod getMethod() const { return m_method; }$/;"	f	class:sylar::http::HttpRequest	typeref:typename:HttpMethod
 getName	sylar/config.h	/^    const std::string& getName() const { return m_name; }$/;"	f	class:sylar::ConfigVarBase	typeref:typename:const std::string &
 getName	sylar/log.h	/^    const std::string& getName() const {return m_name;}$/;"	f	class:sylar::Logger	typeref:typename:const std::string &
 getName	sylar/scheduler.h	/^    const std::string& getName() const { return m_name; }$/;"	f	class:sylar::Scheduler	typeref:typename:const std::string &
+getName	sylar/tcp_server.h	/^	std::string getName() const { return m_name; }$/;"	f	class:sylar::TcpServer	typeref:typename:std::string
 getName	sylar/thread.h	/^    const std::string& getName() const { return m_name; }$/;"	f	class:sylar::Thread	typeref:typename:const std::string &
 getName	temp/scheduler.h	/^    const std::string& getName() const { return m_name;}$/;"	f	class:sylar::Scheduler	typeref:typename:const std::string &
 getNextTimer	sylar/timer.cc	/^uint64_t TimerManager::getNextTimer() {$/;"	f	class:sylar::TimerManager	typeref:typename:uint64_t
 getOption	sylar/socket.cc	/^bool Socket::getOption(int level, int option, void* result, size_t* len) {$/;"	f	class:sylar::Socket	typeref:typename:bool
 getOption	sylar/socket.h	/^	bool getOption(int level, int option, T& result) {$/;"	f	class:sylar::Socket	typeref:typename:bool
+getParam	sylar/http/http.cc	/^std::string HttpRequest::getParam(const std::string& key$/;"	f	class:sylar::http::HttpRequest	typeref:typename:std::string
+getParamAs	sylar/http/http.h	/^	T getParamAs(const std::string& key, const T& def = T()) {$/;"	f	class:sylar::http::HttpRequest	typeref:typename:T
+getParams	sylar/http/http.h	/^	const MapType& getParams() const { return m_params; }$/;"	f	class:sylar::http::HttpRequest	typeref:typename:const MapType &
+getPath	sylar/http/http.h	/^	const std::string& getPath() const { return m_path; }$/;"	f	class:sylar::http::HttpRequest	typeref:typename:const std::string &
 getPattern	sylar/log.h	/^    const std::string getPattern() const { return m_pattern; }$/;"	f	class:sylar::LogFormatter	typeref:typename:const std::string
 getPort	sylar/address.cc	/^uint32_t IPv4Address::getPort() const {$/;"	f	class:sylar::IPv4Address	typeref:typename:uint32_t
 getPort	sylar/address.cc	/^uint32_t IPv6Address::getPort() const {$/;"	f	class:sylar::IPv6Address	typeref:typename:uint32_t
 getPosition	sylar/bytearray.h	/^	size_t getPosition() const { return m_position; }$/;"	f	class:sylar::ByteArray	typeref:typename:size_t
 getProtocol	sylar/socket.h	/^	int getProtocol() const { return m_protocol; }$/;"	f	class:sylar::Socket	typeref:typename:int
+getQuery	sylar/http/http.h	/^	const std::string& getQuery() const { return m_query; }$/;"	f	class:sylar::http::HttpRequest	typeref:typename:const std::string &
 getReadBuffers	sylar/bytearray.cc	/^uint64_t ByteArray::getReadBuffers(std::vector<iovec>& buffers, uint64_t len) const {$/;"	f	class:sylar::ByteArray	typeref:typename:uint64_t
 getReadBuffers	sylar/bytearray.cc	/^uint64_t ByteArray::getReadBuffers(std::vector<iovec>& buffers, uint64_t len, uint64_t position)/;"	f	class:sylar::ByteArray	typeref:typename:uint64_t
 getReadSize	sylar/bytearray.h	/^	size_t getReadSize() const { return m_size - m_position; }$/;"	f	class:sylar::ByteArray	typeref:typename:size_t
+getReadTimeout	sylar/tcp_server.h	/^	uint64_t getReadTimeout() const { return m_readTimeout; }$/;"	f	class:sylar::TcpServer	typeref:typename:uint64_t
+getReason	sylar/http/http.h	/^	const std::string& getReason() const { return m_reason; }$/;"	f	class:sylar::http::HttpResponse	typeref:typename:const std::string &
 getRecvTimeout	sylar/socket.cc	/^int64_t Socket::getRecvTimeout() {$/;"	f	class:sylar::Socket	typeref:typename:int64_t
 getRemoteAddress	sylar/socket.cc	/^Address::ptr Socket::getRemoteAddress() {$/;"	f	class:sylar::Socket	typeref:typename:Address::ptr
 getRoot	sylar/log.h	/^    Logger::ptr getRoot() const { return m_root; }$/;"	f	class:sylar::LoggerManager	typeref:typename:Logger::ptr
@@ -871,6 +987,7 @@ getSendTimeout	sylar/socket.cc	/^int64_t Socket::getSendTimeout() {$/;"	f	class:
 getSize	sylar/bytearray.h	/^	size_t getSize() const { return m_size; }$/;"	f	class:sylar::ByteArray	typeref:typename:size_t
 getSocket	sylar/socket.h	/^	int getSocket() const { return m_sock; }$/;"	f	class:sylar::Socket	typeref:typename:int
 getState	sylar/fiber.h	/^    State getState() const { return m_state; }$/;"	f	class:sylar::Fiber	typeref:typename:State
+getStatus	sylar/http/http.h	/^	HttpStatus getStatus() const { return m_status; }$/;"	f	class:sylar::http::HttpResponse	typeref:typename:HttpStatus
 getSysNonblock	sylar/fd_manager.h	/^	bool getSysNonblock() const { return m_sysNonblock; }$/;"	f	class:sylar::FdCtx	typeref:typename:bool
 getThreadId	sylar/log.h	/^    uint32_t getThreadId() const { return m_threadId;}$/;"	f	class:sylar::LogEvent	typeref:typename:uint32_t
 getThreadName	sylar/log.h	/^    const std::string& getThreadName() const { return m_threadName;}$/;"	f	class:sylar::LogEvent	typeref:typename:const std::string &
@@ -880,16 +997,59 @@ getType	sylar/socket.h	/^	int getType() const { return m_type; }$/;"	f	class:syl
 getTypeName	sylar/config.h	/^    std::string getTypeName() const override { return typeid(T).name(); }$/;"	f	class:sylar::ConfigVar	typeref:typename:std::string
 getUserNonblock	sylar/fd_manager.h	/^	bool getUserNonblock() const { return m_userNonblock; }$/;"	f	class:sylar::FdCtx	typeref:typename:bool
 getValue	sylar/config.h	/^    const T getValue() { $/;"	f	class:sylar::ConfigVar	typeref:typename:const T
+getVersion	sylar/http/http.h	/^	uint8_t getVersion() const { return m_version; }$/;"	f	class:sylar::http::HttpRequest	typeref:typename:uint8_t
+getVersion	sylar/http/http.h	/^	uint8_t getVersion() const { return m_version; }$/;"	f	class:sylar::http::HttpResponse	typeref:typename:uint8_t
 getWriteBuffers	sylar/bytearray.cc	/^uint64_t ByteArray::getWriteBuffers(std::vector<iovec>& buffers, uint64_t len) {$/;"	f	class:sylar::ByteArray	typeref:typename:uint64_t
 getsockopt	sylar/hook.cc	/^int getsockopt(int sockfd, int level, int optname, void *optval, socklen_t *optlen) {$/;"	f	typeref:typename:int
 getsockopt_fun	backup/hook.h	/^typedef int (*getsockopt_fun)(int sockfd, int level, int optname, void *optval, socklen_t *optle/;"	t	typeref:typename:int (*)(int sockfd,int level,int optname,void * optval,socklen_t * optlen)
 getsockopt_fun	sylar/hook.h	/^typedef int (*getsockopt_fun)(int sockfd, int level, int optname, void *optval, socklen_t *optle/;"	t	typeref:typename:int (*)(int sockfd,int level,int optname,void * optval,socklen_t * optlen)
 group	.vscode/tasks.json	/^            "group": {$/;"	o	object:tasks.0
+hasCookie	sylar/http/http.cc	/^bool HttpRequest::hasCookie(const std::string& key, std::string* val) {$/;"	f	class:sylar::http::HttpRequest	typeref:typename:bool
+hasError	sylar/http/http_parser.cc	/^int HttpRequestParser::hasError() {$/;"	f	class:sylar::http::HttpRequestParser	typeref:typename:int
+hasError	sylar/http/http_parser.cc	/^int HttpResponseParser::hasError() {$/;"	f	class:sylar::http::HttpResponseParser	typeref:typename:int
+hasHeader	sylar/http/http.cc	/^bool HttpRequest::hasHeader(const std::string& key, std::string* val) {$/;"	f	class:sylar::http::HttpRequest	typeref:typename:bool
 hasIdleThreads	sylar/scheduler.h	/^	bool hasIdleThreads(){ return m_idleThreadCount > 0; }$/;"	f	class:sylar::Scheduler	typeref:typename:bool
 hasIdleThreads	temp/scheduler.h	/^    bool hasIdleThreads() { return m_idleThreadCount > 0;}$/;"	f	class:sylar::Scheduler	typeref:typename:bool
+hasParam	sylar/http/http.cc	/^bool HttpRequest::hasParam(const std::string& key, std::string* val) {$/;"	f	class:sylar::http::HttpRequest	typeref:typename:bool
 hasTimer	sylar/timer.cc	/^bool TimerManager::hasTimer() {$/;"	f	class:sylar::TimerManager	typeref:typename:bool
+header_done	sylar/http/http11_parser.h	/^  element_cb header_done;$/;"	m	struct:http_parser	typeref:typename:element_cb
+header_done	sylar/http/httpclient_parser.h	/^  element_cb header_done;$/;"	m	struct:httpclient_parser	typeref:typename:element_cb
 help	build/Makefile	/^help:$/;"	t
 hook_init	sylar/hook.cc	/^void hook_init() {$/;"	f	namespace:sylar	typeref:typename:void
+http	sylar/http/http.cc	/^namespace http {$/;"	n	namespace:sylar	file:
+http	sylar/http/http.h	/^namespace http {$/;"	n	namespace:sylar
+http	sylar/http/http_parser.cc	/^namespace http {$/;"	n	namespace:sylar	file:
+http	sylar/http/http_parser.h	/^namespace http {$/;"	n	namespace:sylar
+http11_parser_h	sylar/http/http11_parser.h	/^#define http11_parser_h$/;"	d
+http_field	sylar/http/http11_parser.h	/^  field_cb http_field;$/;"	m	struct:http_parser	typeref:typename:field_cb
+http_field	sylar/http/httpclient_parser.h	/^  field_cb http_field;$/;"	m	struct:httpclient_parser	typeref:typename:field_cb
+http_parser	sylar/http/http11_parser.h	/^typedef struct http_parser { $/;"	s
+http_parser	sylar/http/http11_parser.h	/^} http_parser;$/;"	t	typeref:struct:http_parser
+http_parser_en_main	sylar/http/http11_parser.rl.cc	/^static const int http_parser_en_main = 1;$/;"	v	typeref:typename:const int	file:
+http_parser_error	sylar/http/http11_parser.rl.cc	/^static const int http_parser_error = 0;$/;"	v	typeref:typename:const int	file:
+http_parser_execute	sylar/http/http11_parser.rl.cc	/^size_t http_parser_execute(http_parser *parser, const char *buffer, size_t len, size_t off)  $/;"	f	typeref:typename:size_t
+http_parser_finish	sylar/http/http11_parser.rl.cc	/^int http_parser_finish(http_parser *parser)$/;"	f	typeref:typename:int
+http_parser_first_final	sylar/http/http11_parser.rl.cc	/^static const int http_parser_first_final = 348;$/;"	v	typeref:typename:const int	file:
+http_parser_has_error	sylar/http/http11_parser.rl.cc	/^int http_parser_has_error(http_parser *parser) {$/;"	f	typeref:typename:int
+http_parser_init	sylar/http/http11_parser.rl.cc	/^int http_parser_init(http_parser *parser) {$/;"	f	typeref:typename:int
+http_parser_is_finished	sylar/http/http11_parser.rl.cc	/^int http_parser_is_finished(http_parser *parser) {$/;"	f	typeref:typename:int
+http_parser_nread	sylar/http/http11_parser.h	/^#define http_parser_nread(/;"	d
+http_parser_start	sylar/http/http11_parser.rl.cc	/^static const int http_parser_start = 1;$/;"	v	typeref:typename:const int	file:
+http_version	sylar/http/http11_parser.h	/^  element_cb http_version;$/;"	m	struct:http_parser	typeref:typename:element_cb
+http_version	sylar/http/httpclient_parser.h	/^  element_cb http_version;$/;"	m	struct:httpclient_parser	typeref:typename:element_cb
+httpclient_parser	sylar/http/httpclient_parser.h	/^typedef struct httpclient_parser { $/;"	s
+httpclient_parser	sylar/http/httpclient_parser.h	/^} httpclient_parser;$/;"	t	typeref:struct:httpclient_parser
+httpclient_parser_en_main	sylar/http/httpclient_parser.rl.cc	/^static const int httpclient_parser_en_main = 1;$/;"	v	typeref:typename:const int	file:
+httpclient_parser_error	sylar/http/httpclient_parser.rl.cc	/^static const int httpclient_parser_error = 0;$/;"	v	typeref:typename:const int	file:
+httpclient_parser_execute	sylar/http/httpclient_parser.rl.cc	/^int httpclient_parser_execute(httpclient_parser *parser, const char *buffer, size_t len, size_t /;"	f	typeref:typename:int
+httpclient_parser_finish	sylar/http/httpclient_parser.rl.cc	/^int httpclient_parser_finish(httpclient_parser *parser)$/;"	f	typeref:typename:int
+httpclient_parser_first_final	sylar/http/httpclient_parser.rl.cc	/^static const int httpclient_parser_first_final = 120;$/;"	v	typeref:typename:const int	file:
+httpclient_parser_h	sylar/http/httpclient_parser.h	/^#define httpclient_parser_h$/;"	d
+httpclient_parser_has_error	sylar/http/httpclient_parser.rl.cc	/^int httpclient_parser_has_error(httpclient_parser *parser) {$/;"	f	typeref:typename:int
+httpclient_parser_init	sylar/http/httpclient_parser.rl.cc	/^int httpclient_parser_init(httpclient_parser *parser)  {$/;"	f	typeref:typename:int
+httpclient_parser_is_finished	sylar/http/httpclient_parser.rl.cc	/^int httpclient_parser_is_finished(httpclient_parser *parser) {$/;"	f	typeref:typename:int
+httpclient_parser_nread	sylar/http/httpclient_parser.h	/^#define httpclient_parser_nread(/;"	d
+httpclient_parser_start	sylar/http/httpclient_parser.rl.cc	/^static const int httpclient_parser_start = 1;$/;"	v	typeref:typename:const int	file:
 idle	sylar/iomanager.cc	/^void IOManager::idle() {$/;"	f	class:sylar::IOManager	typeref:typename:void
 idle	sylar/scheduler.cc	/^void Scheduler::idle() {$/;"	f	class:sylar::Scheduler	typeref:typename:void
 includePath	.vscode/c_cpp_properties.json	/^            "includePath": [$/;"	a	object:configurations.0
@@ -936,19 +1096,26 @@ iomanip	.vscode/settings.json	/^        "iomanip": "cpp",$/;"	s	object:files.ass
 iosfwd	.vscode/settings.json	/^        "iosfwd": "cpp",$/;"	s	object:files.associations
 iostream	.vscode/settings.json	/^        "iostream": "cpp",$/;"	s	object:files.associations
 isClose	sylar/fd_manager.h	/^	bool isClose() const { return m_isClosed; }$/;"	f	class:sylar::FdCtx	typeref:typename:bool
+isClose	sylar/http/http.h	/^	bool isClose() const { return m_close; }$/;"	f	class:sylar::http::HttpRequest	typeref:typename:bool
+isClose	sylar/http/http.h	/^	bool isClose() const { return m_close; }$/;"	f	class:sylar::http::HttpResponse	typeref:typename:bool
 isConnected	sylar/socket.h	/^	bool isConnected() const { return m_isConnected; }$/;"	f	class:sylar::Socket	typeref:typename:bool
 isDefault	.vscode/tasks.json	/^                "isDefault": true$/;"	b	object:tasks.0.group
 isError	sylar/log.h	/^    bool isError() const { return m_error; }$/;"	f	class:sylar::LogFormatter	typeref:typename:bool
+isFinished	sylar/http/http_parser.cc	/^int HttpRequestParser::isFinished() {$/;"	f	class:sylar::http::HttpRequestParser	typeref:typename:int
+isFinished	sylar/http/http_parser.cc	/^int HttpResponseParser::isFinished() {$/;"	f	class:sylar::http::HttpResponseParser	typeref:typename:int
 isInit	sylar/fd_manager.h	/^	bool isInit() const { return m_isInit; }$/;"	f	class:sylar::FdCtx	typeref:typename:bool
 isLittleEndian	sylar/bytearray.cc	/^bool ByteArray::isLittleEndian() const {$/;"	f	class:sylar::ByteArray	typeref:typename:bool
 isSocket	sylar/fd_manager.h	/^	bool isSocket() const { return m_isSocket; }$/;"	f	class:sylar::FdCtx	typeref:typename:bool
+isStop	sylar/tcp_server.h	/^	bool isStop() const { return m_isStop; }$/;"	f	class:sylar::TcpServer	typeref:typename:bool
 isValid	sylar/socket.cc	/^bool Socket::isValid() const {$/;"	f	class:sylar::Socket	typeref:typename:bool
 is_hook_enable	sylar/hook.cc	/^bool is_hook_enable() {$/;"	f	namespace:sylar	typeref:typename:bool
 istream	.vscode/settings.json	/^        "istream": "cpp",$/;"	s	object:files.associations
 iterator	.vscode/settings.json	/^        "iterator": "cpp",$/;"	s	object:files.associations
 join	sylar/thread.cpp	/^void Thread::join(){$/;"	f	class:sylar::Thread	typeref:typename:void
+json_sent	sylar/http/http11_parser.h	/^  int json_sent;$/;"	m	struct:http_parser	typeref:typename:int
 kind	.vscode/tasks.json	/^                "kind": "build",$/;"	s	object:tasks.0.group
 label	.vscode/tasks.json	/^            "label": "C\/C++: g++ 生成活动文件",$/;"	s	object:tasks.0
+last_chunk	sylar/http/httpclient_parser.h	/^  element_cb last_chunk;$/;"	m	struct:httpclient_parser	typeref:typename:element_cb
 level	sylar/log.cpp	/^    LogLevel::Level level = LogLevel::UNKNOW;$/;"	m	struct:sylar::LogAppenderDefine	typeref:typename:LogLevel::Level	file:
 level	sylar/log.cpp	/^    LogLevel::Level level = LogLevel::UNKNOW;$/;"	m	struct:sylar::LogDefine	typeref:typename:LogLevel::Level	file:
 limits	.vscode/settings.json	/^        "limits": "cpp",$/;"	s	object:files.associations
@@ -976,19 +1143,28 @@ m_appenders	sylar/log.h	/^    std::list<LogAppender::ptr> m_appenders;          
 m_autoStop	sylar/scheduler.h	/^    bool m_autoStop = false;$/;"	m	class:sylar::Scheduler	typeref:typename:bool
 m_autoStop	temp/scheduler.h	/^    bool m_autoStop = false;$/;"	m	class:sylar::Scheduler	typeref:typename:bool
 m_baseSize	sylar/bytearray.h	/^	size_t m_baseSize;$/;"	m	class:sylar::ByteArray	typeref:typename:size_t
+m_body	sylar/http/http.h	/^	std::string m_body;$/;"	m	class:sylar::http::HttpRequest	typeref:typename:std::string
+m_body	sylar/http/http.h	/^	std::string m_body;$/;"	m	class:sylar::http::HttpResponse	typeref:typename:std::string
 m_caller	temp/scheduler.h	/^    Scheduler* m_caller;$/;"	m	class:sylar::SchedulerSwitcher	typeref:typename:Scheduler *
 m_capacity	sylar/bytearray.h	/^	size_t m_capacity;$/;"	m	class:sylar::ByteArray	typeref:typename:size_t
 m_cb	sylar/fiber.h	/^    std::function<void()> m_cb;$/;"	m	class:sylar::Fiber	typeref:typename:std::function<void ()>
 m_cb	sylar/thread.h	/^    std::function<void()> m_cb;$/;"	m	class:sylar::Thread	typeref:typename:std::function<void ()>
 m_cb	sylar/timer.h	/^	std::function<void()> m_cb;$/;"	m	class:sylar::Timer	typeref:typename:std::function<void ()>
 m_cbs	sylar/config.h	/^    std::map<uint64_t, on_change_cb> m_cbs;$/;"	m	class:sylar::ConfigVar	typeref:typename:std::map<uint64_t,on_change_cb>
+m_close	sylar/http/http.h	/^	bool m_close;$/;"	m	class:sylar::http::HttpRequest	typeref:typename:bool
+m_close	sylar/http/http.h	/^	bool m_close;$/;"	m	class:sylar::http::HttpResponse	typeref:typename:bool
+m_cookies	sylar/http/http.h	/^	MapType m_cookies;$/;"	m	class:sylar::http::HttpRequest	typeref:typename:MapType
 m_ctx	sylar/fiber.h	/^    ucontext_t m_ctx;$/;"	m	class:sylar::Fiber	typeref:typename:ucontext_t
 m_cur	sylar/bytearray.h	/^	Node* m_cur;$/;"	m	class:sylar::ByteArray	typeref:typename:Node *
+m_data	sylar/http/http_parser.h	/^	HttpRequest::ptr m_data;$/;"	m	class:sylar::http::HttpRequestParser	typeref:typename:HttpRequest::ptr
+m_data	sylar/http/http_parser.h	/^	HttpResponse::ptr m_data;$/;"	m	class:sylar::http::HttpResponseParser	typeref:typename:HttpResponse::ptr
 m_datas	sylar/fd_manager.h	/^	std::vector<FdCtx::ptr> m_datas;$/;"	m	class:sylar::FdManager	typeref:typename:std::vector<FdCtx::ptr>
 m_description	sylar/config.h	/^    std::string m_description;$/;"	m	class:sylar::ConfigVarBase	typeref:typename:std::string
 m_elapse	sylar/log.h	/^    uint32_t m_elapse = 0;          \/\/程序启动开始到现在的毫秒数$/;"	m	class:sylar::LogEvent	typeref:typename:uint32_t
 m_endian	sylar/bytearray.h	/^	int8_t m_endian;$/;"	m	class:sylar::ByteArray	typeref:typename:int8_t
 m_epfd	sylar/iomanager.h	/^	int m_epfd = 0;$/;"	m	class:sylar::IOManager	typeref:typename:int
+m_error	sylar/http/http_parser.h	/^	int m_error;$/;"	m	class:sylar::http::HttpRequestParser	typeref:typename:int
+m_error	sylar/http/http_parser.h	/^	int m_error;$/;"	m	class:sylar::http::HttpResponseParser	typeref:typename:int
 m_error	sylar/log.h	/^    bool m_error = false;$/;"	m	class:sylar::LogFormatter	typeref:typename:bool
 m_event	sylar/log.h	/^    LogEvent::ptr m_event;$/;"	m	class:sylar::LogEventWrap	typeref:typename:LogEvent::ptr
 m_family	sylar/socket.h	/^	int m_family;$/;"	m	class:sylar::Socket	typeref:typename:int
@@ -1003,7 +1179,10 @@ m_filestreams	sylar/log.h	/^    std::ofstream m_filestreams;$/;"	m	class:sylar::
 m_format	sylar/log.cpp	/^    std::string m_format;$/;"	m	class:sylar::DateTimeFormatItem	typeref:typename:std::string	file:
 m_formatter	sylar/log.h	/^    LogFormatter::ptr m_formatter;$/;"	m	class:sylar::LogAppender	typeref:typename:LogFormatter::ptr
 m_formatter	sylar/log.h	/^    LogFormatter::ptr m_formatter;$/;"	m	class:sylar::Logger	typeref:typename:LogFormatter::ptr
+m_fragment	sylar/http/http.h	/^	std::string m_fragment;$/;"	m	class:sylar::http::HttpRequest	typeref:typename:std::string
 m_hasFormatter	sylar/log.h	/^    bool m_hasFormatter = false;$/;"	m	class:sylar::LogAppender	typeref:typename:bool
+m_headers	sylar/http/http.h	/^	MapType m_headers;$/;"	m	class:sylar::http::HttpRequest	typeref:typename:MapType
+m_headers	sylar/http/http.h	/^	MapType m_headers;$/;"	m	class:sylar::http::HttpResponse	typeref:typename:MapType
 m_id	sylar/fiber.h	/^    uint64_t m_id = 0;$/;"	m	class:sylar::Fiber	typeref:typename:uint64_t
 m_id	sylar/thread.h	/^    pid_t m_id = -1;$/;"	m	class:sylar::Thread	typeref:typename:pid_t
 m_idleThreadCount	sylar/scheduler.h	/^    std::atomic<size_t> m_idleThreadCount {0};$/;"	m	class:sylar::Scheduler	typeref:typename:std::atomic<size_t>
@@ -1012,6 +1191,7 @@ m_isClosed	sylar/fd_manager.h	/^	bool m_isClosed: 1;$/;"	m	class:sylar::FdCtx	ty
 m_isConnected	sylar/socket.h	/^	bool m_isConnected;$/;"	m	class:sylar::Socket	typeref:typename:bool
 m_isInit	sylar/fd_manager.h	/^	bool m_isInit: 1;$/;"	m	class:sylar::FdCtx	typeref:typename:bool:1
 m_isSocket	sylar/fd_manager.h	/^	bool m_isSocket: 1;$/;"	m	class:sylar::FdCtx	typeref:typename:bool:1
+m_isStop	sylar/tcp_server.h	/^	bool m_isStop;$/;"	m	class:sylar::TcpServer	typeref:typename:bool
 m_items	sylar/log.h	/^    std::vector<FormatItem::ptr> m_items;$/;"	m	class:sylar::LogFormatter	typeref:typename:std::vector<FormatItem::ptr>
 m_lastTime	sylar/log.h	/^    uint64_t m_lastTime = 0;$/;"	m	class:sylar::FileLogAppender	typeref:typename:uint64_t
 m_length	sylar/address.h	/^	socklen_t m_length;$/;"	m	class:sylar::UnixAddress	typeref:typename:socklen_t
@@ -1027,6 +1207,7 @@ m_locked	sylar/thread.h	/^    bool m_locked;$/;"	m	struct:sylar::WriteScopedLock
 m_logger	sylar/log.h	/^    std::shared_ptr<Logger> m_logger;$/;"	m	class:sylar::LogEvent	typeref:typename:std::shared_ptr<Logger>
 m_loggers	sylar/log.h	/^    std::map<std::string, Logger::ptr> m_loggers;$/;"	m	class:sylar::LoggerManager	typeref:typename:std::map<std::string,Logger::ptr>
 m_manager	sylar/timer.h	/^	TimerManager* m_manager = nullptr;$/;"	m	class:sylar::Timer	typeref:typename:TimerManager *
+m_method	sylar/http/http.h	/^	HttpMethod m_method;$/;"	m	class:sylar::http::HttpRequest	typeref:typename:HttpMethod
 m_ms	sylar/timer.h	/^	uint64_t m_ms = 0;				\/\/执行周期$/;"	m	class:sylar::Timer	typeref:typename:uint64_t
 m_mutex	sylar/config.h	/^    RWMutexType m_mutex;$/;"	m	class:sylar::ConfigVar	typeref:typename:RWMutexType
 m_mutex	sylar/fd_manager.h	/^	RWMutexType m_mutex;$/;"	m	class:sylar::FdManager	typeref:typename:RWMutexType
@@ -1046,15 +1227,23 @@ m_mutex	temp/scheduler.h	/^    MutexType m_mutex;$/;"	m	class:sylar::Scheduler	t
 m_name	sylar/config.h	/^    std::string m_name;$/;"	m	class:sylar::ConfigVarBase	typeref:typename:std::string
 m_name	sylar/log.h	/^    std::string m_name;                                \/\/日志名称$/;"	m	class:sylar::Logger	typeref:typename:std::string
 m_name	sylar/scheduler.h	/^    std::string m_name;$/;"	m	class:sylar::Scheduler	typeref:typename:std::string
+m_name	sylar/tcp_server.h	/^	std::string m_name;$/;"	m	class:sylar::TcpServer	typeref:typename:std::string
 m_name	sylar/thread.h	/^    std::string m_name;$/;"	m	class:sylar::Thread	typeref:typename:std::string
 m_name	temp/scheduler.h	/^    std::string m_name;$/;"	m	class:sylar::Scheduler	typeref:typename:std::string
 m_name	tests/test_config.cc	/^    std::string m_name;$/;"	m	class:Person	typeref:typename:std::string	file:
 m_next	sylar/timer.h	/^	uint64_t m_next = 0;			\/\/精确的执行时间$/;"	m	class:sylar::Timer	typeref:typename:uint64_t
+m_params	sylar/http/http.h	/^	MapType m_params;$/;"	m	class:sylar::http::HttpRequest	typeref:typename:MapType
+m_parser	sylar/http/http_parser.h	/^	http_parser m_parser;$/;"	m	class:sylar::http::HttpRequestParser	typeref:typename:http_parser
+m_parser	sylar/http/http_parser.h	/^	httpclient_parser m_parser;$/;"	m	class:sylar::http::HttpResponseParser	typeref:typename:httpclient_parser
+m_path	sylar/http/http.h	/^	std::string m_path;$/;"	m	class:sylar::http::HttpRequest	typeref:typename:std::string
 m_pattern	sylar/log.h	/^    std::string m_pattern;$/;"	m	class:sylar::LogFormatter	typeref:typename:std::string
 m_pendingEventCount	sylar/iomanager.h	/^	std::atomic<size_t> m_pendingEventCount = {0};$/;"	m	class:sylar::IOManager	typeref:typename:std::atomic<size_t>
 m_position	sylar/bytearray.h	/^	size_t m_position;$/;"	m	class:sylar::ByteArray	typeref:typename:size_t
 m_previouseTime	sylar/timer.h	/^	uint64_t m_previouseTime = 0;$/;"	m	class:sylar::TimerManager	typeref:typename:uint64_t
 m_protocol	sylar/socket.h	/^	int m_protocol;$/;"	m	class:sylar::Socket	typeref:typename:int
+m_query	sylar/http/http.h	/^	std::string m_query;$/;"	m	class:sylar::http::HttpRequest	typeref:typename:std::string
+m_readTimeout	sylar/tcp_server.h	/^	uint64_t m_readTimeout;$/;"	m	class:sylar::TcpServer	typeref:typename:uint64_t
+m_reason	sylar/http/http.h	/^	std::string m_reason;$/;"	m	class:sylar::http::HttpResponse	typeref:typename:std::string
 m_recurring	sylar/timer.h	/^	bool m_recurring = false;		\/\/是否循环定时器$/;"	m	class:sylar::Timer	typeref:typename:bool
 m_recvTimeout	sylar/fd_manager.h	/^	uint64_t m_recvTimeout;$/;"	m	class:sylar::FdCtx	typeref:typename:uint64_t
 m_remoteAddress	sylar/socket.h	/^	Address::ptr m_remoteAddress;$/;"	m	class:sylar::Socket	typeref:typename:Address::ptr
@@ -1071,10 +1260,12 @@ m_sendTimeout	sylar/fd_manager.h	/^	uint64_t m_sendTimeout;$/;"	m	class:sylar::F
 m_sex	tests/test_config.cc	/^    bool m_sex = 0;$/;"	m	class:Person	typeref:typename:bool	file:
 m_size	sylar/bytearray.h	/^	size_t m_size;$/;"	m	class:sylar::ByteArray	typeref:typename:size_t
 m_sock	sylar/socket.h	/^	int m_sock;$/;"	m	class:sylar::Socket	typeref:typename:int
+m_socks	sylar/tcp_server.h	/^	std::vector<Socket::ptr> m_socks;$/;"	m	class:sylar::TcpServer	typeref:typename:std::vector<Socket::ptr>
 m_ss	sylar/log.h	/^    std::stringstream m_ss;         \/\/日志内容流$/;"	m	class:sylar::LogEvent	typeref:typename:std::stringstream
 m_stack	sylar/fiber.h	/^    void* m_stack = nullptr;$/;"	m	class:sylar::Fiber	typeref:typename:void *
 m_stacksize	sylar/fiber.h	/^    uint32_t m_stacksize = 0;$/;"	m	class:sylar::Fiber	typeref:typename:uint32_t
 m_state	sylar/fiber.h	/^    State m_state = INIT;$/;"	m	class:sylar::Fiber	typeref:typename:State
+m_status	sylar/http/http.h	/^	HttpStatus m_status;$/;"	m	class:sylar::http::HttpResponse	typeref:typename:HttpStatus
 m_stopping	sylar/scheduler.h	/^    bool m_stopping = true;$/;"	m	class:sylar::Scheduler	typeref:typename:bool
 m_stopping	temp/scheduler.h	/^    bool m_stopping = true;$/;"	m	class:sylar::Scheduler	typeref:typename:bool
 m_string	sylar/log.cpp	/^    std::string m_string;$/;"	m	class:sylar::StringFormatItem	typeref:typename:std::string	file:
@@ -1096,6 +1287,9 @@ m_timers	sylar/timer.h	/^	std::set<Timer::ptr, Timer::Comparator>  m_timers;$/;"
 m_type	sylar/socket.h	/^	int m_type;$/;"	m	class:sylar::Socket	typeref:typename:int
 m_userNonblock	sylar/fd_manager.h	/^	bool m_userNonblock: 1;$/;"	m	class:sylar::FdCtx	typeref:typename:bool:1
 m_val	sylar/config.h	/^    T m_val;$/;"	m	class:sylar::ConfigVar	typeref:typename:T
+m_version	sylar/http/http.h	/^	uint8_t m_version;$/;"	m	class:sylar::http::HttpRequest	typeref:typename:uint8_t
+m_version	sylar/http/http.h	/^	uint8_t m_version;$/;"	m	class:sylar::http::HttpResponse	typeref:typename:uint8_t
+m_worker	sylar/tcp_server.h	/^	IOManager* m_worker;$/;"	m	class:sylar::TcpServer	typeref:typename:IOManager *
 main	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^int main(argc, argv) int argc; char *argv[];$/;"	f
 main	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f	typeref:typename:void
 main	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int
@@ -1105,12 +1299,16 @@ main	tests/test_bytearray.cc	/^int main(int argc, char** argv) {$/;"	f	typeref:t
 main	tests/test_config.cc	/^int main(int argc, char** argv){$/;"	f	typeref:typename:int
 main	tests/test_fiber.cc	/^int main(int argc, char** argv){$/;"	f	typeref:typename:int
 main	tests/test_hook.cc	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
+main	tests/test_http.cc	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
+main	tests/test_http_parser.cc	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
 main	tests/test_iomanager.cc	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
 main	tests/test_scheduler.cc	/^int main(int argc, char** argv){$/;"	f	typeref:typename:int
 main	tests/test_socket.cc	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
 main	tests/test_thread.cpp	/^int main(int argc, char** argv){$/;"	f	typeref:typename:int
 main	tests/test_util.cc	/^int main(int argc, char** argv){$/;"	f	typeref:typename:int
 map	.vscode/settings.json	/^        "map": "cpp",$/;"	s	object:files.associations
+mark	sylar/http/http11_parser.h	/^  size_t mark;$/;"	m	struct:http_parser	typeref:typename:size_t
+mark	sylar/http/httpclient_parser.h	/^  size_t mark;$/;"	m	struct:httpclient_parser	typeref:typename:size_t
 memory	.vscode/settings.json	/^        "memory": "cpp",$/;"	s	object:files.associations
 memory_resource	.vscode/settings.json	/^        "memory_resource": "cpp",$/;"	s	object:files.associations
 mutex	sylar/iomanager.h	/^		MutexType mutex;$/;"	m	struct:sylar::IOManager::FdContext	typeref:typename:MutexType
@@ -1125,10 +1323,27 @@ new	.vscode/settings.json	/^        "new": "cpp",$/;"	s	object:files.association
 newSock	sylar/socket.cc	/^void Socket::newSock(){$/;"	f	class:sylar::Socket	typeref:typename:void
 next	sylar/bytearray.h	/^		Node* next;$/;"	m	struct:sylar::ByteArray::Node	typeref:typename:Node *
 notify	sylar/thread.cpp	/^void Semaphore::notify(){$/;"	f	class:sylar::Semaphore	typeref:typename:void
+nread	sylar/http/http11_parser.h	/^  size_t nread;$/;"	m	struct:http_parser	typeref:typename:size_t
+nread	sylar/http/httpclient_parser.h	/^  size_t nread;$/;"	m	struct:httpclient_parser	typeref:typename:size_t
 numbers	.vscode/settings.json	/^        "numbers": "cpp",$/;"	s	object:files.associations
 numeric	.vscode/settings.json	/^        "numeric": "cpp",$/;"	s	object:files.associations
 onTimerInsertedAtFront	sylar/iomanager.cc	/^void IOManager::onTimerInsertedAtFront() {$/;"	f	class:sylar::IOManager	typeref:typename:void
 on_change_cb	sylar/config.h	/^    typedef std::function<void (const T& old_value, const T& new_value)> on_change_cb;$/;"	t	class:sylar::ConfigVar
+on_request_fragment	sylar/http/http_parser.cc	/^void on_request_fragment(void *data, const char *at, size_t length) {$/;"	f	namespace:sylar::http	typeref:typename:void
+on_request_header_done	sylar/http/http_parser.cc	/^void on_request_header_done(void *data, const char *at, size_t length) {$/;"	f	namespace:sylar::http	typeref:typename:void
+on_request_http_field	sylar/http/http_parser.cc	/^void on_request_http_field(void *data, const char *field, size_t flen$/;"	f	namespace:sylar::http	typeref:typename:void
+on_request_method	sylar/http/http_parser.cc	/^void on_request_method(void *data, const char *at, size_t length) {$/;"	f	namespace:sylar::http	typeref:typename:void
+on_request_path	sylar/http/http_parser.cc	/^void on_request_path(void *data, const char *at, size_t length) {$/;"	f	namespace:sylar::http	typeref:typename:void
+on_request_query	sylar/http/http_parser.cc	/^void on_request_query(void *data, const char *at, size_t length) {$/;"	f	namespace:sylar::http	typeref:typename:void
+on_request_uri	sylar/http/http_parser.cc	/^void on_request_uri(void *data, const char *at, size_t length) {$/;"	f	namespace:sylar::http	typeref:typename:void
+on_request_version	sylar/http/http_parser.cc	/^void on_request_version(void *data, const char *at, size_t length) {$/;"	f	namespace:sylar::http	typeref:typename:void
+on_response_chunk	sylar/http/http_parser.cc	/^void on_response_chunk(void *data, const char *at, size_t length) {$/;"	f	namespace:sylar::http	typeref:typename:void
+on_response_header_done	sylar/http/http_parser.cc	/^void on_response_header_done(void *data, const char *at, size_t length) {$/;"	f	namespace:sylar::http	typeref:typename:void
+on_response_http_field	sylar/http/http_parser.cc	/^void on_response_http_field(void *data, const char *field, size_t flen$/;"	f	namespace:sylar::http	typeref:typename:void
+on_response_last_chunk	sylar/http/http_parser.cc	/^void on_response_last_chunk(void *data, const char *at, size_t length) {$/;"	f	namespace:sylar::http	typeref:typename:void
+on_response_reason	sylar/http/http_parser.cc	/^void on_response_reason(void *data, const char *at, size_t length) {$/;"	f	namespace:sylar::http	typeref:typename:void
+on_response_status	sylar/http/http_parser.cc	/^void on_response_status(void *data, const char *at, size_t length) {$/;"	f	namespace:sylar::http	typeref:typename:void
+on_response_version	sylar/http/http_parser.cc	/^void on_response_version(void *data, const char *at, size_t length) {$/;"	f	namespace:sylar::http	typeref:typename:void
 operator !=	sylar/address.cc	/^bool Address::operator!=(const Address& rhs) const {$/;"	f	class:sylar::Address	typeref:typename:bool
 operator ()	sylar/config.h	/^    T operator()(const F& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:T
 operator ()	sylar/config.h	/^    std::list<T> operator()(const std::string& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::list<T>
@@ -1147,9 +1362,11 @@ operator ()	sylar/log.cpp	/^        std::set<LogDefine> operator()(const std::st
 operator ()	sylar/log.cpp	/^    std::string operator()(const std::set<LogDefine>& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::string	file:
 operator ()	tests/test_config.cc	/^    Person operator()(const std::string& v){$/;"	f	class:sylar::LexicalCast	typeref:typename:Person	file:
 operator ()	tests/test_config.cc	/^    std::string operator()(const Person& p){$/;"	f	class:sylar::LexicalCast	typeref:typename:std::string	file:
+operator () 	sylar/http/http.cc	/^bool CaseInsensitiveLess::operator() (const std::string& lhs$/;"	f	class:sylar::http::CaseInsensitiveLess	typeref:typename:bool
 operator () 	sylar/timer.cc	/^bool Timer::Comparator::operator() (const Timer::ptr& lhs$/;"	f	class:sylar::Timer::Comparator	typeref:typename:bool
 operator <	sylar/address.cc	/^bool Address::operator<(const Address& rhs) const {$/;"	f	class:sylar::Address	typeref:typename:bool
 operator <	sylar/log.cpp	/^    bool operator<(const LogDefine& oth) const {$/;"	f	struct:sylar::LogDefine	typeref:typename:bool	file:
+operator <<	sylar/socket.cc	/^std::ostream& operator<<(std::ostream& os, const Socket& addr) {$/;"	f	namespace:sylar	typeref:typename:std::ostream &
 operator ==	sylar/address.cc	/^bool Address::operator==(const Address& rhs) const {$/;"	f	class:sylar::Address	typeref:typename:bool
 operator ==	sylar/log.cpp	/^    bool operator==(const LogAppenderDefine& oth) const{$/;"	f	struct:sylar::LogAppenderDefine	typeref:typename:bool	file:
 operator ==	sylar/log.cpp	/^    bool operator==(const LogDefine& oth) const{$/;"	f	struct:sylar::LogDefine	typeref:typename:bool	file:
@@ -1174,6 +1391,10 @@ ptr	sylar/config.h	/^    typedef std::shared_ptr<ConfigVar> ptr;$/;"	t	class:syl
 ptr	sylar/config.h	/^    typedef std::shared_ptr<ConfigVarBase> ptr;$/;"	t	class:sylar::ConfigVarBase	typeref:typename:std::shared_ptr<ConfigVarBase>
 ptr	sylar/fd_manager.h	/^	typedef std::shared_ptr<FdCtx> ptr;$/;"	t	class:sylar::FdCtx	typeref:typename:std::shared_ptr<FdCtx>
 ptr	sylar/fiber.h	/^    typedef std::shared_ptr<Fiber> ptr;$/;"	t	class:sylar::Fiber	typeref:typename:std::shared_ptr<Fiber>
+ptr	sylar/http/http.h	/^	typedef std::shared_ptr<HttpRequest> ptr;$/;"	t	class:sylar::http::HttpRequest	typeref:typename:std::shared_ptr<HttpRequest>
+ptr	sylar/http/http.h	/^	typedef std::shared_ptr<HttpResponse> ptr;$/;"	t	class:sylar::http::HttpResponse	typeref:typename:std::shared_ptr<HttpResponse>
+ptr	sylar/http/http_parser.h	/^	typedef std::shared_ptr<HttpRequestParser> ptr;$/;"	t	class:sylar::http::HttpRequestParser	typeref:typename:std::shared_ptr<HttpRequestParser>
+ptr	sylar/http/http_parser.h	/^	typedef std::shared_ptr<HttpResponseParser> ptr;$/;"	t	class:sylar::http::HttpResponseParser	typeref:typename:std::shared_ptr<HttpResponseParser>
 ptr	sylar/iomanager.h	/^	typedef std::shared_ptr<IOManager> ptr;$/;"	t	class:sylar::IOManager	typeref:typename:std::shared_ptr<IOManager>
 ptr	sylar/log.h	/^        typedef std::shared_ptr<FormatItem> ptr;$/;"	t	class:sylar::LogFormatter::FormatItem	typeref:typename:std::shared_ptr<FormatItem>
 ptr	sylar/log.h	/^    typedef std::shared_ptr<FileLogAppender> ptr;$/;"	t	class:sylar::FileLogAppender	typeref:typename:std::shared_ptr<FileLogAppender>
@@ -1184,11 +1405,14 @@ ptr	sylar/log.h	/^    typedef std::shared_ptr<Logger> ptr;$/;"	t	class:sylar::Lo
 ptr	sylar/log.h	/^    typedef std::shared_ptr<StdoutLogAppender> ptr;$/;"	t	class:sylar::StdoutLogAppender	typeref:typename:std::shared_ptr<StdoutLogAppender>
 ptr	sylar/scheduler.h	/^    typedef std::shared_ptr<Scheduler> ptr;$/;"	t	class:sylar::Scheduler	typeref:typename:std::shared_ptr<Scheduler>
 ptr	sylar/socket.h	/^	typedef std::shared_ptr<Socket> ptr;$/;"	t	class:sylar::Socket	typeref:typename:std::shared_ptr<Socket>
+ptr	sylar/tcp_server.h	/^	typedef std::shared_ptr<TcpServer> ptr;$/;"	t	class:sylar::TcpServer	typeref:typename:std::shared_ptr<TcpServer>
 ptr	sylar/thread.h	/^    typedef std::shared_ptr<Thread> ptr;$/;"	t	class:sylar::Thread	typeref:typename:std::shared_ptr<Thread>
 ptr	sylar/timer.h	/^	typedef std::shared_ptr<Timer> ptr;$/;"	t	class:sylar::Timer	typeref:typename:std::shared_ptr<Timer>
 ptr	temp/scheduler.h	/^    typedef std::shared_ptr<Scheduler> ptr;$/;"	t	class:sylar::Scheduler	typeref:typename:std::shared_ptr<Scheduler>
 qnxnto	build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v	typeref:typename:char const *
 qnxnto	build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v	typeref:typename:char const *
+query_start	sylar/http/http11_parser.h	/^  size_t query_start;$/;"	m	struct:http_parser	typeref:typename:size_t
+query_string	sylar/http/http11_parser.h	/^  element_cb query_string;$/;"	m	struct:http_parser	typeref:typename:element_cb
 ragelmaker	cmake/utils.cmake	/^function(ragelmaker src_rl outputlist outputdir)$/;"	f
 random	.vscode/settings.json	/^        "random": "cpp",$/;"	s	object:files.associations
 ratio	.vscode/settings.json	/^        "ratio": "cpp",$/;"	s	object:files.associations
@@ -1222,6 +1446,7 @@ read_fun	sylar/hook.h	/^typedef ssize_t (*read_fun)(int fd, void *buf, size_t co
 readv	sylar/hook.cc	/^ssize_t readv(int fd, const struct iovec *iov, int iovcnt) {$/;"	f	typeref:typename:ssize_t
 readv_fun	backup/hook.h	/^typedef ssize_t (*readv_fun)(int fd, const struct iovec *iov, int iovcnt);$/;"	t	typeref:typename:ssize_t (*)(int fd,const struct iovec * iov,int iovcnt)
 readv_fun	sylar/hook.h	/^typedef ssize_t (*readv_fun)(int fd, const struct iovec *iov, int iovcnt);$/;"	t	typeref:typename:ssize_t (*)(int fd,const struct iovec * iov,int iovcnt)
+reason_phrase	sylar/http/httpclient_parser.h	/^  element_cb reason_phrase;$/;"	m	struct:httpclient_parser	typeref:typename:element_cb
 rebuild_cache	build/Makefile	/^rebuild_cache:$/;"	t
 rebuild_cache/fast	build/Makefile	/^rebuild_cache\/fast: rebuild_cache$/;"	t
 recv	sylar/hook.cc	/^ssize_t recv(int sockfd, void *buf, size_t len, int flags) {$/;"	f	typeref:typename:ssize_t
@@ -1239,6 +1464,9 @@ recvmsg_fun	backup/hook.h	/^typedef ssize_t (*recvmsg_fun)(int sockfd, struct ms
 recvmsg_fun	sylar/hook.h	/^typedef ssize_t (*recvmsg_fun)(int sockfd, struct msghdr *msg, int flags);$/;"	t	typeref:typename:ssize_t (*)(int sockfd,struct msghdr * msg,int flags)
 refresh	sylar/timer.cc	/^bool Timer::refresh() {$/;"	f	class:sylar::Timer	typeref:typename:bool
 reopen	sylar/log.cpp	/^bool FileLogAppender::reopen(){$/;"	f	class:sylar::FileLogAppender	typeref:typename:bool
+request_method	sylar/http/http11_parser.h	/^  element_cb request_method;$/;"	m	struct:http_parser	typeref:typename:element_cb
+request_path	sylar/http/http11_parser.h	/^  element_cb request_path;$/;"	m	struct:http_parser	typeref:typename:element_cb
+request_uri	sylar/http/http11_parser.h	/^  element_cb request_uri;$/;"	m	struct:http_parser	typeref:typename:element_cb
 reset	sylar/fiber.cc	/^void Fiber::reset(std::function<void()> cb){$/;"	f	class:sylar::Fiber	typeref:typename:void
 reset	sylar/scheduler.h	/^        void reset(){$/;"	f	struct:sylar::Scheduler::FiberAndThread	typeref:typename:void
 reset	sylar/timer.cc	/^bool Timer::reset(uint64_t ms, bool from_now) {$/;"	f	class:sylar::Timer	typeref:typename:bool
@@ -1252,6 +1480,9 @@ s_connect_timeout	sylar/hook.cc	/^static uint64_t s_connect_timeout = -1;$/;"	v	
 s_fiber_count	sylar/fiber.cc	/^static std::atomic<uint64_t> s_fiber_count {0};$/;"	v	namespace:sylar	typeref:typename:std::atomic<uint64_t>	file:
 s_fiber_id	sylar/fiber.cc	/^static std::atomic<uint64_t> s_fiber_id {0};$/;"	v	namespace:sylar	typeref:typename:std::atomic<uint64_t>	file:
 s_hook_initer	sylar/hook.cc	/^static _HookIniter s_hook_initer;$/;"	v	namespace:sylar	typeref:typename:_HookIniter	file:
+s_http_request_buffer_size	sylar/http/http_parser.cc	/^static uint64_t s_http_request_buffer_size = 0;$/;"	v	namespace:sylar::http	typeref:typename:uint64_t	file:
+s_http_request_max_body_size	sylar/http/http_parser.cc	/^static uint64_t s_http_request_max_body_size = 0;$/;"	v	namespace:sylar::http	typeref:typename:uint64_t	file:
+s_method_string	sylar/http/http.cc	/^static const char* s_method_string[] = {$/;"	v	namespace:sylar::http	typeref:typename:const char * []	file:
 s_mutex	tests/test_thread.cpp	/^sylar::Mutex s_mutex;$/;"	v	typeref:typename:sylar::Mutex
 s_timer	tests/test_iomanager.cc	/^sylar::Timer::ptr s_timer;$/;"	v	typeref:typename:sylar::Timer::ptr
 schedule	sylar/scheduler.h	/^    void schedule(FiberOrCb fc, int thread = -1){$/;"	f	class:sylar::Scheduler	typeref:typename:void
@@ -1277,24 +1508,48 @@ sendto_fun	backup/hook.h	/^typedef ssize_t (*sendto_fun)(int sockfd, const void 
 sendto_fun	sylar/hook.h	/^typedef ssize_t (*sendto_fun)(int s, const void *msg, size_t len, int flags, const struct sockad/;"	t	typeref:typename:ssize_t (*)(int s,const void * msg,size_t len,int flags,const struct sockaddr * to,socklen_t tolen)
 set	.vscode/settings.json	/^        "set": "cpp",$/;"	s	object:files.associations
 setAddrLen	sylar/address.cc	/^void UnixAddress::setAddrLen(uint32_t v) {$/;"	f	class:sylar::UnixAddress	typeref:typename:void
+setBody	sylar/http/http.h	/^	void setBody(const std::string& v) { m_body = v; }$/;"	f	class:sylar::http::HttpRequest	typeref:typename:void
+setBody	sylar/http/http.h	/^	void setBody(const std::string& v) { m_body = v; }$/;"	f	class:sylar::http::HttpResponse	typeref:typename:void
+setClose	sylar/http/http.h	/^	void setClose(bool v) { m_close = v; }$/;"	f	class:sylar::http::HttpRequest	typeref:typename:void
+setClose	sylar/http/http.h	/^	void setClose(bool v) { m_close = v; }$/;"	f	class:sylar::http::HttpResponse	typeref:typename:void
+setCookie	sylar/http/http.cc	/^void HttpRequest::setCookie(const std::string& key, const std::string& val) {$/;"	f	class:sylar::http::HttpRequest	typeref:typename:void
+setCookies	sylar/http/http.h	/^	void setCookies(const MapType& v) { m_cookies = v; }$/;"	f	class:sylar::http::HttpRequest	typeref:typename:void
+setError	sylar/http/http_parser.h	/^	void setError(int v) { m_error = v; }$/;"	f	class:sylar::http::HttpRequestParser	typeref:typename:void
+setError	sylar/http/http_parser.h	/^	void setError(int v) { m_error = v; }$/;"	f	class:sylar::http::HttpResponseParser	typeref:typename:void
 setFormatter	sylar/log.cpp	/^void LogAppender::setFormatter(LogFormatter::ptr val){$/;"	f	class:sylar::LogAppender	typeref:typename:void
 setFormatter	sylar/log.cpp	/^void Logger::setFormatter(LogFormatter::ptr val){$/;"	f	class:sylar::Logger	typeref:typename:void
 setFormatter	sylar/log.cpp	/^void Logger::setFormatter(const std::string& val){$/;"	f	class:sylar::Logger	typeref:typename:void
+setFragment	sylar/http/http.h	/^	void setFragment(const std::string& v) { m_fragment = v; }$/;"	f	class:sylar::http::HttpRequest	typeref:typename:void
+setHeader	sylar/http/http.cc	/^void HttpRequest::setHeader(const std::string& key, const std::string& val) {$/;"	f	class:sylar::http::HttpRequest	typeref:typename:void
+setHeader	sylar/http/http.cc	/^void HttpResponse::setHeader(const std::string& key, const std::string& val) {$/;"	f	class:sylar::http::HttpResponse	typeref:typename:void
+setHeaders	sylar/http/http.h	/^	void setHeaders(const MapType& v) { m_headers = v; }$/;"	f	class:sylar::http::HttpRequest	typeref:typename:void
+setHeaders	sylar/http/http.h	/^	void setHeaders(const MapType& v) { m_headers = v; }$/;"	f	class:sylar::http::HttpResponse	typeref:typename:void
 setIsLittleEndian	sylar/bytearray.cc	/^void ByteArray::setIsLittleEndian(bool val) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
 setLevel	sylar/log.h	/^    void setLevel(LogLevel::Level val) { m_level = val; }$/;"	f	class:sylar::LogAppender	typeref:typename:void
 setLevel	sylar/log.h	/^    void setLevel(LogLevel::Level val) {m_level = val;}$/;"	f	class:sylar::Logger	typeref:typename:void
+setMethod	sylar/http/http.h	/^	void setMethod(HttpMethod v)  { m_method = v; }$/;"	f	class:sylar::http::HttpRequest	typeref:typename:void
+setName	sylar/tcp_server.h	/^	void setName(const std::string& v) { m_name = v; }$/;"	f	class:sylar::TcpServer	typeref:typename:void
 setOption	sylar/socket.cc	/^bool Socket::setOption(int level, int option, const void* result, size_t len) {$/;"	f	class:sylar::Socket	typeref:typename:bool
 setOption	sylar/socket.h	/^	bool setOption(int level, int option, const T& value) {$/;"	f	class:sylar::Socket	typeref:typename:bool
+setParam	sylar/http/http.cc	/^void HttpRequest::setParam(const std::string& key, const std::string& val) {$/;"	f	class:sylar::http::HttpRequest	typeref:typename:void
+setParams	sylar/http/http.h	/^	void setParams(const MapType& v) { m_params = v; }$/;"	f	class:sylar::http::HttpRequest	typeref:typename:void
+setPath	sylar/http/http.h	/^	void setPath(const std::string& v) { m_path = v; }$/;"	f	class:sylar::http::HttpRequest	typeref:typename:void
 setPort	sylar/address.cc	/^void IPv4Address::setPort(uint16_t v) {$/;"	f	class:sylar::IPv4Address	typeref:typename:void
 setPort	sylar/address.cc	/^void IPv6Address::setPort(uint16_t v) {$/;"	f	class:sylar::IPv6Address	typeref:typename:void
 setPosition	sylar/bytearray.cc	/^void ByteArray::setPosition(size_t v) {$/;"	f	class:sylar::ByteArray	typeref:typename:void
+setQuery	sylar/http/http.h	/^	void setQuery(const std::string& v) { m_query = v; }$/;"	f	class:sylar::http::HttpRequest	typeref:typename:void
+setReadTimeout	sylar/tcp_server.h	/^	void setReadTimeout(uint64_t v) { m_readTimeout = v; }$/;"	f	class:sylar::TcpServer	typeref:typename:void
+setReason	sylar/http/http.h	/^	void setReason(const std::string& v) { m_reason = v; }$/;"	f	class:sylar::http::HttpResponse	typeref:typename:void
 setRecvTimeout	sylar/socket.cc	/^void Socket::setRecvTimeout(int64_t v) {$/;"	f	class:sylar::Socket	typeref:typename:void
 setSendTimeout	sylar/socket.cc	/^void Socket::setSendTimeout(int64_t v) {$/;"	f	class:sylar::Socket	typeref:typename:void
+setStatus	sylar/http/http.h	/^	void setStatus(HttpStatus v) { m_status = v; }$/;"	f	class:sylar::http::HttpResponse	typeref:typename:void
 setSysNonblock	sylar/fd_manager.h	/^	void setSysNonblock(bool v) { m_sysNonblock = v; }$/;"	f	class:sylar::FdCtx	typeref:typename:void
 setThis	sylar/scheduler.cc	/^void Scheduler::setThis() {$/;"	f	class:sylar::Scheduler	typeref:typename:void
 setTimeout	sylar/fd_manager.cc	/^void FdCtx::setTimeout(int type, uint64_t v) {$/;"	f	class:sylar::FdCtx	typeref:typename:void
 setUserNonblock	sylar/fd_manager.h	/^	void setUserNonblock(bool v) { m_userNonblock = v; }$/;"	f	class:sylar::FdCtx	typeref:typename:void
 setValue	sylar/config.h	/^    void setValue(const T& v)  { $/;"	f	class:sylar::ConfigVar	typeref:typename:void
+setVersion	sylar/http/http.h	/^	void setVersion(uint8_t v) { m_version = v; }$/;"	f	class:sylar::http::HttpRequest	typeref:typename:void
+setVersion	sylar/http/http.h	/^	void setVersion(uint8_t v) { m_version = v; };$/;"	f	class:sylar::http::HttpResponse	typeref:typename:void
 set_hook_enable	sylar/hook.cc	/^void set_hook_enable(bool flag) {$/;"	f	namespace:sylar	typeref:typename:void
 setsockopt	sylar/hook.cc	/^int setsockopt(int sockfd, int level, int optname, const void *optval, socklen_t optlen) {$/;"	f	typeref:typename:int
 setsockopt_fun	backup/hook.h	/^typedef int (*setsockopt_fun)(int sockfd, int level, int optname, const void *optval, socklen_t /;"	t	typeref:typename:int (*)(int sockfd,int level,int optname,const void * optval,socklen_t optlen)
@@ -1309,6 +1564,8 @@ socket_fun	backup/hook.h	/^typedef int (*socket_fun)(int domain, int type, int p
 socket_fun	sylar/hook.h	/^typedef int (*socket_fun)(int domain, int type, int protocol);$/;"	t	typeref:typename:int (*)(int domain,int type,int protocol)
 sstream	.vscode/settings.json	/^        "sstream": "cpp",$/;"	s	object:files.associations
 start	sylar/scheduler.cc	/^void Scheduler::start() {$/;"	f	class:sylar::Scheduler	typeref:typename:void
+status	sylar/http/httpclient_parser.h	/^  int status;$/;"	m	struct:httpclient_parser	typeref:typename:int
+status_code	sylar/http/httpclient_parser.h	/^  element_cb status_code;$/;"	m	struct:httpclient_parser	typeref:typename:element_cb
 stdexcept	.vscode/settings.json	/^        "stdexcept": "cpp",$/;"	s	object:files.associations
 stop	sylar/scheduler.cc	/^void Scheduler::stop() {$/;"	f	class:sylar::Scheduler	typeref:typename:void
 stop_token	.vscode/settings.json	/^        "stop_token": "cpp",$/;"	s	object:files.associations
@@ -1339,6 +1596,10 @@ sylar	sylar/fiber.cc	/^namespace sylar{$/;"	n	file:
 sylar	sylar/fiber.h	/^namespace sylar{$/;"	n
 sylar	sylar/hook.cc	/^namespace sylar {$/;"	n	file:
 sylar	sylar/hook.h	/^namespace sylar {$/;"	n
+sylar	sylar/http/http.cc	/^namespace sylar {$/;"	n	file:
+sylar	sylar/http/http.h	/^namespace sylar {$/;"	n
+sylar	sylar/http/http_parser.cc	/^namespace sylar {$/;"	n	file:
+sylar	sylar/http/http_parser.h	/^namespace sylar {$/;"	n
 sylar	sylar/iomanager.cc	/^namespace sylar{$/;"	n	file:
 sylar	sylar/iomanager.h	/^namespace sylar {$/;"	n
 sylar	sylar/log.cpp	/^namespace sylar{$/;"	n	file:
@@ -1349,6 +1610,8 @@ sylar	sylar/scheduler.h	/^namespace sylar{$/;"	n
 sylar	sylar/singleton.h	/^namespace sylar{$/;"	n
 sylar	sylar/socket.cc	/^namespace sylar {$/;"	n	file:
 sylar	sylar/socket.h	/^namespace sylar {$/;"	n
+sylar	sylar/tcp_server.cc	/^namespace sylar {$/;"	n	file:
+sylar	sylar/tcp_server.h	/^namespace sylar {$/;"	n
 sylar	sylar/thread.cpp	/^namespace sylar{$/;"	n	file:
 sylar	sylar/thread.h	/^namespace sylar{$/;"	n
 sylar	sylar/timer.cc	/^namespace sylar {$/;"	n	file:
@@ -1394,6 +1657,30 @@ sylar/hook.cc.s	build/Makefile	/^sylar\/hook.cc.s:$/;"	t
 sylar/hook.i	build/Makefile	/^sylar\/hook.i: sylar\/hook.cc.i$/;"	t
 sylar/hook.o	build/Makefile	/^sylar\/hook.o: sylar\/hook.cc.o$/;"	t
 sylar/hook.s	build/Makefile	/^sylar\/hook.s: sylar\/hook.cc.s$/;"	t
+sylar/http/http.cc.i	build/Makefile	/^sylar\/http\/http.cc.i:$/;"	t
+sylar/http/http.cc.o	build/Makefile	/^sylar\/http\/http.cc.o:$/;"	t
+sylar/http/http.cc.s	build/Makefile	/^sylar\/http\/http.cc.s:$/;"	t
+sylar/http/http.i	build/Makefile	/^sylar\/http\/http.i: sylar\/http\/http.cc.i$/;"	t
+sylar/http/http.o	build/Makefile	/^sylar\/http\/http.o: sylar\/http\/http.cc.o$/;"	t
+sylar/http/http.s	build/Makefile	/^sylar\/http\/http.s: sylar\/http\/http.cc.s$/;"	t
+sylar/http/http11_parser.rl.cc.i	build/Makefile	/^sylar\/http\/http11_parser.rl.cc.i:$/;"	t
+sylar/http/http11_parser.rl.cc.o	build/Makefile	/^sylar\/http\/http11_parser.rl.cc.o:$/;"	t
+sylar/http/http11_parser.rl.cc.s	build/Makefile	/^sylar\/http\/http11_parser.rl.cc.s:$/;"	t
+sylar/http/http11_parser.rl.i	build/Makefile	/^sylar\/http\/http11_parser.rl.i: sylar\/http\/http11_parser.rl.cc.i$/;"	t
+sylar/http/http11_parser.rl.o	build/Makefile	/^sylar\/http\/http11_parser.rl.o: sylar\/http\/http11_parser.rl.cc.o$/;"	t
+sylar/http/http11_parser.rl.s	build/Makefile	/^sylar\/http\/http11_parser.rl.s: sylar\/http\/http11_parser.rl.cc.s$/;"	t
+sylar/http/http_parser.cc.i	build/Makefile	/^sylar\/http\/http_parser.cc.i:$/;"	t
+sylar/http/http_parser.cc.o	build/Makefile	/^sylar\/http\/http_parser.cc.o:$/;"	t
+sylar/http/http_parser.cc.s	build/Makefile	/^sylar\/http\/http_parser.cc.s:$/;"	t
+sylar/http/http_parser.i	build/Makefile	/^sylar\/http\/http_parser.i: sylar\/http\/http_parser.cc.i$/;"	t
+sylar/http/http_parser.o	build/Makefile	/^sylar\/http\/http_parser.o: sylar\/http\/http_parser.cc.o$/;"	t
+sylar/http/http_parser.s	build/Makefile	/^sylar\/http\/http_parser.s: sylar\/http\/http_parser.cc.s$/;"	t
+sylar/http/httpclient_parser.rl.cc.i	build/Makefile	/^sylar\/http\/httpclient_parser.rl.cc.i:$/;"	t
+sylar/http/httpclient_parser.rl.cc.o	build/Makefile	/^sylar\/http\/httpclient_parser.rl.cc.o:$/;"	t
+sylar/http/httpclient_parser.rl.cc.s	build/Makefile	/^sylar\/http\/httpclient_parser.rl.cc.s:$/;"	t
+sylar/http/httpclient_parser.rl.i	build/Makefile	/^sylar\/http\/httpclient_parser.rl.i: sylar\/http\/httpclient_parser.rl.cc.i$/;"	t
+sylar/http/httpclient_parser.rl.o	build/Makefile	/^sylar\/http\/httpclient_parser.rl.o: sylar\/http\/httpclient_parser.rl.cc.o$/;"	t
+sylar/http/httpclient_parser.rl.s	build/Makefile	/^sylar\/http\/httpclient_parser.rl.s: sylar\/http\/httpclient_parser.rl.cc.s$/;"	t
 sylar/iomanager.cc.i	build/Makefile	/^sylar\/iomanager.cc.i:$/;"	t
 sylar/iomanager.cc.o	build/Makefile	/^sylar\/iomanager.cc.o:$/;"	t
 sylar/iomanager.cc.s	build/Makefile	/^sylar\/iomanager.cc.s:$/;"	t
@@ -1473,12 +1760,24 @@ test_fiber/fast	build/Makefile	/^test_fiber\/fast:$/;"	t
 test_hook	CMakeLists.txt	/^add_executable(test_hook tests\/test_hook.cc)$/;"	t
 test_hook	build/Makefile	/^test_hook: cmake_check_build_system$/;"	t
 test_hook/fast	build/Makefile	/^test_hook\/fast:$/;"	t
+test_http	CMakeLists.txt	/^add_executable(test_http tests\/test_http.cc)$/;"	t
+test_http	build/Makefile	/^test_http: cmake_check_build_system$/;"	t
+test_http/fast	build/Makefile	/^test_http\/fast:$/;"	t
+test_http_parser	CMakeLists.txt	/^add_executable(test_http_parser tests\/test_http_parser.cc)$/;"	t
+test_http_parser	build/Makefile	/^test_http_parser: cmake_check_build_system$/;"	t
+test_http_parser/fast	build/Makefile	/^test_http_parser\/fast:$/;"	t
 test_iface	tests/test_address.cc	/^void test_iface() {$/;"	f	typeref:typename:void
 test_iomanager	CMakeLists.txt	/^add_executable(test_iomanager tests\/test_iomanager.cc)$/;"	t
 test_iomanager	build/Makefile	/^test_iomanager: cmake_check_build_system$/;"	t
 test_iomanager/fast	build/Makefile	/^test_iomanager\/fast:$/;"	t
 test_ipv4	tests/test_address.cc	/^void test_ipv4() {$/;"	f	typeref:typename:void
 test_log	tests/test_config.cc	/^void test_log(){$/;"	f	typeref:typename:void
+test_request	tests/test_http.cc	/^void test_request() {$/;"	f	typeref:typename:void
+test_request	tests/test_http_parser.cc	/^void test_request() {$/;"	f	typeref:typename:void
+test_request_data	tests/test_http_parser.cc	/^const char test_request_data[] = "POST \/ HTTP\/1.1\\r\\n"$/;"	v	typeref:typename:const char[]
+test_response	tests/test_http.cc	/^void test_response() {$/;"	f	typeref:typename:void
+test_response	tests/test_http_parser.cc	/^void test_response() {$/;"	f	typeref:typename:void
+test_response_data	tests/test_http_parser.cc	/^const char test_response_data[] = "HTTP\/1.1 200 OK\\r\\n"$/;"	v	typeref:typename:const char[]
 test_scheduler	CMakeLists.txt	/^add_executable(test_scheduler tests\/test_scheduler.cc)$/;"	t
 test_scheduler	build/Makefile	/^test_scheduler: cmake_check_build_system$/;"	t
 test_scheduler/fast	build/Makefile	/^test_scheduler\/fast:$/;"	t
@@ -1532,6 +1831,18 @@ tests/test_hook.cc.s	build/Makefile	/^tests\/test_hook.cc.s:$/;"	t
 tests/test_hook.i	build/Makefile	/^tests\/test_hook.i: tests\/test_hook.cc.i$/;"	t
 tests/test_hook.o	build/Makefile	/^tests\/test_hook.o: tests\/test_hook.cc.o$/;"	t
 tests/test_hook.s	build/Makefile	/^tests\/test_hook.s: tests\/test_hook.cc.s$/;"	t
+tests/test_http.cc.i	build/Makefile	/^tests\/test_http.cc.i:$/;"	t
+tests/test_http.cc.o	build/Makefile	/^tests\/test_http.cc.o:$/;"	t
+tests/test_http.cc.s	build/Makefile	/^tests\/test_http.cc.s:$/;"	t
+tests/test_http.i	build/Makefile	/^tests\/test_http.i: tests\/test_http.cc.i$/;"	t
+tests/test_http.o	build/Makefile	/^tests\/test_http.o: tests\/test_http.cc.o$/;"	t
+tests/test_http.s	build/Makefile	/^tests\/test_http.s: tests\/test_http.cc.s$/;"	t
+tests/test_http_parser.cc.i	build/Makefile	/^tests\/test_http_parser.cc.i:$/;"	t
+tests/test_http_parser.cc.o	build/Makefile	/^tests\/test_http_parser.cc.o:$/;"	t
+tests/test_http_parser.cc.s	build/Makefile	/^tests\/test_http_parser.cc.s:$/;"	t
+tests/test_http_parser.i	build/Makefile	/^tests\/test_http_parser.i: tests\/test_http_parser.cc.i$/;"	t
+tests/test_http_parser.o	build/Makefile	/^tests\/test_http_parser.o: tests\/test_http_parser.cc.o$/;"	t
+tests/test_http_parser.s	build/Makefile	/^tests\/test_http_parser.s: tests\/test_http_parser.cc.s$/;"	t
 tests/test_iomanager.cc.i	build/Makefile	/^tests\/test_iomanager.cc.i:$/;"	t
 tests/test_iomanager.cc.o	build/Makefile	/^tests\/test_iomanager.cc.o:$/;"	t
 tests/test_iomanager.cc.s	build/Makefile	/^tests\/test_iomanager.cc.s:$/;"	t
@@ -1572,6 +1883,8 @@ toHexString	sylar/bytearray.cc	/^std::string ByteArray::toHexString() const {$/;
 toString	sylar/address.cc	/^std::string Address::toString() {$/;"	f	class:sylar::Address	typeref:typename:std::string
 toString	sylar/bytearray.cc	/^std::string ByteArray::toString() const {$/;"	f	class:sylar::ByteArray	typeref:typename:std::string
 toString	sylar/config.h	/^    std::string toString() override {$/;"	f	class:sylar::ConfigVar	typeref:typename:std::string
+toString	sylar/http/http.cc	/^std::string HttpRequest::toString() const {$/;"	f	class:sylar::http::HttpRequest	typeref:typename:std::string
+toString	sylar/http/http.cc	/^std::string HttpResponse::toString() const {$/;"	f	class:sylar::http::HttpResponse	typeref:typename:std::string
 toString	tests/test_config.cc	/^    std::string toString() const{$/;"	f	class:Person	typeref:typename:std::string	file:
 toYamlString	sylar/log.cpp	/^std::string FileLogAppender::toYamlString(){$/;"	f	class:sylar::FileLogAppender	typeref:typename:std::string
 toYamlString	sylar/log.cpp	/^std::string Logger::toYamlString(){$/;"	f	class:sylar::Logger	typeref:typename:std::string
@@ -1596,6 +1909,7 @@ unlock	sylar/thread.h	/^    void unlock(){};$/;"	f	class:sylar::NullMutex	typere
 unlock	sylar/thread.h	/^    void unlock(){};$/;"	f	class:sylar::NullRWMutex	typeref:typename:void
 unordered_map	.vscode/settings.json	/^        "unordered_map": "cpp",$/;"	s	object:files.associations
 unordered_set	.vscode/settings.json	/^        "unordered_set": "cpp"$/;"	s	object:files.associations
+uri_relaxed	sylar/http/http11_parser.h	/^  int uri_relaxed;$/;"	m	struct:http_parser	typeref:typename:int
 usleep	sylar/hook.cc	/^int usleep(useconds_t usec) {$/;"	f	typeref:typename:int
 usleep_fun	backup/hook.h	/^typedef int (*usleep_fun)(useconds_t usec);$/;"	t	typeref:typename:int (*)(useconds_t usec)
 usleep_fun	sylar/hook.h	/^typedef int (*usleep_fun)(useconds_t usec);$/;"	t	typeref:typename:int (*)(useconds_t usec)
@@ -1638,6 +1952,7 @@ writev_fun	backup/hook.h	/^typedef ssize_t (*writev_fun)(int fd, const struct io
 writev_fun	sylar/hook.h	/^typedef ssize_t (*writev_fun)(int fd, const struct iovec *iov, int iovcnt);$/;"	t	typeref:typename:ssize_t (*)(int fd,const struct iovec * iov,int iovcnt)
 wrlock	sylar/thread.h	/^    void wrlock(){$/;"	f	class:sylar::RWMutex	typeref:typename:void
 wrlock	sylar/thread.h	/^    void wrlock(){};$/;"	f	class:sylar::NullRWMutex	typeref:typename:void
+xml_sent	sylar/http/http11_parser.h	/^  int xml_sent;$/;"	m	struct:http_parser	typeref:typename:int
 ~Address	sylar/address.h	/^	virtual ~Address() {};$/;"	f	class:sylar::Address
 ~ByteArray	sylar/bytearray.cc	/^ByteArray::~ByteArray() {$/;"	f	class:sylar::ByteArray
 ~CASLock	sylar/thread.h	/^    ~CASLock(){$/;"	f	class:sylar::CASLock
@@ -1659,6 +1974,7 @@ wrlock	sylar/thread.h	/^    void wrlock(){};$/;"	f	class:sylar::NullRWMutex	type
 ~Semaphore	sylar/thread.cpp	/^Semaphore::~Semaphore(){$/;"	f	class:sylar::Semaphore
 ~Socket	sylar/socket.cc	/^Socket::~Socket() {$/;"	f	class:sylar::Socket
 ~Spinlock	sylar/thread.h	/^    ~Spinlock(){$/;"	f	class:sylar::Spinlock
+~TcpServer	sylar/tcp_server.h	/^	virtual ~TcpServer() {}$/;"	f	class:sylar::TcpServer
 ~Thread	sylar/thread.cpp	/^Thread::~Thread(){$/;"	f	class:sylar::Thread
 ~TimerManager	sylar/timer.cc	/^TimerManager::~TimerManager() {$/;"	f	class:sylar::TimerManager
 ~WriteScopedLockImpl	sylar/thread.h	/^    ~WriteScopedLockImpl(){$/;"	f	struct:sylar::WriteScopedLockImpl

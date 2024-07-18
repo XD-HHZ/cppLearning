@@ -1,7 +1,7 @@
 CMakeFiles/sylar.dir/sylar/address.cc.o: \
- /home/huanghz/cppLearning/CPPLearning/mySylarWeb/sylar/address.cc \
+ /home/huanghz/workspace/mySylarWeb/sylar/address.cc \
  /usr/include/stdc-predef.h \
- /home/huanghz/cppLearning/CPPLearning/mySylarWeb/sylar/address.h \
+ /home/huanghz/workspace/mySylarWeb/sylar/address.h \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -201,21 +201,20 @@ CMakeFiles/sylar.dir/sylar/address.cc.o: \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/huanghz/cppLearning/CPPLearning/mySylarWeb/sylar/log.h \
- /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
- /usr/include/c++/11/bits/list.tcc /usr/include/c++/11/sstream \
- /usr/include/c++/11/bits/sstream.tcc /usr/include/c++/11/fstream \
- /usr/include/c++/11/bits/codecvt.h \
+ /home/huanghz/workspace/mySylarWeb/sylar/log.h /usr/include/c++/11/list \
+ /usr/include/c++/11/bits/stl_list.h /usr/include/c++/11/bits/list.tcc \
+ /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
+ /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /home/huanghz/cppLearning/CPPLearning/mySylarWeb/sylar/util.h \
+ /home/huanghz/workspace/mySylarWeb/sylar/util.h \
  /usr/include/x86_64-linux-gnu/sys/syscall.h \
  /usr/include/x86_64-linux-gnu/asm/unistd.h \
  /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
  /usr/include/x86_64-linux-gnu/bits/syscall.h \
- /home/huanghz/cppLearning/CPPLearning/mySylarWeb/sylar/singleton.h \
- /home/huanghz/cppLearning/CPPLearning/mySylarWeb/sylar/thread.h \
+ /home/huanghz/workspace/mySylarWeb/sylar/singleton.h \
+ /home/huanghz/workspace/mySylarWeb/sylar/thread.h \
  /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \
  /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/limits \
@@ -231,10 +230,10 @@ CMakeFiles/sylar.dir/sylar/address.cc.o: \
  /usr/include/c++/11/bits/uniform_int_dist.h /usr/include/semaphore.h \
  /usr/include/x86_64-linux-gnu/bits/semaphore.h \
  /usr/include/c++/11/atomic \
- /home/huanghz/cppLearning/CPPLearning/mySylarWeb/sylar/noncopyable.h \
+ /home/huanghz/workspace/mySylarWeb/sylar/noncopyable.h \
  /usr/include/netdb.h /usr/include/rpc/netdb.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
  /usr/include/x86_64-linux-gnu/bits/netdb.h /usr/include/ifaddrs.h \
- /home/huanghz/cppLearning/CPPLearning/mySylarWeb/sylar/endian.h \
+ /home/huanghz/workspace/mySylarWeb/sylar/endian.h \
  /usr/include/byteswap.h

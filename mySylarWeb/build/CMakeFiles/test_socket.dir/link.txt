@@ -1,1 +1,1 @@
-/usr/bin/c++  -O0 -Wall -g -ggdb -rdynamic CMakeFiles/test_socket.dir/tests/test_socket.cc.o -o ../bin/test_socket   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib:/home/huanghz/cppLearning/CPPLearning/mySylarWeb/lib ../lib/libsylar.so -ldl -lpthread -lyaml-cpp 
+/usr/bin/c++  -O0 -Wall -g -ggdb -rdynamic CMakeFiles/test_socket.dir/tests/test_socket.cc.o -o ../bin/test_socket   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib:/home/huanghz/workspace/mySylarWeb/lib ../lib/libsylar.so -ldl -lpthread -lyaml-cpp 

@@ -1,7 +1,7 @@
 CMakeFiles/sylar.dir/sylar/fd_manager.cc.o: \
- /home/huanghz/cppLearning/CPPLearning/mySylarWeb/sylar/fd_manager.cc \
+ /home/huanghz/workspace/mySylarWeb/sylar/fd_manager.cc \
  /usr/include/stdc-predef.h \
- /home/huanghz/cppLearning/CPPLearning/mySylarWeb/sylar/fd_manager.h \
+ /home/huanghz/workspace/mySylarWeb/sylar/fd_manager.h \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -139,7 +139,7 @@ CMakeFiles/sylar.dir/sylar/fd_manager.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /home/huanghz/cppLearning/CPPLearning/mySylarWeb/sylar/thread.h \
+ /home/huanghz/workspace/mySylarWeb/sylar/thread.h \
  /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \
  /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/cstdint \
@@ -192,10 +192,10 @@ CMakeFiles/sylar.dir/sylar/fd_manager.cc.o: \
  /usr/include/c++/11/bits/basic_string.tcc /usr/include/semaphore.h \
  /usr/include/x86_64-linux-gnu/bits/semaphore.h \
  /usr/include/c++/11/atomic \
- /home/huanghz/cppLearning/CPPLearning/mySylarWeb/sylar/noncopyable.h \
- /home/huanghz/cppLearning/CPPLearning/mySylarWeb/sylar/singleton.h \
- /home/huanghz/cppLearning/CPPLearning/mySylarWeb/sylar/hook.h \
- /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+ /home/huanghz/workspace/mySylarWeb/sylar/noncopyable.h \
+ /home/huanghz/workspace/mySylarWeb/sylar/singleton.h \
+ /home/huanghz/workspace/mySylarWeb/sylar/hook.h /usr/include/fcntl.h \
+ /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/linux/falloc.h /usr/include/x86_64-linux-gnu/sys/ioctl.h \
