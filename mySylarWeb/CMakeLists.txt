@@ -23,7 +23,11 @@ set(LIB_SRC
 	sylar/fd_manager.cc
     sylar/fiber.cc
 	sylar/http/http.cc
+	sylar/http/http_connection.cc
 	sylar/http/http_parser.cc
+	sylar/http/http_session.cc
+	sylar/http/http_server.cc
+	sylar/http/servlet.cc
 	sylar/http/http11_parser.rl.cc
 	sylar/http/httpclient_parser.rl.cc
 	sylar/hook.cc
@@ -31,6 +35,8 @@ set(LIB_SRC
     sylar/log.cpp
     sylar/scheduler.cc
 	sylar/socket.cc
+	sylar/socket_stream.cc
+	sylar/stream.cc
 	sylar/tcp_server.cc
 	sylar/timer.cc
     sylar/thread.cpp
@@ -123,6 +129,16 @@ add_executable(echo_server examples/echo_server.cc)
 add_dependencies(echo_server sylar)
 force_redefine_file_macro_for_sources(echo_server) #__FILE__
 target_link_libraries(echo_server sylar ${LIB_LIB})
+
+add_executable(test_http_server tests/test_http_server.cc)
+add_dependencies(test_http_server sylar)
+force_redefine_file_macro_for_sources(test_http_server) #__FILE__
+target_link_libraries(test_http_server sylar ${LIB_LIB})
+
+add_executable(test_http_connection tests/test_http_connection.cc)
+add_dependencies(test_http_connection sylar)
+force_redefine_file_macro_for_sources(test_http_connection) #__FILE__
+target_link_libraries(test_http_connection sylar ${LIB_LIB})
 
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)

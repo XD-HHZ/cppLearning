@@ -20,7 +20,15 @@ CXX_FLAGS =  -O0 -Wall -g -ggdb -fPIC
 
 # Custom defines: CMakeFiles/sylar.dir/sylar/http/http.cc.o_DEFINES = __FILE__="sylar/http/http.cc"
 
+# Custom defines: CMakeFiles/sylar.dir/sylar/http/http_connection.cc.o_DEFINES = __FILE__="sylar/http/http_connection.cc"
+
 # Custom defines: CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o_DEFINES = __FILE__="sylar/http/http_parser.cc"
+
+# Custom defines: CMakeFiles/sylar.dir/sylar/http/http_session.cc.o_DEFINES = __FILE__="sylar/http/http_session.cc"
+
+# Custom defines: CMakeFiles/sylar.dir/sylar/http/http_server.cc.o_DEFINES = __FILE__="sylar/http/http_server.cc"
+
+# Custom defines: CMakeFiles/sylar.dir/sylar/http/servlet.cc.o_DEFINES = __FILE__="sylar/http/servlet.cc"
 
 # Custom defines: CMakeFiles/sylar.dir/sylar/http/http11_parser.rl.cc.o_DEFINES = __FILE__="sylar/http/http11_parser.rl.cc"
 
@@ -35,6 +43,10 @@ CXX_FLAGS =  -O0 -Wall -g -ggdb -fPIC
 # Custom defines: CMakeFiles/sylar.dir/sylar/scheduler.cc.o_DEFINES = __FILE__="sylar/scheduler.cc"
 
 # Custom defines: CMakeFiles/sylar.dir/sylar/socket.cc.o_DEFINES = __FILE__="sylar/socket.cc"
+
+# Custom defines: CMakeFiles/sylar.dir/sylar/socket_stream.cc.o_DEFINES = __FILE__="sylar/socket_stream.cc"
+
+# Custom defines: CMakeFiles/sylar.dir/sylar/stream.cc.o_DEFINES = __FILE__="sylar/stream.cc"
 
 # Custom defines: CMakeFiles/sylar.dir/sylar/tcp_server.cc.o_DEFINES = __FILE__="sylar/tcp_server.cc"
 

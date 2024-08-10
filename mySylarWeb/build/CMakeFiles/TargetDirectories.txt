@@ -14,5 +14,7 @@
 /home/huanghz/workspace/mySylarWeb/build/CMakeFiles/test_http_parser.dir
 /home/huanghz/workspace/mySylarWeb/build/CMakeFiles/test_tcp_server.dir
 /home/huanghz/workspace/mySylarWeb/build/CMakeFiles/echo_server.dir
+/home/huanghz/workspace/mySylarWeb/build/CMakeFiles/test_http_server.dir
+/home/huanghz/workspace/mySylarWeb/build/CMakeFiles/test_http_connection.dir
 /home/huanghz/workspace/mySylarWeb/build/CMakeFiles/edit_cache.dir
 /home/huanghz/workspace/mySylarWeb/build/CMakeFiles/rebuild_cache.dir
